@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-11-24 12:06:00-0400
 inline: true
 ---
+Course website setup and draft outline available!
 
-A simple inline announcement.
+Take a look at the topics and requirements to figure out if you want to take the course.
