@@ -5,5 +5,5 @@ _site
 .ruby-version
 Gemfile.lock
 .tweet-cache/
-.ece657A_W21_outline_doc.md.swp
-.README.md.swp
+.*.swp
+start.sh

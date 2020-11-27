@@ -1,10 +1,10 @@
 ---
-layout: page
 permalink: /outline/
-title: course outline
+title: outline
 aside: 
     toc: true
 nav: true
+showtitle : false
 ---
 # Data and Knowledge Modeling and Analysis
 
@@ -69,7 +69,6 @@ These topics are an outline, and each year some subset of non-core topics will b
 
   - help sessions (unrecorded) to discuss content, answer questions and build class community
 
-#### 
 
 ## Assessment: 
 

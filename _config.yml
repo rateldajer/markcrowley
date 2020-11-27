@@ -73,6 +73,12 @@ disqus_shortname: DKMA # put your disqus shortname
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
+defaults:
+  scope:
+    type: "pages"
+  values:
+    layout: "page"
+    showtitle: true
 
 collections:
   news:

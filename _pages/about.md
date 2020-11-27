@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title:
 permalink: /
 
 profile:
