@@ -44,7 +44,7 @@ These topics are an outline, and each year some subset of non-core topics will b
    3. Types of Deep Learning : CNN, RNN, 
    4. Classification III : Data, Image and Timeseries classification using Deep Learning
    5. Representation Learning II: Autoencoders
-7. Additional Learning Topics (some of thes topics will be covered, depending on time)
+7. Additional Learning Topics (as time allows)
    1. Active Learning
    2. Transfer Learning
    3. Incremental/Online Learning
