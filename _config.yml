@@ -59,8 +59,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog  # your blog must have a name for it to show up in the nav bar
-blog_description: Some thoughts on Data Analysis and Machine LEarning
+blog_name: # your blog must have a name for it to show up in the nav bar
+blog_description: Some thoughts on Data Analysis and Machine Learning
 permalink: /blog/:year/:title/
 
 # Pagination

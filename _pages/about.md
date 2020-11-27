@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 
 profile:
@@ -8,7 +8,7 @@ profile:
   image: DKMA_logo.png
   address: > 
     <p><ul>
-        <li><a href="outline/">Course Outline</a></li>
+        <li><a href="outline">Course Outline</a></li>
         <li><a href="README/">README</a></li>
         <li><a href="https://piazza.com/uwaterloo.ca/winter2020/ece657a">Piazza Discussion</a></li>
         <li>LEARN Site</li>

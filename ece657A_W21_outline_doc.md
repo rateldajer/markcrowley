@@ -1,3 +1,11 @@
+---
+layout: page
+permalink: /outline/
+title: course outline
+aside: 
+    toc: true
+nav: true
+---
 # Data and Knowledge Modeling and Analysis
 
 **Course code:** ECE657A    **Term:** Winter 2021
