@@ -8,7 +8,7 @@ aside:
 ---
 
 # ECE 657A Course
-- go to [course outline](outline)
+- Follow this link for the [ECE 657A course website](https://compthinking.github.io/DKMA/)
 
 # al-folio
 
