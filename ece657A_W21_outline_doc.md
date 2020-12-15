@@ -26,6 +26,10 @@ Engineers encounter data in many of their tasks, whether the sources of this dat
 
 **Recommended background:** *Data Structures and Algorithms, Basic Programming Skills (Python especially) and Basic Knowledge of Probability and Statistics Theory*.
 
+
+## Learning Outcomes
+The [Course Design and Learning Outcomes](/DKMA/outcomes) describe the design philosophy of this course which guide the topics and assessments below.
+
 ## Major Topics:
 
 These topics are an outline, and each year some subset of non-core topics will be skipped due to time constraints and in order to benefit students through deeper focus. When tests are planned to assess knowledge of the material the mandatory core topics will be highlighted to students so they know which will be tested.
@@ -84,8 +88,9 @@ The goal of this course is to help students learn how to **analyse and prepare**
     - logical design and clear description of a expeirmental methodology
     - programming various algorithms for processing, training and analysis of data to achieve given tasks (Programming will be in Python using libraries such as sci-kit learn and tensor flow)
 - **35% Tests** (3 tests on different parts of the course, online timed question banks or take-home formats submitted to Crowdmark)
-- **?% Participation** (optional, will be discussed collectively at start of term and can be shifted from the other components)
-  - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
+- **?% Participation** (`To be determined early in term`)
+    - This will be discussed collectively at start of term and can be shifted from the other components.
+    - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
 
  
 
@@ -128,7 +133,6 @@ In order to maintain a culture of academic integrity, members of the University 
 
 A student who believes that a decision affecting some aspect of his/her university life has been unfair or unreasonable may have grounds for initiating a grievance. Read Policy 70, Student Petitions and Grievances, Section 4, http://www.adm.uwaterloo.ca/infosec/Policies/policy70.htm. When in doubt please be certain to contact the department's administrative assistant who will provide further assistance. 
 
-###  
 
 ### Discipline:
 
