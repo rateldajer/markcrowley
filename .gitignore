@@ -6,4 +6,3 @@ _site
 Gemfile.lock
 .tweet-cache/
 .*.swp
-start.sh
