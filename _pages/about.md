@@ -10,6 +10,7 @@ profile:
     <p><ul>
         <li><a href="outline">Course Outline</a></li>
         <li><a href="README/">README</a></li>
+        <li><a href="https://www.zotero.org/groups/2621805/dkma/"> Zotero Reference List</a></li>
         <li><a href="https://piazza.com/uwaterloo.ca/winter2020/ece657a">Piazza Discussion</a></li>
         <li>LEARN Site</li>
     </ul></p>

@@ -140,7 +140,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: course657a.bib
   bibliography_template: bib
 
   replace_strings: true
