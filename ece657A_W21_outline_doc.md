@@ -39,39 +39,46 @@ These topics are an outline, and each year some subset of non-core topics will b
    2. Data representations, transformation and normalization
    3. Experimental Methodology, statistical tests and validation metrics
 2. Fundamentals of Estimation and Learning
-   1. Parameter Estimation, statistical approaches, MLE, MAP, EM, density estimation
-3. Representation Learning I
+   1. Background  Review of Probability and Statistics: Random Variables, Conditional Probability, Bayes Rule, Entropy, KL-Divergence, Hypothesis Testing
+   2. Parameter Estimation, statistical approaches, MLE, MAP, EM, density estimation
+   3. Classification Preview: Naive Bayes Algorithm
+3. Classification I :
+   4. Distance based - k-Nearest Neighbours (kNN) Algorithm
+   1. Decision Tree based, Ensemble Methods including Random Forests, XG-Boost, Mondrian Forests
+4. Representation Learning I
    1. Feature extraction : PCA, LDA, ISOMAP, LLE
    2. Dimensionality Reduction and Manifold Learning
-   3. Vector Embeddings : tf-idf, Word2Vec, BERT
-4. Supervised Learning
-   1. Classification I : kNN, Decision Tree based, Ensemble Methods
-   2. Classification II : kernels and latent models (SVM)
-5. Semi-/Self-/Unsuprevised Learning
+   3. Vector Embeddings : TF-IDF, Word2Vec, BERT
+5. Classification II : 
+   1. Support Vector Machines (SVM)
+   2. Kernel Methods and Latent Models
+6. Semi-/Self-/Unsuprevised Learning
    1. Clustering: Partition, Hierarchical, Model and Density based.
-   2. Anomaly Detection: Classification, Outlier, Density, and Isolation based
-6. Deep Learning
+   2. k-Means Algorithm, DBScan Algorithm
+   3. Anomaly Detection: Classification, Outlier, Density, and Isolation based
+7. Deep Learning
    1. Fundamentals of Neural Networks
    2. Effective Deep Learning Training Methods: Attention, Regularization, Optimizers
-   3. Types of Deep Learning : CNN, RNN, 
+   3. Types of Deep Learning : CNN, RNN
    4. Classification III : Data, Image and Timeseries classification using Deep Learning
-   5. Representation Learning II: Autoencoders
-7. Additional Learning Topics (as time allows)
-   1. Active Learning
-   2. Transfer Learning
-   3. Incremental/Online Learning
-   4. Reinforcement Learning
+   5. Reusing Information: Resnet, Inception
+   6. Representation Learning II: Autoencoders and Variational Autoencoders
+8. Additional Learning Topics (if time allows)
+   1. **Transfer Learning** (likely)
+   2. *Active Learning*
+   3. *Incremental/Online Learning*
+   4. *Reinforcement Learning* (unlikely)
 
 
 
 ## Timing of Assessments, Lectures and Interaction
 
 - **Assessments:** No more than one Test or Assignment will be due on any given week.
-- **Pre-Recorded Content:** Every week there will be pre-recorded lecture content available 
+- *Pre-Recorded Content:* Some weeks there will be pre-recorded lecture content available, the total content (live-recorded, or pre-recorded self-study) per week will be maintained around the same level, around 3-4 hours of content per week.
 - **Weekly Live Sessions:** There will be 2-3 hrs of weekly live sessions from course staff (instructor and/or TAs) which will include
-  -  lectures (recorded) on core, high level topics
-
+  - live lectures (recorded) on core, high level topics
   - help sessions (unrecorded) to discuss content, answer questions and build class community
+  - **scheduling**: my goal is to arrange two 1:30 timeslots a week such that all students can attend *at least one* of the weekly lectures. They will be recorded and available attendance and interaction will lead to much better understanding if we can achieve it.
 
 
 ## Assessment: 
@@ -87,8 +94,8 @@ The goal of this course is to help students learn how to **analyse and prepare**
     - mathematical analysis of data and results
     - logical design and clear description of a expeirmental methodology
     - programming various algorithms for processing, training and analysis of data to achieve given tasks (Programming will be in Python using libraries such as sci-kit learn and tensor flow)
-- **35% Tests** (3 tests on different parts of the course, online timed question banks or take-home formats submitted to Crowdmark)
-- **?% Participation** (`To be determined early in term`)
+- **35% Tests** (3 (or 4?) tests on different parts of the course, online timed question banks or take-home formats submitted to Crowdmark)
+- **?% Participation** (`Nature of this to be determined early in term`)
     - This will be discussed collectively at start of term and can be shifted from the other components.
     - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
 
