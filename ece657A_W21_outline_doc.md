@@ -77,10 +77,12 @@ These topics are an outline, and each year some subset of non-core topics will b
 
 - **Assessments:** No more than one Test or Assignment will be due on any given week.
 - *Pre-Recorded Content:* Some weeks there will be pre-recorded lecture content available, the total content (live-recorded, or pre-recorded self-study) per week will be maintained around the same level, around 3-4 hours of content per week.
+    - See [DKMA youtube channel](https://www.youtube.com/channel/UC7vU2kP8oNwvr0GuAqoxYGA)
 - **Weekly Live Sessions:** There will be 2-3 hrs of weekly live sessions from course staff (instructor and/or TAs) which will include
-  - live lectures (recorded) on core, high level topics
-  - help sessions (unrecorded) to discuss content, answer questions and build class community
-  - **scheduling**: my goal is to arrange two 1:30 timeslots a week such that all students can attend *at least one* of the weekly lectures. They will be recorded and available attendance and interaction will lead to much better understanding if we can achieve it.
+  - Live lectures (hosted and recorded on "Bongo") on core, high level topics
+  - Recordings of these will be avilable on LEARN via the `Content/Virtual Classroom` link and in each week's content 
+  - Help sessions (unrecorded) to discuss content, answer questions and build class community
+  - **Scheduling**: my goal is to arrange two 1:30 timeslots a week such that all students can attend *at least one* of the weekly lectures. They will be recorded and available attendance and interaction will lead to much better understanding if we can achieve it.
 
 
 ## Assessment: 
@@ -114,7 +116,7 @@ The goal of this course is to help students learn how to **analyse and prepare**
 - Extra level (to get full participation):
   - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
 - **Discussion**: But what do *you* think would be appropriate ways to judge participation?
- 
+
 
 ## Getting Help:
 
@@ -122,7 +124,7 @@ The goal of this course is to help students learn how to **analyse and prepare**
   - *Piazza* will be the main place for detailed discussion and questions. Students can post anonymously (from students only), post a collaborative answer and course staff can confirm these, post their own or run Live Q&A events.
   - Go there there and sign up with your UWaterloo email now!
   - *Community:* we will strive to create an active community within the course using live sessions, social platforms and crosscutting study group assignments and fun challenges throughout the term. This will be an experiment, so it will be optional, but hopefully we can all build a Data Analysis and Machine Learning graduate student community in the deparment that will benenfit everyone.
-- **Pre-recorded Video Lectures:** These will be made available on a youtube channel, and links from wihtin Learn
+- **Pre-recorded Video Lectures:** These will be made available on the [course youtube channel](https://www.youtube.com/channel/UC7vU2kP8oNwvr0GuAqoxYGA), and links from whithin Learn
 - **LEARN Website:** The main course content, announcements, grade stracking and materials will be made availble on Learn. All registered students should see this in their LEARN courses.
 - **Email the Teaching Assistant and Instructor:** Office Hours will be arranged once term starts as needed.
 - **AccessAbility Services :** http://uwaterloo.ca/accessability-services 
@@ -143,7 +145,7 @@ Participation in these groups is *optional* and up to you but I think it will he
   - Aggregate kaggle assignment scores/ranks and participation scores will be listed by house.
 
 - **Crew** - Each crew is a smaller, random group assignment of around 7 people that can act as a study group of last resort. Think of these people are like distant cousins, or strangers with the same last name! They don't *actually* owe you anything, but if you met in a coffee shop and realized your loose connection, you would probably follow each other on <INSERT WHATEVER SOCIAL NETWORK PEOPLE USE THESE DAYS>. And if you needed help on something, that didn't require a huge trial on their part, they'd probably help you.
- 
+
   
   
 ## Resources: 
