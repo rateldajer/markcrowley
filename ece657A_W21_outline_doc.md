@@ -32,30 +32,32 @@ The [Course Design and Learning Outcomes](/DKMA/outcomes) describe the design ph
 
 ## Major Topics:
 
-These topics are an outline, and each year some subset of non-core topics will be skipped due to time constraints and in order to benefit students through deeper focus. When tests are planned to assess knowledge of the material the mandatory core topics will be highlighted to students so they know which will be tested.
+These topics are an outline, and each year some subset of non-core topics will be skipped due to time constraints and in order to benefit students through deeper focus. When tests are planned to assess knowledge of the material the mandatory core topics will be highlighted to students so they know which will be tested. ***(s)** indicates self-study, pre-recorded video content.*
 
 1. Understanding and Preparing Data
-   1. Data types, sources, nature, scales and distributions
-   2. Data representations, transformation and normalization
-   3. Experimental Methodology, statistical tests and validation metrics
+   1. Data types, sources, nature, scales, representations and distributions
+   2. Preparation of Data: missing data, smoothing, transformation and normalization
+   3. (s) Measuring similarity between datasets
+   4. (s) Experimental Methodology, statistical tests and validation metrics
 2. Fundamentals of Estimation and Learning
-   1. Background  Review of Probability and Statistics: Random Variables, Conditional Probability, Bayes Rule, Entropy, KL-Divergence, Hypothesis Testing
+   1. (s) Background  Review of Probability and Statistics: Random Variables, Conditional Probability, Bayes Rule, Entropy, KL-Divergence, Hypothesis Testing
    2. Parameter Estimation, statistical approaches, MLE, MAP, EM, density estimation
    3. Classification Preview: Naive Bayes Algorithm
 3. Classification I :
-   4. Distance based - k-Nearest Neighbours (kNN) Algorithm
-   1. Decision Tree based, Ensemble Methods including Random Forests, XG-Boost, Mondrian Forests
+   1. Distance based - k-Nearest Neighbours (kNN) Algorithm
+   2. Decision Tree based, Ensemble Methods including Random Forests, XG-Boost, Mondrian Forests
 4. Representation Learning I
-   1. Feature extraction : PCA, LDA, ISOMAP, LLE
-   2. Dimensionality Reduction and Manifold Learning
+   1. (s) Feature extraction : PCA, LDA, ISOMAP, LLE
+   2. (s) Dimensionality Reduction and Manifold Learning
    3. Vector Embeddings : TF-IDF, Word2Vec, BERT
 5. Classification II : 
    1. Support Vector Machines (SVM)
    2. Kernel Methods and Latent Models
 6. Semi-/Self-/Unsuprevised Learning
    1. Clustering: Partition, Hierarchical, Model and Density based.
-   2. k-Means Algorithm, DBScan Algorithm
-   3. Anomaly Detection: Classification, Outlier, Density, and Isolation based
+   2. (s) Clustering evaluation measures
+   3. k-Means Algorithm, DBScan Algorithm
+   4. Anomaly Detection: Classification, Outlier, Density, and Isolation based
 7. Deep Learning
    1. Fundamentals of Neural Networks
    2. Effective Deep Learning Training Methods: Attention, Regularization, Optimizers
@@ -85,20 +87,33 @@ These topics are an outline, and each year some subset of non-core topics will b
 
 The goal of this course is to help students learn how to **analyse and prepare** data, **describe and apply** theoretical concepts in Data Science and Machine Learning, **design** data processing pipelines and **implement** important machine learning algorithms on a range of datasets and tasks. This course will be a success if students can use these skills in their future endeavours, research and employment. To assess this, students will complete assignments that require all of these skills on real datasets and they will also complete small tests focussing on the theoretical and design aspects of these skills.
 
-#### Weighting of Assessments
+### Weighting of Assessments
 
-- **65% Assignments** (four assignments, done in pairs or alone)
+- **65% Assignments** (four assignments, done in pairs or alone):
   - Assignments will arise from the major component topics of the course, some will buid on previous assignment outcomes.
   - Possibility to have later assignments as Kaggle-style competitive submissions (note: vast majority of grade will be based on performance and correcteness rather than based on competitive performance)
   - Assignments will involve multiple skills:
     - mathematical analysis of data and results
     - logical design and clear description of a expeirmental methodology
     - programming various algorithms for processing, training and analysis of data to achieve given tasks (Programming will be in Python using libraries such as sci-kit learn and tensor flow)
-- **35% Tests** (3 (or 4?) tests on different parts of the course, online timed question banks or take-home formats submitted to Crowdmark)
-- **?% Participation** (`Nature of this to be determined early in term`)
-    - This will be discussed collectively at start of term and can be shifted from the other components.
-    - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
+- **35% Tests**  
+    - Three tests on different parts of the course.
+    - These will be done alone and time-limited. 
+    - We will use online timed question banks and take-home files submitted to Crowdmark.
+    - For each test, questions will be on content up to that point on concepts, theory and design.
+- **2% Participation** 
+    - This will be **discussed collectively** at start of term.
+    - This could include engagement in live sessions and the piazza discussion board, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
 
+    
+### Participation Ideas
+- Basic level (ie. to get more than zero):
+  - at least 5 substantive posts on piazza
+  - introduce yourself to your House and Crew
+  - create an avatar of some kind, doesn't have to be a picture of you, but some personality so people remember who you are.
+- Extra level (to get full participation):
+  - This could include engagement in live sessions, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
+- **Discussion**: But what do *you* think would be appropriate ways to judge participation?
  
 
 ## Getting Help:
@@ -113,6 +128,24 @@ The goal of this course is to help students learn how to **analyse and prepare**
 - **AccessAbility Services :** http://uwaterloo.ca/accessability-services 
   - If you need any accommodation, assistance with exams, learning environment, assignments, talk to this office and they can help you set it up as securely and anonymously as possible.
 
+### Building A Randomized Community
+I know it's hard to get to know people and build a community when you are all working remotely and most of you have never actually met. 
+
+Some of you aren't even in Canada!
+
+You will also be assigned to two types of subgroups, ***Houses*** and ***Crews***, to encourage teamwork and socialization amongst your classmates.
+Participation in these groups is *optional* and up to you but I think it will help a lot with a feeling of connection and will provide ways to have more people you "know" to ask for help or to form partners for assignments. 
+
+#### Your House and Your Crew
+- **House** - Each house will have one TA or instructor as their guide, but the culture and interaction of a house is *entirely up to you, it's members*. 
+  - There will be 3 houses, assigned randomly. Each house will have a dedicated space on the piazza discussion board, and you'll need to introduce yourself to your house as part of your participation grade.
+  - You can think of the people in your House as Super-fans of the same Anime/Movie/Manga/DnD/VideoGame/SportsballTeam as you, or everyone in the same school dormitory. It's a large group but it's a third of the class and you have some common stake together 
+  - Aggregate kaggle assignment scores/ranks and participation scores will be listed by house.
+
+- **Crew** - Each crew is a smaller, random group assignment of around 7 people that can act as a study group of last resort. Think of these people are like distant cousins, or strangers with the same last name! They don't *actually* owe you anything, but if you met in a coffee shop and realized your loose connection, you would probably follow each other on <INSERT WHATEVER SOCIAL NETWORK PEOPLE USE THESE DAYS>. And if you needed help on something, that didn't require a huge trial on their part, they'd probably help you.
+ 
+  
+  
 ## Resources: 
 
 There is no required textbook. But most of the course is based on the following books and will be useful to take a look at them.

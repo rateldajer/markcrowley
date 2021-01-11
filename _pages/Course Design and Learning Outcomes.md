@@ -18,7 +18,7 @@ The **Topics** of this course all come down to being one of the following:
 ## CORE vs. NON-CORE Topics
 To further focus our discussion, we have also designed this course so that some of these methodologies, algorithms, and tasks are labelled as **CORE** and others **NON-CORE**. This doesn't mean the non-core topics are less important, it may mean they are simply too complex to treat fully in one course where we need to start from the fundamental skills.
 
-Our high-level goals for this course are for the student with:
+Our high-level goals for this course are for the student to leave with:
 1. A deep understanding and real experience with the most important foundational methods 
 2. A broad understanding of the landscape so that you can find the right tool you need in the right situation. So how to assess which methodologies and algorithms to use for which task given your dataset will be an important learning outcome.
 
@@ -49,18 +49,16 @@ Given a new **dataset**:
 
 
 ## Design
-**Given a new dataset and data analysis or machine learning task, be able to do the following:
-**
+Given a new dataset and data analysis or machine learning task, be able to do the following:
 - Write a concise **design plan** for performing the task including specific details including:
-- data preparation pipeline
-- data separation, training and validation methodology
-- proposal for a specific algorithm, with sufficient parameter choices, to perform the task
-- justification for your choice including:
-- discussion of computational performance tradeoffs
-- data requirements of the proposed approach compared to alternatives
-- interpretability vs. accuracy tradeoff
-- comparison to the next best alternative approach that could be followed
-
+    - data preparation pipeline
+    - data separation, training and validation methodology
+    - proposal for a specific algorithm, with sufficient parameter choices, to perform the task
+- Justify your design choices in writing, including:
+    - discussion of computational performance tradeoffs
+    - data requirements of the proposed approach compared to alternatives
+    - interpretability vs. accuracy tradeoff
+    - comparison to the next best alternative approach that could be followed
 
 
 ## Implementation
@@ -68,4 +66,4 @@ On a given dataset and common Data Analysis and Machine Learning tasks, demonstr
 - implement a **full data processing pipeline** to clean, normalize, otherwise prepare the data
 - perform **feature, dimensionality and manifold processing** as needed to obtain a better dataset to perform the task
 - concretely **implement in code** a solution for the task using the methods and algorithms from the course
-- write a **descriptive report** with numerical and visual analysis of the performance of your solution and interesting patterns found in the data
+- write a short **descriptive report** with numerical and visual analysis of the performance of your solution and interesting patterns found in the data
