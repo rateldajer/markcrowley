@@ -12,11 +12,18 @@ showtitle : false
 
 **Instructor:** Prof. Mark Crowley ([mcrowley@uwaterloo.ca](mailto:mcrowley@uwaterloo.ca)) *Department: Department of Electrical and Computer Engineering, University of Waterloo, Faculty of Engineering*  
 
+**Teaching Assistants:**
+
+- Benyamin Ghojogh (bghojogh@uwaterloo.ca) 
+- Shailja Thakur (s7thakur@uwaterloo.ca) 
+
 **Permanent Course Website:** https://uwaterloo.ca/scholar/mcrowley/ece657a
 
 **Teaching Period: January 11 – April 14, 2021**
 
-**Available Office hours:** TBD first week of classes in discussion with students
+**Detailed Weekly Course Schedule:** [Weekly Course Schedule (pdf)](/assets/pdf/coursescheduleforprinting_outputtohtm_v2.pdf) *(updated Jan 15, 2021)*
+
+**Available Office hours:** TBD in discussion with students
 
 
 
@@ -37,8 +44,9 @@ These topics are an outline, and each year some subset of non-core topics will b
 1. Understanding and Preparing Data
    1. Data types, sources, nature, scales, representations and distributions
    2. Preparation of Data: missing data, smoothing, transformation and normalization
-   3. (s) Measuring similarity between datasets
-   4. (s) Experimental Methodology, statistical tests and validation metrics
+   3. Summarizing Data: mean, variance, skew, PCC, cross correlation
+   4. (s) Comparison Measures between datasets
+   5. (s) Experimental Methodology, statistical tests and validation metrics
 2. Fundamentals of Estimation and Learning
    1. (s) Background  Review of Probability and Statistics: Random Variables, Conditional Probability, Bayes Rule, Entropy, KL-Divergence, Hypothesis Testing
    2. Parameter Estimation, statistical approaches, MLE, MAP, EM, density estimation
@@ -60,9 +68,9 @@ These topics are an outline, and each year some subset of non-core topics will b
    4. Anomaly Detection: Classification, Outlier, Density, and Isolation based
 7. Deep Learning
    1. Fundamentals of Neural Networks
-   2. Effective Deep Learning Training Methods: Attention, Regularization, Optimizers
    3. Types of Deep Learning : CNN, RNN
    4. Classification III : Data, Image and Timeseries classification using Deep Learning
+   2. Effective Deep Learning Training Methods: Attention, Regularization, Optimizers
    5. Reusing Information: Resnet, Inception
    6. Representation Learning II: Autoencoders and Variational Autoencoders
 8. Additional Learning Topics (if time allows)
@@ -91,14 +99,24 @@ The goal of this course is to help students learn how to **analyse and prepare**
 
 ### Weighting of Assessments
 
-- **65% Assignments** (four assignments, done in pairs or alone):
+- **64% Assignments** (four assignments, done in pairs or alone):
+  
   - Assignments will arise from the major component topics of the course, some will buid on previous assignment outcomes.
   - Possibility to have later assignments as Kaggle-style competitive submissions (note: vast majority of grade will be based on performance and correcteness rather than based on competitive performance)
   - Assignments will involve multiple skills:
     - mathematical analysis of data and results
     - logical design and clear description of a expeirmental methodology
     - programming various algorithms for processing, training and analysis of data to achieve given tasks (Programming will be in Python using libraries such as sci-kit learn and tensor flow)
-- **35% Tests**  
+  - Late Assignments: 
+    - Assignment due dates will be at midnight on the designated date.
+    - Late assignments will have the following penalties from the assigned grade: 
+      - 6 hours (0%)
+      - 6-24 hours (5%)
+      - 24-48 hours (10%)
+      - \>48 hours (100%)
+    - If you know *ahead of time* that you will not be able to make the deadline do to *serious* health or personal issues contact the professor to ask for an exception.
+- **34% Tests**  
+    
     - Three tests on different parts of the course.
     - These will be done alone and time-limited. 
     - We will use online timed question banks and take-home files submitted to Crowdmark.
@@ -165,11 +183,25 @@ Papers and electronic references will be made available on the course website wh
 Ask questions.  Connect with your classmates. Do the assignments. ***Ask questions.*** 
 Most of all, *have fun*.
 
+## Wellness Support and Contact Information.
+
+University can be a challenging environment and it is normal to need support from time-to-time. Campus Wellness services are available to students through counselling and health services. If you are struggling or need someone to talk to you, please reach out. 
+
+To book an appointment or learn more about the services, call 519-888-4567 x 32655 or explore [www.uwaterloo.ca/campus-wellness](http://www.uwaterloo.ca/campus-wellness). 
+
+If you're experiencing a crisis and feel unable to cope and Campus Wellness is closed, contact any of these after-hours supports: EmpowerMe (1-833-628-5589), Good2Talk (1-866-925-5454) or Here 24/7 (1-844-437-3247). They are available at any time of the day or night to help.
+
 ## Policy and Rules
 
-### Academic Integrity:
+### Fair Contingencies for Emergency Remote Teaching
+
+We are facing unusual and challenging times. To provide contingency for unforeseen circumstances, the instructor reserves the right to *modify* course topics and/or assessments and/or weight and/or deadlines *with due notice to students*. In the event of further challenges, the instructor will work with the Department/Faculty to find reasonable and fair solutions that respect rights and workloads of students, staff, and faculty.
+
+### Online Academic Integrity
 
 In order to maintain a culture of academic integrity, members of the University of Waterloo community are expected to promote honesty, trust, fairness, respect and responsibility. [Check www.uwaterloo.ca/academicintegrity/ for more information.]
+
+All students are expected to work individually, or in pairs as described for assignments, and submit their own original work. Under Policy 71, the instructor may have follow-up conversations with individual students to ensure that the work submitted was completed on their own. Any follow up will be conducted remotely (e.g., MS Teams, Skype, phone), as the University of Waterloo has suspended all in-person meetings until further notice.
 
 ### Grievance:
 
