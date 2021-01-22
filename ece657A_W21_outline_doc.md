@@ -21,7 +21,7 @@ showtitle : false
 
 **Teaching Period: January 11 – April 14, 2021**
 
-**Detailed Weekly Course Schedule:** [Weekly Course Schedule (pdf)](/assets/pdf/coursescheduleforprinting_outputtohtm_v2.pdf) *(updated Jan 15, 2021)*
+**Detailed Weekly Course Schedule:** [Weekly Course Schedule (pdf)](/assets/pdf/coursescheduleforprinting_outputtohtm_v3.pdf) *(updated Jan 15, 2021)*
 
 **Available Office hours:** TBD in discussion with students
 
@@ -39,7 +39,7 @@ The [Course Design and Learning Outcomes](/DKMA/outcomes) describe the design ph
 
 ## Major Topics:
 
-These topics are an outline, and each year some subset of non-core topics will be skipped due to time constraints and in order to benefit students through deeper focus. When tests are planned to assess knowledge of the material the mandatory core topics will be highlighted to students so they know which will be tested. ***(s)** indicates self-study, pre-recorded video content.*
+These topics are an outline, and each year some subset of non-core topics will be skipped due to time constraints and in order to benefit students through deeper focus. When tests are planned to assess knowledge of the material the mandatory core topics will be highlighted to students so they know which will be tested. **(s)** indicates self-study, pre-recorded video content.
 
 1. Understanding and Preparing Data
    1. Data types, sources, nature, scales, representations and distributions
@@ -116,7 +116,7 @@ The goal of this course is to help students learn how to **analyse and prepare**
       - \>48 hours (100%)
     - If you know *ahead of time* that you will not be able to make the deadline do to *serious* health or personal issues contact the professor to ask for an exception.
 - **34% Tests**  
-    
+  
     - Three tests on different parts of the course.
     - These will be done alone and time-limited. 
     - We will use online timed question banks and take-home files submitted to Crowdmark.
