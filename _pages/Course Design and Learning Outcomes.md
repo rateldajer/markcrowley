@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /outcomes/
-title: Course Design and Learning Outcomes
+title: design
+titleheader: Course Design and Learning Outcomes
 description: Overview of the design philosophy of the course and the Focussed Learning Outcomes
 nav: false
 showtitle: true

@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-url:   # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 baseurl: /DKMA # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 
@@ -67,9 +67,6 @@ permalink: /blog/:year/:title/
 pagination:
   enabled: true
 
-# Comments
-disqus_shortname: DKMA # put your disqus shortname
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -78,7 +75,7 @@ defaults:
     type: "pages"
   values:
     layout: "page"
-    showtitle: true
+    showtitle: false #you should use enter the title in the text so the description comes after it
 
 collections:
   news:
@@ -86,6 +83,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+    inline: true
+  pages:
+    output: true
+    permalink: /:path/
+    nav: true
   projects:
     output: true
     permalink: /projects/:path/

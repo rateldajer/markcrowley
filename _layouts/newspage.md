@@ -6,33 +6,23 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">
-     {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+     {% if page.title == blank %}
+     {{ page.name }}
+     {% else %}
+     {{page.title}}
+     {% endif %}
     </h1>
-     <p class="desc">{{ page.description }}</p>
+       <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px;">{{ page.description }}</p>
   </header>
 
   <article>
-    {% if page.profile %}
-    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-      {% if page.profile.image %}
-        <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-      {% endif %}
-      {% if page.profile.address %}
-        <div >
-          {{ page.profile.address }}
-        </div>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    <div class="clearfix">
-      {{ content }}
-    </div>
 
     <div class="wrapper" style="diplay:inline-block;width:100%;">
+        <div class="clearfix">
+          {{ content }}
+        </div>
         <div style="float:left; width:70%;">
         {% if page.news %}
-          <h2>news</h2>
           {% include news-inline-link.html %}
         {% endif %}
         </div>

@@ -1,9 +1,13 @@
 ---
 layout: page
 permalink: /tests/
-title: Tests
-description: Description of testing for the course
+title: tests
+titleheader: Test Information
+description: Information about tests for the course.
 nav: true
+aside: 
+    toc: true
+showtitle: true
 ---
 
 Student performance for the course will be evaluated via **tests (done alone)**, **assignments (done in pairs or alone)**, and **participation**. For this online term all tests **will be carried out online** over a designated *period of 2-3 days* where students will have a *2-3 hour window* of their choosing to either submit answers (as a pdf or image to CROWDMARK) or complete an interactive test (via LEARN).
@@ -16,7 +20,7 @@ Student performance for the course will be evaluated via **tests (done alone)**,
 - **Keep in mind** that the tests are worth much less than assignments in this course, so treat it as a challenge to excel and show your ability at the subject on your own.
 
 ## Test Weighting
-- Test 1 : 10%
+- Test 1 : 10% - Feb 9 (8pm EST) to Feb 12 (11:59pm EST)
 - Test 2 : 10%
 - Test 3 : 14%
 

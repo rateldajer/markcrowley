@@ -1,13 +1,14 @@
 ---
+layout: page
 permalink: /outline/
 title: outline
+titleheader: Course Outline
+nav: true
 aside: 
     toc: true
-nav: true
-showtitle : false
+description: Course information, topics, schedule and policies.
+showtitle: true
 ---
-# Data and Knowledge Modeling and Analysis
-
 **Course code:** ECE657A    **Term:** Winter 2021
 
 **Instructor:** Prof. Mark Crowley ([mcrowley@uwaterloo.ca](mailto:mcrowley@uwaterloo.ca)) *Department: Department of Electrical and Computer Engineering, University of Waterloo, Faculty of Engineering*  

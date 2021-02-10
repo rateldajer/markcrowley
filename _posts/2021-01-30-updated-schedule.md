@@ -1,10 +1,8 @@
 ---
 layout: post
-date: 2021-01-30 11:34:00-0400
 title: Updated Schedule 
+date: 2021-01-20 11:34:00-0400
 permalink: /updatedscedule/
-description: Update regular schedule
-inline: false
 ---
 
 ## Updated Regular Schedule
@@ -15,8 +13,6 @@ inline: false
 - **Week 4**: Feb 2, 11am
 - **Ongoing**: Wednesdays, 9am-10am
     - recorded on Feb 10 and hosted on LEARN under "Test 1"
-
-    
 ---
 
 Hello all,
