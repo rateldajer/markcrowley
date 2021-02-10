@@ -116,11 +116,11 @@ The goal of this course is to help students learn how to **analyse and prepare**
       - \>48 hours (100%)
     - If you know *ahead of time* that you will not be able to make the deadline do to *serious* health or personal issues contact the professor to ask for an exception.
 - **34% Tests**  
-  
     - Three tests on different parts of the course.
     - These will be done alone and time-limited. 
     - We will use online timed question banks and take-home files submitted to Crowdmark.
     - For each test, questions will be on content up to that point on concepts, theory and design.
+    - **Test Weighting**: Test 1 (10%), Test 2 (10%), Test 3 (14%)
 - **2% Participation** 
     - This will be **discussed collectively** at start of term.
     - This could include engagement in live sessions and the piazza discussion board, creation of annotated writeups of course materials for other students to utilize, or literature reviews of papers for other students to read.
