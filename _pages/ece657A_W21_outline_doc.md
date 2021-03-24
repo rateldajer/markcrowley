@@ -4,8 +4,10 @@ permalink: /outline/
 title: outline
 titleheader: Course Outline
 nav: true
-aside: 
-    toc: true
+toc: true
+toc_label: "Contents"
+toc_icon: "list-ol"
+toc_sticky: true
 description: Course information, topics, schedule and policies.
 showtitle: true
 ---
@@ -17,6 +19,7 @@ showtitle: true
 
 - Benyamin Ghojogh (bghojogh@uwaterloo.ca) 
 - Shailja Thakur (s7thakur@uwaterloo.ca) 
+- Mohamed Sadok Gastli (ms2gastli@uwaterloo.ca)
 
 **Permanent Course Website:** https://uwaterloo.ca/scholar/mcrowley/ece657a
 
