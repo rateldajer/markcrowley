@@ -35,6 +35,10 @@ layout: default
           <h2>news</h2>
           {% include news-inline-link.html %}
         {% endif %}
+
+        {% if page.selected_papers %}
+          {% include selected_papers.html %}
+        {% endif %}
         </div>
         <div style="float:right;width:30%;">
         {% if page.twitterfeed %}
@@ -45,9 +49,6 @@ layout: default
 
     <div style="clear:both;"></div>
 
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
 
     {% if page.social %}
     <div class="social">
