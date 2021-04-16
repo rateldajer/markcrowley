@@ -74,7 +74,7 @@ defaults:
     type: "pages"
   values:
     layout: "page"
-    showtitle: false #you should use enter the title in the text so the description comes after it
+    showtitle: true #you should use enter the title in the text so the description comes after it
 
 collections:
   news:
@@ -86,10 +86,14 @@ collections:
   pages:
     output: true
     permalink: /:path/
+    showtitle: true
     nav: true
   projects:
     output: true
     permalink: /projects/:path/
+  oldprojects:
+    output: true
+    permalink: /oldprojects/:path/
   topics:
     output: true
     permalink: /topics/:path/
@@ -141,7 +145,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: mypubs.bib
+  bibliography: papers.bib
   bibliography_template: bib
 
   replace_strings: true

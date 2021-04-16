@@ -2,9 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Ongoing projects within the lab.
+nav: true
+showtitle: true
 ---
+
+For [completed brojects](/oldprojects/) see here.
 
 <div class="projects grid">
 

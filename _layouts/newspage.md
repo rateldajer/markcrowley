@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <div class="post">
 
   <header class="post-header">
@@ -32,13 +33,13 @@ layout: default
         {% endif %}
         </div>
     </div>
-
+    
     <div style="clear:both;"></div>
-
+    
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
-
+    
     {% if page.social %}
     <div class="social">
       {% include social.html %}

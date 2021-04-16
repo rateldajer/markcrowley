@@ -1,8 +1,8 @@
-Adams:
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+Crowley:
+    url: https://uwaterloo.ca/scholar/mcrowley
+    text: other info
+Poole:
+    url: https://www.cs.ubc.ca/~poole/
 
-Podolsky:
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-Rosen:
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Dietterich:
+    url: http://web.engr.oregonstate.edu/~tgd/
