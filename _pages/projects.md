@@ -1,13 +1,17 @@
 ---
 layout: page
-title: projects
+title: ongoing projects
 permalink: /projects/
 description: Ongoing projects within the lab.
-nav: true
+nav: false
 showtitle: true
 ---
 
-For [completed brojects](/oldprojects/) see here.
+<h4>Related Pages:</h4>
+- prevously [completed projects](/oldprojects/) 
+
+<h4>Test math:</h4>
+$$\sum_{i=0}^N f(x_i)\sigma(\gamma, \phi_N)$$
 
 <div class="projects grid">
 

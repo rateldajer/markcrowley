@@ -10,7 +10,7 @@ layout: default
      {% if page.title == blank %}
      {{ page.name }}
      {% else %}
-     {{page.title}}
+     {{ page.title }}
      {% endif %}
     </h1>
        <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px;">{{ page.description }}</p>
