@@ -12,8 +12,7 @@ fields: Machine Learning, Time Series
 description: This is a collaborative project with industry partner Magna International to collect real world data about human driving behaviour in order to enable training of accurate predictive models of human driving for modern ADAS.
 publish: false
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra
-aside: 
-    toc: true
+showtitle: true
 ---
 
 ### Goals

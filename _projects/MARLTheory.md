@@ -10,6 +10,5 @@ methods: Reinforcement Learning, PPO
 description: description
 publish: false
 people: sriramganapathisubramanian, sushrutbhalla, markcrowley
-aside: 
-    toc: true
+showtitle: true
 ---

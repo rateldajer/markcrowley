@@ -10,6 +10,5 @@ methods: SSIM, PCA, LDA, RDA
 description: Exploration of theoretical advances for macnirold learning and uses of these in medical imaging.
 publish: false
 people: benyaminghojogh,  markcrowley
-aside: 
-    toc: true
+showtitle: true
 ---
