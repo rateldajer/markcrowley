@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Automated Materials Design and Discovery Using Reinfocement Learning
+title: Automated Materials Design and Discovery Using Reinforcement Learning
 name: DeepChemRL
-
-importance: 4
+importance: 1
 redirect: false
 Url: http://chemgymrl.com
-img: /assets/img/chemgymrl/logo.png
-
+img: /assets/img/chemgymrl/chemgymrl_logo_400x400.png
 status: active
 domains: Material-Design, Digital-Chemistry
 methods: Reinforcement Learning, LSTM, LRCN, MARL, MDP

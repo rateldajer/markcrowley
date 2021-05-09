@@ -10,13 +10,10 @@ showtitle: true
 <h4>Related Pages:</h4>
 - prevously [completed projects](/oldprojects/) 
 
-<h4>Test math:</h4>
-$$\sum_{i=0}^N f(x_i)\sigma(\gamma, \phi_N)$$
-
 <div class="projects grid">
-
   {% assign sorted_projects = site.projects | sort: "importance" %}
   {% for project in sorted_projects %}
+
   <div class="grid-item">
     {% if project.redirect %}
     <a href="{{ project.redirect }}" target="_blank">
