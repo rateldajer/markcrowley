@@ -81,7 +81,7 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 - **Final Exam**: **30%** - all topics, leaning towards latter half of course
 
-- **Group Work:** Assignments can be done alone or in pairs. Groups will be setup on LEARN to signup for a pair. You do not need to maintain the same pair throughout the term.
+- **Group Work:** Assignments can be done alone or in pairs. Groups will be setup on LEARN to signup for a pair. You do not need to maintain the same pair throughout the term.
 
 ## Course Learning Objectives and Topic Details
 
