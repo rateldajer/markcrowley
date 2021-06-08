@@ -11,6 +11,7 @@ showtitle: true
 Also see:
 - [All Published Works](/publications)
 - [Current Preprints and Working Papers](/preprints)
+- [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
 
 <h2>selected publications</h2>
