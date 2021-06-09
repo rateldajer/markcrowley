@@ -1,15 +1,24 @@
 ---
 layout: page
 collection: project
-title: Manifold Learning
-name: Manifold Learning
-keywords: Manifold-Learning, Dimensionality-Reduction
+title: Medical Imaging
+name: Machine Learning for Medical Imaging
+keywords: medical-imaging, manifold-learning, deep-learning
+Permalink: /medical-imaging/
 status: active
 importance: 2
-methods: SSIM, PCA, LDA, RDA
-description: Exploration of theoretical advances for macnirold learning and uses of these in medical imaging.
+methods: deep-learning, nlp
+description: Use of Machine Learning for challenges in medical imaging.
 publish: false
-people: benyaminghojogh,  markcrowley
+people: benyaminghojogh, aishwarya, lauramccrackin, markcrowley
 showtitle: true
 ---
 
+Todo: explain projects
+
+
+
+Cite papers:  {% cite ghojogh2020weighted %}
+
+## Bibliography
+{% bibliography --cited %}
