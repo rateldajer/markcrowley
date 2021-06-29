@@ -1,6 +1,14 @@
-# Reinforcement Learning
-
-## Spring 2021 - ECE 493 Topic 42
+---
+layout: page
+description: Spring 2021 - ECE 493 Topic 42
+permalink: /rlcourse/
+title: Reinforcement Learning
+img: /assets/img/teaching/ece493-logo.png
+Date: 2021-05-09
+Meta: ECE 493 Topic 42 - Spring 2021
+nav: false
+showtitle: true
+---
 
 ***Note:*** *This course is "Also Known As" ECE 457C Reinforcement Learning*
 
@@ -27,13 +35,8 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 | --- |  -------------------------------- | -------------------- |
 | **Contact: **mcrowley@uwaterloo.ca (but for better results, use piazza or book an appointment via doodle) |  **Contact:** nv3le@uwaterloo.ca | **Contact:** n2azizi@uwaterloo.ca |
 | **Office Hour:** [Bookable Meetings](https://doodle.com/mm/markcrowley/bookable-1on1-493t2) |  ||
-| | | |
 
-
-
-
-
-## General Course Structure
+## General Course Structure 
 
 | Item  | Start                | End            |
 | ------------------------------ |  -------------------- | -------------- |
@@ -46,9 +49,10 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 | Assignment 1                               | 15%                        | Tue, May 25          | Fri, Jun 11   |
 | Midterm Exam (3 hr duration within window) | 20%                        | Wed, Jun 23          | Fri, Jun 25   |
 | Assignment 2                               | 15%                        | Tue, Jun 15          | Fri, Jul 09   |
-| Assignment 3                               | 20%                        | Tue, Jul 9           | Thur, Aug 5   |
+| Assignment 3                               | 20%                        | Fri, Jul 9           | Thu, Aug 5    |
 
 ### Final Exam
+
 - Final Exam  (30%)
 	- Official Timeslot: Sat, Aug 14 9:00am - 11:30am
 	- Actual Availability Window: To be determined. 
