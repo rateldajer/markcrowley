@@ -46,7 +46,7 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 | Assignment 1                               | 15%                        | Tue, May 25          | Fri, Jun 11   |
 | Midterm Exam (3 hr duration within window) | 20%                        | Wed, Jun 23          | Fri, Jun 25   |
 | Assignment 2                               | 15%                        | Tue, Jun 15          | Fri, Jul 09   |
-| Assignment 3                               | 20%                        | Tue, Jun 29          | Fri, Jul 30   |
+| Assignment 3                               | 20%                        | Tue, Jul 9           | Thur, Aug 5   |
 
 ### Final Exam
 - Final Exam  (30%)
