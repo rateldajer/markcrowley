@@ -21,7 +21,7 @@ showtitle: true
 
 ### Course Description
 
-Introduction to Reinforcement Learning (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
+Introduction to [Reinforcement Learning](/reinforcement-learning/) (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
 
 
 
@@ -44,21 +44,13 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 | Bookable Office  Hours (virtual, may or may not be recorded) | Friday 4:00pm        | Fridays 5:00pm |
 
 
-| Item                                       | Weight Towards Final Grade | Released (12:00  am) | Due (11:59pm) |
-| ------------------------------------------ | -------------------------- | -------------------- | ------------- |
-| Assignment 1                               | 15%                        | Tue, May 25          | Fri, Jun 11   |
-| Midterm Exam (3 hr duration within window) | 20%                        | Wed, Jun 23          | Fri, Jun 25   |
-| Assignment 2                               | 15%                        | Tue, Jun 15          | Fri, Jul 09   |
-| Assignment 3                               | 20%                        | Fri, Jul 9           | Thu, Aug 5    |
-
-### Final Exam
-
-- Final Exam  (30%)
-	- Official Timeslot: Sat, Aug 14 9:00am - 11:30am
-	- Actual Availability Window: To be determined. 
-		- **Option 1:** Thurs-Sat
-		- **Option 2:** Fri-Sun
-	- Actual Time to Complete: 3 hrs
+| Item                                       | Weight Towards Final Grade | Released (12:00  am)       | Due (11:59pm)                                 |
+| ------------------------------------------ | -------------------------- | -------------------------- | --------------------------------------------- |
+| Assignment 1                               | 15%                        | Tue, May 25                | Fri, Jun 11                                   |
+| Midterm Exam (3 hr duration within window) | 20%                        | Wed, Jun 23                | Fri, Jun 25                                   |
+| Assignment 2                               | 15%                        | Tue, Jun 15                | Fri, Jul 09                                   |
+| Assignment 3                               | 20%                        | Fri, Jul 9                 | (Orig: Thu, Aug 5 +3%) Extended: Monday Aug 9 |
+| Final Exam                                 | 30%                        | Thursday Aug 12 at 12:01am | Saturday Aug 14 at 11:59pm                    |
 
 
 
