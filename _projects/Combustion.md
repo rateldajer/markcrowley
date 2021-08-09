@@ -3,7 +3,7 @@ layout: page
 title: Combustion Modelling
 name: Combustion Modelling
 keywords: Combustion Modelling, MLForScience
-
+Permalink: /combustion/
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
 
 importance: 4
