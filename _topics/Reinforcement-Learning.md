@@ -1,5 +1,5 @@
 ---
-layout: keyword
+layout: page
 title: Reinforcement Learning
 name: Reinforcement Learning
 Permalink: /reinforcement-learning/
@@ -21,7 +21,7 @@ aside:
 ### Seminal Deep RL Papers
 - https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf
 
-
 ## Tools
+
 - https://gym.openai.com/
 
