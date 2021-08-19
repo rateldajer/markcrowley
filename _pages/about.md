@@ -27,7 +27,7 @@ My research seeks dependable and transparent ways to augment human decision maki
 
 <h2 class="lined">Note for Potential Graudate Students</h2>
 
-As of *Sept 28, 2020* I have enough graduate students and I am not accepting new applications. Good luck with your search though.
+The global interest in AI/ML/RL is infectious and it is truly an exciting time to be in research in this field. However, you should know that I rarely accept students that I do not already know through teaching or other interactions at UWaterloo, at conferences, or through referrals from other colleagues. Unfortunately, if you email me with your interest in graduate school I probably will not be able to reply as I receive many such emails every day. Good luck in your search.
 
 
 
