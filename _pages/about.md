@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 Site being updated, see my <a href="https://uwaterloo.ca/scholar/mcrowley">Research Lab</a> page for current information.
 
 
-My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning), Deep Learning and Ensemble Methods**.  I often work in collaboration with researchers in applied fields such as **sustainable forest management, [computational sustainability](compsust),  [autonomous driving](/autonomous-driving/), [physical chemistry](chemgymrl) and [medical imaging](/medical-imaging/)**.
+My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning), Deep Learning and Ensemble Methods**, and [Manifold Learning (Dimensionality Reduction)](/manifold-learning/).  I often work in collaboration with researchers in applied fields such as **[Sustainable Forest Management](forest-management), [computational sustainability](compsust),  [autonomous driving](/autonomous-driving/), [physical chemistry](chemgymrl) and [medical imaging](/medical-imaging/)**.
 
 <h2 class="lined">Note for Potential Graudate Students</h2>
 
@@ -33,5 +33,5 @@ As of *Sept 28, 2020* I have enough graduate students and I am not accepting new
 
 
 ### Writing
-
+ 
 Besides my [publications](publications), you can follow my [Computationally Thinking](http://computationallythinking.com/) blog or [@compthink](https://twitter.com/compthink) on twitter for links and thoughts on Artificial Intellgience, Machine Learning and how technology and science are advancing.
