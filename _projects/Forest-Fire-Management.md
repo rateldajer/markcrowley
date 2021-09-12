@@ -2,10 +2,12 @@
 layout: page
 title: Forest Wildfire Planning
 keywords: Forest Fire Management
+Permalink: /forestfire/
 domains: Forest Fire Management
-methods: Reinforcement Learning, LSTM, LRCN, MARL, MDP
+methods: reinforcement-learning, LSTM, LRCN, MARL, MDP
 bibkeyword: proj-forestfire
 description: description
+Collection: project
 status: active
 publish: false
 people: sriramganapathisuburamanian, pardiszohouri, katelarson, markcrowley
@@ -20,13 +22,13 @@ The task of Forest Fire Management presents a number of unique challenges which 
 - coordinating decisions amongst a large number of agents (distributed nationwide) without frequent, extensive communication.
 
 Relevant work to this project has been progressing recently on theoretical models of multi-agent decision making. 
-This research explores the intersection of theory in the field of **Game Theory** and **Multi-Agent Reinforcement Learning (MARL)**, both of which study how multiple agents can adapt and optimize their decision making policies in response to changes in the world around them and actions of other decision makers.  
+This research explores the intersection of theory in the field of **Game Theory** and **[Multi-Agent Reinforcement Learning (MARL)](marl)**, both of which study how multiple agents can adapt and optimize their decision making policies in response to changes in the world around them and actions of other decision makers.  
 
 
 
 ### News
 
-- **ML for Forest Fire Journal Paper:** In 2020, in collaboration with some other investigators in this strategic network, we published a review article in the *Environmental Reviews* journal\cite{jain2020review} analysing the relevance of various ML algorithms to the domain and exhaustively surveying and analysing the existing research using ML for forest fire management.
+- **ML for Forest Fire Journal Paper:** In 2020, in collaboration with some other investigators in this strategic network, we published a review article in the *Environmental Reviews* journal \cite{jain2020review} analysing the relevance of various ML algorithms to the domain and exhaustively surveying and analysing the existing research using ML for forest fire management.
 - **NSERC/CANADA WILDFIRE STRATEGIC NETWORK**: In 2019, an NSERC Strategic Network grant was confirmed in which we are involved to support computational research in to Forest Fire Management practices. This includes the AI/ML/RL focus of our research along with our colleague in computer science Prof. Kate Larson.
 - In 2019, we were awarded a computing grant on the topic of 
 Wildfire management: Disaster response, climate change" from **Waterloo Artificial Intelligence Institute (WAII)** in affiliation with the **Microsoft "AI for Social Good"** program.

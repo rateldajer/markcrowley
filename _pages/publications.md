@@ -11,6 +11,7 @@ showtitle: true
 Also see:
 - [Selected Showcase Publications](/showcase)
 - [Current Preprints and Working Papers](/preprints)
+- [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
 <div class="publications by year">
 {% for y in page.years %}

@@ -3,10 +3,11 @@ layout: page
 collection: projects
 title: Driver Behaviour Learning (DBL)
 name: Driver Behaviour Learning (DBL)
-keywords: Autonomous-Driving, Driver-Behaviour-Learning, Machine Learning, Vision, Control
+keywords: autonomous-driving, Driver-Behaviour-Learning, Machine Learning, Vision, Control
+Permalink: autonomous-driving
 bibkeyword: proj-dbl
 status: active
-domains: Autonomous Driving
+domains: autonomous-driving
 methods: Deep Neural Networks, LSTMs
 fields: Machine Learning, Time Series
 description: This is a collaborative project with industry partner Magna International to collect real world data about human driving behaviour in order to enable training of accurate predictive models of human driving for modern ADAS.

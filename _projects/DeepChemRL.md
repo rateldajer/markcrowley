@@ -6,6 +6,7 @@ permalink: /chemgymrl/
 importance: 1
 redirect: false
 Url: http://chemgymrl.com
+Permalink: /chemgymrl/
 img: /assets/img/chemgymrl/chemgymrl_logo_400x400.png
 status: active
 domains: Material-Design, Digital-Chemistry
