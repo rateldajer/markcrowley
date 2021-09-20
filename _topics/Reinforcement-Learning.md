@@ -14,7 +14,7 @@ aside:
 ---
 
 ## Testing Citations
-Does the {% cite ref %} command work?
+Does the {% cite ref %} command work? (nope)
 
 
 ## Learning Resources

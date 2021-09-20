@@ -26,7 +26,7 @@ Site being updated, see my <a href="https://uwaterloo.ca/scholar/mcrowley">Resea
 
 My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning), Deep Learning and Ensemble Methods**, and [Manifold Learning (Dimensionality Reduction)](/manifold-learning/).  I often work in collaboration with researchers in applied fields such as **[Sustainable Forest Management](forest-management), [computational sustainability](compsust),  [autonomous driving](/autonomous-driving/), [physical chemistry](chemgymrl) and [medical imaging](/medical-imaging/)**.
 
-<h2 class="lined">Note for Potential Graudate Students</h2>
+<h2 class="lined">Note for Potential Graduate Students</h2>
 
 The global interest in AI/ML/RL is infectious and it is truly an exciting time to be in research in this field. However, you should know that I rarely accept students that I do not already know through teaching or other interactions at UWaterloo, at conferences, or through referrals from other colleagues. Unfortunately, if you email me with your interest in graduate school I probably will not be able to reply as I receive many such emails every day. Good luck in your search.
 
