@@ -7,10 +7,7 @@ Permalink: /reinforcement-learning/
 keywords: Reinforcement-Learning, MARL
 status: active
 importance: 3
-methods: DQN, A3C, PPO, DDPG
 description: Attempting to understand the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback
-publish: false
-people: sriramganapathisubramanian, nouhachatti,  markcrowley, isaactamblyn
 showtitle: true
 img: /assets/img/teaching/ece493-logo.png
 ---

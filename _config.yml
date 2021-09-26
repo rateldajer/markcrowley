@@ -87,6 +87,7 @@ collections:
     output: true
     permalink: /:path/
     showtitle: true
+    showbib: false
     nav: true
   projects:
     output: true

@@ -9,14 +9,6 @@ stage: field
 showtitle: true
 aside: 
     toc: true
+showbib: true
 ---
-
-<div class="publications">
-  <h2>Our Papers on {{ page.name }}</h2> 
-{% bibliography -q @*[keywords~={{page.keyword}} && self=1] %}
-</div>
-
-<div class="publications">
-  <h2>Other Important Papers on {{ page.name }}</h2> 
-{% bibliography -q @*[self=0 && keywords~={{page.keyword}}] %}
-</div>
+Manifold Learning and Dimensionality Reduction are vast areas of study in the Math and Computer Science fields. The task is quite simply to find ways to extact the essential nature out of a dataset. looks at ways to automatically extract meaningful features, dimensions or subspaces from data in order to build better models, expand data, reduce data, etc.

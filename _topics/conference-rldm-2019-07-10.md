@@ -493,7 +493,7 @@ They look at actual human social interactions for compelx dynamics between choic
 - Psychological Game Theory can explain this
   - one agent has *second order* theory about other player and they converge on a solution 
   - this involves thikning about the dissapointment the other person is going to experience and this is partially valid. If the money is higher obviously this weight is higher.
-  - TODO: see image
+  - [TODO](TODO): see image
   - They also find support for this by looking at brain scans
 
 ## Moral Strategy Model

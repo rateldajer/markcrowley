@@ -3,18 +3,26 @@ layout: page
 title: Reinforcement Learning
 name: Reinforcement Learning
 permalink: /reinforcement-learning/
-collection: keywords
+collection: topics
 keyword: reinforcement-learning
 description: RL is the study of learning decision making policies from experience with computers.
-publish: false
+methods: DQN, A3C, PPO, DDPG
+people: sriramganapathisubramanian, nouhachatti,  markcrowley, isaactamblyn
 stage: field
 showtitle: true
 aside: 
     toc: true
+img: /assets/img/teaching/ece493-logo.png
+showbib: true
 ---
+One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called ***Reinforcement Learning***,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the *algorithms they both use to learn to act in a complex, mysterious world.*
+
 
 ## Testing Citations
-Does the {% cite ref %} command work? (nope)
+In our latest paper... {% cite bellinger2021canai %} ...
+Recent work on multi-agent decision making:
+
+> {% reference ganapathi-subramanian2021aamas %}
 
 
 ## Learning Resources
@@ -30,17 +38,11 @@ Does the {% cite ref %} command work? (nope)
 
 - https://gym.openai.com/
 
-<div class="publications">
-  <h2>Our Papers on {{ page.name }}</h2> 
-{% bibliography -q @*[keywords~={{page.keyword}} && self=1] %}
-</div>
-
-<div class="publications">
-  <h2>Other Important Papers on {{ page.name }}</h2> 
-{% bibliography -q @*[self=0 && keywords~={{page.keyword}}] %}
-</div>
 
 # TODO
 - [x] add a bib wrapper from about to each page
+- [ ] fix bib file to have common keywords
+- [ ] use same keywords on pages, have a list somewhere with descriptions? keywords pages?
 - [ ] add a meta flag to "show bib" for the topic using the keyword field
 - [ ] add all this to the page template
+- [ ] what's actually in the other update-topics branch that's different?

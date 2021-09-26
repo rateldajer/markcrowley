@@ -15,7 +15,18 @@ layout: default
   </header>
 
   <article>
+      {% if page.img %}
+      <img src="{{page.img}}" style="width: 300px; padding: 10px; float: right;">
+      {% endif %}
     {{ content }}
   </article>
+
+
+      {% if page.showbib == true %}
+        <div class="publications">
+          <h2>Our Papers on {{ page.name }}</h2> 
+        {% bibliography -q @*[keywords~={{page.keyword}} && self=1] %}
+        </div>
+      {% endif %}
 
 </div>

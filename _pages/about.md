@@ -24,7 +24,7 @@ social: true  # includes social icons at the bottom of the page
 Site being updated, see my <a href="https://uwaterloo.ca/scholar/mcrowley">Research Lab</a> page for current information.
 
 
-My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **Reinforcement Learning, Deep Learning and Ensemble Methods**, and Manifold Learning (Dimensionality Reduction).  I often work in collaboration with researchers in applied fields such as **Sustainable Forest Management, [computational sustainability](compsust),  autonomous driving, [physical chemistry](chemgymrl) and medical imaging**.
+My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning)**, **[Deep Learning](deep-learning)** and **[Ensemble Methods](ensemble-methods)**, and **[Manifold Learning (Dimensionality Reduction)](manifold-learning)**.  I often work in collaboration with researchers in applied fields such as **[Sustainable Forest Management](forest-management)**, **[Computational Sustainability](computational-sustainability)**, **[Autonomous Driving](autonomous-driving)**, **AI for Physics** (including [Combustion Modelling](Combustion) and [Digital Chemistry](chemgymrl)) and **[Medical Imaging](medical-imaging)**.
 
 <h2 class="lined">Note for Potential Graudate Students</h2>
 

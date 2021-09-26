@@ -2,7 +2,7 @@
 layout: page
 title: Computational Sustainability
 name: Computational Sustainability
-permalink: /compsust/
+permalink: /computational-sustainability/
 keyword: computational-sustainability
 description: Connecting Machine Learning with Global Sustainability challenges.
 nav: false
