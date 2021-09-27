@@ -14,8 +14,10 @@ description: This is a collaborative project with industry partner Magna Interna
 publish: true
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra
 showtitle: true
+showdomains: true
 showpeople: true
 showfields: true
+showmethods: true
 img: /assets/img/dbl/avrildbl.jpg
 ---
 
