@@ -12,6 +12,15 @@ layout: default
         {% endif %}
       {% endif %}
     <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px;">{{ page.description }}</p>
+      {% if page.showfields == true %}
+        {% assign fields = page.fields | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px;">
+        {% for i in fields %}
+            {% assign j =  site.fields | where: "fields", i | first %}
+            <a href="/{{i}}/">{{i}}</a> |
+        {% endfor %}
+        </p>
+    {% endif %}
   </header>
 
   <article>

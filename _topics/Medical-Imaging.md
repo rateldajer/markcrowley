@@ -6,11 +6,10 @@ name: Manifold Learning and Dimensionality Reduction
 keywords: Manifold-Learning, Dimensionality-Reduction
 Permalink: manifold-learning
 status: active
-importance: 2
 methods: SSIM, PCA, LDA, RDA, QQE, GLLE
-description: Exploration of theoretical advances for macnirold learning and uses of these in medical imaging.
+description: Use of Machine Learning for challenges in medical imaging.
 publish: false
-people: benyaminghojogh,  markcrowley
+people: aishwarya, lauramccrackin, markcrowley
 showtitle: true
 ---
 
@@ -27,10 +26,7 @@ This is an exciting group of work which has published in several good conference
 
 > {% reference ghojogh2018psa %}
 
-
-\bla{I am working with my students and collaborators on a journal paper which will unify some of this work and I am also in the process of writing a reference textbook on this topic, in collaboration with two professors in ECE and Statistics covering the latest literature and open questions.}
-
-This work has culiminatedd recently in the completion of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors[Ghojogh].url }}), in April 2021 with his thesis encompassing many of these advances.
+This work has culiminated recently in the completion of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors[Ghojogh].url }}), in April 2021 with his thesis encompassing many of these advances.
 Dr. Ghojogh continues as a postdoc now with my lab and we have an approved book deal with Springer for a textbook due out later in 2021 on "Manifold Learning and Dimensionality Reduction" which we are writing in collaboration with Prof. Ali Gosi andd Prof. Fakhri Karray.
 
 ## Bibliography

@@ -88,6 +88,10 @@ collections:
     permalink: /:path/
     showtitle: true
     showbib: false
+    showfields: false
+    showtopics: false
+    showpeople: false
+    showmethods: false
     nav: true
   projects:
     output: true
