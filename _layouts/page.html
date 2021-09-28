@@ -11,7 +11,7 @@ layout: default
             <h1 class="post-title">{{ page.title }}</h1>
         {% endif %}
       {% endif %}
-    <p class="post-description" style="border-op-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px;">{{ page.description }}</p>
+    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;">{{ page.description }}</p>
 
       {% if page.showdomains == true %}
         {% assign domains = page.domains | split: ', ' %}
@@ -35,7 +35,7 @@ layout: default
         {% endif %}
       {% if page.showpeople == true %}
         {% assign people = page.people | split: ', ' %}
-        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin-bottom:3px;">
         <b>PEOPLE</b>
         {% for i in people %}
             {% assign j =  site.people | where: "people", i | first %}
@@ -53,6 +53,13 @@ layout: default
         {% endfor %}
         </p>
         {% endif %}
+      {% if page.showwebpage == true %}
+        {% assign webpage = page.webpage | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
+        <b>WEBPAGE: </b> <a href="{{page.webpage}}">{{page.webpage}}</a> 
+        </p>
+        {% endif %}
+        <p></p>
   </header>
 
   <article>

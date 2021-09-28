@@ -92,6 +92,8 @@ collections:
     showtopics: false
     showpeople: false
     showmethods: false
+    showdomains: false
+    showwebpage: false
     nav: true
   projects:
     output: true

@@ -18,6 +18,8 @@ showdomains: true
 showpeople: true
 showfields: true
 showmethods: true
+showwebpage: true
+webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy
 img: /assets/img/dbl/avrildbl.jpg
 ---
 
