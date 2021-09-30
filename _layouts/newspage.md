@@ -1,6 +1,6 @@
 ---
 layout: default
-twitterfeed: false
+twitterfeed: true
 ---
 
 

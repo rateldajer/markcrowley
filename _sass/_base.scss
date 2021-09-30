@@ -16,9 +16,11 @@ th, td {
   padding: 5px;
   border-bottom: 1px solid #ddd;
   text-align: center;
+  vertical-align: middle;
 }
 th {
   background-color: var(--global-theme-color);
+  opacity: 0.4;
   color: white;
 }
 
@@ -176,13 +178,28 @@ a, table.table a {
 
 // News
 
+.news table {
+  border: 0px;
+  border-collapse: collapse;
+}
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  vertical-align: middle;
+  border-top: 1px solid #ddd;
+  border-bottom: 0px;
+  text-align: left;
 }
 
 .news table th {
-  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+  color: var(--global-theme-color);
+  border-bottom: 0px;
+  border-top: 1px dashed #ddd;
+  border-right: 1px solid #ddd;
+  align: right;
+  vertical-align: top;
+  font-weight: bold;
 }
 
 // Social (bottom)

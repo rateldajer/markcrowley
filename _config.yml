@@ -39,7 +39,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: rateldajer # your GitHub user name
-  #twitter_username: compthink # your Twitter handle
+twitter_username: compthink # your Twitter handle
 linkedin_username: markanthonycrowley # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
@@ -139,7 +139,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jemoji
-    #  - jekyll-twitter-plugin
+  - jekyll-twitter-plugin
   # - bootstrap
   # - material-sass
 
