@@ -71,10 +71,12 @@ layout: default
 
 
       {% if page.showbib == true %}
-        <div class="publications">
-          <h2>Our Papers on {{ page.name }}</h2> 
-        {% bibliography -q @*[keywords~={{page.keyword}} && self=1] %}
-        </div>
+          {% if page.keyword %}
+            <div class="publications">
+              <h2>Our Papers on {{ page.name }}</h2> 
+            {% bibliography -q @*[keywords~={{page.keyword}} && self=1] %}
+            </div>
+          {% endif %}
       {% endif %}
 
 </div>
