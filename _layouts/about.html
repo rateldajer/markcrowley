@@ -28,14 +28,15 @@ twitterfeed: true
 
     <div class="clearfix">
       {{ content }}
+
+        {% if page.news %}
+          <h2>news</h2>
+          {% include news-inline-link.html %}
+        {% endif %}
     </div>
 
     <div class="wrapper" style="diplay:inline-block;width:100%;">
         <div style="float:left; width:70%;">
-            {% if page.news %}
-              <h2>news</h2>
-              {% include news-inline-link.html %}
-            {% endif %}
 
             {% if page.selected_papers %}
               {% include selected_papers.html %}

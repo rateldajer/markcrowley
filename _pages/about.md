@@ -27,12 +27,11 @@ Site being updated, see my <a href="https://uwaterloo.ca/scholar/mcrowley">Resea
 My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of spatial structure, large scale streaming data, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning)**, **[Deep Learning](deep-learning)** and **[Ensemble Methods](ensemble-methods)**, and **[Manifold Learning (Dimensionality Reduction)](manifold-learning)**.  
 I often work in collaboration with researchers in applied fields such as  **[Computational Sustainability](computational-sustainability)** (including [Sustainable Forest Management](forest-management)), **[Autonomous Driving](autonomous-driving)**, **AI for Physics** (including [Combustion Modelling](Combustion) and [Digital Chemistry](chemgymrl)) and **[Medical Imaging](medical-imaging)**.
 
-<h2 class="lined">Note for Potential Graudate Students</h2>
-
-As of *Sept 28, 2020* I have enough graduate students and I am not accepting new applications. Good luck with your search though.
-
+<h2 class="lined">note for potential graduate students</h2>
+The global interest in AI/ML/RL is infectious and it is truly an exciting time to be in research in this field. However, interested students should be aware that I <i>rarely</i> accept new graduate students except ones that I know through courses I teach or other interactions at UWaterloo, at conferences, or through referrals from other colleagues. Unfortunately, if you email me with your interest in graduate school I probably will not be able to reply as I receive many such emails every day. Good luck in your search.
 
 
-### Writing
+
+### writing
 
 Besides my [publications](publications), you can follow my [Computationally Thinking](http://computationallythinking.com/) blog or [@compthink](https://twitter.com/compthink) on twitter for links and thoughts on Artificial Intellgience, Machine Learning and how technology and science are advancing.
