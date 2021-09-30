@@ -1,33 +1,29 @@
 ---
 layout: page
 collection: project
-title: Manifold Learning
-name: Manifold Learning and Dimensionality Reduction
-keywords: Manifold-Learning, Dimensionality-Reduction
-Permalink: manifold-learning
+title: Medical Imaging
+name: Medical Imaging
+keyword: medical-imaging
+permalink: medical-imaging
 status: active
+projects: proj-digipath, proj-alzheimers
+domains: digital-pathology, proj-alzheimers
 methods: SSIM, PCA, LDA, RDA, QQE, GLLE
 description: Use of Machine Learning for challenges in medical imaging.
-publish: false
-people: aishwarya, lauramccrackin, markcrowley
+people: aishwarya, lauramccrackin, benyaminghojgh, markcrowley
 showtitle: true
+showdomains: true
+showpeople: true
+showfields: false
+showmethods: true
+showwebpage: false
+showbib: true
 ---
 
-The recent focus on **Deep Learning** seems to raise the question whether
-dedicated research on **[Manifold Learning and Dimensionality Reduction](manifold-learning)** are still required as their own pursuit since some form of Encoder-Decoder neural network could always be devised as a replacement.
-While such systems work well, there is also certainly a role to
-be played by interpretable models built on solid statistical concepts. 
+This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.
 
-Extraction of lower-dimensional representations of data can allow more compact storage or transmission and
-also improve the performance of other ML tasks such as classification and regres_sion, as the more compact representation
-must necessarily encode the most important relationships to maintain accuracy. 
+**Alzheimer's Classification** - learning predictive classification models for diffusion MRI data to provide decision support for degenerative brain diseases using Deep Neural Network methods currently only used for 2D image classification. This domain is challenging due to the 3D structure of the data as well as the non-visual properties which do not necessarily carry over from other domains.
 
-This is an exciting group of work which has published in several good conferences so far {% cite ghojogh2020weighted %}-{% cite ghojogh2019rda %},{% cite ghojogh2019llise %}-{% cite ghojogh2019pcassim %}, and in particular **{% cite ghojogh2018psa %}**:
 
-> {% reference ghojogh2018psa %}
 
-This work has culiminated recently in the completion of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors[Ghojogh].url }}), in April 2021 with his thesis encompassing many of these advances.
-Dr. Ghojogh continues as a postdoc now with my lab and we have an approved book deal with Springer for a textbook due out later in 2021 on "Manifold Learning and Dimensionality Reduction" which we are writing in collaboration with Prof. Ali Gosi andd Prof. Fakhri Karray.
-
-## Bibliography
-{% bibliography --cited %}
+**Digital Pathology** - In this dataset we have looked at NLP methods for analyzing medical reports, Deep Learning methods for classifying images, and Manifold Learning methods to extract compact embeddings for using in classifiers and search engines.

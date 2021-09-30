@@ -4,16 +4,20 @@ collection: projects
 title: Autonomous Driving
 name: Autonomous Driving
 keyword: autonomous-driving
-projects: driver-behaviour-learning
+projects: driver-behaviour-learning, autonomous-driving
 permalink: /autonomous-driving/
 status: active
-domains: autonomous-driving
+domains: autonomous-driving, safety-critical-systems, vehicle-communication
 methods: deep-neural-networks, lstm
 topics: machine-learning, time-series
 description: Using computing to make driving safer.
 publish: false
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
+showdomains: true
+showpeople: true
+showfields: false
+showmethods: true
 showbib: true
 ---
 
