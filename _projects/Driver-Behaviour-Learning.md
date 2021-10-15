@@ -12,14 +12,14 @@ methods: deep-neural-networks, lstm
 fields: machine-learning, deep-learning, human-study, time-series
 description: This is a collaborative project with industry partner Magna International to collect real world data about human driving behaviour in order to enable training of accurate predictive models of human driving for modern ADAS.
 publish: true
-people: markcrowley, lauramccrackin, takintadayon, sahilpereirra
+people: markcrowley, lauramccrackin, takintadayon
 showtitle: true
 showdomains: true
-showpeople: true
+showpeople: false
 showfields: true
 showmethods: true
 showwebpage: true
-webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy
+webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy, /news/2021-10-14-AutolineInterview/
 img: /assets/img/dbl/avrildbl.jpg
 ---
 

@@ -25,7 +25,12 @@ twitterfeed: true
         </div>
         <div style="float:left; width:70%;">
         {% if page.news %}
-          {% include news-inline-link.html %}
+          {% include news.html %}
+        {% endif %}
+        </div>
+        <div style="float:right;width:30%;">
+        {% if page.twitterfeed %}
+          {% include twitterfeed.html %}
         {% endif %}
         </div>
     </div>

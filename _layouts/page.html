@@ -55,9 +55,12 @@ layout: default
         {% endif %}
       {% if page.showwebpage == true %}
         {% assign webpage = page.webpage | split: ', ' %}
-        <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
-        <b>WEBPAGE: </b> <a href="{{page.webpage}}">{{page.webpage}}</a> 
-        </p>
+            <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
+            <b>WEBPAGE: </b> 
+        {% for i in webpage %}
+            | <a href="{{i}}">{{i}}</a> 
+        {% endfor %} 
+            </p>
         {% endif %}
         <p></p>
   </header>

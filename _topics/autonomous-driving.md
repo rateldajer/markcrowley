@@ -14,11 +14,13 @@ description: Using computing to make driving safer.
 publish: false
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
+webpage: /news/2021-10-14-AutolineInterview/
 showdomains: true
 showpeople: true
 showfields: false
 showmethods: true
 showbib: true
+showwebpage: true
 ---
 
 
