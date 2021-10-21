@@ -10,6 +10,7 @@ showtitle: true
 
 Also see:
 - [Selected Showcase Publications](/showcase)
+- [Most Cited Publications](/mostcited)
 - [Current Preprints and Working Papers](/preprints)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 

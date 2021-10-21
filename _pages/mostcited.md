@@ -1,24 +1,24 @@
 ---
 layout: page
-permalink: /showcase/
-title: showcase
+permalink: /mostcited/
+title: most cited
 description: Showcase of Highlighted Papers
-years: [2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011]
+citations: [80, 60, 40, 20, 10]
 nav: false
 showtitle: true
 ---
 
 Also see:
 - [All Published Works](/publications)
-- [Most Cited Publications](/mostcited)
+- [Selected Showcase Publications](/showcase)
 - [Current Preprints and Working Papers](/preprints)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
 
 <h2>selected publications</h2>
 <div class="publications by year">
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers --max 50 -q @*[keywords~=showcase && year={{y}}]* %}
+{% for c in page.citations %}
+  <h2 class="year">>={{c}}</h2>
+  {% bibliography -f papers --max 50 -q @*[citations>={{c}}]* %}
 {% endfor %}
 </div> 
