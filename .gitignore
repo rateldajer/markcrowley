@@ -7,3 +7,5 @@ Gemfile.lock
 .tweet-cache/
 .*.swp
 locallinks.md
+index.md
+

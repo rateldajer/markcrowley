@@ -7,8 +7,14 @@ nav: false
 showtitle: true
 ---
 
+# Upcoming Courses
+
+
+
+# All Courses
 
 ## Reinforcement Learning
+
 One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called ***Reinforcement Learning***,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the *algorithms they both use to learn to act in a complex, mysterious world.*
 <img src="../assets/img/teaching/ece493-logo.png" style="width: 300px; padding: 10px; float: right;">
 
@@ -24,3 +30,6 @@ Engineers encounter data in many of their tasks, whether the sources of this dat
 - **Spring 2021:** [ECE 657A - Data and Knowledge Modeling and Analysis](https://compthinking.github.io/DKMA/)
 - Winter 2020: [ECE 657A - Data and Knowledge Modeling and Analysis](https://compthinking.github.io/DKMA/)
 
+## Other Courses
+
+See my [department website for an archival list](https://uwaterloo.ca/scholar/mcrowley/classes) of courses I have taught.

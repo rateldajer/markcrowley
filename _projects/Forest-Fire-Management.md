@@ -2,11 +2,11 @@
 layout: page
 title: Forest Wildfire Planning
 keywords: Forest Fire Management
-Permalink: /forestfire/
+permalink: /forestfire/
 domains: Forest Fire Management
 methods: reinforcement-learning, LSTM, LRCN, MARL, MDP
 bibkeyword: proj-forestfire
-description: description
+description: Wildfire management is the study of managing, predicting, and mitigating risk of forest wildfires.
 Collection: project
 status: active
 publish: false
@@ -22,7 +22,7 @@ The task of Forest Fire Management presents a number of unique challenges which 
 - coordinating decisions amongst a large number of agents (distributed nationwide) without frequent, extensive communication.
 
 Relevant work to this project has been progressing recently on theoretical models of multi-agent decision making. 
-This research explores the intersection of theory in the field of **Game Theory** and **[Multi-Agent Reinforcement Learning (MARL)](marl)**, both of which study how multiple agents can adapt and optimize their decision making policies in response to changes in the world around them and actions of other decision makers.  
+This research explores the intersection of theory in the field of **Game Theory** and **[Multi-Agent Reinforcement Learning (MARL)](/marl/)**, both of which study how multiple agents can adapt and optimize their decision making policies in response to changes in the world around them and actions of other decision makers.  
 
 
 

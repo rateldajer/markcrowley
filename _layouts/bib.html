@@ -113,6 +113,9 @@
     {% if entry.url %}
       <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
     {% endif %}
+    {% if entry.hypoth %}
+      <a href="{{ entry.hypoth }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
+    {% endif %}
     </div>
 
     <!-- Hidden abstract block -->

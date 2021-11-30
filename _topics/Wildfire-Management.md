@@ -12,6 +12,7 @@ articles:
 aside: 
     toc: true
 showbib: true
+redirect: /forestfire/
 ---
 
 Forest Wildfire Management is a growing field of major important in Canada and many parts of the world.

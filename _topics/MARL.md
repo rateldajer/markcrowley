@@ -7,7 +7,7 @@ collection: keywords
 stage: field
 aside: 
     toc: true
-Permalink: /marl/
+permalink: /marl/
 status: active
 domains: dmuu
 methods: reinforcement-learning, PPO

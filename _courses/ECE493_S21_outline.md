@@ -8,6 +8,7 @@ Date: 2021-05-09
 Meta: ECE 493 Topic 42 - Spring 2021
 nav: false
 showtitle: true
+Importance: 1215
 ---
 
 ***Note:*** *This course is "Also Known As" ECE 457C Reinforcement Learning*
