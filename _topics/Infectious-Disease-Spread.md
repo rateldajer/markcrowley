@@ -1,10 +1,8 @@
 ---
-layout: keyword
+layout: page
 title: Infectious Disease Spread
 name: Infectious Disease Spread
-collection: keywords
-keyword: Infectious-Disease-Spread
-description: TODO.
+keyword: infectious-disease-spread
 publish: false
 stage: domain
 aside: 

@@ -3,17 +3,17 @@ layout: page
 title: Reinforcement Learning
 name: Reinforcement Learning
 permalink: /reinforcement-learning/
-collection: topics
 keyword: reinforcement-learning
 description: RL is the study of learning decision making policies from experience with computers.
 methods: DQN, A3C, PPO, DDPG
 people: sriramganapathisubramanian, nouhachatti,  markcrowley, isaactamblyn
-stage: field
+stage: topic
 showtitle: true
 aside: 
     toc: true
 img: /assets/img/teaching/ece493-logo.png
 showbib: true
+publish: true
 ---
 One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called ***Reinforcement Learning***,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the *algorithms they both use to learn to act in a complex, mysterious world.*
 
@@ -30,4 +30,6 @@ One of my core research areas is into understanding the computational mechanisms
 
 ### Tools
 - https://gym.openai.com/
+
+
 

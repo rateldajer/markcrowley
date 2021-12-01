@@ -1,10 +1,9 @@
 ---
 layout: page
-collection: projects
 title: Autonomous Driving
 name: Autonomous Driving
 keyword: autonomous-driving
-projects: driver-behaviour-learning, autonomous-driving
+projects: driver-behaviour-learning
 permalink: /autonomous-driving/
 status: active
 domains: autonomous-driving, safety-critical-systems, vehicle-communication
@@ -15,12 +14,15 @@ publish: false
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 webpage: /news/2021-10-14-AutolineInterview/
+img: /assets/img/dbl/avrildbl.jpg
 showdomains: true
 showpeople: true
 showfields: false
+showprojects: true
 showmethods: true
 showbib: true
 showwebpage: true
+publish: true
 ---
 
 

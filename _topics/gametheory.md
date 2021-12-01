@@ -1,13 +1,15 @@
 ---
-layout: keyword
+layout: page
 title: Game Theory
 name: Game Theory
 keyword: game-theory
-collection: keywords
+permaklink: /game-theory/
 description: Game theory is the mathematical study of competitive, or co-operative optimal decision making by multiple agents.
-stage: field
-publish: false
+stage: topic
+publish: true
 aside: 
     toc: true
+showtitle: true
+showbib: bib
 ---
 

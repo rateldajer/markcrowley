@@ -6,7 +6,7 @@ name: MDP
 collection: keywords
 keyword: MDP
 description: Markov Decision Processes (MDPs) are a mathematical language for definiing the problem of making decisions over time using only the current observations and knowledge.
-publish: true
+publish: false
 stage: method
 showtitle: true
 aside: 

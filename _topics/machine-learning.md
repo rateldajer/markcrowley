@@ -3,12 +3,12 @@ layout: page
 title: Machine Learning (ML)
 name: Machine Learning
 permalink: /machine-learning/
-collection: topics
 keyword: machine-learning
 description: ML is the study of how to build computer programs that can learn to detect patterns from data.
-stage: field
+stage: topic
 showtitle: true
-showbib: false
+showbib: true
+publish: true
 ---
 In the broadest terms my research spans the areas of ***[Artificial Intelligence (AI)](/artificial-intelligence/)*** and ***[Machine Learning (ML)](/machine-learning/)*** which can be seen highly related, independent, or identical research fields depending on who you are.
 

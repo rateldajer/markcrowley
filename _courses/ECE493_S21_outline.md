@@ -4,11 +4,11 @@ description: Spring 2021 - ECE 493 Topic 42
 permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
-Date: 2021-05-09
-Meta: ECE 493 Topic 42 - Spring 2021
+date: 2021-05-09
+meta: ECE 493 Topic 42 - Spring 2021
 nav: false
 showtitle: true
-Importance: 1215
+importance: 3
 ---
 
 ***Note:*** *This course is "Also Known As" ECE 457C Reinforcement Learning*

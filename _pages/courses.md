@@ -1,9 +1,8 @@
 ---
 layout: page
-title: teaching
-permalink: /teaching/
+title: courses-list
 description: Courses being taught by Mark Crowley.
-nav: true
+nav: false
 showtitle: true
 ---
 

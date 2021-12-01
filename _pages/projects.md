@@ -1,9 +1,10 @@
 ---
 layout: page
-title: ongoing projects
+title: projects
+titleheader: Active Projects
 permalink: /projects/
 description: Ongoing projects within the lab.
-nav: false
+nav: true
 showtitle: true
 ---
 
@@ -25,7 +26,11 @@ showtitle: true
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{{ project.title }}</h2>
+         {% if project.cardtitle %}
+              <h2 class="card-title">{{ project.cardtitle }}</h2>
+          {% else %}
+              <h2 class="card-title">{{ project.title }}</h2>
+          {% endif %}
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
             {% if project.github %}

@@ -17,7 +17,7 @@ showpeople: true
 showfields: false
 showmethods: true
 showwebpage: false
-showbib: true
+publish: true
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.

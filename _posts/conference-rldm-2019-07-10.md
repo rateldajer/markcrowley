@@ -1,3 +1,17 @@
+---
+layout: post
+title: RLDM 2019 Conference Summary
+name: RLDM 2019 Conference Summary
+keyword: reinforcement-learning, conference-summary
+topic: reinforcement-learning, conference-summary
+description: I attended the fourth bi-annual RLDM conference in Montreal in July 2019, these are some notes I took.
+showtitle: true
+date: 2019-07-25 21:01:00
+showtopics: true
+aside: 
+    toc: true
+---
+
 # Reinforcement Learning and Decision Making Conference
 
 The fourth iteration of this conference was held in Montreal July 7-10, 2019.

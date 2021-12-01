@@ -33,6 +33,16 @@ layout: default
         {% endfor %}
         </p>
         {% endif %}
+      {% if page.showprojects == true %}
+        {% assign projects = page.projects | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin-bottom:3px;">
+        <b>PROJECTS</b>
+        {% for i in projects %}
+            {% assign j =  site.projects | where: "project", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
       {% if page.showpeople == true %}
         {% assign people = page.people | split: ', ' %}
         <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin-bottom:3px;">

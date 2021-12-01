@@ -7,6 +7,7 @@ keywords: proj-dbl, autonomous-driving, driver-behaviour-learning, machine-learn
 permalink: /driver-behaviour-learning/
 bibkeyword: proj-dbl
 status: active
+type: project
 domains: autonomous-driving, driver-behaviour-learning
 methods: deep-neural-networks, lstm
 fields: machine-learning, deep-learning, human-study, time-series

@@ -105,8 +105,10 @@ collections:
     output: true
     permalink: /oldprojects/:path/
   topics:
-    output: true
+    output: false
     permalink: /topics/:path/
+    publish: false
+    showbib: true
 
 news_limit: 3
 

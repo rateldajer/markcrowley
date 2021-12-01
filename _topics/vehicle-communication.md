@@ -13,7 +13,7 @@ description: Learning to communicate between vehicles efficiently and robustly.
 publish: false
 people: markcrowley, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
-showbib: true
+publish: true
 ---
 
 

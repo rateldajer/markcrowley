@@ -4,9 +4,9 @@ description: Spring 2021 - ECE 657A
 title: Data Analysis and Machine Learning
 permalink: /dkma/
 img: /assets/img/teaching/ece657logo.png
-Date: 2021-05-09
-Meta: Spring 2021
+date: 2021-05-09
+meta: Spring 2021
 redirect: https://compthinking.github.io/DKMA/
-importance: 1215
+importance: 2
 ---
 

@@ -4,9 +4,9 @@ description: Winter 2022 - ECE 657A
 title: Data Analysis and Machine Learning
 permalink: /dkma/
 img: /assets/img/teaching/ece657logo.png
-Date: 2021-11-30
-Meta: Spring 2022
+date: 2021-11-30
+meta: Spring 2022
 redirect: https://compthinking.github.io/DKMA/
-importance: 1221
+importance: 1
 ---
 
