@@ -3,11 +3,9 @@ layout: page
 keyword: MARL
 title: Multi-Agent Reinforcement Learning
 name: Multi-Agent Reinforcement Learning
-collection: keywords
 stage: field
-aside: 
-    toc: true
 permalink: /marl/
+bibkeyword:  marl
 status: active
 domains: dmuu
 methods: reinforcement-learning, PPO
@@ -15,6 +13,7 @@ description: MARL is the problem of learning how to make decisions from experien
 people: sriramganapathisubramanian, sushrutbhalla, markcrowley
 showtitle: true
 publish: true
+showbib: true
 ---
 Standard [Reinforcement Learning](/keywords/Reinforcement-Learning) studies how to build computational agents that can learn how to make decisions from interaction from their environment alone, even without a prior understanding of how that that environment works. This field is closely connected with human and animal learning and uses the idea of *rewards* obtained implicitely from the environment or explicitely from a trainer.
 

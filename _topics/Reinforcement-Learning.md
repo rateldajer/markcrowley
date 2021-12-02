@@ -3,14 +3,12 @@ layout: page
 title: Reinforcement Learning
 name: Reinforcement Learning
 permalink: /reinforcement-learning/
-keyword: reinforcement-learning
+bibkeyword: reinforcement-learning
 description: RL is the study of learning decision making policies from experience with computers.
 methods: DQN, A3C, PPO, DDPG
 people: sriramganapathisubramanian, nouhachatti,  markcrowley, isaactamblyn
 stage: topic
 showtitle: true
-aside: 
-    toc: true
 img: /assets/img/teaching/ece493-logo.png
 showbib: true
 publish: true

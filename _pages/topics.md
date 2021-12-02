@@ -3,16 +3,14 @@ layout: page
 title: topics
 titleheader: Research Topics
 permalink: /topics/
-nav: true
+nav: false
 description: Metapages collecting information on topics of interest in the lab. 
 showtitle: true
 ---
 
-
 <div class="projects grid">
   {% assign sorted_topics = site.topics | sort: "title" %}
   {% for topic in sorted_topics %}
-  
       {% if topic.publish %}
           <div class="grid-item">
               {% if topic.redirect %}

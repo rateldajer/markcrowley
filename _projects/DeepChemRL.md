@@ -4,7 +4,8 @@ title: Automated Materials Design and Discovery Using Reinforcement Learning
 cardtitle: Digital Chemistry
 name: ChemGymRL
 permalink: /chemgymrl/
-keyword: ai-for-material-design
+bibkeyword: ai-for-material-design
+keywords: machine-learning
 url: http://chemgymrl.com
 permalink: /chemgymrl/
 status: active
@@ -17,6 +18,7 @@ people: nouhachatti,zihanyang, sriramganapathisubramanian, isaactamblyn, markcro
 stage: project
 showtitle: true
 showdomains: true
+showmethods: true
 showwebpage: true
 showbib: true
 webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy

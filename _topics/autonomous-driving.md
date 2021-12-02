@@ -2,12 +2,12 @@
 layout: page
 title: Autonomous Driving
 name: Autonomous Driving
-keyword: autonomous-driving
+bibkeyword: autonomous-driving
 projects: driver-behaviour-learning
 permalink: /autonomous-driving/
 status: active
 domains: autonomous-driving, safety-critical-systems, vehicle-communication
-methods: deep-neural-networks, lstm
+methods: deep-learning, lstm
 topics: machine-learning, time-series
 description: Using computing to make driving safer.
 publish: false

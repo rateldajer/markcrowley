@@ -1,9 +1,8 @@
 ---
 layout: page
-collection: project
 title: Medical Imaging
 name: Medical Imaging
-keyword: medical-imaging
+bibkeyword: medical-imaging
 permalink: medical-imaging
 status: active
 projects: proj-digipath, proj-alzheimers
@@ -18,6 +17,7 @@ showfields: false
 showmethods: true
 showwebpage: false
 publish: true
+showbib: true
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.

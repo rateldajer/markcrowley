@@ -1,16 +1,18 @@
 ---
 layout: page
 title: Manifold Learning
-permalink: /manifold-learning/
 name: Manifold Learning
-keyword: manifold-learning
+permalink: /manifold-learning/
+bibkeyword: manifold-learning
 description: Manifold learning looks at ways to automatically extract meaningful features, dimensions or subspaces from data in order to build better models, expand data, reduce data, etc.
 people: benyaminghojogh, markcrowley
 methods: SSIM, PCA, LDA, RDA, QQE, GLLE
 stage: field
 showtitle: true
 publish: true
+showbib: true
 ---
+
 Manifold Learning and Dimensionality Reduction are vast areas of study in the Math and Computer Science fields. The task is quite simply to find ways to extact the essential nature out of a dataset. looks at ways to automatically extract meaningful features, dimensions or subspaces from data in order to build better models, expand data, reduce data, etc.
 
 
@@ -24,7 +26,7 @@ Extraction of lower-dimensional representations of data can allow more compact s
 also improve the performance of other ML tasks such as classification and regres_sion, as the more compact representation
 must necessarily encode the most important relationships to maintain accuracy. 
 
-This is an exciting group of work which has published in several good conferences so far {% cite ghojogh2020weighted %}-{% cite ghojogh2019rda %},{% cite ghojogh2019llise %}-{% cite ghojogh2019pcassim %}, and in particular **{% cite ghojogh2018psa %}**:
+This is an exciting group of work which has published in several good conferences so far {% cite ghojogh2020weighted %},{% cite ghojogh2019rda %},{% cite ghojogh2019llise %},{% cite ghojogh2019pcassim %}, and in particular **{% cite ghojogh2018psa %}**:
 
 > {% reference ghojogh2018psa %}
 

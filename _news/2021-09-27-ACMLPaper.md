@@ -2,8 +2,8 @@
 layout: post
 date: 2021-09-28 09:11:00-0400
 inline: false
-description: Exciting new paper accepted to ACML 2021! 
-title: Vector Transport Free Riemannian LBFGS for Optimization on Symmetric Positive Definite Matrix Manifolds 
+title: Exciting new paper accepted to ACML 2021! 
+description: Vector Transport Free Riemannian LBFGS for Optimization on Symmetric Positive Definite Matrix Manifolds 
 meta: publications
 fields: optimization, machine-learning
 people: benyaminghojogh, markcrowley

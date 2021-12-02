@@ -3,8 +3,9 @@ layout: page
 title: Combustion Modelling
 name: Combustion Modelling
 keyword: combustion-modelling
+bibkeyword: combustion-modelling
 related: MLForScience, ai-for-physics, digital-chemistry, chemgymrl
-permalink: /Combustion/
+permalink: /combustion/
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
 img: /assets/img/ECML2019/combustion1.png
 domains: combustion-modelling

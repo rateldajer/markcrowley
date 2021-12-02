@@ -4,8 +4,8 @@ collection: projects
 title: Driver Behaviour Learning (DBL)
 name: Driver Behaviour Learning (DBL)
 keywords: proj-dbl, autonomous-driving, driver-behaviour-learning, machine-learning, computer-vision, control
-permalink: /driver-behaviour-learning/
 bibkeyword: proj-dbl
+permalink: /driver-behaviour-learning/
 status: active
 type: project
 domains: autonomous-driving, driver-behaviour-learning
@@ -22,6 +22,7 @@ showmethods: true
 showwebpage: true
 webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy, /news/2021-10-14-AutolineInterview/
 img: /assets/img/dbl/avrildbl.jpg
+showbib: false
 ---
 
 

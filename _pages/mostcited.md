@@ -3,10 +3,12 @@ layout: page
 permalink: /mostcited/
 title: most cited
 description: Showcase of Highlighted Papers
-citations: [80, 60, 40, 20, 10]
 nav: false
 showtitle: true
+publish: false
 ---
+`TODO: fixing bugs`
+
 
 Also see:
 - [All Published Works](/publications)
@@ -17,8 +19,15 @@ Also see:
 
 <h2>selected publications</h2>
 <div class="publications by year">
-{% for c in page.citations %}
-  <h2 class="year">>={{c}}</h2>
-  {% bibliography -f papers --max 50 -q @*[citations>={{c}}]* %}
+{% for b in (1..100) reversed %}
+  {% assign c = b | modulo: 20 %}
+    {% if c == 0 %}
+      {% assign low = b %}
+      {% assign high = b | plus: 20 %}
+      <h2 class="year">>={{b}}</h2>
+      yes! {{low}}-{{high}}
+      {% bibliography -f papers --max 5 -q @*[citations>={{low}} & citations<{{high}}]* %}
+    {% endif %}
 {% endfor %}
 </div> 
+

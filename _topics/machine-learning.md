@@ -3,7 +3,7 @@ layout: page
 title: Machine Learning (ML)
 name: Machine Learning
 permalink: /machine-learning/
-keyword: machine-learning
+bibkeyword: machine-learning
 description: ML is the study of how to build computer programs that can learn to detect patterns from data.
 stage: topic
 showtitle: true

@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2021-10-26 15:41:00-0400
+date: 2021-11-01 16:41:00-0400
 inline: false
-description: Patent awarded for Multi-level collaborative vehicle control 
 title: Patent awarded for Multi-level collaborative vehicle control
+description: Patent arose in collaboration with DENSO Inc. on a remote controlled car demo for CES.
 meta: patent
 fields: reinforcement-learning 
 domains: autonomous-driving

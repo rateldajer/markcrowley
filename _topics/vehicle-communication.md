@@ -1,19 +1,18 @@
 ---
 layout: page
-collection: projects
 title: Multi-Vehicle Communication
 name: Multi-Vehicle Communication
-keyword: vehicle-communication
+bibkeyword: vehicle-communication
 permalink: /vehicle-communication/
 status: active
 domains: autonomous-driving
 methods: deep-neural-networks, lstm
 topics: machine-learning, time-series
 description: Learning to communicate between vehicles efficiently and robustly.
-publish: false
+publish: true
 people: markcrowley, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
-publish: true
+showbib: true
 ---
 
 

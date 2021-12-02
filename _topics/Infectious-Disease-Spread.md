@@ -2,7 +2,7 @@
 layout: page
 title: Infectious Disease Spread
 name: Infectious Disease Spread
-keyword: infectious-disease-spread
+bibkeyword: infectious-disease-spread
 publish: false
 stage: domain
 aside: 

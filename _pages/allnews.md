@@ -3,7 +3,7 @@ layout: newspage
 title: news
 description: A listing of all news posts.
 permalink: /news/
-nav: false
+nav: true
 twitterfeed: true
 profile:
   align: right

@@ -87,7 +87,7 @@ collections:
     output: true
     permalink: /:path/
     showtitle: true
-    showbib: false
+    showbib: true
     showfields: false
     showtopics: false
     showpeople: false
@@ -98,6 +98,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+    showbib: true
   courses:
     output: true
     permalink: /courses/:path/
@@ -105,7 +106,7 @@ collections:
     output: true
     permalink: /oldprojects/:path/
   topics:
-    output: false
+    output: true
     permalink: /topics/:path/
     publish: false
     showbib: true
