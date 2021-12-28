@@ -10,9 +10,9 @@ showtitle: true
 
 Also see:
 - [Selected Showcase Publications](/showcase)
-- [Most Cited Publications](/mostcited)
-- [Current Preprints and Working Papers](/preprints)
+- [Current Preprints and Working Papers](/preprints) / [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
+
 
 <div class="publications by year">
 {% for y in page.years %}

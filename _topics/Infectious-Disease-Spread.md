@@ -3,7 +3,7 @@ layout: page
 title: Infectious Disease Spread
 name: Infectious Disease Spread
 bibkeyword: infectious-disease-spread
-publish: false
+published: false
 stage: domain
 aside: 
     toc: true

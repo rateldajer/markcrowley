@@ -5,7 +5,7 @@ title: most cited
 description: Showcase of Highlighted Papers
 nav: false
 showtitle: true
-publish: false
+published: false
 ---
 `TODO: fixing bugs`
 
@@ -30,4 +30,3 @@ Also see:
     {% endif %}
 {% endfor %}
 </div> 
-
