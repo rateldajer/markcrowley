@@ -22,7 +22,7 @@ One of my core research areas is into understanding the computational mechanisms
 <img src="../assets/img/teaching/ece493-logo.png" style="width: 300px; padding: 10px; float: right;">
 
 - **Spring 2022 :** ECE 457C - Reinforcement Learning
-- Spring 2021 : [ECE 457C (a.k.a ECE 493 Topic 42) - Reinforcement Learning](/RLCourse/)
+- Spring 2021 : [ECE 457C (a.k.a ECE 493 Topic 42) - Reinforcement Learning](https://uwaterloo.ca/scholar/mcrowley/classes/reinforcement-learning)
 - Spring 2020 : ECE 493 Topic 25 - Probabilistic Reasoning and Reinforcement Learning
 - Spring 2019 : ECE 493 Topic ?? - Probabilistic Reasoning and Reinforcement Learning
 
