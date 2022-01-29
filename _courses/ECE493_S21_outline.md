@@ -12,7 +12,7 @@ importance: 3
 
 ---
 
-***Note:*** *This course is "Also Known As" ECE 493 Topic 42 - Reinforcement Learning*
+***Note:*** *This course was formerly known as "ECE 493 Topic 42 - Reinforcement Learning"*
 
 | **Next Offering:** Spring 2022 | **Instructor:** Prof. Mark Crowley |
 | :---: | :---: |
