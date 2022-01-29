@@ -1,22 +1,23 @@
 ---
 layout: page
-description: Spring 2021 - ECE 493 Topic 42
+description: Spring 2022 - ECE 457C
 permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
-date: 2021-05-09
-meta: ECE 493 Topic 42 - Spring 2021
+date: 2022-01-29
+meta: ECE 457C - Spring 2022
 nav: false
 showtitle: true
 importance: 3
+
 ---
 
-***Note:*** *This course is "Also Known As" ECE 457C Reinforcement Learning*
+***Note:*** *This course is "Also Known As" ECE 493 Topic 42 - Reinforcement Learning*
 
-| **Offered:** Spring 2021 | **Instructor:** Prof. Mark Crowley |
+| **Next Offering:** Spring 2022 | **Instructor:** Prof. Mark Crowley |
 | :---: | :---: |
-| [Website]( https://uwaterloo.ca/scholar/mcrowley/classes/reinforcement-learning) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students) |
-| [Piazza](https://piazza.com/uwaterloo.ca/summer2021/ece493t42) | [YouTube](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
+| [Old Spring 2021 Website]( https://uwaterloo.ca/scholar/mcrowley/classes/reinforcement-learning) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students) |
+| Piazza Discussions (TBD) | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
 
 
 
@@ -32,17 +33,20 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 ## Course Staff
 
-| **Instructor:** Prof. Mark Crowley  | TA: Nham Van Le                      | TA: Negin Azizi   |
+| **Instructor:** Prof. Mark Crowley  | TA: TBD                    | TA: TBD |
 | --- |  -------------------------------- | -------------------- |
-| **Contact: **mcrowley@uwaterloo.ca (but for better results, use piazza or book an appointment via doodle) |  **Contact:** nv3le@uwaterloo.ca | **Contact:** n2azizi@uwaterloo.ca |
-| **Office Hour:** [Bookable Meetings](https://doodle.com/mm/markcrowley/bookable-1on1-493t2) |  ||
+| **Contact: **mcrowley@uwaterloo.ca (but for better results, use piazza or book an appointment via doodle) |  **Contact:** | **Contact:** |
+| **Office Hour:** Bookable Meetings `TO BE UPDATED!` |  ||
 
-## General Course Structure 
+## General Course Structure
 
 | Item  | Start                | End            |
 | ------------------------------ |  -------------------- | -------------- |
-| Live Lectures/Review Sessions (recorded and viewable later) | Mondays 4:00pm       | Mondays 5:30pm |
-| Bookable Office  Hours (virtual, may or may not be recorded) | Friday 4:00pm        | Fridays 5:00pm |
+| Live Lectures/Review Sessions (recorded and viewable later) | TBD     | TBD |
+| Bookable Office  Hours (virtual, may or may not be recorded) | TBD      | TBD |
+|  |  |  |
+
+**Note:** *The times and details on this page are preliminary for Spring 2022 based on last year, they could change before April 1, 2022.*
 
 
 | Item                                       | Weight Towards Final Grade | Released (12:00  am)       | Due (11:59pm)                                 |
@@ -59,13 +63,15 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
   - Most of the **lectures are available already on Youtube**, *each week* there are associated videos to watch along with readings from the Sutton and Barto textbook.
 - A Detailed Course Calendar in the [Course Gingko List](https://gingkoapp.com/course-457c-links-for-students)  will let you know which materials to study each week before Monday's Live Session.
-  - **Live Lecture/Review/Discussion Session - ** Every **Monday 4pm - 5:30pm (ET)** there will be a live session with the Prof which will be: 		
+  - **Live Lecture/Review/Discussion Session - ** Every **TBD** there will be a live session with the Prof which will be: 		
     - *Either* a live lecture with new/revised content from what is on YouTube. Lectures will be recorded and available later on YouTube.
     - *Or* a live discussion session to review the content from last week's self-study, working through problems, answering questions, breaking out for discussions. These sessions will be recorded and remain available on LEARN during the term.
   - **Tutorials:** TBD - we'll see how, and if, we do tutorials this year with the new online arrangement.
 - ***Bookable Office Hours -***  
   - These are regular, one-on-one (or a small group) meeting slots with the professor, [bookable via doodle](https://doodle.com/mm/markcrowley/bookable-1on1-493t2) a few days ahead of time.
-- **TA office hours** - to be determined (some times on Tuesday-Thursdays)
+- **TA office hours** - to be determined 
+
+**Note:** *The times and details on this page are preliminary for Spring 2022 based on last year, they could change before April 1, 2022.*
 
 ### Grade Breakdown
 
