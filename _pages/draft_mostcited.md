@@ -1,12 +1,4 @@
----
-layout: page
-permalink: /mostcited/
-title: most cited
-description: Showcase of Highlighted Papers
-nav: false
-showtitle: true
-published: false
----
+
 `TODO: fixing bugs`
 
 
