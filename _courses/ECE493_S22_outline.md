@@ -12,12 +12,12 @@ importance: 1
 
 ---
 
-***Note:*** *This course was formerly known as "[ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)"*
+**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
 
-| **Next Offering:** Spring 2022            | **Instructor:** Prof. Mark Crowley                                                               |
-| :---:                                     | :---:                                                                                            |
-| [Old Spring 2021 Website]( /rlcourse21/ ) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
-| Piazza Discussions (TBD)                  | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
+| **Next Offering:** Spring 2022             | **Instructor:** Prof. Mark Crowley                                                               |
+| :---:                                      | :---:                                                                                            |
+| [Old Spring 2021 Website]( /rlcourseS21/ ) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
+| Piazza Discussions (TBD)                   | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
 
 
 
