@@ -21,9 +21,9 @@ Engineers encounter data in many of their tasks, whether the sources of this dat
 One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called ***Reinforcement Learning***,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the *algorithms they both use to learn to act in a complex, mysterious world.*
 <img src="../assets/img/teaching/ece493-logo.png" style="width: 300px; padding: 10px; float: right;">
 
-- **Spring 2022 :** ECE 457C - Reinforcement Learning
-- Spring 2022 : [ECE 457C - Reinforcement Learning](/RLCourse/) *(f.k.a ECE 493 Topic 42)*
-- Spring 2021 : ECE 493 - Reinforcement Learning
+- **Spring 2022 : [ECE 457C - Reinforcement Learning](/rlcourse/)** 
+    - Note: this course was formerly known as *ECE 493 Topic 42*
+- Spring 2021 : [ECE 493 - Reinforcement Learning](/rlcourseS21/)
 - Spring 2020 : ECE 493 - Probabilistic Reasoning and Reinforcement Learning
 - Spring 2019 : ECE 493 - Probabilistic Reasoning and Reinforcement Learning
 

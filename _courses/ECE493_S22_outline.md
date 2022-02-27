@@ -1,23 +1,23 @@
 ---
 layout: page
-description: Spring 2021 - ECE 493 Topic 42
-permalink: /rlcourseS21/
+description: Spring 2022 - ECE 457C
+permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
-date: 2021-08-20
-meta: ECE 457C - Spring 2021
+date: 2022-02-26
+meta: ECE 457C - Spring 2022
 nav: false
 showtitle: true
-importance: 3
+importance: 1
 
 ---
 
-***Note:*** This webpage is for a **PREVIOUS OFFERING** of the course ECE 493 Topic 42 - Reinforcement Learning, the particular schedules, details and assessment details do not necessarily apply to future terms.
+***Note:*** *This course was formerly known as "[ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)"*
 
-| Spring 2021                                                                                            | **Instructor:** Prof. Mark Crowley                                                               |
-| :---:                                                                                                  | :---:                                                                                            |
-| [Department Course Page]( https://uwaterloo.ca/scholar/mcrowley/classes/reinforcement-learning) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
-| Piazza Discussions (TBD)                                                                               | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
+| **Next Offering:** Spring 2022            | **Instructor:** Prof. Mark Crowley                                                               |
+| :---:                                     | :---:                                                                                            |
+| [Old Spring 2021 Website]( /rlcourse21/ ) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
+| Piazza Discussions (TBD)                  | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
 
 
 
@@ -31,60 +31,7 @@ Introduction to [Reinforcement Learning](/reinforcement-learning/) (RL) theory a
 
 The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability and Statistics, these will be reviewed but familiarity will help significantly. All other concepts needed for the course will be introduced directly. Examples, assignments and projects will depend on programming ability in Python.
 
-## Course Staff
 
-| **Instructor:** Prof. Mark Crowley  | TA: TBD                    | TA: TBD |
-| --- |  -------------------------------- | -------------------- |
-| **Contact: **mcrowley@uwaterloo.ca (but for better results, use piazza or book an appointment via doodle) |  **Contact:** | **Contact:** |
-
-## General Course Structure
-
-| Item  | Start                | End            |
-| ------------------------------ |  -------------------- | -------------- |
-| Live Lectures/Review Sessions (recorded and viewable later) | TBD     | TBD |
-| Bookable Office  Hours (virtual, may or may not be recorded) | TBD      | TBD |
-|  |  |  |
-
-
-| Item                                       | Weight Towards Final Grade | Released (12:00  am)       | Due (11:59pm)                                 |
-| ------------------------------------------ | -------------------------- | -------------------------- | --------------------------------------------- |
-| Assignment 1                               | 15%                        | Tue, May 25                | Fri, Jun 11                                   |
-| Midterm Exam (3 hr duration within window) | 20%                        | Wed, Jun 23                | Fri, Jun 25                                   |
-| Assignment 2                               | 15%                        | Tue, Jun 15                | Fri, Jul 09                                   |
-| Assignment 3                               | 20%                        | Fri, Jul 9                 | (Orig: Thu, Aug 5 +3%) Extended: Monday Aug 9 |
-| Final Exam                                 | 30%                        | Thursday Aug 12 at 12:01am | Saturday Aug 14 at 11:59pm                    |
-
-
-
-### Weekly Schedule
-
-  - Most of the **lectures are available already on Youtube**, *each week* there are associated videos to watch along with readings from the Sutton and Barto textbook.
-- A Detailed Course Calendar in the [Course Gingko List](https://gingkoapp.com/course-457c-links-for-students)  will let you know which materials to study each week before Monday's Live Session.
-  - **Live Lecture/Review/Discussion Session - ** Every **TBD** there will be a live session with the Prof which will be: 		
-    - *Either* a live lecture with new/revised content from what is on YouTube. Lectures will be recorded and available later on YouTube.
-    - *Or* a live discussion session to review the content from last week's self-study, working through problems, answering questions, breaking out for discussions. These sessions will be recorded and remain available on LEARN during the term.
-  - **Tutorials:** TBD - we'll see how, and if, we do tutorials this year with the new online arrangement.
-- ***Bookable Office Hours -***  
-  - These are regular, one-on-one (or a small group) meeting slots with the professor, [bookable via doodle](https://doodle.com/mm/markcrowley/bookable-1on1-493t2) a few days ahead of time.
-- **TA office hours** - to be determined 
-
-
-### Grade Breakdown
-
-- Assignment 1: **15%** - Theoretical questions and calculations relating to probability, Multi-armed bandits and Markov Decision Processes. *Evaluation*: Some automated grading and manual grading of written answers. 
-
-- Assignment 2: **15%** - Implement fundamental, exact algorithms on simple domain such as grid world, Value Iteration, Policy Iteration. Implement RL algorithms for simple domain, SARSA, Q-Learning, Eligibility Traces. 
-  *Evaluation:* Short report with graphs, automated grading and code review.
-
-- Midterm: **20%**
-
-- Assignment 3: **20%** - Implement Policy Gradient, Actor Critic, Value Function Approximations for larger RL domains. Implement RL algorithm for more complex domain using simple Deep Learning representation of value function. 
-
-  *Evaluation:* Short report with graphs and code review. We might set-up at Kaggle in-class competition as well.
-
-- **Final Exam**: **30%** - all topics, leaning towards latter half of course
-
-- **Group Work:** Assignments can be done alone or in pairs. Groups will be setup on LEARN to signup for a pair. You do not need to maintain the same pair throughout the term.
 
 ## Course Learning Objectives and Topic Details
 
