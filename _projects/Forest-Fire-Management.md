@@ -3,18 +3,17 @@ layout: page
 title: Forest Wildfire Management 
 name: Forest Fire Management
 permalink: /forestfire/
-domains: Forest Fire Management
-bibkeyword: forest-fire
-methods: reinforcement-learning, LSTM, LRCN, MARL, MDP
-bibkeyword: forest-fire
 description: Wildfire management is the study of managing, predicting, and mitigating risk of forest wildfires.
+domains: Forest Fire Management
+methods: reinforcement-learning, LSTM, LRCN, MARL, MDP
 status: active
-publish: true
 people: sriramganapathisuburamanian, pardiszohouri, katelarson, markcrowley
 toc: false
 showtitle: true
 img: /assets/img/forest-fire/firestate_year_1_round_4.png
+bibkeyword: forest-fire
 showbib: true
+publish: true
 ---
 
 The task of Forest Fire Management presents a number of unique challenges which push the boundaries of what is possible with existing AI/ML algorithms. These include the importance of considering:
