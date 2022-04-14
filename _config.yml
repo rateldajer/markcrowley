@@ -80,8 +80,8 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
     permalink: /news/:path/
+    output: true
     inline: true
   pages:
     output: true
@@ -96,7 +96,7 @@ collections:
     showwebpage: false
     nav: true
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
     showbib: true
   courses:

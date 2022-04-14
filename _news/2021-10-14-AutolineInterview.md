@@ -13,6 +13,7 @@ showpeople: false
 showfields: true
 showmethods: false
 showbib: false
+publish: true
 ---
 Recently I sat down to chat with John McElroy from Autoline.tv to talk about our Driver Behaviour Learning project in collaboration with Magna International and WatCar. We're using Machine Learning to build predictive models of human driving in order to make future adaptive cruise control and autonomous cars more natural, responsive and safe.
 
