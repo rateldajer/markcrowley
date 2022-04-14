@@ -11,6 +11,7 @@ people: sriramganpathisubramanian, aishwaryaallada, kenminglee, markcrowley
 showdomains: true
 showpeople: false
 showbib: true
+publish: true
 
 ---
 

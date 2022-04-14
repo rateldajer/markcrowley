@@ -4,6 +4,7 @@
       <table class="table table-sm table-borderless">
       {% assign news = site.news | reverse %}
       {% for item in news %}
+        {% if item.publish %}
         <tr>
           <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
           <td>
@@ -14,6 +15,7 @@
             {% endif %}
           </td>
         </tr>
+        {% endif %}
       {% endfor %}
       </table>
     </div>

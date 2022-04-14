@@ -13,6 +13,7 @@ showpeople: true
 showfields: true
 showmethods: false
 showbib: true
+publish: true
 ---
 
 Our new collaborative paper {% cite godaz2021acml %} on an exciting, if a bit theoretical, method for improving a common optimziation method has been [accepted to ACML 2021](http://www.acml-conf.org/2021/conference/accepted-papers/81/).
