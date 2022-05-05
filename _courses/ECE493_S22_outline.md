@@ -47,10 +47,10 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 ## Spring 2022 - Course Staff
 
-| **Instructor:** Prof. Mark Crowley                           | TA: TBD      | TA: TBD      |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** | **Contact:** |
-| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |              |              |
+| **Instructor:** Prof. Mark Crowley                           | TA: Negin Azizi | TA: Xiaoliang Zhou |
+| ------------------------------------------------------------ | --------------- | ------------------ |
+| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:**    | **Contact:**       |
+| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |                 |                    |
 
 ### Lecture Locations and Times
 
@@ -130,7 +130,17 @@ together to make such systems possible.
 
 <a name="assessment"></a>
 
-TBD
+
+
+| Item                     | Weight Towards Final Grade | Released              | Due                              |
+| ------------------------ | -------------------------- | --------------------- | -------------------------------- |
+| Assignment 1             | 10%                        | Wednesday, May 11     | Wednesday, May 25 at 11:59pm     |
+| Midterm Exam (in person) | 25%                        |                       | Monday, Jun 13                   |
+| Assignment 2             | 15%                        | Wed, May 25           | Friday, June 17, 2022 at 11:59pm |
+| Assignment 3             | 20%                        | Friday, June 17, 2022 | Friday July 15, 2022 at 11:59pm  |
+| Final Exam               | 30%                        |                       | To Be Determined                 |
+
+
 
 
 
@@ -149,12 +159,8 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
   - Your grades will be managed here, up until the final grade submission phase of the course.
   - Links, announcements and course materials will all be made available here as well.
   - Only registered students can access learn.
-- **Piazza** : *[ECE657A Discussions](https://piazza.com/uwaterloo.ca/winter2022/ece657a)*
+- **Piazza** : *[ECE457C Discussions](https://piazza.com/uwaterloo.ca/spring2022/ece457c)*
   - Online, threaded discussion forum with at the ability for students to construct an answer in addition to the answer provided by course staff.
-- **Hypothesis** : [Hypoth.ECE657A](https://hypothes.is/groups/xrxZM1b3/ece657a)
-  - For extra reading resources: textbook portions, published papers, unpublished tutorials on arxiv
-  - Allows collaborative annotation by the whole class and course staff.
-  - *replaces:* Zotero
 - **Crowdmark** : *(links will be made available as needed)*
   - A visual grading tool for pdfs submissions of tests and assignments, allows limited online test with mark-down text entry and multiple choice questions.
   - Used by the course staff for grading your tests.
