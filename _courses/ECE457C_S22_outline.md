@@ -12,30 +12,22 @@ importance: 1
 
 ---
 
-**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
-
-| **Next Offering:** Spring 2022             | **Instructor:** Prof. Mark Crowley                                                               |
-| :---:                                      | :---:                                                                                            |
-| [Old Spring 2021 Website](/rlcourseS21/) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
-| Piazza Discussions (TBD)                   | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
-
-
-
-<!--
-
-### Internal Links (TODO : update this)
-
-| Jump to ...                         |                              |                                |
-| :---------------------------------- | :--------------------------: | :----------------------------: |
-| [Course Topics](#topics)            | [Weekly Schedule](#schedule) |   [Assessment](#assessment)    |
-| [Course Tools and Websites](#tools) |    [Getting Help](#help)     | [Academic Policies](#policies) |
-| [Health and Wellness](#wellness)    |      [COVID-19](#covid)      |                                |
-
--->
-
 ### Course Description
 
 Introduction to [Reinforcement Learning](/reinforcement-learning/) (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
+
+**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
+
+### Links to More Information and Resources
+
+|                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **[Full Weekly Schedule and Deadlines](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)** |
+| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
+|                   [Course Topics](#topics)                   | [Assignments and Tests](#assessment)  (weights and deadlines) |
+| [Gingko List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students) (a bit out of date) |           [Old Spring 2021 Website](/rlcourseS21/)           |
+|                    [Getting Help](#help)                     |                [Academic Policies](#policies)                |
+|               [Health and Wellness](#wellness)               |                      [COVID-19](#covid)                      |
 
 
 
@@ -274,6 +266,8 @@ If you're experiencing a crisis and feel unable to cope and Campus Wellness is c
 
 General University of Waterloo Guidelines:
 ------------------------------------------
+
+<a name="policies"></a>
 
 **Academic Integrity:** In order to maintain a culture of academic
 integrity, members of the University of Waterloo community are expected
