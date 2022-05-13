@@ -20,25 +20,25 @@ This is the expected schedule of topics to be covered in lecture along with the 
 |  1   |   Monday, May 2, 2022   | Introduction                 | Motivation, Connections  between AI and ML and RL, Course Logistics |                   |
 |  1   |   Monday, May 2, 2022   | Learning and Decision Making | Learning and Decision Making                                 |                   |
 |  1   |   Friday, May 6, 2022   | Multi-Armed Bandits          | Multi-Armed Bandits                                          |    1.1, 1.2, 17.6 |
-|  1   |   Friday, May 6, 2022   | MAB and More                 | Regret Minimization, UCB and Thompson Sampling               |                   |
-|  2   |   Monday, May 9, 2022   | MDP Definitions              | Definition and Motivation                                    |               3.1 |
-|  2   |   Monday, May 9, 2022   | MDP Rewards and Returns      | Rewards and Returns                                          |           3.3-3.4 |
-|  2   |  Friday, May 13, 2022   | MDP Value Functions          | Value Functions                                              |           3.5-3.6 |
-|  2   | Wednesday, May 11, 2022 | Assignment 1 Released        | Content up to Monday Week 2                                  |                   |
-|  2   |  Friday, May 13, 2022   | Dynamic programming 1        | Dynamic Programming                                          |           4.0-4.1 |
-|  3   |  Monday, May 16, 2022   | Dynamic programming 2        | PI, VI                                                       |           4.2-4.4 |
-|  3   |  Monday, May 16, 2022   | Dynamic programming 3        | GPI, AsyncVI                                                 |              4.4- |
+|  1   |   Friday, May 13, 2022   | MAB and More                 | Regret Minimization, UCB and Thompson Sampling               |                   |
+|  2   |   Friday, May 13, 2022   | MDP Definitions              | Definition and Motivation                                    |               3.1 |
+|  2   |   Friday, May 13, 2022   | MDP Rewards and Returns      | Rewards and Returns                                          |           3.3-3.4 |
+|  2   | Monday, May 16, 2022 | MDP Value Functions          | Value Functions                                              |           3.5-3.6 |
+|  2   | Friday, May 13, 2022 | Assignment 1 Released        | Content up to Monday Week 3                                 |                   |
+|  2   | Monday, May 16, 2022 | Dynamic programming 1        | Dynamic Programming                                          |           4.0-4.1 |
+|  3   | Friday, May 20, 2022 | Dynamic programming 2        | PI, VI                                                       |           4.2-4.4 |
+|  3   | Friday, May 20, 2022 | Dynamic programming 3        | GPI, AsyncVI                                                 |              4.4- |
 | | | **PART II:**                                | **Iterative Approximately Optimal Methods** | |
 | **Week** |     **Lecture Date**     | **Title**                                           | **Topics Discussed**                                         | **Textbook Sections** |
 | | | | | |
-|    3     |   Friday, May 20, 2022   | MC- Monte Carlo Methods                             | Monte Carlo Methods                                          |                     5 |
-|    3     |   Friday, May 20, 2022   | TD1 Temporal Difference Learning                    | Temporal Difference Learning                                 |                   6.0 |
+|    3     |   Friday, May 20, 2022?   | MC- Monte Carlo Methods                             | Monte Carlo Methods                                          |                     5 |
+|    3     |   Friday, May 20, 2022?   | TD1 Temporal Difference Learning                    | Temporal Difference Learning                                 |                   6.0 |
 |    4     |   Monday, May 23, 2022   | Victoria Day Holiday (no classes)                   |                                                              |                       |
-|    4     | Wednesday, May 25, 2022  | Assignment 1 Due                                    | Content up to Monday Week 2                                  |                       |
 |    4     |   Monday, May 23, 2022   | TD2 Comparison to MC on Random Walk                 | MC vs Random Walk                                            |               6.0-6.5 |
 |    4     |   Monday, May 23, 2022   | TD3 Sarsa and Qlearning                             | Sarsa and Qlearning                                          |               6.0-6.5 |
 |    4     |   Monday, May 23, 2022   | TD4 Re-record as live                               | Expected Sarsa and Double Qlearning                          |                  6.5? |
 |    4     | Wednesday, May 25, 2022  | Assignment 2 Released                               | Content up to Monday Week 6                                  |                       |
+|    4     | Friday, May 27, 2022 | Assignment 1 Due                                    | Content up to Monday Week 2                                  |                       |
 |    4     |   Friday, May 27, 2022   | ET1 One Step vs Direct Value Updates                | One Step TD                                                  |            12.1, 12.1 |
 |    4     |   Friday, May 27, 2022   | ET2 N Step TD Forward View                          | N step TD Forward View                                       |                       |
 |    4     |   Friday, May 27, 2022   | ET3 N step TD backward View                         | N step TD backward View                                      |                       |
@@ -51,7 +51,7 @@ This is the expected schedule of topics to be covered in lecture along with the 
 |    5     |   Friday, June 3, 2022   | Policy Gradient Algorithm                           | Policy Gradient Algorithm                                    |       13.1,13.2,13.65 |
 |    6     |  Friday, June 10, 2022   | Midterm Review                                      | Requires up to: DoubQlearning or even Elig trace?            |                       |
 |    6     |   Monday, June 6, 2022   | Actor-Critic Algorithm                              | Actor-Critic Algorithm                                       |                       |
-|    7     |  Monday, June 13, 2022   | Midterm Exam                                        | Requires up to: DoubQlearning or even Elig trace?            |                       |
+|    7     |  Monday, June 13, 2022   | Midterm Exam                                        | Requires up to: DoubQlearning and Eligibility traces |                       |
 |    7     |  Friday, June 17, 2022   | Assignment 2 Due                                    | Content up to Monday Week 6                                  |                       |
 | | | **PART IV:** | **Deep Reinforcement Learning** | |
 | **Week** |     **Lecture Date**     | **Title**                                   | **Topics Discussed**             | **Textbook Sections** |

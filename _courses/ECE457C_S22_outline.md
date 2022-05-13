@@ -46,9 +46,13 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 ### Lecture Locations and Times
 
-| Dates               | Lecture Times        | Room    | Total Enrolled       | Classroom Capacity |
-| ------------------- | -------------------- | ------- | -------------------- | ------------------ |
-| 20220502 - 20220726 | MF 11:30am - 12:50pm | E7 4043 | 102 (as of 20220414) | 148                |
+**Course Dates:** May 5, 2022 to July 26, 2022
+
+| Type                                                         | Times                               | Room                                   | Enrolled (Capacity) |
+| ------------------------------------------------------------ | ----------------------------------- | -------------------------------------- | ------------------- |
+| Lecture                                                      | MF 11:30am - 12:50pm                | E7 4043                                | 122 (148)           |
+| Tutorial (Mostly for review sessions, will determine based on need.) | M7:00pm - 7:50pm                    | E7 4043                                |                     |
+| Office Hours                                                 | Various Times (see Doodle Bookable) | Online  via Teams or in person E5 4114 |                     |
 
 
 
@@ -126,7 +130,7 @@ together to make such systems possible.
 
 | Item                     | Weight Towards Final Grade | Released              | Due                              |
 | ------------------------ | -------------------------- | --------------------- | -------------------------------- |
-| Assignment 1             | 10%                        | Wednesday, May 11     | Wednesday, May 25 at 11:59pm     |
+| Assignment 1             | 10%                        | Friday, May 13        | Friday, May 27 at 11:59pm        |
 | Midterm Exam (in person) | 25%                        |                       | Monday, Jun 13                   |
 | Assignment 2             | 15%                        | Wed, May 25           | Friday, June 17, 2022 at 11:59pm |
 | Assignment 3             | 20%                        | Friday, June 17, 2022 | Friday July 15, 2022 at 11:59pm  |
@@ -162,6 +166,16 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
 
 
 
+
+
+
+
+
+
+
+
+
+
 ## Getting Help:
 
 <a name="help"></a>
@@ -173,7 +187,7 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
 - **LEARN Website:** The main course content, announcements, grade tracking and materials will be made available on Learn. All registered students should see this in their LEARN courses.
 - **Email the Teaching Assistant and Instructor:** Office Hours will be arranged once term starts as needed.
 - **AccessAbility Services :** http://uwaterloo.ca/accessability-services 
-  - If you need any accommodation, assistance with exams, learning environment, assignments, talk to this office and they can help you set it up as securely and anonymously as possible.
+  - If you need any accommodation, assistance with exams, learning environment, assignments, then contact them for help setting you up as securely and anonymously as possible.
 
 ### Discussion Group Protocols
 
@@ -181,9 +195,6 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
 - Be kind. Assume the best, not the worst. Think before you hit enter.
 - Posts which are considered offensive, abusive, bullying, discriminatory to any group or person, will be made private or deleted and followed up with private discussion.
 - If you feel there is inappropriate, hurtful behaviour occurring on the discussion forum, please notify the professor, TAs or department staff as you feel appropriate. 
-- If you really can't get in touch with anyone and it is an emergency you can contact Prof. Crowley directory via Microsoft Teams messaging (please don't abuse this though :| )
-
-
 
 ## Recipe for success:
 
@@ -192,10 +203,6 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
 - Do the assignments. 
 - ***Ask questions!*** 
 - Most of all, *have fun*! ...yes really.
-
-
-
-
 
 ## Course Resources
 
@@ -226,6 +233,14 @@ This website is a great resource. It lays out concepts from start to finish. Onc
 
  - Family Tree of Algorithms - Here, a list of algorithms at the cutting edge of RL as of 1 year ago to so, so it's a good place to find out more. But in a fast growing field, it may be a bit out of date about the latest now.
 https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html
+
+
+
+
+
+
+
+
 
 
 
