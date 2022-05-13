@@ -3,7 +3,6 @@ layout: page
 title: Automated Materials Design and Discovery Using Reinforcement Learning
 cardtitle: Digital Chemistry
 name: ChemGymRL
-permalink: /chemgymrl/
 bibkeyword: ai-for-material-design
 keywords: machine-learning
 url: http://chemgymrl.com

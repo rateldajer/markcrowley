@@ -2,7 +2,7 @@
 layout: page
 description: Spring 2021 - ECE 657A
 title: Data Analysis and Machine Learning
-permalink: /dkma/
+permalink: /dkma21/
 img: /assets/img/teaching/ece657logo.png
 date: 2021-05-09
 meta: Spring 2021

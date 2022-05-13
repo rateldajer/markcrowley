@@ -96,7 +96,7 @@ collections:
     showwebpage: false
     nav: true
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
     showbib: true
   courses:
