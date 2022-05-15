@@ -10,6 +10,7 @@ showtitle: true
 
 Also see:
 - [Selected Showcase Publications](/showcase)
+- [Publications Grouped by Research Topics](/pub-by-topic/)
 - [Current Preprints and Working Papers](/preprints) / [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
@@ -19,5 +20,4 @@ Also see:
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}},status^=1,self=1]* %}
 {% endfor %}
-
 </div>
