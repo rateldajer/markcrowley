@@ -13,7 +13,6 @@ showtitle: true
 <h4>Related Pages:</h4>
 
 - previously [completed projects](/oldprojects/) 
-- [Research Overview](/research/)
 
 <div class="projects grid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
