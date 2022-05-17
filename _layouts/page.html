@@ -87,7 +87,7 @@ layout: default
           {% if page.bibkeyword %}
             <div class="publications">
               <h2>Our Papers on {{ page.name }}</h2> 
-            {% bibliography -q @*[keywords~={{page.bibkeyword}} && self=1] %}
+            {% bibliography -q @*[keywords~={{page.bibkeyword}},status^=1, self=1]* %}
             </div>
           {% endif %}
       {% endif %}
