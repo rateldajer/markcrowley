@@ -1,31 +1,81 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mark Crowley at 2022-05-17 00:19:15 -0400 
+%% Created for Mark Crowley at 2022-06-04 15:31:39 -0400 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
 
+@inproceedings{Bellinger2022Balancing,
+	address = {Toronto, Ontario, Canada},
+	author = {Bellinger, Colin and Drozdyuk, Andriy and Crowley, Mark and Tamblyn, Isaac},
+	booktitle = {Canadian Conference on Artificial Intelligence},
+	date-added = {2022-06-04 14:50:55 -0400},
+	date-modified = {2022-06-04 15:13:20 -0400},
+	hypoth = {https://hyp.is/go?url=https%3A%2F%2Fassets.pubpub.org%2F99r5anzw%2F01652987005906.pdf&group=__world__},
+	in-cv = {0},
+	in-website = {1},
+	journal = {Proceedings of the Canadian Conference on Artificial Intelligence},
+	keywords = {reinforcement-learning; science; proj-deepchemrl; machine-learning; ai-for-material-design},
+	month = {May 27},
+	note = {https://caiac.pubpub.org/pub/0jmy7gpd},
+	pages = {12},
+	publicationstatus = {published},
+	publisher = {Canadian Artificial Intelligence Association (CAIAC)},
+	self = {1},
+	status = {1},
+	title = {Balancing {Information} with {Observation} {Costs} in {Deep} {Reinforcement} {Learning}},
+	url = {https://caiac.pubpub.org/pub/0jmy7gpd},
+	venue-short = {CanAI},
+	year = {2022},
+	abstract = {
+The use of Reinforcement Learning (RL) in scientific applications, such
+as materials design and automated chemistry, is increasing. A major
+challenge, however, lies in fact that measuring the state of the system
+is often costly and time consuming in scientific applications, whereas
+policy learning with RL requires a measurement after each time step. In
+this work, we make the measurement costs explicit in the form of a
+costed reward and propose the active-measure with costs framework that
+enables off-the-shelf deep RL algorithms to learn a policy for both
+selecting actions and determining whether or not to measure the state of
+the system at each time step. In this way, the agents learn to balance
+the need for information with the cost of information. Our results show
+that when trained under this regime, the Dueling DQN and PPO agents can
+learn optimal action policies whilst making up to 50\% fewer state
+measurements, and recurrent neural networks can produce a greater than
+50\% reduction in measurements. We postulate the these reduction can
+help to lower the barrier to applying RL to real-world scientific
+applications.
+},
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAwLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcucGRmTxEBzAAAAAABzAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////HzIwMjItY2FuYWktYmVsbGluZyNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAQADAAAKIGN1AAAAAAAAAAAAAAAAAANwZGYAAAIAVy86VXNlcnM6bWNyb3dsZXk6RG9jdW1lbnRzOm1hcmtjcm93bGV5LWNhOmFzc2V0czpwZGY6MjAyMi1jYW5haS1iZWxsaW5nZXItYmFsYW5jaW5nLnBkZgAADgBGACIAMgAwADIAMgAtAGMAYQBuAGEAaQAtAGIAZQBsAGwAaQBuAGcAZQByAC0AYgBhAGwAYQBuAGMAaQBuAGcALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcucGRmAAATAAEvAAAVAAIAD///AAAACAANABoAJABXAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAic=},
+	bdsk-file-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAxLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcxLnBkZk8RAc4AAAAAAc4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIyLWNhbmFpLWJlbGxpbmcjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAFgvOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjItY2FuYWktYmVsbGluZ2VyLWJhbGFuY2luZzEucGRmAA4ASAAjADIAMAAyADIALQBjAGEAbgBhAGkALQBiAGUAbABsAGkAbgBnAGUAcgAtAGIAYQBsAGEAbgBjAGkAbgBnADEALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFZVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcxLnBkZgATAAEvAAAVAAIAD///AAAACAANABoAJABYAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAio=},
+	bdsk-file-3 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAwLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcucG5nTxEBzAAAAAABzAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////HzIwMjItY2FuYWktYmVsbGluZyNGRkZGRkZGRi5wbmcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAQADAAAKIGN1AAAAAAAAAAAAAAAAAANwZGYAAAIAVy86VXNlcnM6bWNyb3dsZXk6RG9jdW1lbnRzOm1hcmtjcm93bGV5LWNhOmFzc2V0czpwZGY6MjAyMi1jYW5haS1iZWxsaW5nZXItYmFsYW5jaW5nLnBuZwAADgBGACIAMgAwADIAMgAtAGMAYQBuAGEAaQAtAGIAZQBsAGwAaQBuAGcAZQByAC0AYgBhAGwAYQBuAGMAaQBuAGcALgBwAG4AZwAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWJlbGxpbmdlci1iYWxhbmNpbmcucG5nAAATAAEvAAAVAAIAD///AAAACAANABoAJABXAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAic=}}
+
 @inproceedings{ghojogh2022canai,
 	author = {Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
 	booktitle = {Canadian Conference on Artificial Intelligence},
 	date-added = {2022-05-17 00:11:28 -0400},
-	date-modified = {2022-05-17 00:18:25 -0400},
+	date-modified = {2022-06-04 15:29:47 -0400},
+	hypoth = {https://hyp.is/go?url=https%3A%2F%2Fassets.pubpub.org%2Fzbfq7fzb%2F71652816875953.pdf&group=__world__},
 	in-website = {1},
 	keywords = {locally-linear-embedding, factor-analysis, manifold-learning, dimensionality-reduction, pca},
-	month = {May},
+	month = {May 27},
 	pages = {6},
-	pdf = {Canadian_AI_2022_paper_71.pdf},
+	pdf = {2022-canai-ghojogh-theoretical.pdf},
 	publicationstatus = {published},
+	publisher = {Canadian Conference on Artificial Intelligence (CAIAC)},
 	self = {1},
+	slides = {2022-canai-ghojogh-theoretical1.pdf},
 	status = {1},
 	title = {Theoretical Connection between Locally Linear Embedding, Factor Analysis, and Probabilistic PCA},
+	url = {https://caiac.pubpub.org/pub/7eqtuyyc},
 	venue-short = {CanAI},
 	year = {2022},
 	abstract = {Locally Linear Embedding (LLE) is a nonlinear spectral dimensionality reduction and manifold learning method. It has two main steps which are linear reconstruction and linear embedding of points in the input space and embedding space, respectively. In this work, we look at the linear reconstruction step from a stochastic perspective where it is assumed that every data point is conditioned on its linear reconstruction weights as latent factors. The stochastic linear reconstruction of LLE is solved using expectation maximization. We show that there is a theoretical connection between three fundamental dimensionality reduction methods, i.e., LLE, factor analysis, and probabilistic Principal Component Analysis (PCA). The stochastic linear reconstruction of LLE is formulated similar to the factor analysis and probabilistic PCA. It is also explained why factor analysis and probabilistic PCA are linear and LLE is a nonlinear method. This work combines and makes a bridge between two broad approaches of dimensionality reduction, i.e., the spectral and probabilistic algorithms.	},
-	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAwLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwucGRmTxEBzAAAAAABzAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////HzIwMjItY2FuYWktZ2hvam9naCNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAQADAAAKIGN1AAAAAAAAAAAAAAAAAANwZGYAAAIAVy86VXNlcnM6bWNyb3dsZXk6RG9jdW1lbnRzOm1hcmtjcm93bGV5LWNhOmFzc2V0czpwZGY6MjAyMi1jYW5haS1naG9qb2doLXRoZW9yZXRpY2FsLnBkZgAADgBGACIAMgAwADIAMgAtAGMAYQBuAGEAaQAtAGcAaABvAGoAbwBnAGgALQB0AGgAZQBvAHIAZQB0AGkAYwBhAGwALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwucGRmAAATAAEvAAAVAAIAD///AAAACAANABoAJABXAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAic=}}
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAwLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwucGRmTxEBzAAAAAABzAACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////HzIwMjItY2FuYWktZ2hvam9naCNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAUERGIAAAAAAAAQADAAAKIGN1AAAAAAAAAAAAAAAAAANwZGYAAAIAVy86VXNlcnM6bWNyb3dsZXk6RG9jdW1lbnRzOm1hcmtjcm93bGV5LWNhOmFzc2V0czpwZGY6MjAyMi1jYW5haS1naG9qb2doLXRoZW9yZXRpY2FsLnBkZgAADgBGACIAMgAwADIAMgAtAGMAYQBuAGEAaQAtAGcAaABvAGoAbwBnAGgALQB0AGgAZQBvAHIAZQB0AGkAYwBhAGwALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFVVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwucGRmAAATAAEvAAAVAAIAD///AAAACAANABoAJABXAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAic=},
+	bdsk-file-2 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxAxLi4vYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwxLnBkZk8RAc4AAAAAAc4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIyLWNhbmFpLWdob2pvZ2gjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAFBERiAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAFgvOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjItY2FuYWktZ2hvam9naC10aGVvcmV0aWNhbDEucGRmAA4ASAAjADIAMAAyADIALQBjAGEAbgBhAGkALQBnAGgAbwBqAG8AZwBoAC0AdABoAGUAbwByAGUAdABpAGMAYQBsADEALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFZVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWNhbmFpLWdob2pvZ2gtdGhlb3JldGljYWwxLnBkZgATAAEvAAAVAAIAD///AAAACAANABoAJABYAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAio=}}
 
 @mastersthesis{allada2021uw-masc-thesis,
 	abbr = {MASc-Thesis},
@@ -45,7 +95,7 @@
 	url = {http://hdl.handle.net/10012/17305},
 	venue-short = {UW-MASc-Thesis},
 	year = {2021},
-	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA3Li4vYXNzZXRzL3BkZi8yMDIxLXV3LW1hc2MtdGgtYWxsYWRhLWhpc3RvcGF0aG9sb2d5LnBkZk8RAeYAAAAAAeYAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIxLXV3LW1hc2MtdGgtYWwjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAF4vOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjEtdXctbWFzYy10aC1hbGxhZGEtaGlzdG9wYXRob2xvZ3kucGRmAA4AVAApADIAMAAyADEALQB1AHcALQBtAGEAcwBjAC0AdABoAC0AYQBsAGwAYQBkAGEALQBoAGkAcwB0AG8AcABhAHQAaABvAGwAbwBnAHkALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFxVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIxLXV3LW1hc2MtdGgtYWxsYWRhLWhpc3RvcGF0aG9sb2d5LnBkZgATAAEvAAAVAAIAD///AAAACAANABoAJABeAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAkg=}}
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA3Li4vYXNzZXRzL3BkZi8yMDIxLXV3LW1hc2MtdGgtYWxsYWRhLWhpc3RvcGF0aG9sb2d5LnBkZk8RAeYAAAAAAeYAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIxLXV3LW1hc2MtdGgtYWwjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAFBERiAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAF4vOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjEtdXctbWFzYy10aC1hbGxhZGEtaGlzdG9wYXRob2xvZ3kucGRmAA4AVAApADIAMAAyADEALQB1AHcALQBtAGEAcwBjAC0AdABoAC0AYQBsAGwAYQBkAGEALQBoAGkAcwB0AG8AcABhAHQAaABvAGwAbwBnAHkALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFxVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIxLXV3LW1hc2MtdGgtYWxsYWRhLWhpc3RvcGF0aG9sb2d5LnBkZgATAAEvAAAVAAIAD///AAAACAANABoAJABeAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAkg=}}
 
 @inproceedings{ganapathi-subramanian2022ijcai,
 	author = {Ganapathi Subramanian, Sriram and Taylor, Mathew and Larson, Kate and Crowley, Mark},
@@ -203,7 +253,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	abbr = {Multi-Advisor-QL},
 	author = {Ganapathi Subramanian, Sriram and Larson, Kate and Taylor, Mathew and Crowley, Mark},
 	date-added = {2021-10-26 12:46:41 -0400},
-	date-modified = {2022-05-16 23:35:14 -0400},
+	date-modified = {2022-05-28 13:38:42 -0400},
 	doi = {https://doi.org/10.1613/jair.1.13445},
 	in-cv = {1},
 	in-website = {1},
@@ -215,7 +265,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	publicationstatus = {published},
 	rating = {5},
 	self = {1},
-	seminal = {1},
+	seminal = {0},
 	status = {1},
 	tempflag = {1},
 	title = {Multi-{A}gent {A}dvisor {Q}-{L}earning},
@@ -700,11 +750,12 @@ This could make them a powerful and complimentary communication channel for robo
 	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA6Li4vYXNzZXRzL3BkZi8yMDIxLW1sd2Fqcm5sLWdob2pvZ2gtcXVhbnRpbGUtLXF1YW50aWxlLnBkZk8RAfQAAAAAAfQAAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIxLW1sd2Fqcm5sLWdob2ojRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAGEvOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjEtbWx3YWpybmwtZ2hvam9naC1xdWFudGlsZS0tcXVhbnRpbGUucGRmAAAOAFoALAAyADAAMgAxAC0AbQBsAHcAYQBqAHIAbgBsAC0AZwBoAG8AagBvAGcAaAAtAHEAdQBhAG4AdABpAGwAZQAtAC0AcQB1AGEAbgB0AGkAbABlAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBfVXNlcnMvbWNyb3dsZXkvRG9jdW1lbnRzL21hcmtjcm93bGV5LWNhL2Fzc2V0cy9wZGYvMjAyMS1tbHdhanJubC1naG9qb2doLXF1YW50aWxlLS1xdWFudGlsZS5wZGYAABMAAS8AABUAAgAP//8AAAAIAA0AGgAkAGEAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAACWQ==}}
 
 @article{jain2020review,
+	abbr = {WildfireMLRev},
 	arxiv = {2003.00646},
 	author = {Jain, Piyush and Coogan, Sean CP and Ganapathi Subramanian, Sriram and Crowley, Mark and Taylor, Steve and Flannigan, Mike D},
 	citations = {74},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2022-01-31 10:28:43 -0500},
+	date-modified = {2022-05-25 16:26:33 -0400},
 	doi = {https://doi.org/10.1139/er-2020-0019},
 	in-cv = {1},
 	in-website = {1},
@@ -715,6 +766,7 @@ This could make them a powerful and complimentary communication channel for robo
 	paperdesc = {This review paper arose from my visit to BC to speak on the use of AI for Forest Fire management and led to a collaboration amongst these senior researchers, myself and my PhD student Sriram. We collaborated on every part of the paper, I especially wrote the general AI/ML background and checked that each specific Forest Fire domain was connected correctly to the ML literature. It will serve as a much-needed resource for researches in my field as well as applied Forest Fire Management and Science fields. Note, that for the tutorials there is some self-citation included.},
 	pdf = {2020-envrevjrnl-jain-review.pdf},
 	publisher = {Canadian Science Publishing},
+	rating = {4},
 	self = {1},
 	slides = {2020-envrevjrnl-jain-review1.pdf},
 	status = {1},
@@ -1423,7 +1475,7 @@ pathology datasets},
 	author = {Taleghan, Majid Alkaee and Dietterich, Thomas G. and Crowley, Mark and Hall, Kim and Albers, H. Jo},
 	citations = {25},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2022-05-14 21:01:24 -0400},
+	date-modified = {2022-05-28 13:38:40 -0400},
 	in-cv = {1},
 	issn = {15337928},
 	journal = {Journal of Machine Learning Research},
@@ -1431,7 +1483,7 @@ pathology datasets},
 	mendeley-tags = {computational sustainability,grant-wici16,machine learning,mdp planning,optimization},
 	pages = {3877--3903},
 	self = {1},
-	seminal = {1},
+	seminal = {0},
 	status = {1},
 	tempflag = {0},
 	title = {{PAC Optimal MDP Planning with Application to Invasive Species Management}},
@@ -1460,7 +1512,7 @@ pathology datasets},
 	author = {Crowley, Mark},
 	citations = {7},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2021-12-02 12:01:06 -0500},
+	date-modified = {2022-05-28 13:38:40 -0400},
 	doi = {10.1109/TC.2013.113},
 	file = {:Users/mcrowley/Dropbox/MendeleyDesktop/Crowley - 2014 - Using equilibrium policy gradients for spatiotemporal planning in forest ecosystem management(2).pdf:pdf},
 	in-cv = {1},
@@ -1473,7 +1525,7 @@ pathology datasets},
 	publisher = {IEEE computer Society Digital Library. IEEE Computer Society.},
 	self = {1},
 	self-citations = {2},
-	seminal = {1},
+	seminal = {0},
 	status = {1},
 	tempflag = {0},
 	title = {{Using equilibrium policy gradients for spatiotemporal planning in forest ecosystem management}},
@@ -1655,8 +1707,8 @@ pathology datasets},
 	venue-short = {UBCLibrary},
 	year = {2011},
 	abstract = {In spatiotemporal planning, agents choose actions at multiple locations in space over some planning horizon to maximize their utility and satisfy various constraints. In forestry planning, for example, the problem is to choose actions for thousands of locations in the forest each year. The actions at each location could include harvesting trees, treating trees against disease and pests, or doing nothing. A utility model could place value on sale of forest products, ecosystem sustainability or employment levels, and could incorporate legal and logistical constraints such as avoiding large contiguous areas of clearcutting and managing road access. Planning requires a model of the dynamics. Existing simulators developed by forestry researchers can provide detailed models of the dynamics of a forest over time, but these simulators are often not designed for use in automated planning. This thesis presents spatiotemoral planning in terms of factored Markov decision processes. A policy gradient planning algorithm optimizes a stochastic spatial policy using existing simulators for dynamics. When a planning problem includes spatial interaction between locations, deciding on an action to carry out at one location requires considering the actions performed at other locations. This spatial interdependence is common in forestry and other environmental planning problems and makes policy representation and planning challenging. We define a spatial policy in terms of local policies defined as distributions over actions at one location conditioned upon actions at other locations. A policy gradient planning algorithm using this spatial policy is presented which uses Markov Chain Monte Carlo simulation to sample the landscape policy, estimate its gradient and use this gradient to guide policy improvement. Evaluation is carried out on a forestry planning problem with 1880 locations using a variety of value models and constraints. The distribution over joint actions at all locations can be seen as the equilibrium of a cyclic causal model. This equilibrium semantics is compared to Structural Equation Models. We also define an algorithm for approximating the equilibrium distribution for cyclic causal networks which exploits graphical structure and analyse when the algorithm is exact.},
-	bdsk-url-1 = {http://hdl.handle.net/2429/38971},
-	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA1Li4vYXNzZXRzL3BkZi8yMDExLXViY2xpYnJhcnktY3Jvd2xleS1lcXVpbGlicml1bS5wZGZPEQHeAAAAAAHeAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fMjAxMS11YmNsaWJyYXJ5LWNyI0ZGRkZGRkZGLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAABAAMAAAogY3UAAAAAAAAAAAAAAAAAA3BkZgAAAgBcLzpVc2VyczptY3Jvd2xleTpEb2N1bWVudHM6bWFya2Nyb3dsZXktY2E6YXNzZXRzOnBkZjoyMDExLXViY2xpYnJhcnktY3Jvd2xleS1lcXVpbGlicml1bS5wZGYADgBQACcAMgAwADEAMQAtAHUAYgBjAGwAaQBiAHIAYQByAHkALQBjAHIAbwB3AGwAZQB5AC0AZQBxAHUAaQBsAGkAYgByAGkAdQBtAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBaVXNlcnMvbWNyb3dsZXkvRG9jdW1lbnRzL21hcmtjcm93bGV5LWNhL2Fzc2V0cy9wZGYvMjAxMS11YmNsaWJyYXJ5LWNyb3dsZXktZXF1aWxpYnJpdW0ucGRmABMAAS8AABUAAgAP//8AAAAIAA0AGgAkAFwAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAACPg==}}
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA1Li4vYXNzZXRzL3BkZi8yMDExLXViY2xpYnJhcnktY3Jvd2xleS1lcXVpbGlicml1bS5wZGZPEQHeAAAAAAHeAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fMjAxMS11YmNsaWJyYXJ5LWNyI0ZGRkZGRkZGLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAABAAMAAAogY3UAAAAAAAAAAAAAAAAAA3BkZgAAAgBcLzpVc2VyczptY3Jvd2xleTpEb2N1bWVudHM6bWFya2Nyb3dsZXktY2E6YXNzZXRzOnBkZjoyMDExLXViY2xpYnJhcnktY3Jvd2xleS1lcXVpbGlicml1bS5wZGYADgBQACcAMgAwADEAMQAtAHUAYgBjAGwAaQBiAHIAYQByAHkALQBjAHIAbwB3AGwAZQB5AC0AZQBxAHUAaQBsAGkAYgByAGkAdQBtAC4AcABkAGYADwAaAAwATQBhAGMAaQBuAHQAbwBzAGgAIABIAEQAEgBaVXNlcnMvbWNyb3dsZXkvRG9jdW1lbnRzL21hcmtjcm93bGV5LWNhL2Fzc2V0cy9wZGYvMjAxMS11YmNsaWJyYXJ5LWNyb3dsZXktZXF1aWxpYnJpdW0ucGRmABMAAS8AABUAAgAP//8AAAAIAA0AGgAkAFwAAAAAAAACAQAAAAAAAAAFAAAAAAAAAAAAAAAAAAACPg==},
+	bdsk-url-1 = {http://hdl.handle.net/2429/38971}}
 
 @inproceedings{Patitsas2010,
 	address = {Kelowna, BC, Canada},

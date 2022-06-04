@@ -14,9 +14,9 @@ importance: 1
 
 ### Course Description
 
-Introduction to [Reinforcement Learning](/reinforcement-learning/) (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
+Introduction to Reinforcement Learning (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
 
-**Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
+**==Note:==** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
 
 ### Links to More Information and Resources
 
