@@ -20,14 +20,14 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 
 ### Links to More Information and Resources
 
-|                                                              |                                                              |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **[Full Weekly Schedule and Deadlines](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)** |
-| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
-|                   [Course Topics](#topics)                   | [Assignments and Tests](#assessment)  (weights and deadlines) |
-| [Gingko List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students) (a bit out of date) |           [Old Spring 2021 Website](/rlcourseS21/)           |
-|                    [Getting Help](#help)                     |                [Academic Policies](#policies)                |
-|               [Health and Wellness](#wellness)               |                      [COVID-19](#covid)                      |
+|                                                                                                                  |                                                                                                          |
+| :----------------------------------------------------------:                                                     | :----------------------------------------------------------:                                             |
+| **[Full Weekly Schedule and Deadlines](/ece457c-schedule/)**                                                     | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)**                                        |
+| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)**                                                | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
+| [Course Topics](#topics)                                                                                         | [Assignments and Tests](#assessment)  (weights and deadlines)                                            |
+| [Gingko List of Resources and Links](https://gingkoapp.com/rlcourse) | [Old Spring 2021 Website](/rlcourseS21/)                                                                 |
+| [Getting Help](#help)                                                                                            | [Academic Policies](#policies)                                                                           |
+| [Health and Wellness](#wellness)                                                                                 | [COVID-19](#covid)                                                                                       |
 
 
 

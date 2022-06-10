@@ -39,7 +39,12 @@ twitterfeed: true
         <div style="float:left; width:70%;">
 
             {% if page.selected_papers %}
-              {% include selected_papers.html %}
+                <div class="publications-inline">
+                    <h2><a href="/showcase">selected showcase publications</a></h2>
+
+                  {% bibliography -f papers --max 5 -q @*[keywords~=showcase]* %}
+
+                </div>
             {% endif %}
         </div>
         <div style="float:right;width:30%;">
