@@ -79,46 +79,68 @@ together to make such systems possible.
 3. Evaluate the performance of a particular RL system on a given domain through proper experimental design, statistical analysis and visualization.
 
 ### Topics
+
 1. Motivation and Context
    - Importance of reasoning and decision making about uncertainty.  
    - Connection to Artificial Intelligence and Machine Learning.
    - Probability review.
+
 2. Decision making under uncertainty: 	 
     - Multi-Armed Bandit (MAB) problems, Thompson Sampling.
-    - Markov Decision Processes (MDPs), Influence Diagram representation.
+    - Markov Decision Processes (MDPs) 
+    - Influence Diagram representation
+
 3. Solving MDPs
    - Theory, Bellman equations
    - Relation to Control Theory
    - Value Iteration, Policy Iteration
+
 4. The Reinforcement Learning Problem
    - Approximately solving MDPs by interacting with the environment
    - SARSA algorithm
    - Q-learning algorithm
+   - Other variants of these
+
 5. Temporal Difference Learning
    - Eligibility Traces
    - TD(𝜆) 
-6. Direct Policy Search
-   - Policy Gradients methods
-   - Actor-Critic methods
-7. State Representation
+
+6. State Representation
    - Value Function Approximation
    - Stochastic Gradient Descent
-8. Basics of Neural Networks (review or refer to ECE657A content)
+
+7. Basics of Neural Networks (review or refer to ECE657A content)
    - fully connected, multi-layer perceptrons
    - supervised training, back-propagation
+   - CNNs, LSTMS
    - regularization methods
-9. Deep Reinforcement Learning
+
+8. Deep Reinforcement Learning
    - Deep Q- Networks (DQN)
-   - Experience replay buffers and mini-batch training
-   - A2C, DDPG, PPO
-1. Other Challenges (brief)
-   - Partially Observable MDPs (POMDPs)
-   - Multi-Agent RL (MARL)
-1. Other ways to solve (PO)MDPs (if time permits)
-   - Monte-Carlo Tree Search, Explaining AlphaGo
-   - Curiosity based learning
-   - Soft-Actor Critic
-1. Wrap-up and Review
+   - Experience replay buffers, mini-batch training and other methods of training and architecture
+
+9. Direct Policy Search
+
+    - Policy Gradients methods
+    - Actor-Critic methods
+    - Discussion of New Algorithms:
+      - A3C, A2C, DPG, DDPG, TRPO, PPO, SAC
+
+10. Other ways to solve (PO)MDPs 
+
+   - Monte-Carlo Tree Search, Explaining AlphaGo, and beyond
+
+11. Other Challenges (brief)
+
+    - Hierarchical RL
+    - Training Spectrum from Supervised to Curriculum to Self-supervised Learning
+    - Partially Observable MDPs (POMDPs) (skipped in S22)
+    - Multi-Agent RL (MARL)
+    - Curiosity based learning
+
+    - Soft-Actor Critic
+
+12. Wrap-up and Review
 
 
 
@@ -128,15 +150,17 @@ together to make such systems possible.
 
 
 
-| Item                     | Weight Towards Final Grade | Released              | Due                              |
-| ------------------------ | -------------------------- | --------------------- | -------------------------------- |
-| Assignment 1             | 10%                        | Friday, May 13        | Friday, May 27 at 11:59pm        |
-| Midterm Exam (in person) | 25%                        |                       | Monday, Jun 13                   |
-| Assignment 2             | 15%                        | Wed, May 25           | Friday, June 17, 2022 at 11:59pm |
-| Assignment 3             | 20%                        | Friday, June 17, 2022 | Friday July 15, 2022 at 11:59pm  |
-| Final Exam               | 30%                        |                       | To Be Determined                 |
+| Item                     | Weight Towards Final Grade | Released                                   | Due                                            |
+| ------------------------ | -------------------------- | ------------------------------------------ | ---------------------------------------------- |
+| Assignment 1             | 10%                        | Friday, May 13                             | Friday, May 27 at 11:59pm                      |
+| Assignment 2             | 15%                        | Wed, May 25                                | Friday, June 17, 2022 at 11:59pm               |
+| Assignment 3             | 20%                        | Friday, June 17, 2022                      | Friday July 26, 2022 at 11:59pm                |
 
 
+| Item                     | Weight Towards Final Grade | Date                                       | Location    |
+| ------------------------ | -------------------------- | ------------------------------------------ | ----------- |
+| Midterm Exam (in person) | 25%                        | Monday, June 13                            |             |
+| **Final Exam**           | **30%**                    | **Tuesday, August 9 at 12:30pm to 3:00pm** | **DC 1350** |
 
 
 

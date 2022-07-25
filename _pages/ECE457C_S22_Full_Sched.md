@@ -28,50 +28,40 @@ This is the expected schedule of topics to be covered in lecture along with the 
 |  2   | Monday, May 16, 2022 | Dynamic programming 1        | Dynamic Programming                                          |           4.0-4.1 |
 |  3   | Friday, May 20, 2022 | Dynamic programming 2        | PI, VI                                                       |           4.2-4.4 |
 |  3   | Friday, May 20, 2022 | Dynamic programming 3        | GPI, AsyncVI                                                 |              4.4- |
-| | | **PART II:**                                | **Iterative Approximately Optimal Methods** | |
+| | |                                                     |                                                              | |
 | **Week** |     **Lecture Date**     | **Title**                                           | **Topics Discussed**                                         | **Textbook Sections** |
-| | | | | |
-|    3     |   Friday, May 20, 2022?   | MC- Monte Carlo Methods                             | Monte Carlo Methods                                          |                     5 |
-|    3     |   Friday, May 20, 2022?   | TD1 Temporal Difference Learning                    | Temporal Difference Learning                                 |                   6.0 |
+| | | **PART II:** | **Iterative Approximately Optimal Methods** | |
+|    3     |   Friday, May 20, 2022   | MC- Monte Carlo Methods                             | Monte Carlo Methods                                          |                     5 |
 |    4     |   Monday, May 23, 2022   | Victoria Day Holiday (no classes)                   |                                                              |                       |
-|    4     |   Monday, May 23, 2022   | TD2 Comparison to MC on Random Walk                 | MC vs Random Walk                                            |               6.0-6.5 |
-|    4     |   Monday, May 23, 2022   | TD3 Sarsa and Qlearning                             | Sarsa and Qlearning                                          |               6.0-6.5 |
-|    4     |   Monday, May 23, 2022   | TD4 Re-record as live                               | Expected Sarsa and Double Qlearning                          |                  6.5? |
-|    4     | Wednesday, May 25, 2022  | Assignment 2 Released                               | Content up to Monday Week 6                                  |                       |
-|    4     | Friday, May 27, 2022 | Assignment 1 Due                                    | Content up to Monday Week 2                                  |                       |
-|    4     |   Friday, May 27, 2022   | ET1 One Step vs Direct Value Updates                | One Step TD                                                  |            12.1, 12.1 |
-|    4     |   Friday, May 27, 2022   | ET2 N Step TD Forward View                          | N step TD Forward View                                       |                       |
-|    4     |   Friday, May 27, 2022   | ET3 N step TD backward View                         | N step TD backward View                                      |                       |
-|    4     |   Friday, May 27, 2022   | ET4 Eligibility Trace on Policy                     | Eligibility Trace on Policy                                  |                       |
-|    4     |   Friday, May 27, 2022   | ET5 Eligibility Traces Off Policy                   | Eligibility Traces Off Policy                                |                       |
-| | | | | |
-| **Week** |     **Lecture Date**     | **Title**                                           | **Topics Discussed**                                         | **Textbook Sections** |
-| | | **PART III:** | **Generalizing States and Policies** | |
-|    5     |   Monday, May 30, 2022   | Value Function Approximation                        | Value Function Approximation                                 |                       |
-|    5     |   Friday, June 3, 2022   | Policy Gradient Algorithm                           | Policy Gradient Algorithm                                    |       13.1,13.2,13.65 |
-|    6     |  Friday, June 10, 2022   | Midterm Review                                      | Requires up to: DoubQlearning or even Elig trace?            |                       |
-|    6     |   Monday, June 6, 2022   | Actor-Critic Algorithm                              | Actor-Critic Algorithm                                       |                       |
-|    7     |  Monday, June 13, 2022   | Midterm Exam                                        | Requires up to: DoubQlearning and Eligibility traces |                       |
-|    7     |  Friday, June 17, 2022   | Assignment 2 Due                                    | Content up to Monday Week 6                                  |                       |
-| | | **PART IV:** | **Deep Reinforcement Learning** | |
-| **Week** |     **Lecture Date**     | **Title**                                   | **Topics Discussed**             | **Textbook Sections** |
-| | | | | |
-|    7     |  Friday, June 17, 2022   | Assignment 3 Released                       | Content up to Monday Week 10     |                       |
-|    8     |  Monday, June 20, 2022   | Deep RL  Conquers Games                     | Using DQN to defeat Atari and Go |                       |
-|    8     |  Friday, June 24, 2022   | TBD - Open AI gym etc.                      | TBD                              |                       |
-|    9     |  Monday, June 27, 2022   | TBD                                         | TBD                              |                       |
-|    9     |   Friday, July 1, 2022   | Canada Day                                  |                                  |                       |
-|    10    |   Monday, July 4, 2022   | DDPG                                        | DDPG                             |                       |
-|    10    |   Friday, July 8, 2022   | A2C                                         | A2C                              |                       |
-|    11    |  Friday, July 15, 2022   | Assignment 3 Due                            | Content up to Monday Week 10     |                       |
-|    11    |  Monday, July 11, 2022   | PPO                                         | PPO                              |                       |
-|    11    |  Friday, July 15, 2022   | TBD - Attention?                            | TBD                              |                       |
-|    12    |  Monday, July 18, 2022   | TBD                                         | TBD                              |                       |
-|    12    |  Friday, July 22, 2022   | TBD - Curriculum Learning?                  | TBD                              |                       |
-|    13    |  Monday, July 25, 2022   | Review Lectures (Mon and *Tue* make-up day) | All topics                       |                       |
-|    13    |  Friday, July 29, 2022   | Exams Begin                                 |                                  |                       |
-|    13    |  Tuesday, July 26, 2022  | Make-up Day for Canda Day/Classes End       |                                  |                       |
-|    13    | Wednesday, July 27, 2022 | Pre-exam Study Day                          |                                  |                       |
-|    14    |  Monday, August 1, 2022  | Civic Holiday                               |                                  |                       |
-|    15    |  Monday, August 8, 2022  | Exams End                                   |                                  |                       |
-|    15    |           TBD            | Final Exam                                  | All topics                       |                       |
+|    4     |            Friday, May 27, 2022            | TD1 Temporal Difference Learning                    | Temporal Difference Learning                                 |                 6.0                 |
+|    4     |            Friday, May 27, 2022            | TD2 Comparison to MC on Random Walk                 | MC vs Random Walk                                            |               6.0-6.5               |
+|    4     |            Friday, May 27, 2022            | Assignment 2 Released                               | Content up to Monday Week 6                                  |                                     |
+|    5     |            Monday, May 30, 2022            | TD3 Sarsa and Qlearning                             | Sarsa and Qlearning                                          |               6.0-6.5               |
+|    5     |            Monday, May 30, 2022            | TD4 Expected Sarsa and Double Qlearning             | Expected Sarsa and Double Qlearning                          |                 6.5                 |
+|    5     |            Friday, June 3, 2022            | ET1 One Step vs Direct Value Updates                | One Step TD                                                  |             12.1, 12.1              |
+|    5     |            Friday, June 3, 2022            | ET2 N Step TD Forward View                          | N step TD Forward View                                       |                                     |
+|    5     |            Friday, June 3, 2022            | ET3 N step TD backward View                         | N step TD backward View                                      |                                     |
+|    5     |            Friday, June 3, 2022            | ET4 Eligibility Trace on Policy                     | Eligibility Trace on Policy                                  |                                     |
+|    5     |            Friday, June 3, 2022            | ET5 Eligibility Traces Off Policy                   | Eligibility Traces Off Policy                                |  |
+| 6 | Monday, June 6, 2022 | Value Function Approximation | Value Function Approximation |  |
+|    6     |           Friday, June 10, 2022            | Midterm Review                                      | Requires up to: Elig trace,  maybe Value Function Approximation |                None                 |
+|    7     |           Monday, June 13, 2022            | Midterm Exam                                        | Requires up to: DoubQlearning or even Elig trace?            |                                     |
+|    7     |           Friday, June 17, 2022            | Assignment 2 Due                                    | Content up to Monday Week 6                                  |                None                 |
+| **Week** |              **Lecture Date**              | **Title**                                           | **Topics Discussed**                                         |        **Textbook Sections**        |
+|          |                                            | **PART III:**                                       | **Generalizing States and Policies**                         |                                     |
+|    7     |           Friday, June 17, 2022            | Neural Networks basics and Deep RL as DQN           | Deep RL (DQN)                                                |                                     |
+|    7     |           Friday, June 17, 2022            | Assignment 3 Released                               | Content up to Monday Week 10                                 |                                     |
+|    8     |           Monday, June 20, 2022            | Deep Learning Fundamentals                          | Neural Networks, activation fucntions, loss functions,  training, gradient optimizers, regularization methods, CNNs, LSTMs |                                     |
+|    8     |           Friday, June 24, 2022            | Policy Gradient Algorithm                           | Policy Gradient Algorithm                                    |           13.1,13.2,13.65           |
+|    8     |           Friday, June 24, 2022            | Actor-Critic Algorithm, A3C,A2C                     | Actor-Critic Algorithm                                       |                                     |
+|    9     |            Friday, July 1, 2022            | Canada Day                                          |                                                              |                                     |
+|    10    |            Friday, July 8, 2022            | PPO                                                 | TRPO, PPO                                                    |                                     |
+|    11    |           Monday, July 11, 2022            | CLASS CANCELLED                                     |                                                              |                                     |
+|    11    |           Friday, July 15, 2022            | DPG, DDPG, SAC and Prioritized Experience Replay    | DPG, DDPG and SAC; also Prioritized Experience Replay        |                                     |
+|    12    |           Tuesday, July 19, 2022           | Using DQN to defeat Atari and Go (MCTS+DQN=AlphaGo) | Using DQN to defeat Atari and Go (MCTS+DQN=AlphaGo)          |                                     |
+|    12    |           Friday, July 22, 2022            | RL Next Steps                                       | MARL, Hierarchical RL, Supervised and Curriculum  Learning, RL competitions, Free  Energy, Big Ideas about AI | https://gingkoapp.com/rl-next-steps |
+|    13    |           Monday, July 25, 2022            | Review Lectures (Mon and *Tue* make-up day)         | All topics                                                   |                                     |
+|    13    |           Tuesday, July 26, 2022           | Assignment 3 Due                                    | Content up to Monday Week 10                                 |                                     |
+|    13    |           Tuesday, July 26, 2022           | (Make-up day for Canada Day)<br />CLASS CANCELLED   | Professor available in lecture hall for questions and discussion 11:30am - 12:50pm |                       |
+|    15    |           **Tuesday, August 9 at 12:30pm to 3:00pm**           | **ECE 457C Final Exam<br />Location: DC 1350** | **All topics**                |                       |
+
