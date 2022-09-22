@@ -9,7 +9,7 @@ type: student
 status: current
 graduated: 
 started: 2020
-keywords: Reinforcement-Learning, Machine-Learning, DeepChemRL
+keywords: Reinforcement-Learning, Machine-Learning, proj-chemgymrl
 linkedin:
 twitter:
 ---

@@ -1,12 +1,63 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mark Crowley at 2022-09-12 11:45:58 -0400 
+%% Created for Mark Crowley at 2022-09-22 10:25:53 -0400 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@phdthesis{subramanian2022uwspace,
+	abbr = {Phd Thesis},
+	author = {Sriram Ganapathi Subramanian},
+	date-added = {2022-09-22 09:24:08 -0400},
+	date-modified = {2022-09-22 10:25:48 -0400},
+	doi = {http://hdl.handle.net/10012/18442},
+	in-website = {1},
+	keywords = {reinforcement-learning; marl; forest-management; game-theory},
+	month = {June 27},
+	publicationstatus = {published},
+	publisher = {UWSpace},
+	school = {University of Waterloo},
+	status = {1},
+	title = {Multi-Agent Reinforcement Learning in Large Complex Environments},
+	url = {http://hdl.handle.net/10012/18442},
+	venue-short = {UWSpace},
+	year = {2022},
+	abstract = {Multi-agent reinforcement learning (MARL) has seen much success in the past decade. However, these methods are yet to find wide application in large-scale real world problems due to two important reasons. First, MARL algorithms have poor sample efficiency, where many data samples need to be obtained through interactions with the environment to learn meaningful policies, even in small environments. Second, MARL algorithms are not scalable to environments with many agents since, typically, these algorithms are exponential in the number of agents in the environment. This dissertation aims to address both of these challenges with the goal of making MARL applicable to a variety of real world environments. Towards improving sample efficiency, an important observation is that many real world environments already, in practice, deploy sub-optimal or heuristic approaches for generating policies. A useful possibility that arises is how to best use such approaches as advisors to help improve reinforcement learning in multi-agent domains. In this dissertation, we provide a principled framework for incorporating action recommendations from online sub-optimal advisors in multi-agent settings. To this end, we propose a general model for learning from external advisors in MARL and show that desirable theoretical properties such as convergence to a unique solution concept, and reasonable finite sample complexity bounds exist, under a set of common assumptions. Furthermore, extensive experiments illustrate that these algorithms: can be used in a variety of environments, have performances that compare favourably to other related baselines, can scale to large state-action spaces, and are robust to poor advice from advisors. Towards scaling MARL, we explore the use of mean field theory. Mean field theory provides an effective way of scaling multi-agent reinforcement learning algorithms to environments with many agents, where other agents can be abstracted by a virtual mean agent. Prior work has used mean field theory in MARL, however, they suffer from several stringent assumptions such as requiring fully homogeneous agents, full observability of the environment, and centralized learning settings, that prevent their wide application in practical environments. In this dissertation, we extend mean field methods to environments having heterogeneous agents, and partially observable settings. Further, we extend mean field methods to include decentralized approaches. We provide novel mean field based MARL algorithms that outperform previous methods on a set of large games with many agents. Theoretically, we provide bounds on the information loss experienced as a result of using the mean field and further provide fixed point guarantees for Q-learning-based algorithms in each of these environments. Subsequently, we combine our work in mean field learning and learning from advisors to show that we can achieve powerful MARL algorithms that are more suitable for real world environments as compared to prior approaches. This method uses the recently introduced attention mechanism to perform per-agent modelling of others in the locality, in addition to using the mean field for global responses. Notably, in this dissertation, we show applications in several real world multi-agent environments such as the Ising model, the ride-pool matching problem, and the massively multi-player online (MMO) game setting (which is currently a multi-billion dollar market).},
+	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA2Li4vYXNzZXRzL3BkZi8yMDIyLXV3c3BhY2Utc3VicmFtYW5pYW4tbXVsdGktYWdlbnQucGRmTxEB5AAAAAAB5AACAAAMTWFjaW50b3NoIEhEAAAAAAAAAAAAAAAAAAAAAAAAAEJEAAH/////HzIwMjItdXdzcGFjZS1zdWJyYSNGRkZGRkZGRi5wZGYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP////8AAAAAAAAAAAAAAAAAAQADAAAKIGN1AAAAAAAAAAAAAAAAAANwZGYAAAIAXS86VXNlcnM6bWNyb3dsZXk6RG9jdW1lbnRzOm1hcmtjcm93bGV5LWNhOmFzc2V0czpwZGY6MjAyMi11d3NwYWNlLXN1YnJhbWFuaWFuLW11bHRpLWFnZW50LnBkZgAADgBSACgAMgAwADIAMgAtAHUAdwBzAHAAYQBjAGUALQBzAHUAYgByAGEAbQBhAG4AaQBhAG4ALQBtAHUAbAB0AGkALQBhAGcAZQBuAHQALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAFtVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLXV3c3BhY2Utc3VicmFtYW5pYW4tbXVsdGktYWdlbnQucGRmAAATAAEvAAAVAAIAD///AAAACAANABoAJABdAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAkU=}}
+
+@article{ghojogh2021mlwajrnl,
+	abbr = {QQE},
+	accepted-date = {June 21, 2021},
+	arxiv = {2006.11385},
+	author = {Ghojogh, Benyamin and Karray, Fakhri and Crowley, Mark},
+	date-added = {2022-09-22 09:21:41 -0400},
+	date-modified = {2022-09-22 09:21:41 -0400},
+	doi = {https://doi.org/10.1016/j.mlwa.2021.100088},
+	in-cv = {1},
+	journal = {Machine Learning with Applications (MLWA)},
+	keywords = {year-in-review-2021, manifold-learning, dimensionality-reduction, image-processing, medical-imaging, showcase, proj-digipath},
+	note = {1},
+	paperdesc = {This journal paper extends upon one of the major components of my recently graduate PhD student Benyamin Ghojogh. The topic arose primarily from discussions betwteen Ghojogh and myself about novel ways to use learned data manifold, in this case, for mimicking other desired distributions in order to compare them better or for align better for other reasons. Ghojogh worked out the theoretical details and we designed the experiments and wrote the paper collaboratively. Prof. Karray gave feedback on the final revisions before submission.},
+	pdf = {2021-mlwajrnl-ghojogh-quantile-quantile.pdf},
+	publicationstatus = {accepted},
+	rating = {4},
+	self = {1},
+	self-citations = {2},
+	status = {1},
+	submitted-date = {December, 2020},
+	tempflag = {0},
+	title = {Quantile--Quantile Embedding for distribution transformation and manifold embedding with ability to choose the embedding distribution},
+	url = {https://doi.org/10.1016/j.mlwa.2021.100088},
+	venue-short = {MLWAJrnl},
+	volume = {6},
+	year = {2021},
+	abstract = {We propose a new embedding method, named Quantile-Quantile Embedding (QQE), for distribution transformation and manifold embedding with the ability to choose the embedding distribution. QQE, which uses the concept of quantile-quantile plot from visual statistical tests, can transform the distribution of data to any theoretical desired distribution or empirical reference sample. Moreover, QQE gives the user a choice of embedding distribution in embedding the manifold of data into the low dimensional embedding space. It can also be used for modifying the embedding distribution of other dimensionality reduction methods, such as PCA, t-SNE, and deep metric learning, for better representation or visualization of data. We propose QQE in both unsupervised and supervised forms. QQE can also transform a distribution to either an exact reference distribution or its shape. We show that QQE allows for better discrimination of classes in some cases. Our experiments on different synthetic and image datasets show the effectiveness of the proposed embedding method. },
+	annote = {This journal paper extends upon one of the major components of my recently graduate PhD student Benyamin Ghojogh. The topic arose primarily from discussions betwteen Ghojogh and myself about novel ways to use learned data manifold, in this case, for mimicking other desired distributions in order to compare them better or for align better for other reasons. While the method has a theoretical bent, we believe it could have many useful applications in data analysis, financial analysis and marketing.
+},
+	bdsk-url-1 = {https://doi.org/10.1016/j.mlwa.2021.100088}}
 
 @book{ghojogh2022springerbook,
 	abbr = {Upcoming Book},
@@ -32,19 +83,20 @@
 
 The tools this book introduces are applied to various applications involving feature extraction, image processing, computer vision, and signal processing. This book is applicable to a wide audience who would like to acquire a deep understanding of the various ways to extract, transform, and understand the structure of data. The intended audiences are academics, students, and industry professionals. Academic researchers and students can use this book as a textbook for machine learning and dimensionality reduction. Data scientists, machine learning scientists, computer vision scientists, computer scientists, statisticians, and mathematicians in the fields of applied mathematics, statistical learning, Riemannian manifolds, subspace analysis, linear algebra, and optimization can use this book as a reference book for both technical and applied concepts. Industry professionals, including applied engineers, data engineers, and engineers in various fields of science dealing with machine learning, can use this book as a guidebook for feature extraction from their data as the raw data in industry often requires pre-processing. Data feature extraction is useful in various fields of science including engineering, physics, chemistry, biometrics, biomedical signals and images, etc.
 
-This book is structured as a reference textbook, so that it can be used for advanced courses, as an in-depth supplementary resource or for researchers or practitioners who want to learn about dimensionality reduction and manifold learning. The book is grounded in theory, but provides thorough explanations and diverse examples to improve the readers comprehension of the advanced topics. Advanced methods are explained in a step-by-step manner so that readers of all levels can follow the reasoning and come to a deep understanding of the concepts. This book does not assume the reader has an advanced theoretical background in machine learning and provides necessary background, though an undergraduate-level background in linear algebra and calculus is recommended.}}
+This book is structured as a reference textbook, so that it can be used for advanced courses, as an in-depth supplementary resource or for researchers or practitioners who want to learn about dimensionality reduction and manifold learning. The book is grounded in theory, but provides thorough explanations and diverse examples to improve the readers comprehension of the advanced topics. Advanced methods are explained in a step-by-step manner so that readers of all levels can follow the reasoning and come to a deep understanding of the concepts. This book does not assume the reader has an advanced theoretical background in machine learning and provides necessary background, though an undergraduate-level background in linear algebra and calculus is recommended.},
+	bdsk-url-1 = {https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1}}
 
 @inproceedings{Bellinger2022Balancing,
 	address = {Toronto, Ontario, Canada},
 	author = {Bellinger, Colin and Drozdyuk, Andriy and Crowley, Mark and Tamblyn, Isaac},
 	booktitle = {Canadian Conference on Artificial Intelligence},
 	date-added = {2022-06-04 14:50:55 -0400},
-	date-modified = {2022-06-04 15:13:20 -0400},
+	date-modified = {2022-09-22 09:57:08 -0400},
 	hypoth = {https://hyp.is/go?url=https%3A%2F%2Fassets.pubpub.org%2F99r5anzw%2F01652987005906.pdf&group=__world__},
 	in-cv = {0},
 	in-website = {1},
 	journal = {Proceedings of the Canadian Conference on Artificial Intelligence},
-	keywords = {reinforcement-learning; science; proj-deepchemrl; machine-learning; ai-for-material-design},
+	keywords = {reinforcement-learning; science; proj-deepchemrl; machine-learning; ai-for-material-design; ai-for-chemistry},
 	month = {May 27},
 	note = {https://caiac.pubpub.org/pub/0jmy7gpd},
 	pages = {12},
@@ -168,10 +220,10 @@ applications.
 	abbr = {SubWorld},
 	author = {Chris Beeler and Xinkai Li and Mark Crowley and Maia Fraser and Isaac Tamblyn},
 	date-added = {2022-01-10 10:58:30 -0500},
-	date-modified = {2022-06-06 22:30:51 -0400},
+	date-modified = {2022-09-22 09:57:08 -0400},
 	in-cv = {1},
 	journal = {IEEE Intelligent Systems},
-	keywords = {mdp, machine-learning, digital-chemistry, proj-deepchemrl, reinforcement-learning; ai-for-material-design},
+	keywords = {mdp, machine-learning, digital-chemistry, proj-deepchemrl, reinforcement-learning; ai-for-material-design; ai-for-chemistry},
 	publicationstatus = {Under Revision},
 	publisher = {IEEE},
 	self = {1},
@@ -194,15 +246,15 @@ time.}}
 	author = {Colin Bellinger and Andriy Drozdyuk and Mark Crowley and Isaac Tamblyn},
 	booktitle = {1st Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)},
 	date-added = {2021-12-03 09:56:41 -0500},
-	date-modified = {2022-06-06 22:30:40 -0400},
+	date-modified = {2022-09-22 09:53:25 -0400},
 	in-cv = {1},
-	keywords = {reinforcement-learning; proj-deepchemrl; machine-learning; science; ai-for-science; ai-for-physics; ai-for-material-design},
+	keywords = {reinforcement-learning; proj-deepchemrl; machine-learning; science; ai-for-science; ai-for-physics; ai-for-material-design; ai-for-chemistry},
 	month = {February},
 	paperdesc = {This workshop paper follows up on from our paper at CanAI earlier in the year with additional modifications to the algorithm and experiments. This yielded some very promising empirical observations. TODO},
 	publicationstatus = {to appear},
 	self = {1},
 	status = {1},
-	tempflag = {1},
+	tempflag = {0},
 	title = {Scientific Discovery and the Cost of Measurement -- Balancing Information and Cost in Reinforcement Learning},
 	venue-short = {AI2ASE},
 	workshop-or-abstract = {1},
@@ -216,7 +268,7 @@ time.}}
 	author = {Ganapathi Subramanian, Sriram and Taylor, Mathew and Crowley, Mark and Poupart, Pascal},
 	booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-2022)},
 	date-added = {2021-11-24 10:28:27 -0500},
-	date-modified = {2022-09-12 11:16:13 -0400},
+	date-modified = {2022-09-22 09:11:29 -0400},
 	doi = {https://doi.org/10.1609/aaai.v36i9.21176},
 	hypoth = {https://hyp.is/go?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2112.09099.pdf&group=__world__},
 	in-cv = {1},
@@ -228,7 +280,7 @@ time.}}
 	pdf = {2022-aaai-ganapathi subramanian-decentralized},
 	self = {1},
 	status = {1},
-	tempflag = {1},
+	tempflag = {0},
 	title = {Decentralized Mean Field Games},
 	url = {https://doi.org/10.1609/aaai.v36i9.21176},
 	venue-short = {AAAI},
@@ -246,18 +298,18 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	abbr = {MARLEmpircal},
 	author = {Lee, Ken Ming and Ganapathi Subramanian, Sriram and Crowley, Mark},
 	date-added = {2021-11-02 20:42:19 -0400},
-	date-modified = {2022-09-12 11:29:20 -0400},
+	date-modified = {2022-09-22 09:48:38 -0400},
 	doi = {10.3389/frai.2022.805823},
 	editor = {Alberto Marchesi},
 	in-cv = {1},
 	journal = {Frontiers in Artificial Intelligence},
-	keywords = {marl, reinforcement-learning, empircal, machine-learning; showcase; proj-forestfire;},
+	keywords = {marl, reinforcement-learning, empircal, machine-learning; showcase; proj-forestfire; ai-for-games},
 	pages = {27},
 	paperdesc = {This paper was part of a project for undergraduate student Lee, who has worked with me as a URA multiple terms on RL algorithms and software development. The original idea was mine and flowed out of results needed for Sriram's PhD work. It is an empirical comparison of many single and multi-agent algorithms on a range of multi-agent planning domains. A short version was presented at a NeurIPS workshop \citeleezbzneuripsdeeprl.},
 	publicationstatus = {To Appear},
 	self = {1},
-	status = {-},
-	tempflag = {1},
+	status = {1},
+	tempflag = {0},
 	title = {Investigation of Independent Reinforcement Learning Algorithms in Multi-Agent Environments},
 	url = {https://www.frontiersin.org/articles/10.3389/frai.2022.805823},
 	venue-short = {FrontAI},
@@ -295,7 +347,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	abbr = {Multi-Advisor-QL},
 	author = {Ganapathi Subramanian, Sriram and Larson, Kate and Taylor, Mathew and Crowley, Mark},
 	date-added = {2021-10-26 12:46:41 -0400},
-	date-modified = {2022-05-28 13:38:42 -0400},
+	date-modified = {2022-09-22 09:11:28 -0400},
 	doi = {https://doi.org/10.1613/jair.1.13445},
 	in-cv = {1},
 	in-website = {1},
@@ -309,7 +361,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	self = {1},
 	seminal = {0},
 	status = {1},
-	tempflag = {1},
+	tempflag = {0},
 	title = {Multi-{A}gent {A}dvisor {Q}-{L}earning},
 	url = {https://github.com/Sriram94/multiagentadvisorqlearning},
 	venue-short = {JAIR},
@@ -319,10 +371,11 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	bdsk-file-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxA9Li4vYXNzZXRzL3BkZi8yMDIyLWphaXItZ2FuYXBhdGhpIHN1YnJhbWFuaWFuLW11bHRpLWFnZW50LnBkZk8RAf4AAAAAAf4AAgAADE1hY2ludG9zaCBIRAAAAAAAAAAAAAAAAAAAAAAAAABCRAAB/////x8yMDIyLWphaXItZ2FuYXBhdGgjRkZGRkZGRkYucGRmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////AAAAAAAAAAAAAAAAAAEAAwAACiBjdQAAAAAAAAAAAAAAAAADcGRmAAACAGQvOlVzZXJzOm1jcm93bGV5OkRvY3VtZW50czptYXJrY3Jvd2xleS1jYTphc3NldHM6cGRmOjIwMjItamFpci1nYW5hcGF0aGkgc3VicmFtYW5pYW4tbXVsdGktYWdlbnQucGRmAA4AYAAvADIAMAAyADIALQBqAGEAaQByAC0AZwBhAG4AYQBwAGEAdABoAGkAIABzAHUAYgByAGEAbQBhAG4AaQBhAG4ALQBtAHUAbAB0AGkALQBhAGcAZQBuAHQALgBwAGQAZgAPABoADABNAGEAYwBpAG4AdABvAHMAaAAgAEgARAASAGJVc2Vycy9tY3Jvd2xleS9Eb2N1bWVudHMvbWFya2Nyb3dsZXktY2EvYXNzZXRzL3BkZi8yMDIyLWphaXItZ2FuYXBhdGhpIHN1YnJhbWFuaWFuLW11bHRpLWFnZW50LnBkZgATAAEvAAAVAAIAD///AAAACAANABoAJABkAAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAAmY=}}
 
 @phdthesis{ghojoghthesis2021,
+	abbr = {Phd Thesis},
 	author = {Ghojogh, Benyamin},
 	date-added = {2021-09-30 01:21:44 -0400},
-	date-modified = {2022-01-08 23:03:07 -0500},
-	keywords = {machine-learning, manifold-learning, dimensionality-reduction,},
+	date-modified = {2022-09-22 09:21:01 -0400},
+	keywords = {machine-learning, manifold-learning, dimensionality-reduction, thesis},
 	month = {February},
 	paperdesc = {The PhD thesis of UWECEML student Benyamini Ghojogh.},
 	publicationstatus = {published},
@@ -340,7 +393,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	abbr = {TOOL-Gen-LLE},
 	author = {Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
 	date-added = {2021-08-11 16:50:07 -0400},
-	date-modified = {2021-12-02 11:42:46 -0500},
+	date-modified = {2022-09-22 09:11:49 -0400},
 	in-cv = {1},
 	in-website = {1},
 	journal = {Software Impacts},
@@ -449,7 +502,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	author = {Aishwarya Krishna Allada and Yuanxin Wang and Veni Jindal and Morteza Babaie and H.R. Tizhoosh and Mark Crowley},
 	booktitle = {International Conference of the IEEE Engineering in Medicine and Biology Society {(EMBC)}},
 	date-added = {2021-05-04 16:06:18 -0400},
-	date-modified = {2022-09-12 11:45:54 -0400},
+	date-modified = {2022-09-22 09:11:30 -0400},
 	in-cv = {1},
 	keywords = {proj-digipath, nlp, digital-pathology; year-in-review-2021; medical-imaging; deep-learning; showcase; image-processing},
 	month = {November},
@@ -458,7 +511,7 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	publisher = {IEEE},
 	self = {1},
 	status = {1},
-	tempflag = {1},
+	tempflag = {0},
 	title = {Analysis of Language Embeddings for Classification of Unstructured Pathology Reports},
 	venue-short = {EMBC},
 	year = {2021},
@@ -578,13 +631,13 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	author = {Ganapathi Subramanian, Sriram and Taylor, Matthew and Crowley, Mark and Poupart, Pascal},
 	booktitle = {Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
 	date-added = {2021-04-19 19:53:03 -0400},
-	date-modified = {2022-01-13 11:37:00 -0500},
+	date-modified = {2022-09-22 09:13:28 -0400},
 	editor = {U. Endriss, A. Now{\'e}, F. Dignu and A. Lomuscio},
 	in-cv = {1},
 	isbn = {9781450383073},
 	keywords = {game-theory, marl, reinforcement-learning, mean-field-theory, incomplete-information, partially-observable-problems, showcase; year-in-review-2021; proj-forestfire},
 	location = {Virtual Event, United Kingdom},
-	month = {3--7 May},
+	month = {May},
 	numpages = {9},
 	pages = {537-545},
 	pdf = {2021-aamas-ganapathi subramanian-partially.pdf},
@@ -646,9 +699,9 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 	author = {Colin Bellinger and Rory Coles and Mark Crowley and Isaac Tamblyn},
 	booktitle = {Canadian Conference on Artificial Intelligence},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2021-11-02 21:05:27 -0400},
+	date-modified = {2022-09-22 09:56:55 -0400},
 	in-cv = {1},
-	keywords = {reinforcement-learning, machine-learning, digital-chemistry, proj-deepchemrl, showcase, year-in-review-2021; deep-learning; ai-for-material-design; ai-for-science; ai-for-physics},
+	keywords = {reinforcement-learning, machine-learning, digital-chemistry, proj-deepchemrl, showcase, year-in-review-2021; deep-learning; ai-for-material-design; ai-for-science; ai-for-physics; ai-for-chemistry},
 	pages = {12},
 	pdf = {2021-canai-bellinger-active measure reinforcement.pdf},
 	publicationstatus = {to appear},
@@ -1019,11 +1072,11 @@ pathology datasets},
 	author = {Colin Bellinger and Rory Coles and Mark Crowley and Isaac Tamblyn},
 	booktitle = {Canadian Conference on Artificial Intelligence},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2021-12-02 12:00:51 -0500},
+	date-modified = {2022-09-22 09:56:55 -0400},
 	editor = {C. Goutte and X. Zhu editors.},
 	eprint = {2004.07333},
 	in-cv = {1},
-	keywords = {Reinforcement-Learning, proj-deepchemrl, deep-learning,year-in-review-2021; digital-chemistry; machine-learning; ai-for-material-design; ai-for-science; ai-for-physics},
+	keywords = {Reinforcement-Learning, proj-deepchemrl, deep-learning,year-in-review-2021; digital-chemistry; machine-learning; ai-for-material-design; ai-for-science; ai-for-physics; ai-for-chemistry},
 	month = {May},
 	pages = {55-66},
 	primaryclass = {cs.LG},
@@ -1206,10 +1259,10 @@ pathology datasets},
 	booktitle = {European Conference on Machine Learning (ECML-19)},
 	citations = {12},
 	date-added = {2021-04-15 13:06:00 -0400},
-	date-modified = {2022-07-26 13:21:44 -0400},
+	date-modified = {2022-09-22 09:56:55 -0400},
 	file = {:Users/mcrowley/Dropbox/MendeleyDesktop/Bhalla et al. - 2019 - Compact Representation of a Multi-dimensional Combustion Manifold Using Deep Neural Networks.pdf:pdf},
 	in-cv = {1},
-	keywords = {deep-learning, combustion-modelling, experimental design; ai-for-physics; ai-for-science; digital-chemistry; machine-learning},
+	keywords = {deep-learning, combustion-modelling, experimental design; ai-for-physics; ai-for-science; digital-chemistry; machine-learning; ai-for-chemistry},
 	note = {1},
 	notesbool = {1},
 	pdf = {bhallaECML2019.pdf},
@@ -1856,12 +1909,6 @@ pathology datasets},
 <array>
 	<dict>
 		<key>group name</key>
-		<string>updated since may14 2022</string>
-		<key>keys</key>
-		<string>lee2021neuripsdeeprl,godaz2021acml,ghojogh2022canai,Bellinger2022Balancing,ganapathisubramanian2021jair,taleghan2015jmlr,crowley2014ieeetoc,jain2020review,allada2021uw-masc-thesis,allada2021embc,Crowley2011thesis,Crowley2005,Patitsas2010,beeler2022ieeeintsys,Hall2012,ghojogh2019rda,ghojogh2019ccai,ghojogh2019llise,ghojogh2019image,ghojogh2019pcassim,ghojogh2018psa,Subramanian2018CCAI,ganapathisubramanian2018frontict,subramanian2017rldm,subramanian2018neurips-ai4sg,houtman2013ijwf,sikaroudi2021icpr,dietterich2013aaai,nekoeiqachkanloo2019iaai,ghojogh2021mlwajrnl,Crowley2007</string>
-	</dict>
-	<dict>
-		<key>group name</key>
 		<string>upload to scholar aug 9</string>
 		<key>keys</key>
 		<string>ghojogh2021mlwajrnl,bellinger2021canai,poorheravi2021cvis,sikaroudi2021isbi,sikaroudi2021icpr,akgun2021hri,ghafurian2020interact,crowley2020coviddata,allada2021embc</string>
@@ -1875,6 +1922,73 @@ pathology datasets},
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
+				<integer>0</integer>
+				<key>key</key>
+				<string>Date-Added</string>
+				<key>value</key>
+				<string></string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>added today</string>
+	</dict>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
+				<integer>2</integer>
+				<key>key</key>
+				<string>Author</string>
+				<key>value</key>
+				<string>ghojogh</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>ghojogh</string>
+	</dict>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
+				<integer>4</integer>
+				<key>key</key>
+				<string>Status</string>
+				<key>value</key>
+				<string>1</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>comparison</key>
+				<integer>9</integer>
+				<key>key</key>
+				<string>Year</string>
+				<key>value</key>
+				<string>2020</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>latest published</string>
+	</dict>
 	<dict>
 		<key>conditions</key>
 		<array>
@@ -1942,54 +2056,6 @@ pathology datasets},
 				<key>key</key>
 				<string>Author</string>
 				<key>value</key>
-				<string>ghojogh</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>ghojogh</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>4</integer>
-				<key>key</key>
-				<string>Status</string>
-				<key>value</key>
-				<string>1</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>comparison</key>
-				<integer>9</integer>
-				<key>key</key>
-				<string>Year</string>
-				<key>value</key>
-				<string>2020</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>latest published</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>2</integer>
-				<key>key</key>
-				<string>Author</string>
-				<key>value</key>
 				<string>subramanian</string>
 				<key>version</key>
 				<string>1</string>
@@ -1999,25 +2065,6 @@ pathology datasets},
 		<integer>0</integer>
 		<key>group name</key>
 		<string>sriram</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>0</integer>
-				<key>key</key>
-				<string>Date-Added</string>
-				<key>value</key>
-				<string></string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>added today</string>
 	</dict>
 	<dict>
 		<key>conditions</key>

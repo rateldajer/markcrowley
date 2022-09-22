@@ -7,7 +7,7 @@ key: sriramganapathisubramanian
 degree: PhD
 status: current
 type: student
-keywords: Reinforcement-Learning, MARL, MDP, Machine-Learning, Wildfire-Management, firesim, DeepChemRL, MFRL 
+keywords: Reinforcement-Learning, MARL, MDP, Machine-Learning, Wildfire-Management, forest-management, firesim, proj-chemgymrl, MFRL 
 linkedin:
 twitter:
 ---
