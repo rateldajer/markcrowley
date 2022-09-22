@@ -31,8 +31,8 @@
 # TODO
 
 - [x] add a bib wrapper from about to each page
-- [ ] fix bib file to have common keywords
-- [ ] use same keywords on pages, have a list somewhere with descriptions? keywords pages?
-- [ ] add a meta flag to "show bib" for the topic using the keyword field
+- [x] fix bib file to have common keywords
+- [x] use same keywords on pages, have a list somewhere with descriptions? keywords pages?
+- [x] add a meta flag to "show bib" for the topic using the keyword field
 - [ ] add all this to the page template
 - [ ] what's actually in the other update-topics branch that's different?
