@@ -7,7 +7,6 @@ bibkeyword: reinforcement-learning
 description: RL is the study of learning decision making policies from experience with computers.
 methods: DQN, A3C, PPO, DDPG
 people: sriramganapathisubramanian, nouhachatti,  markcrowley, isaactamblyn
-stage: topic
 showtitle: true
 img: /assets/img/teaching/ece493-logo.png
 showbib: true

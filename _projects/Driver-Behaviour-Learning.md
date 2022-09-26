@@ -10,7 +10,7 @@ status: active
 type: project
 domains: autonomous-driving, driver-behaviour-learning
 methods: deep-neural-networks, lstm
-fields: machine-learning, deep-learning, human-study, time-series
+topics: machine-learning, deep-learning, human-study, time-series
 description: This is a collaborative project with industry partner Magna International to collect real world data about human driving behaviour in order to enable training of accurate predictive models of human driving for modern ADAS.
 publish: true
 people: markcrowley, lauramccrackin, takintadayon

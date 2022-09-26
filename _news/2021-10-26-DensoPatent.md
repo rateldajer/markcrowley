@@ -5,7 +5,7 @@ inline: false
 title: Patent awarded for Multi-level collaborative vehicle control
 description: Patent arose in collaboration with DENSO Inc. on a remote controlled car demo for CES.
 meta: patent
-fields: reinforcement-learning 
+topics: reinforcement-learning 
 domains: autonomous-driving
 people: sriramganpathisubramanian, sushrutbhalla, japsreetsambee, sebastianfischmeister, markcrowley 
 showdomains: true

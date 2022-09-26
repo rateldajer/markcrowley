@@ -5,7 +5,7 @@ inline: false
 description: Autoline.tv interview about our Driver Behaviour Learning project with Magna International.
 title: Autoline.tv interview about our Driver Behaviour Learning project with Magna International. 
 meta: media
-fields: machine-learning 
+topics: machine-learning 
 domains: autonomous-driving
 people: markcrowley, lauramccrackin, takintadayon, pouyamehrannia, shayanshiramahdi
 showdomains: true
