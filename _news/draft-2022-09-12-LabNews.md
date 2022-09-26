@@ -11,18 +11,15 @@ people: sriramganpathisubramanian, kenminglee, benyaminghojogh, markcrowley
 showdomains: true
 showpeople: true
 showbib: true
-publish: true
+publish: false
 
 ---
-`(DRAFT)`
 
-Members of the UWECEML lab have had a good couple months, with a few notable papers accepted to great venues.
+Members of the UWECEML lab have had a great couple months, with some nice a publications and lots of career news.
 
+## Publications
 
-
-(TODO: merge with draft for 2022-03-07 OR... have one per term nicely written after the fact :))  
-
-## A New Approach to Scaling Decision Making to Many Agents
+### A New Approach to Scaling Decision Making to Many Agents
 
 The most recently accepted paper {% cite ganapathisubramanian2022aaai
 %} is a core topic in the final stages of my PhD student Sriram Ganapathi Subramanian into **[Multi-Agent Reinforcement Learning (MARL)](/marl/)**. 
@@ -32,7 +29,7 @@ In situations where the number of agents is very large, we need to make some ass
 In this paper we relax a core requirement in existing Mean Field approaches which is that all agents use the same policy. Our new **Decentralized Mean Field Game** concept allows for agents to have separate policies but still use the mean field assumption about other agents to make decision making feasible. We show some convergence results for a provide a fixed point guarantee for a Q-learning based algorithm under this paradigm.
 
 
-## Empirical Study of Reinforcement Learning Algorithms in Multi-Agent Settings
+### Empirical Study of Reinforcement Learning Algorithms in Multi-Agent Settings
 #todo journal paper published
 {% cite lee2021frontai %}
 
@@ -42,10 +39,6 @@ This project was led by fourth-year undergraduate student Ken Ming Lee with lots
 This work expands on a previous study {% cite lee2021neuripsdeeprl %} from a NeurIPS Workshop in 2021. 
 
 
-
-## (updated info for alpuren journal paper - not conffrimred?)
-
-Don't add it if it isn't confirmed
 
 
 
@@ -67,5 +60,6 @@ Former PhD student Benyamin Ghojogh has taken up a new position at *Research Ass
 
 Can't wait to hear more Benyamin!
 
-
+### Promotion to Tenure
+As of July 1, 2022, Dr. Mark Crowley is now a tenured, Associate Professor in the ECE department! Phew.
 
