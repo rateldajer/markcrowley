@@ -7,6 +7,7 @@ published: false
 stage: domain
 aside: 
     toc: true
+showbib: true
 ---
 
 Relates to the [COVID-19](/projects/COVID19) project.

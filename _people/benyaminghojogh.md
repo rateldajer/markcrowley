@@ -1,6 +1,5 @@
 ---
-layout: people
-collection: people
+permalink: /benyaminghojogh/
 givenname: Benyamin
 familyname: Ghojogh
 key: benyaminghojogh
@@ -11,6 +10,8 @@ keywords: ManifoldLearning,Manifold-Learning,digPathology,dataReduction,Data-Red
 linkedin: https://ir.linkedin.com/in/benyamin-ghojogh-97423276
 twitter:
 url: https://www.researchgate.net/profile/Benyamin-Ghojogh
+showbib: true
+nav: true
 ---
 
 

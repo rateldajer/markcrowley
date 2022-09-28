@@ -9,8 +9,6 @@ topics: marl, reinforcement-learning, deep-learning, dimensionality-reduction, m
 domains: 
 people: sriramganpathisubramanian, kenminglee, benyaminghojogh, markcrowley 
 showdomains: false
-showpeople: true
-showbib: true
 publish: false
 
 ---

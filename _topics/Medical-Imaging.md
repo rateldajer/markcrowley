@@ -12,12 +12,11 @@ description: Use of Machine Learning for challenges in medical imaging.
 people: aishwarya, lauramccrackin, benyaminghojgh, markcrowley
 showtitle: true
 showdomains: true
-showpeople: true
 showfields: false
 showmethods: true
 showwebpage: false
-publish: true
 showbib: true
+publish: true
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.

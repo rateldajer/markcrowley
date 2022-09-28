@@ -13,11 +13,9 @@ tasks: prediction
 people: sushrutbhalla, jeanpierrehickey, markcrowley
 showtitle: true
 showdomains: true
-showpeople: true
 showfields: false
 showmethods: true
 showwebpage: false
-showbib: true
 ---
 Inspired by a challenge raised by [Prof. Jean-Pierre Hickey](/people/jeanpierrehickey/) in Mechanical Engineering I have worked to investigate novel ways to use Deep Neural Network to revolutionize the way combustion simulation calculations are computed and stored. 
 This research is relevant for the design of combustion engines and energy production. 

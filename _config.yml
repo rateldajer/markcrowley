@@ -75,6 +75,12 @@ defaults:
   values:
     layout: "page"
     showtitle: true #you should use enter the title in the text so the description comes after it
+      #showpeople: false  #adding these to global defaults seems to cause problems
+      #showfields: false
+      #showtopics: false
+      #showmethods: false
+      #showdomains: false
+      #showwebpage: false
 
 collections:
   news:
@@ -83,17 +89,12 @@ collections:
     permalink: /news/:path/
     output: true
     inline: true
+    showbib: true
   pages:
     output: true
     permalink: /:path/
     showtitle: true
     showbib: true
-    showfields: false
-    showtopics: false
-    showpeople: false
-    showmethods: false
-    showdomains: false
-    showwebpage: false
     nav: true
   projects:
     output: true
@@ -105,9 +106,21 @@ collections:
   oldprojects:
     output: true
     permalink: /oldprojects/:path/
+    showbib: true
   topics:
     output: true
-    permalink: /topics/:path/
+    #permalink: /topics/:path/
+    defaults:
+      scope:
+        path: "topics"
+        type: "pages"
+      values:
+        showbib: true
+
+  people:
+    layout: page
+    output: true
+    permalink: /people/:path/
     publish: false
     showbib: true
 

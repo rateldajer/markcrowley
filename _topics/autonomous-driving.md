@@ -16,13 +16,12 @@ showtitle: true
 webpage: /news/2021-10-14-AutolineInterview/
 img: /assets/img/dbl/avrildbl.jpg
 showdomains: true
-showpeople: true
 showfields: false
 showprojects: true
 showmethods: true
-showbib: true
 showwebpage: true
 publish: true
+showbib: true
 ---
 
 
