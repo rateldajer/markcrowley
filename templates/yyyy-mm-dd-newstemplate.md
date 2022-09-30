@@ -1,6 +1,5 @@
 ---
 layout: post
-date: {{date}} {{time}}
 inline: false
 description: Recently Accepted Papers
 title: Three great papers accepted to AAAI, NeurIPS Workshop and EMBC in past month!

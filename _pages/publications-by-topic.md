@@ -26,6 +26,8 @@ topics:
 - reinforcement-learning
 nav: false
 showtitle: true
+output: true
+publish: true
 ---
 
 <b>Jump to Topic:</b> {% for t in page.topics %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
