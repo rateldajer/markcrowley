@@ -1,0 +1,103 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+      {% if page.givenname %}
+          {% if page.familyname %}
+                <h1 class="post-title">{{ page.givenname }} {{ page.familyname }}</h1>
+              {% elseif %}
+                <h1 class="post-title">{{ page.givenname }}</h1>
+        {% endif %}
+      {% endif %}
+      <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;">Role(s): {% if page.degree}{{ page.degree }}{% elseif %}{{ page.roles }}{% endif %} | Status: {{ page.status }}</p>
+
+      {% if page.showdomains == true %}
+        {% assign domains = page.domains | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
+        <b>DOMAINS</b>
+        {% for i in domains %}
+            {% assign j =  site.domains | where: "domains", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
+      {% if page.showfields == true %}
+
+      <!-- fields aren't really used -->
+        {% assign fields = page.fields | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
+        <b>FIELDS</b>
+        {% for i in fields %}
+            {% assign j =  site.fields | where: "fields", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
+      {% if page.showprojects == true %}
+        {% assign projects = page.projects | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin-bottom:3px;">
+        <b>PROJECTS</b>
+        {% for i in projects %}
+            {% assign j =  site.projects | where: "project", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
+      {% if page.showpeople == true %}
+        {% assign people = page.people | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin-bottom:3px;">
+        <b>PEOPLE</b>
+        {% for i in people %}
+            {% assign j =  site.people | where: "people", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
+      {% if page.showmethods == true %}
+        {% assign methods = page.methods | split: ', ' %}
+        <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
+        <b>METHODS</b>
+        {% for i in methods %}
+            {% assign j =  site.methods | where: "methods", i | first %}
+            | <a href="/{{i}}/">{{i}}</a> 
+        {% endfor %}
+        </p>
+        {% endif %}
+      {% if page.showwebpage == true %}
+        {% assign webpage = page.webpage | split: ', ' %}
+            <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
+            <b>WEBPAGE: </b> 
+        {% for i in webpage %}
+            | <a href="{{i}}">{{i}}</a> 
+        {% endfor %} 
+            </p>
+        {% endif %}
+        <p></p>
+  </header>
+
+  <article>
+      {% if page.img %}
+      <img src="{{page.img}}" style="width: 300px; padding: 10px; float: right;">
+      {% endif %}
+    {{ content }}
+  </article>
+
+
+      {% if page.showbib == true %}
+          {% if page.bibkeyword %}
+            <div class="publications">
+              <h2>Our Papers on {{ page.name }}</h2> 
+            {% bibliography -q @*[keywords~={{page.bibkeyword}},status^=1, self=1]* %}
+            </div>
+          {% endif %}
+          {% if page.bibauthor %}
+            <div class="publications">
+              <h2>Authored Papers</h2> 
+            {% bibliography -q @*[author~={{page.familyname}},status^=1]* %}
+            </div>
+          {% endif %}
+      {% endif %}
+
+</div>
