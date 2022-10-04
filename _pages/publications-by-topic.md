@@ -1,4 +1,4 @@
-----
+---
 layout: page
 permalink: /pub-by-topic/
 title: Publication List by Topic
