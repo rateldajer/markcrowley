@@ -30,6 +30,8 @@ This is an exciting group of work which has published in several good conference
 
 > {% reference ghojogh2018psa %}
 
-This work has culiminated recently in the completion of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors[Ghojogh].url }}), in April 2021 with his thesis encompassing many of these advances.
-Dr. Ghojogh continues as a postdoc now with my lab and we have an approved book deal with Springer for a textbook due out later in 2021 on "Manifold Learning and Dimensionality Reduction" which we are writing in collaboration with Prof. Ali Gosi andd Prof. Fakhri Karray.
+### Upcoming Textbook on Manifold Learning!
+
+This work has culiminated recently in the completion of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors["Ghojogh"].url }}), in April 2021 with his thesis encompassing many of these advances.
+Dr. Ghojogh continued as a postdoc in my lab until 2022 and now works in industry. In late 2022 we will publish, via Springer, a new textbook on **"Manifold Learning and Dimensionality Reduction"** {% cite ghojogh2022springerbook %} written in collaboration with Prof. Ali Godsi andd Prof. Fakhri Karray.
 

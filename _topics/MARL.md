@@ -3,7 +3,6 @@ layout: page
 keyword: MARL
 title: Multi-Agent Reinforcement Learning
 name: Multi-Agent Reinforcement Learning
-stage: field
 permalink: /marl/
 bibkeyword:  marl
 status: active
