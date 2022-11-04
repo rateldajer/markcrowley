@@ -35,3 +35,19 @@ information
 
 
 
+## Attended Canadanian Wildfire Conference
+
+Some ideas and summaries
+
+
+
+## Gave a talk at AMII on Nov 4, 2022
+
+How did that go?
+
+Links to YouTube etc
+
+
+
+
+
