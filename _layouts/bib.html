@@ -20,31 +20,32 @@
       <div class="author">
         {% for author in entry.author_array %}
         {% assign authorkey = author.first | append: author.last | downcase | strip | remove: " " | remove: "." | remove: "-" %}
+        {% assign authorprint = author.first | append: " " | append: author.last %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first}}</em>
+            <em>{{ authorkey }}</em>.
             {% else %}
-              {{author.last}}, {{author.first}}
+              {{ authorkey }}.
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
-                <em>{{author.last}}, {{author.first}}</em>,
+                <em>{{ authorprint }}</em>,
               {% else %}
                 {% if site.data.coauthors[authorkey] %}
-                  <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                  {{ authorprint }},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author.last == site.scholar.last_name %}
-                and <em>{{author.last}}, {{author.first}}</em>
+                and <em>{{ authorprint }}</em>
               {% else %}
                 {% if site.data.coauthors[authorkey] %}
-                  and <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>.
                 {% else %}
-                  and {{author.last}}, {{author.first}}
+                  and {{ authorprint }}.
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -54,12 +55,33 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        <em>{{entry.journal}}</em>.
+
+          {% if entry.volume %}
+              {{ entry.volume }},
+          {% endif %}
+          {% if entry.number %}
+              ({{ entry.number }}).
+          {% endif %}
+        
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
+      {% elsif entry.type == "techreport" %}
+      <em>{{entry.institution}}: #{{entry.number}}.</em>
+      {% endif %}
+      {% if entry.publisher %}
+          {{ entry.publisher }},
+      {% endif %}
+      {% if entry.address %}
+          {{ entry.address }},
+      {% endif %}
+      {% if entry.month %}
+          {{entry.month}},
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        {{entry.year}}.
+      {% else %}
+        .
       {% endif %}
       </div>
     {% endif %}
