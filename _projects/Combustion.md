@@ -16,6 +16,7 @@ showdomains: true
 showfields: false
 showmethods: true
 showwebpage: false
+importance: 3
 ---
 Inspired by a challenge raised by [Prof. Jean-Pierre Hickey](/people/jeanpierrehickey/) in Mechanical Engineering I have worked to investigate novel ways to use Deep Neural Network to revolutionize the way combustion simulation calculations are computed and stored. 
 This research is relevant for the design of combustion engines and energy production. 

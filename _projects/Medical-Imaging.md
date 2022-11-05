@@ -13,6 +13,8 @@ people: aishwarya, lauramccrackin, benyaminghojgh, markcrowley
 showtitle: true
 showbib: true
 publish: true
+img: /assets/img/medical-imaging.jpg
+importance: 2
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.

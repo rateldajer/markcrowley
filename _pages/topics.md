@@ -1,15 +1,17 @@
 ---
 layout: page
 title: topics
-titleheader: Topics
+titleheader: Research Topics
 permalink: /topics/
 nav: true
-description: Metapages collecting information on topics of interest in the lab. 
+description: Metapages collecting information on general research topics of interest in the lab. 
 showtitle: true
 ---
 
+
+
 <div class="projects grid">
-  {% assign sorted_topics = site.topics | sort: "title" %}
+  {% assign sorted_topics = site.topics | sort: "importance" %}
   {% for topic in sorted_topics %}
       {% if topic.publish %}
           <div class="grid-item">

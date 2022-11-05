@@ -1,26 +1,36 @@
-Crowley:
-    url: https://markcrowley.ca/
-Poole:
+davidpoole:
     url: https://www.cs.ubc.ca/~poole/
-Dietterich:
+thomasdietterich:
     url: http://web.engr.oregonstate.edu/~tgd/
-Ghojogh:
+benyaminghojogh:
     url: https://www.researchgate.net/profile/Benyamin-Ghojogh
-Karray: 
+fakhrikarray: 
     url: https://uwaterloo.ca/scholar/karray
-Ghodsi:
+alighodsi:
     url: https://uwaterloo.ca/data-analytics/
-Ganapathi Subramanian:
+sriramganapathisubramanian:
     url: https://uwaterloo.ca/scholar/s2ganapa/home
-Lee:
+kenminglee:
     url: https://www.linkedin.com/in/km-lee/
-Taylor:
+stevetaylor:
+    url: https://cfs.nrcan.gc.ca/employees/read/staylor
+matthewtaylor:
     url: https://irll.ca
-Larson:
+katelarson:
     url: https://cs.uwaterloo.ca/~klarson/
-Babaie:
+mortezababaie:
     url: https://uwaterloo.ca/systems-design-engineering/people-profiles/morteza-babaie
-Tizhoosh:
+hamidtizhoosh:
     url: https://kimialab.uwaterloo.ca/kimia/index.php/h-r-tizhoosh/
-Gaudet:
+hrtizhoosh:
+    url: https://kimialab.uwaterloo.ca/kimia/index.php/h-r-tizhoosh/
+vincentgaudet:
     url: https://uwaterloo.ca/scholar/vcgaudet
+kerstindautenhahn:
+  url: https://uwaterloo.ca/electrical-computer-engineering/profile/kdautenh
+moojanghafurian:
+  url: https://uwaterloo.ca/electrical-computer-engineering/profile/mghafuri
+colinbellinger:
+  url: https://web.cs.dal.ca/~bellinger/
+sebastianfischmeister:
+  url: https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister

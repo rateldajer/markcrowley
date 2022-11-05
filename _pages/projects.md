@@ -1,18 +1,13 @@
 ---
 layout: page
 title: projects
-titleheader: Active Projects
+titleheader: Application Domains and Active Projects
 permalink: /projects/
-description: Ongoing projects within the lab.
+description: Ongoing projects and domains of application within the lab.
 nav: true
 showtitle: true
 ---
 
-
-
-<h4>Related Pages:</h4>
-
-- previously [completed projects](/oldprojects/) 
 
 <div class="projects grid">
   {% assign sorted_projects = site.projects | sort: "importance" %}
@@ -57,3 +52,6 @@ showtitle: true
 {% endfor %}
 
 </div>
+
+<h4>Related Pages:</h4>
+- previously [completed projects](/oldprojects/) 

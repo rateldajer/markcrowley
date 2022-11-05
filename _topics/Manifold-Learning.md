@@ -9,8 +9,13 @@ people: benyaminghojogh, markcrowley
 methods: SSIM, PCA, LDA, RDA, QQE, GLLE
 stage: field
 showtitle: true
+showwebpage: true
 publish: true
 showbib: true
+importance: 2
+webpage: https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1
+webpagename: (Amazon) "Elements of Dimensionality Reduction and Manifold Learning"
+img: /assets/img/manifold-learning-book.jpg
 ---
 
 Manifold Learning and Dimensionality Reduction are vast areas of study in the Math and Computer Science fields. The task is quite simply to find ways to extact the essential nature out of a dataset. looks at ways to automatically extract meaningful features, dimensions or subspaces from data in order to build better models, expand data, reduce data, etc.

@@ -1,5 +1,5 @@
 ---
-permalink: /benyaminghojogh/
+layout: people
 givenname: Benyamin
 familyname: Ghojogh
 key: benyaminghojogh
@@ -11,7 +11,6 @@ linkedin: https://ir.linkedin.com/in/benyamin-ghojogh-97423276
 twitter:
 url: https://www.researchgate.net/profile/Benyamin-Ghojogh
 showbib: true
-nav: true
 ---
 
 

@@ -30,6 +30,8 @@ showtitle: true
 
 <b>Jump to Topic:</b> {% for t in page.topics %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
 
+*Note that papers will show up in multiple topics.*
+
 <div class="publications">
 {% for t in page.topics %}
   <h2><a name="{{t}}">{{t}}</a></h2>

@@ -8,7 +8,10 @@ description: ML is the study of how to build computer programs that can learn to
 stage: topic
 showtitle: true
 showbib: true
+showwebpage: true
 publish: true
+img: /assets/img/machine-learning.png
+importance: 1
 ---
 In the broadest terms my research spans the areas of ***[Artificial Intelligence (AI)](/artificial-intelligence/)*** and ***[Machine Learning (ML)](/machine-learning/)*** which can be seen highly related, independent, or identical research fields depending on who you are.
 

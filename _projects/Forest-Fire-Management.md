@@ -10,11 +10,12 @@ status: active
 people: sriramganapathisuburamanian, pardiszohouri, katelarson, markcrowley
 toc: false
 showtitle: true
-img: /assets/img/forest-fire/firestate_year_1_round_4.png
-bibkeyword: forest-fire
+img: /assets/img/forest-fire/forest-fire.jpg
+bibkeyword: proj-forestfire
 showbib: true
 publish: true
 output: true
+importance: 2
 ---
 
 The task of Forest Fire Management presents a number of unique challenges which push the boundaries of what is possible with existing AI/ML algorithms. These include the importance of considering:

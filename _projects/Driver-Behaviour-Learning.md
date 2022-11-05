@@ -16,13 +16,12 @@ publish: true
 people: markcrowley, lauramccrackin, takintadayon
 showtitle: true
 showdomains: true
-showpeople: false
-showfields: true
-showmethods: true
 showwebpage: true
-webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy, /news/2021-10-14-AutolineInterview/
+webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy
+webpagename: DBL User Study Homepage
 img: /assets/img/dbl/avrildbl.jpg
 showbib: false
+importance: 1
 ---
 
 
@@ -37,3 +36,8 @@ The [Real-Time Embedded Software Group](https://uwaterloo.ca/embedded-software-g
 
 **Problem 2**: Given a driving plan and a driver model, *predict* the vehicle state at points on the driving plan.
 
+
+
+## News
+
+- See our interview about this project in 2021 on [Autoline News](/news/2021-10-14-AutolineInterview/)

@@ -19,6 +19,7 @@
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% for author in entry.author_array %}
+        {% assign authorkey = author.first | append: author.last | downcase | strip | remove: " " | remove: "." | remove: "-" %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
               <em>{{author.last}}, {{author.first}}</em>
@@ -30,8 +31,8 @@
               {% if author.last == site.scholar.last_name %}
                 <em>{{author.last}}, {{author.first}}</em>,
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                {% if site.data.coauthors[authorkey] %}
+                  <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
                 {% else %}
                   {{author.last}}, {{author.first}},
                 {% endif %}
@@ -40,8 +41,8 @@
               {% if author.last == site.scholar.last_name %}
                 and <em>{{author.last}}, {{author.first}}</em>
               {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                {% if site.data.coauthors[authorkey] %}
+                  and <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
                 {% else %}
                   and {{author.last}}, {{author.first}}
                 {% endif %}

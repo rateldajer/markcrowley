@@ -13,6 +13,7 @@ people: sriramganapathisubramanian, sushrutbhalla, markcrowley
 showtitle: true
 publish: true
 showbib: true
+importance: 2
 ---
 Standard [Reinforcement Learning](/keywords/Reinforcement-Learning) studies how to build computational agents that can learn how to make decisions from interaction from their environment alone, even without a prior understanding of how that that environment works. This field is closely connected with human and animal learning and uses the idea of *rewards* obtained implicitely from the environment or explicitely from a trainer.
 

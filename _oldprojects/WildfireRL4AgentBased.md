@@ -6,9 +6,8 @@ description:  A proof-of-concept project using RL to learn an agent policy of fi
 
 
 importance: 8
-redirect: false
 url: none 
-img: /assets/img/ECML2019/combustion1.png
+img: /assets/img/forest-fire/forest-fire-cellular-prediction1.png
 
 name: Using Reinforcement Learning to Automatically Build Agent-Based Models of Forest Wildfire Spread from Satellite Data
 keywords:  MLForScience
@@ -17,7 +16,6 @@ domains: Forest-Wildfire-Management
 methods: Deep Learning,Reinforcement-Learning
 publish: true
 people: SriramSubramanian, MarkCrowley
-aside: 
-    toc: true
+bibkeyword: proj-forestfire
 ---
 
