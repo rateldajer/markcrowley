@@ -25,9 +25,16 @@ todo
 
 Don't add it if it isn't confirmed
 
+## Zehra Paper at IOT conference
+
+- [ ] paper information
+- [ ] cite
+- [ ] put some figures
+- [ ] promote on research gate, mastodon, twitter
+
 ## Manifold Learning Book finally released
 
-information
+information, available jan 2023? what date? price etc
 
 ## Former Lab Members
 
@@ -37,7 +44,7 @@ information
 
 ## Attended Canadanian Wildfire Conference
 
-Some ideas and summaries
+- [ ] Some ideas and summaries
 
 
 
