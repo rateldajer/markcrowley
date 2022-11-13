@@ -15,3 +15,5 @@ For that reason, interested students should be aware that **I <i>very rarely</i>
 
 Unfortunately, if you email me with your interest in graduate school I *probably* will not even be able to see it in my *waves and waves of emails* in order to reply. So, I *apologize* for that up front and *wish you luck* in your search for graduate school positions.
 
+
+

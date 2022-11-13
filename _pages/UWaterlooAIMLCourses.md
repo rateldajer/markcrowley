@@ -87,7 +87,7 @@ One of my core research areas is into understanding the computational mechanisms
 <h2>Other Courses</h2>
 </div> </div>
 
-<div class="row"> <div class="col">
+<div class="row> <div class="col">
 See my <a href="https://uwaterloo.ca/scholar/mcrowley/classes">department website for an archival list</a> of courses I have taught.
 </div> </div>
 
