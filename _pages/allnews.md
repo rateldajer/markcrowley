@@ -4,7 +4,7 @@ title: news
 description: A listing of all news posts.
 permalink: /news/
 nav: true
-twitterfeed: true
+twitterfeed: false
 profile:
   align: right
   image: prof_pic.png

@@ -1,6 +1,6 @@
 ---
 layout: default
-twitterfeed: true
+twitterfeed: false
 ---
 
 
@@ -23,16 +23,20 @@ twitterfeed: true
         <div class="clearfix">
           {{ content }}
         </div>
-        <div style="float:left; width:70%;">
+        {% if page.twitterfeed %}
+            <div style="float:left; width:70%;">
+        {% else %} 
+            <div style="float:left; width:90%;">
+        {% endif %}
         {% if page.news %}
           {% include news.html %}
         {% endif %}
         </div>
-        <div style="float:right;width:30%;">
         {% if page.twitterfeed %}
-          {% include twitterfeed.html %}
+            <div style="float:right;width:30%;">
+              {% include twitterfeed.html %}
+            </div>
         {% endif %}
-        </div>
     </div>
     
     <div style="clear:both;"></div>
@@ -42,6 +46,7 @@ twitterfeed: true
     {% endif %}
     
     {% if page.social %}
+    <hr>
     <div class="social">
       {% include social.html %}
       <div class="contact-note">{{ site.contact_note }}</div>

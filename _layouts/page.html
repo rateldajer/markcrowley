@@ -101,4 +101,10 @@ layout: default
           {% endif %}
       {% endif %}
 
+    {% if page.social %}
+    <div class="social">
+      {% include social.html %}
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
 </div>

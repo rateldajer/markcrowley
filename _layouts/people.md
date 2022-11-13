@@ -1,6 +1,7 @@
 ---
 layout: page
 show_title: false
+social: false
 ---
 <div class="post">
   <header class="post-header">

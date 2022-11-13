@@ -30,34 +30,39 @@ twitterfeed: true
       {{ content }}
 
         {% if page.news %}
-        <h2><a href="/news/">news</a></h2>
+        <h2><a href="/news/">recent news</a></h2>
           {% include news-inline-link.html %}
         {% endif %}
     </div>
 
     <div class="wrapper" style="diplay:inline-block;width:100%;">
-        <div style="float:left; width:70%;">
+        {% if page.twitterfeed %}
+            <div style="float:left; width:70%;">
+        {% else %} 
+            <div style="float:left; width:90%;">
+        {% endif %}
 
-            {% if page.selected_papers %}
-                <div class="publications-inline">
-                    <h2><a href="/showcase">selected showcase publications</a></h2>
+        </div>
+        <div style="clear:both;"></div>
+        {% if page.selected_papers %}
+                <div class="publications">
+                    <h2><a href="/showcase">recent highlighted publications</a></h2>
 
                   {% bibliography -f papers --max 5 -q @*[keywords~=showcase]* %}
 
                 </div>
-            {% endif %}
-        </div>
-        <div style="float:right;width:30%;">
-            {% if page.twitterfeed %}
+        {% endif %}
+        {% if page.twitterfeed %}
+            <div style="float:right;width:30%;">
               {% include twitterfeed.html %}
-            {% endif %}
-        </div>
+            </div>
+        {% endif %}
     </div>
 
-    <div style="clear:both;"></div>
 
 
     {% if page.social %}
+    <hr>
     <div class="social">
       {% include social.html %}
       <div class="contact-note">{{ site.contact_note }}</div>

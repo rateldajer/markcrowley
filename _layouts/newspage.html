@@ -26,11 +26,11 @@ layout: default
           {% include news-inline-link.html %}
         {% endif %}
         </div>
-        <div style="float:right;width:30%;">
         {% if page.twitterfeed %}
-          {% include twitterfeed.html %}
+            <div style="float:right;width:30%;">
+              {% include twitterfeed.html %}
+            </div>
         {% endif %}
-        </div>
     </div>
 
     <div style="clear:both;"></div>
@@ -39,6 +39,7 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
+    <hr>
     {% if page.social %}
     <div class="social">
       {% include social.html %}

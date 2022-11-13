@@ -71,9 +71,14 @@ Take a look at courses offered in the following departments and look for terms s
 ## Data Analysis and Machine Learning (DKMA)
 
 Engineers encounter data in many of their tasks, whether the sources of this data may be from experiments, databases, computer files or the Internet. There is a dire need for effective methods to model and analyze the data and extract useful knowledge from it and to know how to act on it. In this course you will learn the fundamental tools for assessing, preparing and analyzing data.
-- **Winter 2022:** [ECE 657A - Data and Knowledge Modeling and Analysis](https://compthinking.github.io/DKMA/)
+- **Winter 2023:** *Coming Soon*
+- - Winter 2022: [ECE 657A - Data and Knowledge Modeling and Analysis](https://compthinking.github.io/DKMA/)
 - Spring 2021: ECE 657A - Data and Knowledge Modeling and Analysis
 - Winter 2020: ECE 657A - Data and Knowledge Modeling and Analysis
+
+## Algorithm Design and Analysis
+*More information to come soon.*
+
 
 ## Reinforcement Learning
 
@@ -88,6 +93,11 @@ One of my core research areas is into understanding the computational mechanisms
 
 <img src="../assets/img/teaching/ece657logo.png" style="width: 200px; padding: 10px; float: right;">
 
+
+
 ## Other Courses
 
 See my [department website for an archival list](https://uwaterloo.ca/scholar/mcrowley/classes) of courses I have taught.
+
+
+
