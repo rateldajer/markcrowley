@@ -13,7 +13,7 @@ profile:
         <li><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3921-4762" href="https://orcid.org/0000-0003-3921-4762" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORC-ID</a></div></li>
         <li><a href="https://scholar.google.ca/citations?user=eL_y80EAAAAJ">Google Scholar</a></li>
         <li><a href="https://uwaterloo.ca/scholar/mcrowley/contact">Contact</a></li>
-        <li> <a href="https://twitter.com/compthink">twitter<a> / <a href="https://mastodon.social/@compthink" rel="me">mastodon</a>
+        <li> <a href="https://twitter.com/compthink">Twitter<a> / <a href="https://sigmoid.social/@compthink" rel="me">Mastodon</a>
     </ul>
     </p>
 
@@ -39,5 +39,5 @@ and digital chemistry/material design.
 
 I'm always [happy to talk to people about my research](/contact/), or the impact of AI/ML/RL on our world and its role in our society in the future, but *I do not take on **many** incoming students*, so potential students should *[read this note about joining my lab](/joining-my-lab/)*.
 
-Besides my [publications](publications), you can find my thoughts on Artificial Intellgience, Machine Learning and how technology and science are advancing on my blog [Computationally Thinking](http://computationallythinking.com/) (updated intermittently) or through social media as **@compthink** [on Twitter](https://twitter.com/compthink)(at least for now) or increasingly, <a href="https://mastodon.social/@compthink" rel="me">on Mastodon</a>. I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future. 
+Besides my [publications](publications), you can find my thoughts on Artificial Intellgience, Machine Learning and how technology and science are advancing on my blog [Computationally Thinking](http://computationallythinking.com/) (updated intermittently) or through social media as **@compthink** [on Twitter](https://twitter.com/compthink)(at least for now) or increasingly, <a href="https://sigmoid.social/@compthink" rel="me">on Mastodon</a>. I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future. 
 
