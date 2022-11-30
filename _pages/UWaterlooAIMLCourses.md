@@ -28,9 +28,10 @@ social: true
         <div class="col">
         <ul class="list-group">
         <li class="list-group-item active"> 
-            <b>Winter 2023:</b> <i>Coming Soon</i>
+            <b>Winter 2023:</b> <a href="https://compthinking.github.io/DKMA/">
+            ECE 657A - Data and Knowledge Modeling and Analysis</a>
         </li>
-        <li class="list-group-item"> 
+        <li class="list-group-item" disabled> 
             Winter 2022: <a href="https://compthinking.github.io/DKMA/">
             ECE 657A - Data and Knowledge Modeling and Analysis</a>
         </li>
