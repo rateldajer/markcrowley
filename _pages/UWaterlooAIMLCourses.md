@@ -27,7 +27,7 @@ social: true
     <div class="row mt-3">
         <div class="col">
         <ul class="list-group">
-        <li class="list-group-item active"> 
+        <li class="list-group-item"> 
             <b>Winter 2023:</b> <a href="https://compthinking.github.io/DKMA/">
             ECE 657A - Data and Knowledge Modeling and Analysis</a>
         </li>
@@ -49,12 +49,30 @@ social: true
         </div>
     </div>
 
-<div class="row mt-4">
-<h2>Algorithm Design and Analysis</h2>
-<ul><li><b>Winter 2023:</b> <i>More information to come soon.</i></li></ul>
-</div>
+   <div class="row">
+        <div class="col">
+            <h2>Algorithms</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+        Algorithms provide methods for solving problems, and are at the foundation of computing. It is important that practitioners in electrical and computer engineering understand how algorithms are designed, and how to analyze them for correctness and efficiency. It is important also to be able to distinguish intractable problems from ones that are tractable so one does not naively seek efficient solutions when none may exist. For cases that are intractable, it is important to know how to design approximate solutions that satisfy bounds on correctness and efficiency. Industry has long recognized the critical importance of algorithms that are correct and efficient. 
+        </div>
+    </div>
+    
+    <div class="row mt-3">
+        <div class="col">
+            <ul class="list-group">
+            <li class="list-group-item"> 
+                <b>Winter 2023:</b> <a href="/assets/pdf/ECE406-Winter2023-Course-Outline.pdf">
+                ECE 406 : Algorithm Design and Analysis</a>
+            </li>
+            </ul>
+        </div>
+    </div>
 
-<div class="row mt-4">
+<div class="row">
 <h2>Reinforcement Learning</h2>
 </div>
 
@@ -68,7 +86,7 @@ One of my core research areas is into understanding the computational mechanisms
             <li class="list-group-item"> <b>Spring 2022</b> : 
                 <i><a  href="/rlcourse/">ECE 457C - Reinforcement Learning</a></i>
             </li>
-            <li class="list-group-item"> Spring 2021 : 
+            <li class="list-group-item disabled"> Spring 2021 : 
                 <a href="/rlcourseS21/">ECE 493 - Reinforcement Learning</a>
             </li>
             <li class="list-group-item disabled"> 
