@@ -1,4 +1,5 @@
 ---
+
 layout: page
 title: Manifold Learning
 name: Manifold Learning
@@ -16,6 +17,7 @@ importance: 2
 webpage: https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1
 webpagename: "Elements of Dimensionality Reduction and Manifold Learning" (Amazon)
 img: /assets/img/manifold-learning-book.jpg
+
 ---
 
 Manifold Learning and Dimensionality Reduction are vast areas of study in Math and Computer Science. The task is to find ways to determine the essential relationships and structure of a dataset. Researchers in this area looks at ways to automatically extract meaningful features, dimensions or subspaces from data in order to build better models, expand data, reduce data, etc.
