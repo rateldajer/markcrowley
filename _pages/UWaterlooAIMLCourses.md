@@ -65,7 +65,7 @@ social: true
         <div class="col">
             <ul class="list-group">
             <li class="list-group-item"> 
-                <b>Winter 2023:</b> <a href="/assets/pdf/ECE406-Winter2023-Course-Outline.pdf">
+                <b>Winter 2023:</b> <a href="/algorithmscourse/">
                 ECE 406 : Algorithm Design and Analysis</a>
             </li>
             </ul>
