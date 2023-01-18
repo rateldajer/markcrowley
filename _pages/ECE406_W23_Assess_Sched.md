@@ -1,27 +1,3 @@
----
-layout: page
-description: Spring 2022 - ECE 457C
-permalink: /algorithmscourse/
-title: Algorithm Design and Analysis - ECE 406 Winter 2023
-date: 2022-12-20
-meta: ECE 406 - Winter 2023
-nav: false
-showtitle: true
-importance: 1
----
-
-## Course Outline
-- [UWaterloo ECE 406 Course Outline for Winter 2023](/assets/pdf/ECE406-Winter2023-Course-Outline.pdf) - pdf of the official course outline
-
-
-## Other Information
-- Materials will all be made available on LEARN: https://learn.uwaterloo.ca/d2l/home/873261
-- Discussion and questions will take place on Piazza: https://piazza.com/uwaterloo.ca/winter2023/ece406
-
-
-
-# Course Assessment Schedule
-
 | Week | Item | Date (released) | Due (if app) | Covering Topics | Instructions |
 | -------------------- | ----------- | ----------- | ---- | ------------------------------ | ------------------------------ |
 | 1               | Asg 1                | Thu, Jan 12 | Thu, Jan 26 | Up to Lecture 4  | Submit via Crowdmark and LEARN |
@@ -37,3 +13,4 @@ importance: 1
 | 14          | Study Day            | Wed, Apr 12 | |                 |                               |
 | 14  | Exam Period    | Fri, Apr 14 | Tue, May 2 |                 |                               |
 | 14 | Final Exam  | TBD |  | Entire Course    | Location: In person, TBD.      |
+
