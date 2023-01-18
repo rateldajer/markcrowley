@@ -7,8 +7,7 @@ date: 2023-01-18
 meta: ECE 406 - Winter 2023
 nav: false
 showtitle: true
-redirect: https://compthinking.github.io/DKMA/
-redirect
+redirect: /algorithmscourse/
 importance: 1
 ---
 
