@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mark at 2023-01-18 23:32:23 -0500 
+%% Created for Mark at 2023-02-02 17:45:32 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
@@ -118,10 +118,10 @@
 	abstract = {Multi-agent reinforcement learning (MARL) has seen much success in the past decade. However, these methods are yet to find wide application in large-scale real world problems due to two important reasons. First, MARL algorithms have poor sample efficiency, where many data samples need to be obtained through interactions with the environment to learn meaningful policies, even in small environments. Second, MARL algorithms are not scalable to environments with many agents since, typically, these algorithms are exponential in the number of agents in the environment. This dissertation aims to address both of these challenges with the goal of making MARL applicable to a variety of real world environments. Towards improving sample efficiency, an important observation is that many real world environments already, in practice, deploy sub-optimal or heuristic approaches for generating policies. A useful possibility that arises is how to best use such approaches as advisors to help improve reinforcement learning in multi-agent domains. In this dissertation, we provide a principled framework for incorporating action recommendations from online sub-optimal advisors in multi-agent settings. To this end, we propose a general model for learning from external advisors in MARL and show that desirable theoretical properties such as convergence to a unique solution concept, and reasonable finite sample complexity bounds exist, under a set of common assumptions. Furthermore, extensive experiments illustrate that these algorithms: can be used in a variety of environments, have performances that compare favourably to other related baselines, can scale to large state-action spaces, and are robust to poor advice from advisors. Towards scaling MARL, we explore the use of mean field theory. Mean field theory provides an effective way of scaling multi-agent reinforcement learning algorithms to environments with many agents, where other agents can be abstracted by a virtual mean agent. Prior work has used mean field theory in MARL, however, they suffer from several stringent assumptions such as requiring fully homogeneous agents, full observability of the environment, and centralized learning settings, that prevent their wide application in practical environments. In this dissertation, we extend mean field methods to environments having heterogeneous agents, and partially observable settings. Further, we extend mean field methods to include decentralized approaches. We provide novel mean field based MARL algorithms that outperform previous methods on a set of large games with many agents. Theoretically, we provide bounds on the information loss experienced as a result of using the mean field and further provide fixed point guarantees for Q-learning-based algorithms in each of these environments. Subsequently, we combine our work in mean field learning and learning from advisors to show that we can achieve powerful MARL algorithms that are more suitable for real world environments as compared to prior approaches. This method uses the recently introduced attention mechanism to perform per-agent modelling of others in the locality, in addition to using the mean field for global responses. Notably, in this dissertation, we show applications in several real world multi-agent environments such as the Ising model, the ride-pool matching problem, and the massively multi-player online (MMO) game setting (which is currently a multi-billion dollar market).},
 	author = {Sriram Ganapathi Subramanian},
 	date-added = {2022-09-22 09:24:08 -0400},
-	date-modified = {2023-01-12 22:33:24 -0500},
+	date-modified = {2023-02-02 17:39:59 -0500},
 	doi = {http://hdl.handle.net/10012/18442},
 	in-website = {1},
-	keywords = {reinforcement-learning; marl; forest-management; game-theory},
+	keywords = {reinforcement-learning; marl; forest-management; game-theory; proj-forestfire},
 	month = {June 27},
 	publicationstatus = {published},
 	publisher = {UWSpace},
@@ -293,9 +293,9 @@ applications.
 	author = {Ganapathi Subramanian, Sriram and Taylor, Matthew and Larson, Kate and Crowley, Mark},
 	booktitle = {Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
 	date-added = {2022-01-19 15:54:30 -0500},
-	date-modified = {2023-01-12 22:56:22 -0500},
+	date-modified = {2023-02-02 17:43:32 -0500},
 	in-cv = {1},
-	keywords = {machine-learning, reinforcement-learning, multi-agent-systems, Multi-agent Reinforcement Learning, {MARL}, showcase},
+	keywords = {machine-learning, reinforcement-learning, multi-agent-systems, Multi-agent Reinforcement Learning, {MARL}, showcase, proj-forestfire},
 	month = {September},
 	pages = {12},
 	paperdesc = {This paper forms one of the final components of my PhD student Sriram's thesis work, who did the majority of the writing and all of the empirical work. The approach to theory, methodology and writing has been a regular and fully collaborative discussion amongst all the authors over several months.},
@@ -469,10 +469,11 @@ In this paper we relax a core requirement in existing Mean Field approaches whic
 @article{ganapathisubramanian2022jair,
 	abbr = {Multi-Advisor-QL},
 	abstract = {In the last decade, there have been significant advances in multi-agent reinforcement learn- ing (MARL) but there are still numerous challenges, such as high sample complexity and slow convergence to stable policies, that need to be overcome before wide-spread deployment is possi- ble. However, many real-world environments already, in practice, deploy sub-optimal or heuristic approaches for generating policies. An interesting question that arises is how to best use such approaches as advisors to help improve reinforcement learning in multi-agent domains. In this paper, we provide a principled framework for incorporating action recommendations from online sub- optimal advisors in multi-agent settings. We describe the problem of ADvising Multiple Intelligent Reinforcement Agents (ADMIRAL) in nonrestrictive general-sum stochastic game environments and present two novel Q-learning based algorithms: ADMIRAL - Decision Making (ADMIRAL-DM) and ADMIRAL - Advisor Evaluation (ADMIRAL-AE), which allow us to improve learning by appropriately incorporating advice from an advisor (ADMIRAL-DM), and evaluate the effectiveness of an advisor (ADMIRAL-AE). We analyze the algorithms theoretically and provide fixed point guarantees regarding their learning in general-sum stochastic games. Furthermore, extensive experi- ments illustrate that these algorithms: can be used in a variety of environments, have performances that compare favourably to other related baselines, can scale to large state-action spaces, and are robust to poor advice from advisors.},
-	annote = {code is available her: https://github.com/Sriram94/multiagentadvisorqlearning	},
+	annote = {code is available her: https://github.com/Sriram94/multiagentadvisorqlearning	
+This paper uses forest widlfire as one of its motivational examples to demonstrate the difficulty of multi-agent planning in real-world domains with many agents acting at once.},
 	author = {Ganapathi Subramanian, Sriram and Larson, Kate and Taylor, Matthew and Crowley, Mark},
 	date-added = {2021-10-26 12:46:41 -0400},
-	date-modified = {2023-01-12 22:30:52 -0500},
+	date-modified = {2023-02-02 17:36:29 -0500},
 	doi = {https://doi.org/10.1613/jair.1.13445},
 	in-cv = {1},
 	in-website = {1},
@@ -2063,6 +2064,73 @@ pathology datasets},
 		<array>
 			<dict>
 				<key>comparison</key>
+				<integer>0</integer>
+				<key>key</key>
+				<string>Date-Added</string>
+				<key>value</key>
+				<string></string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>added today</string>
+	</dict>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
+				<integer>2</integer>
+				<key>key</key>
+				<string>Author</string>
+				<key>value</key>
+				<string>ghojogh</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>ghojogh</string>
+	</dict>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
+				<integer>4</integer>
+				<key>key</key>
+				<string>Status</string>
+				<key>value</key>
+				<string>1</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+			<dict>
+				<key>comparison</key>
+				<integer>9</integer>
+				<key>key</key>
+				<string>Year</string>
+				<key>value</key>
+				<string>2020</string>
+				<key>version</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>conjunction</key>
+		<integer>0</integer>
+		<key>group name</key>
+		<string>latest published</string>
+	</dict>
+	<dict>
+		<key>conditions</key>
+		<array>
+			<dict>
+				<key>comparison</key>
 				<integer>3</integer>
 				<key>key</key>
 				<string>Keywords</string>
@@ -2125,54 +2193,6 @@ pathology datasets},
 				<key>key</key>
 				<string>Author</string>
 				<key>value</key>
-				<string>ghojogh</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>ghojogh</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>4</integer>
-				<key>key</key>
-				<string>Status</string>
-				<key>value</key>
-				<string>1</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-			<dict>
-				<key>comparison</key>
-				<integer>9</integer>
-				<key>key</key>
-				<string>Year</string>
-				<key>value</key>
-				<string>2020</string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>latest published</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>2</integer>
-				<key>key</key>
-				<string>Author</string>
-				<key>value</key>
 				<string>subramanian</string>
 				<key>version</key>
 				<string>1</string>
@@ -2182,25 +2202,6 @@ pathology datasets},
 		<integer>0</integer>
 		<key>group name</key>
 		<string>sriram</string>
-	</dict>
-	<dict>
-		<key>conditions</key>
-		<array>
-			<dict>
-				<key>comparison</key>
-				<integer>0</integer>
-				<key>key</key>
-				<string>Date-Added</string>
-				<key>value</key>
-				<string></string>
-				<key>version</key>
-				<string>1</string>
-			</dict>
-		</array>
-		<key>conjunction</key>
-		<integer>0</integer>
-		<key>group name</key>
-		<string>added today</string>
 	</dict>
 	<dict>
 		<key>conditions</key>

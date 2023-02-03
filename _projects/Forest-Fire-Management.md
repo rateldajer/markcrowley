@@ -31,7 +31,10 @@ This research explores the intersection of theory in the field of **Game Theory*
 
 ### News
 
-- **ML for Forest Fire Journal Paper:** In 2020, in collaboration with some other investigators in this strategic network, we published a review article in the *Environmental Reviews* journal \cite{jain2020review} analysing the relevance of various ML algorithms to the domain and exhaustively surveying and analysing the existing research using ML for forest fire management.
+- [Lab News March, 2022](/news/2022-03-07-LabNews/) : Two papers related to this project discussed.
+- [Lab News Dec 1, 2022](/news/2022-12-20-LabNews/) : In Fall 2022, members of the lab went to a Canadian Wildfire conference. Mark also gave a talk on research related to this topic.
+- Journal paper in JAIR on a new algorithm using forest widlfire as one of its motivational examples to demonstrate the difficulty of multi-agent planning in real-world domains with many agents acting at once {% cite ganapathisubramanian2022jair %}.
+- **ML for Forest Fire Journal Paper:** In 2020, in collaboration with some other investigators in this strategic network, we published a review article in the *Environmental Reviews* journal {% cite jain2020review %} analysing the relevance of various ML algorithms to the domain and exhaustively surveying and analysing the existing research using ML for forest fire management.
 - **NSERC/CANADA WILDFIRE STRATEGIC NETWORK**: In 2019, an NSERC Strategic Network grant was confirmed in which we are involved to support computational research in to Forest Fire Management practices. This includes the AI/ML/RL focus of our research along with our colleague in computer science Prof. Kate Larson.
 - In 2019, we were awarded a computing grant on the topic of 
 Wildfire management: Disaster response, climate change" from **Waterloo Artificial Intelligence Institute (WAII)** in affiliation with the **Microsoft "AI for Social Good"** program.
