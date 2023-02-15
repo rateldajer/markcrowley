@@ -28,4 +28,4 @@ Our long-awaited, much discusse (by us at least) textbook on **Manifold Learning
 
 The reglferemce ans teaching textbook is on the broad topic area of my former PhD student Benyamin Ghojogh's thesis. Benyamin led the massive effort involved in the completion of this textbook. We're confident it will be a fantastic resource for students and researchers wanting a wide view of this field but also one built from the ground up from the fundamentals at each step.
 
-These are fundamental tools of data analysis and machine learning
+These are fundamental tools and concepts for all data analysis and machine learning professionals. So of you're interested in a deep dive into this important area, and take a look at our book.
