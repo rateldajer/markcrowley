@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of many agents, spatial structure, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](reinforcement-learning)**, **[Deep Learning](deep-learning)** and **[Ensemble Methods](ensemble-methods)**, and **[Manifold Learning (Dimensionality Reduction)](manifold-learning)** as well as other [Research Topics](/topics/).  I often work in collaboration with researchers in applied fields such as  **[Computational Sustainability](computational-sustainability)** (including [Sustainable Forest Management](forest-management)), **[Autonomous Driving](autonomous-driving)**, **[AI for Science](ai-for-science)** and **[Medical Imaging](medical-imaging)**. [Read more about me in my bio](/bio/).
 
-Mark Crowley is an Associate Professor in the Department of Electrical and Computer Engineering at the University of Waterloo and is a member of the Waterloo Artificial Intelligence Institute. 
+Mark Crowley is an Associate Professor in the Department of Electrical and Computer Engineering at the University of Waterloo and is a member of the [Waterloo Artificial Intelligence Institute (WAII)](https://waterloo.ai). 
 He and his students carry out research into
 single-agent and multi-agent Reinforcement Learning
 large-scale 2D/3D image-like processing, 
