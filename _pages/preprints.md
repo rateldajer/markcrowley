@@ -10,7 +10,8 @@ showtitle: true
 
 Also see:
 - [All Published Works](/publications)
-- [Selected Showcase Publications](/showcase)
+- **[Selected Showcase Publications](/showcase)**
+- [Publications Grouped by Research Topics](/pub-by-topic/)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
 

@@ -8,6 +8,7 @@ description: Metapages collecting information on general research topics of inte
 showtitle: true
 ---
 
+Also see [Publications Grouped by Research Topics](/pub-by-topic/)
 
 
 <div class="projects grid">
