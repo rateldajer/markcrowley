@@ -18,6 +18,13 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 
 **Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
 
+|      | **NOTICE for Spring 2023!**                                  |      |
+| ---- | :----------------------------------------------------------- | ---- |
+|      | The information currently shown here is from *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated in the first couple weeks of class. Mostly, some topics will be dropped or shortened, and a few others will be added, near the end. |      |
+
+
+## 
+
 ### Links to More Information and Resources
 
 |                                                                                                                  |                                                                                                          |
