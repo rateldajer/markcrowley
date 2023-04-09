@@ -19,6 +19,7 @@ importance: 2
 ---
 
 The task of Forest Fire Management presents a number of unique challenges which push the boundaries of what is possible with existing AI/ML algorithms. These include the importance of considering:
+- predicting daily fire spread from historical data automatically by combining information from weather, satellite hotspot detection and other available GIS information
 - multiple spatial-temporal scales at all times
 - tradeoffs between individual and social good
 - paucity of supervised training data
@@ -31,6 +32,7 @@ This research explores the intersection of theory in the field of **Game Theory*
 
 ### News
 
+- [Lab News Dec 12, 2022](/news/2022-12-20-LabNews]) : Attended Forest Wildfire Conference on this topic.
 - [Lab News March, 2022](/news/2022-03-07-LabNews/) : Two papers related to this project discussed.
 - [Lab News Dec 1, 2022](/news/2022-12-20-LabNews/) : In Fall 2022, members of the lab went to a Canadian Wildfire conference. Mark also gave a talk on research related to this topic.
 - Journal paper in JAIR on a new algorithm using forest widlfire as one of its motivational examples to demonstrate the difficulty of multi-agent planning in real-world domains with many agents acting at once {% cite ganapathisubramanian2022jair %}.

@@ -1,11 +1,11 @@
 ---
 layout: page
-description: Spring 2022 - ECE 457C
-permalink: /rlcourseS22/
+description: Spring 2032 - ECE 457C
+permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
-date: 2022-02-26
-meta: ECE 457C - Spring 2022
+date: 2023-04-12
+meta: ECE 457C - Spring 2023
 nav: false
 showtitle: true
 importance: 1
@@ -20,10 +20,10 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 
 |      | **NOTICE for Spring 2023!**                                  |      |
 | ---- | :----------------------------------------------------------- | ---- |
-|      | The information currently shown here is from *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated in the first couple weeks of class. Mostly, some topics will be dropped or shortened, and a few others will be added, near the end. |      |
+|      | The information currently shown here is mostly still *copied over from* *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated given advancements in the field. You will be updated on these by the first  week of class. Significantly, this year the **midterm exam** will be dropped and there will be a **50% final exam** only for testing. The rest of the assessment for the course will come from 3 or 4 programming assignments. |      |
 
 
-## 
+ 
 
 ### Links to More Information and Resources
 
@@ -44,21 +44,21 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 
 
-## Spring 2022 - Course Staff
+## Spring 2023 - Course Staff
 
-| **Instructor:** Prof. Mark Crowley                           | TA: Negin Azizi | TA: Xiaoliang Zhou |
-| ------------------------------------------------------------ | --------------- | ------------------ |
-| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:**    | **Contact:**       |
-| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |                 |                    |
+| **Instructor:** Prof. Mark Crowley                           | TA: TBD      | TA: ???      |
+| ------------------------------------------------------------ | ------------ | ------------ |
+| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** | **Contact:** |
+| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |              |              |
 
 ### Lecture Locations and Times
 
-**Course Dates:** May 5, 2022 to July 26, 2022
+**Course Dates:** May 8, 2023 to Aug 1, 2022
 
 | Type                                                         | Times                               | Room                                   | Enrolled (Capacity) |
 | ------------------------------------------------------------ | ----------------------------------- | -------------------------------------- | ------------------- |
-| Lecture                                                      | MF 11:30am - 12:50pm                | E7 4043                                | 122 (148)           |
-| Tutorial (Mostly for review sessions, will determine based on need.) | M7:00pm - 7:50pm                    | E7 4043                                |                     |
+| Lecture                                                      | MF 11:00am - 1:00pm                 | E7 4043                                | ?? (??)             |
+| Tutorial (Mostly for review sessions, will determine based on need.) | TBD                                 | TBD                                    |                     |
 | Office Hours                                                 | Various Times (see Doodle Bookable) | Online  via Teams or in person E5 4114 |                     |
 
 
@@ -155,19 +155,18 @@ together to make such systems possible.
 
 <a name="assessment"></a>
 
+This year there will be three (or possibly four) assignment and a Final Exam, not midterm exam.
+
+| Item         | Weight Towards Final Grade | Released              | Due                              |
+| ------------ | -------------------------- | --------------------- | -------------------------------- |
+| Assignment 1 | 15%                        | Monday, May 15, 2023  | Friday, June 4, 2023at 11:59pm   |
+| Assignment 2 | 15%                        | Monday, June 5, 2023  | Friday, June 30, 2023 at 11:59pm |
+| Assignment 3 | 20%                        | Friday, June 30, 2023 | Friday July 28, 2023 at 11:59pm  |
 
 
-| Item                     | Weight Towards Final Grade | Released                                   | Due                                            |
-| ------------------------ | -------------------------- | ------------------------------------------ | ---------------------------------------------- |
-| Assignment 1             | 10%                        | Friday, May 13                             | Friday, May 27 at 11:59pm                      |
-| Assignment 2             | 15%                        | Wed, May 25                                | Friday, June 17, 2022 at 11:59pm               |
-| Assignment 3             | 20%                        | Friday, June 17, 2022                      | Friday July 26, 2022 at 11:59pm                |
-
-
-| Item                     | Weight Towards Final Grade | Date                                       | Location    |
-| ------------------------ | -------------------------- | ------------------------------------------ | ----------- |
-| Midterm Exam (in person) | 25%                        | Monday, June 13                            |             |
-| **Final Exam**           | **30%**                    | **Tuesday, August 9 at 12:30pm to 3:00pm** | **DC 1350** |
+| Item           | Weight Towards Final Grade | Date | Location |
+| -------------- | -------------------------- | ---- | -------- |
+| **Final Exam** | **50%**                    | TBD  | TBD      |
 
 
 
