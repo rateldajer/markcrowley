@@ -1,6 +1,6 @@
 ---
 layout: page
-description: Spring 2032 - ECE 457C
+description: Spring 2023 - ECE 457C
 permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
@@ -23,7 +23,7 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 |      | The information currently shown here is mostly still *copied over from* *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated given advancements in the field. You will be updated on these by the first  week of class. Significantly, this year the **midterm exam** will be dropped and there will be a **50% final exam** only for testing. The rest of the assessment for the course will come from 3 or 4 programming assignments. |      |
 
 
- 
+
 
 ### Links to More Information and Resources
 
