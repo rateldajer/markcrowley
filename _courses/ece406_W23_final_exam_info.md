@@ -1,3 +1,16 @@
+---
+layout: page
+description: Winter 2022 - ECE 406
+permalink: /algorithms-finalexam/
+title: Final Exam Information - Algorithm Design and Analysis - ECE 406 Winter 2023
+date: 2023-04-09
+meta: ECE 406 - Winter 2023
+nav: false
+showtitle: true
+importance: 1
+---
+
+
 # Final Exam - Monday April 17, 2023
 
 | Assessment:  | ECE 406 Final                                |
@@ -43,3 +56,10 @@ Here are some administrative announcements to help make today's midterm go more 
   - all other questions are answered directly on the answer sheet
   - if you need extra space, use the additional pages for this at the back, and be sure to indicate this in the original question space.
   - If you do need to the washroom during the test, that is fine, raise your hand and a course staff will escort one person at a time to the outside of the washrooms.
+
+
+
+
+
+
+
