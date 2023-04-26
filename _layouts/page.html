@@ -23,14 +23,14 @@ layout: default
         {% endfor %}
         </p>
         {% endif %}
-      {% if page.showfields == true %}
+      {% if page.showtags == true %}
 
-      <!-- fields aren't really used -->
-        {% assign fields = page.fields | split: ', ' %}
+      <!-- fields aren't really used, make them tags, but call them topics? -->
+        {% assign tags = page.tags | split: ', ' %}
         <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
-        <b>FIELDS</b>
-        {% for i in fields %}
-            {% assign j =  site.fields | where: "fields", i | first %}
+        <b>TAGS</b>
+        {% for i in tags %}
+            {% assign j =  site.tags | where: "tags", i | first %}
             | <a href="/{{i}}/">{{i}}</a> 
         {% endfor %}
         </p>

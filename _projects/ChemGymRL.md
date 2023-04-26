@@ -4,17 +4,16 @@ title: Automated Materials Design and Discovery Using Reinforcement Learning
 cardtitle: Digital Chemistry
 name: ChemGymRL
 bibkeyword: proj-chemgymrl
-keywords: machine-learning
+tags: machine-learning, ai-for-material-design, digital-chemistry, ai-for-physics, ai-for-science, ai-for-chemistry, reinforcement-learning, MARL, MDP
 permalink: /chemgymrl/
 status: active
-domains: ai-for-material-design, digital-chemistry, ai-for-physics, ai-for-science, ai-for-chemistry
-methods: reinforcement-learning, MARL, MDP
 description: Studying how to automate material synthesis and discovery by training a Deep Reinforcement Learning system to plan and carry out chemical synthesis experiments to gather data and find efficient pathways to making new or known materials.
 oneline: Using AI to learn how to be a chemist.
 publish: true
 people: nouhachatti,zihanyang, sriramganapathisubramanian, isaactamblyn, markcrowley, colinbellinger
 stage: project
-showmethods: true
+showtags: false
+showtitle: true
 showwebpage: true
 webpage: http://chemgymrl.com
 importance: 1

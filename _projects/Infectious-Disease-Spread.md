@@ -8,6 +8,7 @@ stage: domain
 aside: 
     toc: true
 showbib: true
+showtitle: true
 importance: 4
 ---
 

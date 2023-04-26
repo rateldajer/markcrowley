@@ -24,7 +24,7 @@ Manifold Learning and Dimensionality Reduction are vast areas of study in Math a
 
 
 The recent focus on **Deep Learning** seems to raise the question whether
-dedicated research on **[Manifold Learning and Dimensionality Reduction](manifold-learning)** are still required as their own pursuit since. After all, some form of Encoder-Decoder neural network could always be devised as a replacement.
+dedicated research on **[Manifold Learning and Dimensionality Reduction](manifold-learning.md)** are still required as their own pursuit since. After all, some form of Encoder-Decoder neural network could always be devised as a replacement.
 While such systems work well given the right training process and enough data, there is also certainly a role to
 be played by interpretable models built on solid statistical concepts. 
 

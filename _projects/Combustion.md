@@ -13,7 +13,7 @@ tasks: prediction
 people: sushrutbhalla, jeanpierrehickey, markcrowley
 showtitle: true
 showdomains: true
-showfields: false
+showtags: false
 showmethods: true
 showwebpage: false
 importance: 3

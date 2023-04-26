@@ -10,7 +10,7 @@ domains: autonomous-driving
 people: markcrowley, lauramccrackin, takintadayon, pouyamehrannia, shayanshiramahdi
 showdomains: true
 showpeople: false
-showfields: true
+showtags: false
 showmethods: false
 showbib: false
 publish: true

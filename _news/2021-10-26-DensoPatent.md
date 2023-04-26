@@ -10,7 +10,7 @@ domains: autonomous-driving
 people: sriramganpathisubramanian, sushrutbhalla, japsreetsambee, sebastianfischmeister, markcrowley 
 showdomains: true
 showpeople: false
-showfields: true
+showtags: false
 showmethods: false
 showbib: false
 img: /assets/img/patent-design.png

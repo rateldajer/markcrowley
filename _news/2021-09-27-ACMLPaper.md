@@ -9,7 +9,7 @@ topics: optimization, machine-learning
 people: benyaminghojogh, markcrowley
 venue: ACML
 showdomains: false
-showfields: true
+showtags: false
 showmethods: false
 showbib: true
 publish: true

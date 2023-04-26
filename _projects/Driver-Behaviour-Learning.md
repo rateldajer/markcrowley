@@ -3,7 +3,7 @@ layout: page
 collection: projects
 title: Driver Behaviour Learning (DBL)
 name: Driver Behaviour Learning (DBL)
-keywords: proj-dbl, autonomous-driving, driver-behaviour-learning, machine-learning, computer-vision, control
+tags: proj-dbl, autonomous-driving, driver-behaviour-learning, machine-learning, computer-vision, control
 bibkeyword: proj-dbl
 permalink: /driver-behaviour-learning/
 status: active

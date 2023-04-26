@@ -65,18 +65,20 @@
           {% endif %}
         
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        In <em>{{entry.booktitle}}</em>. 
+
       {% elsif entry.type == "techreport" %}
-      <em>{{entry.institution}}: #{{entry.number}}.</em>
+      <em>{{entry.institution}}: #{{entry.number}}.</em> 
       {% endif %}
+
       {% if entry.publisher %}
           {{ entry.publisher }},
       {% endif %}
       {% if entry.address %}
-          {{ entry.address }},
+          {{ entry.address}}.
       {% endif %}
       {% if entry.month %}
-          {{entry.month}},
+          {{entry.month | capitalize}},
       {% endif %}
       {% if entry.year %}
         {{entry.year}}.

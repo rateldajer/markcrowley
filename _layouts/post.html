@@ -26,12 +26,12 @@ layout: default
         {% endfor %}
         </p>
         {% endif %}
-      {% if page.showfields == true %}
-        {% assign fields = page.fields | split: ', ' %}
+      {% if page.showtags == true %}
+        {% assign tags = page.tags %}
         <p class="post-description" style="border-bottom-style:solid; border-bottom-color:lightgrey; border-bottom-width:3px; margin:1px;">
-        <b>FIELDS</b>
-        {% for i in fields %}
-            {% assign j =  site.fields | where: "fields", i | first %}
+        <b>TAGS</b>
+        {% for i in tags %}
+            {% assign j =  site.tags | where: "tags", i | first %}
             | <a href="/{{i}}/">{{i}}</a> 
         {% endfor %}
         </p>

@@ -3,17 +3,14 @@ layout: page
 title: AI for Science
 name: AI for Science
 bibkeyword: ai-for-science
-projects: proj-chemgymrl, combustion-modelling
 permalink: /ai-for-science/
 status: active
-domains: combustion-modelling, digital-chemistry
-methods: deep-learning, lstm
-topics: ai-for-physics, ai-for-science, digital-chemistry, machine-learning, ai-for-chemistry
+tags: combustion-modelling, digital-chemistry, deep-learning, lstm, ai-for-physics, ai-for-science, digital-chemistry, machine-learning, ai-for-chemistry, proj-chemgymrl
 description: Using AI/ML to do moar Sciencing!
 publish: true
 people: markcrowley, sushrutbhalla, nouhachatti, sriramganapathisubramanian
 showtitle: true
-showfields: false
+showtags: false
 img: /assets/pdf/2022-canai-bellinger-balancing.png
 publish: true
 showbib: true

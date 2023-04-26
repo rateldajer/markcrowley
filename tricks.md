@@ -7,6 +7,10 @@ nav: false
 showtitle: true
 ---
 
+Testing Out Obsidian Tricks
+- [ObsidianTricks](ObsidianTricks.md)
+
+
 <h2>two</h2>
 <ul>
 {% for t in site.data.coauthors %}

@@ -3,23 +3,19 @@ layout: page
 title: Autonomous Driving
 name: Autonomous Driving
 bibkeyword: autonomous-driving
-projects: driver-behaviour-learning
 permalink: /autonomous-driving/
 status: active
-domains: autonomous-driving, safety-critical-systems, vehicle-communication
-methods: deep-learning, lstm
-topics: machine-learning, time-series
+tags: driver-behaviour-learning, autonomous-driving, safety-critical-systems, vehicle-communication, deep-learning, lstm, machine-learning, time-series
+domains: driver-behaviour-learning, autonomous-driving, safety-critical-systems, vehicle-communication, deep-learning, lstm, machine-learning
 description: Using computing to make driving safer.
 publish: false
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 webpage: /news/2021-10-14-AutolineInterview/
 img: /assets/img/dbl/avrildbl.jpg
-showdomains: true
-showfields: false
-showprojects: true
-showmethods: true
+showtags: false
 showwebpage: true
+showdomains: true
 publish: true
 showbib: true
 ---
@@ -27,6 +23,7 @@ showbib: true
 
 
 Making self-driving cars is one of the great AI challenges of the 21st Century and it involves many different parts. The goal is not merely to make fully autonomous driving cars so that humans never need to drive cars again. In fact, there are many forms of automation to every aspect of driving and coordination of vehicles on the road that can be considered. 
+
 
 In my lab we have done work on a few focussed topics in this area:
 
