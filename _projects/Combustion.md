@@ -2,11 +2,10 @@
 layout: page
 title: Combustion Modelling
 name: Combustion Modelling
-keywords: combustion-modelling
 bibkeyword: combustion-modelling
 permalink: /combustion-modelling/
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
-img: /assets/img/ECML2019/combustion1.png
+keywords: combustion-modelling, combustion-modelling, ai-for-physics, digital-chemistry, chemgymrl, ai-for-physics, ai-for-science, deep-learning, marl, mdp, prediction
 domains: combustion-modelling, ai-for-physics, digital-chemistry, chemgymrl, ai-for-physics, ai-for-science
 methods: deep-learning, marl, mdp
 tasks: prediction
@@ -17,6 +16,7 @@ showtags: false
 showmethods: true
 showwebpage: false
 importance: 3
+img: /assets/img/ECML2019/combustion1.png
 ---
 Inspired by a challenge raised by [Prof. Jean-Pierre Hickey](/people/jeanpierrehickey/) in Mechanical Engineering I have worked to investigate novel ways to use Deep Neural Network to revolutionize the way combustion simulation calculations are computed and stored. 
 This research is relevant for the design of combustion engines and energy production. 
