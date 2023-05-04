@@ -10,9 +10,10 @@
           <td>
             {% if item.inline %}
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              test3
             {% else %}
-                {{ item.description | emojify }}<br>
-                more: <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a><br>
+                {{ item.description | emojify }}
             {% endif %}
           </td>
         </tr>
