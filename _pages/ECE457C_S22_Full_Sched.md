@@ -14,8 +14,7 @@ importance: 1
 | ---- | :----------------------------------------------------------- | ---- |
 |      | The information currently shown here is from *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated in the first couple weeks of class. Mostly, some topics will be dropped or shortened, and a few others will be added, near the end. |      |
 
-
-## 
+ 
 
 This is the expected schedule of topics to be covered in lecture along with the dates for various holiday's, Assignment release and due dates, and the midterm date. The final exam will be scheduled centrally during the exam period, all assignments will be done and handed in by then.
 
@@ -30,7 +29,6 @@ This is the expected schedule of topics to be covered in lecture along with the 
 |  1   |   Friday, May 13, 2022   | MAB and More                 | Regret Minimization, UCB and Thompson Sampling               |                   |
 |  2   |   Friday, May 13, 2022   | MDP Definitions              | Definition and Motivation                                    |               3.1 |
 |  2   |   Friday, May 13, 2022   | MDP Rewards and Returns      | Rewards and Returns                                          |           3.3-3.4 |
-|  2   | Monday, May 16, 2022 | MDP Value Functions          | Value Functions                                              |           3.5-3.6 |
 |  2   | Friday, May 13, 2022 | Assignment 1 Released        | Content up to Monday Week 3                                 |                   |
 |  2   | Monday, May 16, 2022 | Dynamic programming 1        | Dynamic Programming                                          |           4.0-4.1 |
 |  3   | Friday, May 20, 2022 | Dynamic programming 2        | PI, VI                                                       |           4.2-4.4 |

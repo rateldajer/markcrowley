@@ -85,6 +85,11 @@ together to make such systems possible.
 2. Implement or instantiate using a library any of the core Reinforcement Learning algorithms on a variety of domains. 
 3. Evaluate the performance of a particular RL system on a given domain through proper experimental design, statistical analysis and visualization.
 
+#### Minor Objectives
+
+1. Learn to write mathematical notation electronically using **LaTex** (also useful for Word/Google Docs/Markdown).
+2. Practice and feedback on reviewing, summarizing and utilizing theory and results from academic papers.
+
 ### Topics
 
 1. Motivation and Context
