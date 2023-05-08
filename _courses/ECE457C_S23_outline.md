@@ -27,14 +27,14 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 
 ### Links to More Information and Resources
 
-|                                                                                                                  |                                                                                                          |
-| :----------------------------------------------------------:                                                     | :----------------------------------------------------------:                                             |
-| **[Full Weekly Schedule and Deadlines](/ece457c-schedule/)**                                                     | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)**                                        |
-| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)**                                                | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
-| [Course Topics](#topics)                                                                                         | [Assignments and Tests](#assessment)  (weights and deadlines)                                            |
-| [Gingko List of Resources and Links](https://gingkoapp.com/rlcourse) | [Old Spring 2021 Website](/rlcourseS21/)                                                                 |
-| [Getting Help](#help)                                                                                            | [Academic Policies](#policies)                                                                           |
-| [Health and Wellness](#wellness)                                                                                 | [COVID-19](#covid)                                                                                       |
+|                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **[Full Weekly Schedule and Deadlines (S22 version)](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)** |
+| **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
+|                   [Course Topics](#topics)                   | [Assignments and Tests](#assessment)  (weights and deadlines) |
+| [Gingko List of Resources and Links](https://gingkoapp.com/rlcourse) |              [S22 Website (OLD)](/rlcourseS22/)              |
+|                    [Getting Help](#help)                     |                [Academic Policies](#policies)                |
+|               [Health and Wellness](#wellness)               |                      [COVID-19](#covid)                      |
 
 
 
@@ -55,11 +55,11 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 **Course Dates:** May 8, 2023 to Aug 1, 2022
 
-| Type                                                         | Times                               | Room                                   | Enrolled (Capacity) |
-| ------------------------------------------------------------ | ----------------------------------- | -------------------------------------- | ------------------- |
-| Lecture                                                      | MF 11:00am - 1:00pm                 | E7 4043                                | ?? (??)             |
-| Tutorial (Mostly for review sessions, will determine based on need.) | TBD                                 | TBD                                    |                     |
-| Office Hours                                                 | Various Times (see Doodle Bookable) | Online  via Teams or in person E5 4114 |                     |
+| Type                                                         | Times                                           | Room                                   | Enrolled (Capacity) |
+| ------------------------------------------------------------ | ----------------------------------------------- | -------------------------------------- | ------------------- |
+| Lecture                                                      | MF 1:00 pm - 1:00pm                             | E7 4043                                | 48 (148)            |
+| Tutorial (Mostly for review sessions, will determine based on need.) | M 7:00pm - 7:50pm                               | E7 4053                                |                     |
+| Office Hours                                                 | Various Times (see bookable schedule link here) | Online  via Teams or in person E5 4114 |                     |
 
 
 
@@ -155,6 +155,8 @@ together to make such systems possible.
 
 <a name="assessment"></a>
 
+**Note:** this is still subject to some changes
+
 This year there will be three (or possibly four) assignment and a Final Exam, not midterm exam.
 
 | Item         | Weight Towards Final Grade | Released              | Due                              |
@@ -185,8 +187,9 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
   - Your grades will be managed here, up until the final grade submission phase of the course.
   - Links, announcements and course materials will all be made available here as well.
   - Only registered students can access learn.
-- **Piazza** : *[ECE457C Discussions](https://piazza.com/uwaterloo.ca/spring2022/ece457c)*
+- **Piazza** : ECE457C Discussions - TBD
   - Online, threaded discussion forum with at the ability for students to construct an answer in addition to the answer provided by course staff.
+
 - **Crowdmark** : *(links will be made available as needed)*
   - A visual grading tool for pdfs submissions of tests and assignments, allows limited online test with mark-down text entry and multiple choice questions.
   - Used by the course staff for grading your tests.
