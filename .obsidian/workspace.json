@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "8f8942c487989c97",
+    "type": "split",
+    "children": [
+      {
+        "id": "19a046e43cb49174",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ffb4a53c22f3b49",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_news/draft-2023-05-10-IJCAI2023.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "afb47526e5871718",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_news/2022-09-27-LabNews.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "20f8512f547fd168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_courses/ECE457C_S23_outline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4d7cad1ec03fc3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "88d2f122d3cfd2d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e731dae5605b6755",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5808505b03e673a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#machine-learning",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "96378e5f0c7c434b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8c9e1528a3aa097d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c86cdcedc22b49b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c6dbb4b2b0cd512",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_courses/ECE457C_S23_outline.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "89bb3b1db52cf514",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_courses/ECE457C_S23_outline.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "de1400187ad9f743",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "52bd41c5d9606eed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_courses/ECE457C_S23_outline.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "20f8512f547fd168",
+  "lastOpenFiles": [
+    "_news/2022-09-27-LabNews.md",
+    "_courses/ECE457C_S23_outline.md",
+    "_news/draft-2023-05-10-IJCAI2023.md",
+    "_news/2022-12-20-LabNews.md",
+    "_topics/MARL.md"
+  ]
+}
