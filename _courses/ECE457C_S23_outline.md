@@ -50,17 +50,17 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 | **Instructor:** Prof. Mark Crowley                           | TA: Martin Ethier                 |
 | ------------------------------------------------------------ | --------------------------------- |
 | **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** methier@uwaterloo.ca |
-| **Office Hour:** One-on-one bookable by  (E5 4114 (or online)) |                                   |
+| **Office Hour:** One-on-one [bookable on outlook](https://outlook.office.com/bookwithme/user/d067f9982ded48a383003c7a68a394f9@uwaterloo.ca?anonymous&ep=plink) by  (E5 4114 (or online)) |                                   |
 
 ### Lecture Locations and Times
 
 **Course Dates:** May 8, 2023 to Aug 1, 2022
 
-| Type                                                         | Times               | Room                                                        |
-| ------------------------------------------------------------ | ------------------- | ----------------------------------------------------------- |
-| Lecture                                                      | MF 1:00 pm - 1:00pm | E7 4043                                                     |
-| Tutorial<br> *(Mostly for review sessions, will determine based on need.)* | M 7:00pm - 7:50pm   | E7 4053                                                     |
-| Office Hours                                                 | Mondays 3:30-4:30pm | E5 4114<br>or online via Teams (use bookable calendar here) |
+| Type                                                         | Times               | Room                                                         |
+| ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ |
+| Lecture                                                      | MF 1:00 pm - 1:00pm | E7 4043                                                      |
+| Tutorial<br> *(Mostly for review sessions, will determine based on need.)* | M 7:00pm - 7:50pm   | E7 4053                                                      |
+| Office Hours                                                 | Mondays 3:30-4:30pm | E5 4114<br>or online via Teams (use [bookable calendar here](https://outlook.office.com/bookwithme/user/d067f9982ded48a383003c7a68a394f9@uwaterloo.ca?anonymous&ep=plink)) |
 
 
 
