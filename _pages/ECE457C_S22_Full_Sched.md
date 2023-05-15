@@ -1,10 +1,10 @@
 ---
 layout: page
-description: Spring 2022 - ECE 457C
+description: Spring 2023 - ECE 457C
 permalink: /ece457c-schedule/
 title: Full Schedule (Expected)
 date: 2022-05-05
-meta: ECE 457C - Spring 2022
+meta: ECE 457C - Spring 2023
 nav: false
 showtitle: true
 importance: 1

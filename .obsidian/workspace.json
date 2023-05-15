@@ -8,45 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ffb4a53c22f3b49",
+            "id": "afb47526e5871718",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_news/draft-2023-05-10-IJCAI2023.md",
+                "file": "_pages/ECE457C_S22_Full_Sched.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "pinned": true
             }
-          },
-          {
-            "id": "afb47526e5871718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_news/2022-09-27-LabNews.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "20f8512f547fd168",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,14 +33,15 @@
       {
         "id": "88d2f122d3cfd2d2",
         "type": "tabs",
+        "dimension": 62.515114873035074,
         "children": [
           {
-            "id": "e731dae5605b6755",
+            "id": "52bd41c5d9606eed",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "outline",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "_pages/ECE457C_S22_Full_Sched.md"
               }
             }
           },
@@ -75,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#machine-learning",
+                "query": "tag:#reinforcement-learning",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,6 +69,23 @@
             }
           }
         ]
+      },
+      {
+        "id": "3651048929fe8e8d",
+        "type": "tabs",
+        "dimension": 37.48488512696493,
+        "children": [
+          {
+            "id": "e731dae5605b6755",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,23 +96,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c86cdcedc22b49b",
+        "id": "537f516526df7896",
         "type": "tabs",
         "children": [
           {
-            "id": "0c6dbb4b2b0cd512",
+            "id": "de1400187ad9f743",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "tag",
               "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -129,39 +116,35 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
+                "file": "_pages/ECE457C_S22_Full_Sched.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "de1400187ad9f743",
+            "id": "0c6dbb4b2b0cd512",
             "type": "leaf",
             "state": {
-              "type": "tag",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
-          {
-            "id": "52bd41c5d9606eed",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "_courses/ECE457C_S23_outline.md"
+                "file": "_pages/ECE457C_S22_Full_Sched.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,12 +155,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "20f8512f547fd168",
+  "active": "afb47526e5871718",
   "lastOpenFiles": [
-    "_news/2022-09-27-LabNews.md",
-    "_courses/ECE457C_S23_outline.md",
     "_news/draft-2023-05-10-IJCAI2023.md",
+    "_courses/ECE457C_S23_outline.md",
+    "_pages/ECE457C_S22_Full_Sched.md",
+    "_topics/Reinforcement-Learning.md",
+    "_news/2022-09-27-LabNews.md",
+    "_projects/ChemGymRL.md",
     "_news/2022-12-20-LabNews.md",
+    "_topics/causality.md",
     "_topics/MARL.md"
   ]
 }

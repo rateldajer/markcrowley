@@ -6,6 +6,7 @@ title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
 date: 2023-04-12
 meta: ECE 457C - Spring 2023
+tags: ece457c, reinforcement-learning, machine-learning , artificial-intelligence, teaching, teaching-ugrad
 nav: false
 showtitle: true
 importance: 1
@@ -46,20 +47,20 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 ## Spring 2023 - Course Staff
 
-| **Instructor:** Prof. Mark Crowley                           | TA: TBD      | TA: ???      |
-| ------------------------------------------------------------ | ------------ | ------------ |
-| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** | **Contact:** |
-| **Office Hour:** One-on-one bookable by Doodle (E5 4114 (or online)) |              |              |
+| **Instructor:** Prof. Mark Crowley                           | TA: Martin Ethier                 |
+| ------------------------------------------------------------ | --------------------------------- |
+| **Contact:** mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours) | **Contact:** methier@uwaterloo.ca |
+| **Office Hour:** One-on-one bookable by  (E5 4114 (or online)) |                                   |
 
 ### Lecture Locations and Times
 
 **Course Dates:** May 8, 2023 to Aug 1, 2022
 
-| Type                                                         | Times                                           | Room                                   | Enrolled (Capacity) |
-| ------------------------------------------------------------ | ----------------------------------------------- | -------------------------------------- | ------------------- |
-| Lecture                                                      | MF 1:00 pm - 1:00pm                             | E7 4043                                | 48 (148)            |
-| Tutorial (Mostly for review sessions, will determine based on need.) | M 7:00pm - 7:50pm                               | E7 4053                                |                     |
-| Office Hours                                                 | Various Times (see bookable schedule link here) | Online  via Teams or in person E5 4114 |                     |
+| Type                                                         | Times               | Room                                                        |
+| ------------------------------------------------------------ | ------------------- | ----------------------------------------------------------- |
+| Lecture                                                      | MF 1:00 pm - 1:00pm | E7 4043                                                     |
+| Tutorial<br> *(Mostly for review sessions, will determine based on need.)* | M 7:00pm - 7:50pm   | E7 4053                                                     |
+| Office Hours                                                 | Mondays 3:30-4:30pm | E5 4114<br>or online via Teams (use bookable calendar here) |
 
 
 
@@ -160,20 +161,23 @@ together to make such systems possible.
 
 <a name="assessment"></a>
 
-**Note:** this is still subject to some changes
-
-This year there will be three (or possibly four) assignment and a Final Exam, not midterm exam.
-
-| Item         | Weight Towards Final Grade | Released              | Due                              |
-| ------------ | -------------------------- | --------------------- | -------------------------------- |
-| Assignment 1 | 15%                        | Monday, May 15, 2023  | Friday, June 4, 2023at 11:59pm   |
-| Assignment 2 | 15%                        | Monday, June 5, 2023  | Friday, June 30, 2023 at 11:59pm |
-| Assignment 3 | 20%                        | Friday, June 30, 2023 | Friday July 28, 2023 at 11:59pm  |
+**Assignments can be done alone or in pairs.**
 
 
-| Item           | Weight Towards Final Grade | Date | Location |
-| -------------- | -------------------------- | ---- | -------- |
-| **Final Exam** | **50%**                    | TBD  | TBD      |
+
+
+| Item                                        | Weight Towards Final Grade | Released (12:00 am)     | Due (11:59pm)           | Days | Notes                                                        |
+| ------------------------------------------- | -------------------------- | ----------------------- | ----------------------- | ---- | ------------------------------------------------------------ |
+| Assignment  1                               | 10.0%                      | Monday, May 15, 2023    | Wednesday, May 31, 2023 | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
+| Assignment  2                               | 15.0%                      | Wednesday, May 31, 2023 | Friday, June 23, 2023   | 23   | **Python: Tabular RL on Maze**                               |
+| Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023   | Friday, June 23, 2023   |      |                                                              |
+| Assignment  3                               | 15.0%                      | Friday, June 23, 2023   | Friday, July 14, 2023   | 21   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
+| Assignment  4                               | 20.0%                      | Friday, June 23, 2023   | Monday, July 31, 2023   | 38   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
+| **Final  Exam**                             | 40.0%                      | TBD                     | TBD                     |      |                                                              |
+|                                             |                            |                         |                         |      |                                                              |
+| Total                                       | 100%                       |                         |                         |      |                                                              |
+
+
 
 
 
