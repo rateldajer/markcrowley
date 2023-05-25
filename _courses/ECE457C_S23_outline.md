@@ -13,17 +13,13 @@ importance: 1
 
 ---
 
+# ECE 457C - Reinforcement Learning
+
 ### Course Description
 
 Introduction to Reinforcement Learning (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).
 
 **Note:** This course was formerly known as [ECE 493 Topic 42 - Reinforcement Learning](/rlcourseS21/)
-
-|      | **NOTICE for Spring 2023!**                                  |      |
-| ---- | :----------------------------------------------------------- | ---- |
-|      | The information currently shown here is mostly still *copied over from* *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated given advancements in the field. You will be updated on these by the first  week of class. Significantly, this year the **midterm exam** will be dropped and there will be a **50% final exam** only for testing. The rest of the assessment for the course will come from 3 or 4 programming assignments. |      |
-
-
 
 
 ### Links to More Information and Resources
@@ -45,7 +41,7 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 
 
-## Spring 2023 - Course Staff
+# Spring 2023 - Course Staff
 
 | **Instructor:** Prof. Mark Crowley                           | TA: Martin Ethier                 |
 | ------------------------------------------------------------ | --------------------------------- |
@@ -66,7 +62,7 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 
 
 
-## Course Learning Objectives and Topic Details
+# Course Learning Objectives and Topic Details
 
 ### Learning Objectives
 This course complements other AI courses in ECE by focussing on the
@@ -157,7 +153,7 @@ together to make such systems possible.
 
 
 
-## Assessment
+# Assessment
 
 <a name="assessment"></a>
 
@@ -166,16 +162,16 @@ together to make such systems possible.
 
 
 
-| Item                                        | Weight Towards Final Grade | Released (12:00 am)     | Due (11:59pm)           | Days | Notes                                                        |
-| ------------------------------------------- | -------------------------- | ----------------------- | ----------------------- | ---- | ------------------------------------------------------------ |
-| Assignment  1                               | 10.0%                      | Monday, May 15, 2023    | Wednesday, May 31, 2023 | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
-| Assignment  2                               | 15.0%                      | Wednesday, May 31, 2023 | Friday, June 23, 2023   | 23   | **Python: Tabular RL on Maze**                               |
-| Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023   | Friday, June 23, 2023   |      |                                                              |
-| Assignment  3                               | 15.0%                      | Friday, June 23, 2023   | Friday, July 14, 2023   | 21   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
-| Assignment  4                               | 20.0%                      | Friday, June 23, 2023   | Monday, July 31, 2023   | 38   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
-| **Final  Exam**                             | 40.0%                      | TBD                     | TBD                     |      |                                                              |
-|                                             |                            |                         |                         |      |                                                              |
-| Total                                       | 100%                       |                         |                         |      |                                                              |
+| Item                                        | Weight Towards Final Grade | Released (12:00 am)     | Due (11:59pm)         | Days | Notes                                                        |
+| ------------------------------------------- | -------------------------- | ----------------------- | --------------------- | ---- | ------------------------------------------------------------ |
+| Assignment  1                               | 10.0%                      | Monday, May 15, 2023    | Friday, June 2, 2023  | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
+| Assignment  2                               | 15.0%                      | Wednesday, May 31, 2023 | Friday, June 23, 2023 | 23   | **Python: Tabular RL on Maze**                               |
+| Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023   | Friday, June 23, 2023 |      |                                                              |
+| Assignment  3                               | 15.0%                      | Friday, June 23, 2023   | Friday, July 14, 2023 | 21   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
+| Assignment  4                               | 20.0%                      | Friday, June 23, 2023   | Monday, July 31, 2023 | 38   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
+| **Final  Exam**                             | 40.0%                      | TBD                     | TBD                   |      |                                                              |
+|                                             |                            |                         |                       |      |                                                              |
+| Total                                       | 100%                       |                         |                       |      |                                                              |
 
 
 
@@ -218,7 +214,7 @@ I know there has been app/feature/tool creep in courses as they the pandemic has
 
 
 
-## Getting Help:
+# Getting Help:
 
 <a name="help"></a>
 
@@ -286,7 +282,7 @@ https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html
 
 
 
-## COVID-19 Policies
+# COVID-19 Policies
 
 <a name="covid"></a>
 
@@ -322,7 +318,7 @@ If you're experiencing a crisis and feel unable to cope and Campus Wellness is c
 
 
 General University of Waterloo Guidelines:
-------------------------------------------
+==========================================
 
 <a name="policies"></a>
 
