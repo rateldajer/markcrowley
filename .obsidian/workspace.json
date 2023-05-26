@@ -16,7 +16,58 @@
               "state": {
                 "file": "_pages/ECE457C_S22_Full_Sched.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a8b68160a2a33ce9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_pages/bio.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "012b01ad4dd0a712",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_projects/ChemGymRL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "fe21fa0193ad5bbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc263660a501e42d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_pages/Lab Description.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               },
               "pinned": true
             }
@@ -33,7 +84,7 @@
       {
         "id": "88d2f122d3cfd2d2",
         "type": "tabs",
-        "dimension": 62.515114873035074,
+        "dimension": 56.79779158040028,
         "children": [
           {
             "id": "52bd41c5d9606eed",
@@ -41,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/ECE457C_S22_Full_Sched.md"
+                "file": "_pages/Lab Description.md"
               }
             }
           },
@@ -51,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#reinforcement-learning",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +124,7 @@
       {
         "id": "3651048929fe8e8d",
         "type": "tabs",
-        "dimension": 37.48488512696493,
+        "dimension": 43.20220841959973,
         "children": [
           {
             "id": "e731dae5605b6755",
@@ -106,7 +157,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -116,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/ECE457C_S22_Full_Sched.md",
+                "file": "_pages/Lab Description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/ECE457C_S22_Full_Sched.md",
+                "file": "_pages/Lab Description.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,16 +206,53 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "afb47526e5871718",
+  "active": "dc263660a501e42d",
   "lastOpenFiles": [
-    "_news/draft-2023-05-10-IJCAI2023.md",
-    "_courses/ECE457C_S23_outline.md",
-    "_pages/ECE457C_S22_Full_Sched.md",
-    "_topics/Reinforcement-Learning.md",
-    "_news/2022-09-27-LabNews.md",
     "_projects/ChemGymRL.md",
+    "_pages/Lab Description.md",
+    "_pages/bio.md",
+    "_news/2023-05-25-labnews.md",
+    "_site/news/2023-05-25-labnews/index.html",
+    "_site/news/2023-05-25-labnews",
+    "tricks.md",
+    "_site/people/zehracamlica/index.html",
+    "_site/people/zehracamlica",
+    "_site/people/takintadayon/index.html",
+    "_site/people/takintadayon",
+    "_site/people/sushrutbhalla/index.html",
+    "_site/people/sushrutbhalla",
+    "_site/people/sriramganapathisubramanian/index.html",
+    "_site/people/sriramganapathisubramanian",
+    "_site/courses/ece406_W23_midterm_exam_info.md",
+    "_site/projects/SpaceWar.md",
+    "_site/RLAlgorithmsNotes.md",
+    "_site/ECE457C_S22_Announce_20220624_asg3_piazza.md",
+    "_site/vehicle-communication.md",
+    "_site/todo.md",
+    "_site/rlcourseS21.md",
+    "_site/rlcourse.md",
+    "_site/chemgymrl.md",
+    "_site/assets/pdf/2022-canai-bellinger-balancing.png",
+    "_site/assets/pdf/2021-acml-godaz-vector.png",
+    "_site/assets/img/vehicle-communication.png",
+    "_site/assets/img/teaching/ece657logo.png",
+    "_site/assets/img/teaching/ece493-logo.png",
+    "_site/assets/img/publications-screenshot.png",
+    "_site/assets/img/projects-screenshot.png",
+    "_site/assets/img/prof_pic.png",
+    "_site/assets/img/photos-screenshot.png",
+    "_site/assets/img/patent-design.png",
+    "_site/_pages/RLAlgorithmsNotes.md",
+    "_site/_pages/ECE457C_S22_Announce_20220624_asg3_piazza.md",
+    "_site/Untitled.md",
+    "_site/Untitled 1.md",
+    "_site/ObsidianTricks.md",
+    "_site/CONTRIBUTING.md",
+    "_news/2023-05-04-LabNews.md",
+    "_news/2022-09-27-LabNews.md",
     "_news/2022-12-20-LabNews.md",
-    "_topics/causality.md",
-    "_topics/MARL.md"
+    "_news/2022-03-07-LabNews.md",
+    "_pages/contact.md",
+    "_pages/about.md"
   ]
 }

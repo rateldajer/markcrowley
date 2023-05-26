@@ -15,7 +15,7 @@ In my research I seek out *dependable* and *transparent* ways to *augment* **hum
 Our focus is on developing new *algorithms*, *methodologies*, *simulations*, and *datasets* within the [fields](https://markcrowley.ca/topics/) of **Reinforcement Learning (RL)**, **Deep Learning**, **Manifold Learning** and **Ensemble Methods**. I often work through [*collaborative projects*](https://markcrowley.ca/projects/) with academic researchers, industry researchers and engineers or policy-makers in diverse fields such as **sustainable forest management**, **physics and chemistry**, **autonomous vehicle development** and **medical imaging**. 
 
 More specifically, my students and I carry out research into
-**single-agent and multi-agent Reinforcement Learning**, **large-scale 2D/3D image-like processing**, 
+**single-agent and multi-agent Reinforcement Learning**, **large-scale 2D/3D image-like processing**, **causal inference/learning from data**,
 general advances in **machine learning and anomaly detection**, and fundamental research into methods for **manifold learning/dimensionality reduction**.
 Some of this research is motivated by theoretical opportunities, 
 particularly in manifold learning and multi-agent reinforcement learning. 
@@ -23,7 +23,9 @@ However, most of the work flows out of challenges raised by real-world domains i
 forest fire management,
 the automotive domain,
 medical imaging,
-and digital chemistry/material design.
+digital chemistry/material design
+and even some video games such as MineCraft.
+
 
 I'm always [happy to talk to people about my research](/contact/), or the impact of AI/ML/RL on our world and its role in our society in the future, but *I do not take on **many** incoming students*, so potential students should *[read this note about joining my lab](/joining-my-lab/)*.
 
