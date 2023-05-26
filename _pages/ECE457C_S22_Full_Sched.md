@@ -1,8 +1,7 @@
 ---
 layout: page
-description: Spring 2023 - ECE 457C
-permalink: /ece457c-schedule/
-title: Full Schedule (Expected)
+description: Spring 2022 - ECE 457C
+title: Full Schedule
 date: 2022-05-05
 meta: ECE 457C - Spring 2023
 nav: false
@@ -10,11 +9,6 @@ showtitle: true
 importance: 1
 ---
 
-|      | **NOTICE for Spring 2023!**                                  |      |
-| ---- | :----------------------------------------------------------- | ---- |
-|      | The information currently shown here is from *2022*, use it as a guide only. Most of the essential topics and order will be the same, but some details will be updated in the first couple weeks of class. Mostly, some topics will be dropped or shortened, and a few others will be added, near the end. |      |
-
- 
 
 This is the expected schedule of topics to be covered in lecture along with the dates for various holiday's, Assignment release and due dates, and the midterm date. The final exam will be scheduled centrally during the exam period, all assignments will be done and handed in by then.
 

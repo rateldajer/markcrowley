@@ -26,7 +26,7 @@ Introduction to Reinforcement Learning (RL) theory and algorithms for learning d
 
 |                                                              |                                                              |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **[Full Weekly Schedule and Deadlines (S22 version)](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/class/l2ki16zub3j192)** |
+| **[Full Weekly Schedule and Deadlines (updated)](/ece457c-schedule/)** | **[Piazza Discussions](https://piazza.com/uwaterloo.ca/summer2023/ece457c)**|
 | **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (from previous terms) |
 |                   [Course Topics](#topics)                   | [Assignments and Tests](#assessment)  (weights and deadlines) |
 | [Gingko List of Resources and Links](https://gingkoapp.com/rlcourse) |              [S22 Website (OLD)](/rlcourseS22/)              |
