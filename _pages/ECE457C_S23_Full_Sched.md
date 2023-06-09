@@ -41,14 +41,14 @@ This is the expected schedule of topics to be covered in lecture along with the 
 | :---: | :---: | --- | ---------------- | :---------------: |
 | 4 | Monday, May 29, 2023 | MC- Monte Carlo Methods | Monte Carlo Methods | 5 |
 | 4 | Friday, June 2, 2023 | TD1 Temporal Difference Learning | Temporal Difference Learning | 6.0 |
-| 4 | Wednesday, May 31, 2023 | Assignment 2 Released | Requires  up to : VI,PI, QL, SARSA, Double Qlearning, ExpSarsa |  |
+| 4 | Friday, June 2, 2023 | Assignment 2 Released | Requires  up to : VI,PI, QL, SARSA, Double Qlearning, ExpSarsa |  |
 | 4 | Friday, June 2, 2023 | Assignment 1 Due | Content up to MDP policy evaluation |  |
 | 4 | Friday, June 2, 2023 | TD2 Comparison to MC on Random Walk | MC vs Random Walk | 6.0-6.5 |
-| 6 | Monday, June 5, 2023 | TD3 Sarsa and Qlearning | Sarsa and Qlearning | 6.0-6.5 |
-| 6 | Friday, June 9, 2023 | TD4 Expected Sarsa and Double Qlearning | Expected Sarsa and Double Qlearning | 6.5? |
-| 6 | Friday, June 9, 2023 | ET1 One Step vs Direct Value Updates | One Step TD | 12.1, 12.1 |
-| 6 | Friday, June 9, 2023 | ET2 N Step TD Forward View | N step TD Forward View | |
-| 5 | Friday, June 9, 2023 | ET3 N step TD backward View | N step TD backward View | |
+| 5 | Monday, June 5, 2023 | TD3 Sarsa and Qlearning | Sarsa and Qlearning | 6.0-6.5 |
+| 5 | Friday, June 9, 2023 | TD4 Expected Sarsa and Double Qlearning | Expected Sarsa and Double Qlearning | 6.5? |
+| 5 | Friday, June 9, 2023 | ET1 One Step vs Direct Value Updates | One Step TD | 12.1, 12.1 |
+| 5 | Friday, June 9, 2023 | ET2 N Step TD Forward View | N step TD Forward View | |
+| 6 | Monday, June 12, 2023 | ET3 N step TD backward View | N step TD backward View | |
 | 6 | Monday, June 12, 2023 | ET4 Eligibility Trace on Policy | Eligibility Trace on Policy | |
 | 6 | Monday, June 12, 2023 | ET5 Eligibility Traces Off Policy | Eligibility Traces Off Policy | |
 | 6 | Friday, June 16, 2023 | Value Function Approximation | Value Function Approximation | |
