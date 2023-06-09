@@ -8,34 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "afb47526e5871718",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "a8b68160a2a33ce9",
             "type": "leaf",
             "pinned": true,
             "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "597e96f6ee84c791",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/bio.md",
+                "file": "_pages/readinggroup.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_courses/ECE457C_S23_outline.md"
+                "file": "_pages/readinggroup.md"
               }
             }
           },
@@ -130,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
+                "file": "_pages/readinggroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_courses/ECE457C_S23_outline.md",
+                "file": "_pages/readinggroup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,33 +165,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "afb47526e5871718",
+  "active": "597e96f6ee84c791",
   "lastOpenFiles": [
-    "_pages/ECE457C_S23_Full_Sched.md~",
-    "_pages/ECE457C_S22_Full_Sched.md",
-    "_pages/bio.md",
-    "_pages/ECE457C_S23_Full_Sched.md",
+    "assets/pdf/2019-arxiv-lewis-bart.pdf",
+    "assets/pdf/2022-arxiv-taylor-galactica.pdf",
+    "assets/pdf/2018-openai-radford-improving.pdf",
+    "assets/pdf/2022-arxiv-thoppilan-lamda.pdf",
+    "assets/pdf/2023-arxiv-yang-harnessing.pdf",
+    "assets/pdf/2023-arxiv-yang-harnessing",
+    "assets/pdf/2023-arxiv-yang-harnessing.skim",
+    "assets/pdf/2020-osfpreprin-ghojogh-attention.pdf",
+    "assets/pdf/2020-osfpreprin-ghojogh-attention.skim",
+    "assets/pdf/2020-osfpreprin-ghojogh-attention",
+    "assets/pdf/2020-osfpreprin-ghojogh-attention mechanism, transformers,.skim",
+    "vehicle-communication.md",
+    "rlcourseS21.md",
+    "rlcourse.md",
+    "collabRL.md",
+    "chemgymrl.md",
+    "assets/img/headshot-2023-2.jpg",
+    "_pages/readinggroup.md",
+    "_pages/RLAlgorithmsNotes.md",
     "_pages/Lab Description.md",
-    "_site/ECE457C_S22_Full_Sched/index.html",
-    "_site/ECE457C_S22_Full_Sched",
-    "_site/_pages/ECE457C_S22_Full_Sched/index.html",
-    "_site/_pages/ECE457C_S22_Full_Sched",
-    "_courses/ECE457C_S23_outline.md",
-    "_site/people/zehracamlica/index.html",
-    "_site/people/zehracamlica",
-    "_site/people/takintadayon/index.html",
-    "_site/people/sushrutbhalla/index.html",
-    "_site/people/sriramganapathisubramanian/index.html",
-    "_site/people/sahilpereira/index.html",
-    "_site/courses/ece406_W23_midterm_exam_info.md",
-    "_site/projects/SpaceWar.md",
-    "_site/RLAlgorithmsNotes.md",
-    "_site/ECE457C_S22_Announce_20220624_asg3_piazza.md",
-    "_site/vehicle-communication.md",
-    "_site/todo.md",
-    "_site/rlcourseS21.md",
-    "_site/rlcourse.md",
-    "_site/chemgymrl.md",
+    "_courses/ECE457C_S23_notes.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "ObsidianTricks.md",
+    "tricks.md",
+    "_topics/mean-field-theory.md",
+    "_topics/machine-learning.md",
+    "_topics/gametheory.md",
+    "_topics/causality.md",
+    "_topics/ai-for-science.md",
+    "_topics/Reinforcement-Learning.md",
+    "_topics/Manifold-Learning.md",
+    "_topics/MDP.md",
+    "_topics/MARL.md",
+    "_projects/vehicle-communication.md",
+    "_projects/compsust.md",
+    "_projects/SpaceWar.md",
     "_site/assets/pdf/2022-canai-bellinger-balancing.png",
     "_site/assets/pdf/2021-acml-godaz-vector.png",
     "_site/assets/img/vehicle-communication.png",
@@ -204,18 +212,6 @@
     "_site/assets/img/publications-screenshot.png",
     "_site/assets/img/forest-fire/forest-fire.jpg",
     "_site/assets/img/forest-fire/forest-fire-spread-lrcn.png",
-    "_site/assets/img/forest-fire/forest-fire-cellular-prediction1.png",
-    "_site/assets/img/forest-fire/firestate_year_1_round_4.png",
-    "_site/_pages/RLAlgorithmsNotes.md",
-    "_site/_pages/ECE457C_S22_Announce_20220624_asg3_piazza.md",
-    "_site/Untitled.md",
-    "_site/Untitled 1.md",
-    "_site/ObsidianTricks.md",
-    "_site/CONTRIBUTING.md",
-    "_projects/ChemGymRL.md",
-    "_news/2023-05-25-labnews.md",
-    "tricks.md",
-    "_news/2023-05-04-LabNews.md",
-    "_news/2022-09-27-LabNews.md"
+    "_site/assets/img/forest-fire/forest-fire-cellular-prediction1.png"
   ]
 }
