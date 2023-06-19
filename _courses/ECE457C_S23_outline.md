@@ -162,16 +162,16 @@ together to make such systems possible.
 
 
 
-| Item                                        | Weight Towards Final Grade | Released (12:00 am)   | Due (11:59pm)         | Days | Notes                                                        |
-| ------------------------------------------- | -------------------------- | --------------------- | --------------------- | ---- | ------------------------------------------------------------ |
-| Assignment  1                               | 10.0%                      | Monday, May 15, 2023  | Friday, June 2, 2023  | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
-| Assignment  2                               | 15.0%                      | Friday, June 2, 2023  | Friday, June 23, 2023 | 21   | **Python: Tabular RL on Maze**                               |
-| Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023 | Friday, June 23, 2023 |      |                                                              |
-| Assignment  3                               | 15.0%                      | Friday, June 23, 2023 | Friday, July 14, 2023 | 21   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
-| Assignment  4                               | 20.0%                      | Friday, June 23, 2023 | Monday, July 31, 2023 | 38   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
-| **Final  Exam**                             | 40.0%                      | TBD                   | TBD                   |      |                                                              |
-|                                             |                            |                       |                       |      |                                                              |
-| Total                                       | 100%                       |                       |                       |      |                                                              |
+| Item                                        | Weight Towards Final Grade | Released (12:00 am)                    | Due (11:59pm)         | Days | Notes                                                        |
+| ------------------------------------------- | -------------------------- | -------------------------------------- | --------------------- | ---- | ------------------------------------------------------------ |
+| Assignment  1                               | 10.0%                      | Monday, May 15, 2023                   | Friday, June 2, 2023  | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
+| Assignment  2                               | 15.0%                      | Friday, June 2, 2023                   | Sunday, June 25, 2023 | 23   | **Python: Tabular RL on Maze**                               |
+| Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023                  | Friday, June 23, 2023 |      |                                                              |
+| Assignment  3                               | 15.0%                      | Monday, June 26, 2023                  | Sunday, July 16, 2023 | 20   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
+| Assignment  4                               | 20.0%                      | Monday, June 26, 2023                  | Monday, July 31, 2023 | 35   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
+| ***Final  Exam***                           | 40.0%                      | ***Wednesday, August 9, 7:30pm-10PM*** |                       |      | ***Location: MC 4045***                                      |
+|                                             |                            |                                        |                       |      |                                                              |
+| Total                                       | 100%                       |                                        |                       |      |                                                              |
 
 
 
