@@ -167,15 +167,15 @@ together to make such systems possible.
 | Assignment  1                               | 10.0%                      | Monday, May 15, 2023                   | Friday, June 2, 2023  | 16   | **Writing/LaTeX: Probability, MAB, MDPs**                    |
 | Assignment  2                               | 15.0%                      | Friday, June 2, 2023                   | Sunday, June 25, 2023 | 23   | **Python: Tabular RL on Maze**                               |
 | Midterm  Week (no midterm, regular classes) | 0.0%                       | Monday, June 19, 2023                  | Friday, June 23, 2023 |      |                                                              |
-| Assignment  3                               | 15.0%                      | Monday, June 26, 2023                  | Sunday, July 16, 2023 | 20   | **OpenAI Gym: Basic Deep RL On  Maze, Literature Review**    |
-| Assignment  4                               | 20.0%                      | Monday, June 26, 2023                  | Monday, July 31, 2023 | 35   | **Deep RL on Bigger Problem,  Choice of additional domain or algorithm to use** |
+| Assignment  3 (no collaboration or groups!) | 10.0%                      | Wednesday, June 28, 2023               | Sunday, July 16, 2023 | 20   | **OpenAI Gym: Summary of an RL Paper**                       |
+| Assignment  4 (in Paris or alone)           | 25.0%                      | Wednesday, June 28, 2023               | Monday, July 31, 2023 | 35   | **Deep RL on Standard RL Problems,  comparison or implementation** |
 | ***Final  Exam***                           | 40.0%                      | ***Wednesday, August 9, 7:30pm-10PM*** |                       |      | ***Location: MC 4045***                                      |
 |                                             |                            |                                        |                       |      |                                                              |
 | Total                                       | 100%                       |                                        |                       |      |                                                              |
 
 
 
-
+1
 
 ## Course Tools
 
