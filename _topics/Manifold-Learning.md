@@ -14,7 +14,7 @@ publish: true
 showbib: true
 importance: 2
 webpage: https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1
-webpagename: "Elements of Dimensionality Reduction and Manifold Learning" (Amazon)
+webpagename: Elements of Dimensionality Reduction and Manifold Learning (Amazon)
 img: /assets/img/manifold-learning-book.jpg
 ---
 
@@ -36,5 +36,4 @@ We have an exciting group of work which has been published in recent years on th
 
 This work has culiminated recently in the graduation of my first Doctoral student, [Benyamin Ghojogh]({{ site.data.coauthors["Benyamin Ghojogh"].url }}), in April 2021 with his thesis encompassing many of these advances.
 Dr. Ghojogh continued as a postdoc in my lab until 2022 and now works in industry. In late 2022 we will publish, via Springer, a new textbook on **"Manifold Learning and Dimensionality Reduction"** {% cite ghojogh2022springerbook %} written in collaboration with Prof. Ali Godsi andd Prof. Fakhri Karray.
-
 

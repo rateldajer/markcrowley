@@ -6,14 +6,16 @@ bibkeyword: combustion-modelling
 permalink: /combustion-modelling/
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
 keywords: combustion-modelling, combustion-modelling, ai-for-physics, digital-chemistry, chemgymrl, ai-for-physics, ai-for-science, deep-learning, marl, mdp, prediction
-domains: combustion-modelling, ai-for-physics, digital-chemistry, chemgymrl, ai-for-physics, ai-for-science
+domains: ai-for-science, combustion-modelling
+showdomains: true
+projects: combustion-modelling
+showprojects: false
 methods: deep-learning, marl, mdp
 tasks: prediction
 people: sushrutbhalla, jeanpierrehickey, markcrowley
 showtitle: true
-showdomains: true
 showtags: false
-showmethods: true
+showmethods: false
 showwebpage: false
 importance: 3
 img: /assets/img/ECML2019/combustion1.png
