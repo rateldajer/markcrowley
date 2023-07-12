@@ -122,7 +122,7 @@
       {% if entry.poster contains '://' %}
       <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
       {% else %}
-      <a href="{{ entry.poster | prepend: 'pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
       {% endif %}
     {% endif %}
     {% if entry.slides %}
@@ -137,6 +137,9 @@
     {% endif %}
     {% if entry.url %}
       <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    {% endif %}
+    {% if entry.video %}
+      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     {% if entry.hypoth %}
       <a href="{{ entry.hypoth }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
