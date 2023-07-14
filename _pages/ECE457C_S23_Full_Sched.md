@@ -63,30 +63,25 @@ This is the expected schedule of topics to be covered in lecture along with the 
 | 7 | Friday, June 23, 2023 | Assignment 2 Due | Content up to Monday Week 6 | None |
 | 7 | Friday, June 23, 2023 | Assignment 3 Released | Content up to Deep RL basics plus review of some papers | None |
 | 7 | Friday, June 23, 2023 | Assignment 4 Released | Content up to Monday Week 10 | None |
-| 8 | Friday, June 30, 2023 | Policy Gradient Algorithm | Policy Gradient Algorithm | 13.1,13.2,13.65 |
-| 8 | Friday, June 30, 2023 | Actor-Critic Algorithm, A3C,A2C | Actor-Critic Algorithm, A3C,A2C | |
+| 8 | Friday, June 30, 2023 | Policy Gradient Algorithm | Policy Gradient Algorithm, REINFORCE | 13.1,13.2,13.65 |
 | 9 | Monday, July 3, 2023 | Canada Day Holiday (no classes) | | None |
-| 9 | Friday, July 7, 2023 | ? | ? | |
-| 10 | Monday, July 10, 2023 | Evaluating RL Algorithms and Double DQN | Evaluation Methods, Double DQN,  | |
-| 10 | Friday, July 14, 2023 | Assignment 3 Due | Content up to Deep RL basics plus review of some papers | None |
-| 10 | Friday, July 14, 2023 | PPO | TRPO, PPO  | |
-| 11 | Monday, July 17, 2023 | | 0 | |
-| 11 | Friday, July 21, 2023 | DPG, DDPG, SAC and Prioritized Experience Replay | DPG, DDPG and SAC; also Prioritized Experience Replay | |
-| 12 | Monday, July 24, 2023 | AlphaGo and MonteCarlo Tree Search (MCTS) | AlphaGo and MonteCarlo Tree Search (MCTS) | |
-| 12 | Tuesday, July 25, 2023 | Using DQN to defeat Atari and Go (MCTS+DQN=AlphaGo) | Using DQN to defeat Atari and Go (MCTS+DQN=AlphaGo) | |
-| 12 | Friday, July 28, 2023 | RL Next Steps | MARL, Hierarchical RL, Supervised and Curriculum Learning,  RL competitions, Free Energy, Big Ideas about AI | https://gingkoapp.com/rl-next-steps |
-| 13 | Monday, July 31, 2023 | Assignment 4 Due | Content up to Monday Week 10 | None |
-| 13 | Monday, July 31, 2023 | Review Lecture | All topics | |
-| 13 | Monday, July 31, 2023 | Make-up Day for Canda Day/Classes End | | None |
+| 9 | Friday, July 7, 2023 |  REINFORCE, Actor-Critic Algorithm, A3C,A2C  | ||
+| 10 | Monday, July 10, 2023 | PPO | TRPO, PPO  | |
+| 10 | Friday, July 14, 2023 | Evaluating RL Algorithms and Double DQN | Evaluation Methods, Double DQN  | |
+| 10 | Friday, July 14, 2023 | Prioritized Experience Replay and other New Deep RL algorithms | ||
+| 10 | Sunday, July 16, 2023 | Assignment 3 Due | Reviewing a Deep RL paper | None |
+| 11 | Monday, July 17, 2023 | DPG, DDPG, SAC and Prioritized Experience Replay | DPG, DDPG and SAC | |
+| 11 | Monday, July 17, 2023 | AlphaGo and MonteCarlo Tree Search (MCTS) | AlphaGo and MonteCarlo Tree Search (MCTS) ||
+| 12 | Monday, July 24, 2023 | RL Next Steps *(pre-recorded)* | MARL, Hierarchical RL, Supervised and Curriculum Learning,  RL competitions, Free Energy, Big Ideas about AI | https://gingkoapp.com/rl-next-steps |
+| 12 | Friday, July 28, 2023 | *Live from ICML!* RLHF and Ongoing Research | *(Pre-recorded or streamed)* Reinforcement Learning with Human Feedback, other uses of RL for creative solutions. ||
+| 13 | Monday, July 31, 2023 | Assignment 4 Due | Comparison of multiple Deep RL implementation on Gymnasium environments. |  |
+| 13 | Monday, July 31, 2023 | Review Lecture | All topics (TA will lead review) | |
 
 ## End of Classes 
 
-|  |  | | | 
-| :---: | :---: | --- | ---------------- | :---------------: |
-| 13 | Wednesday, August 2, 2023 | Pre-exam Study Day | | None | 
-| 13 | Friday, August 4, 2023 | Exams Begin | | None | 
-| 14 | Monday, August 7, 2023 | Civic Holiday | | None | 
-| 15 | Monday, August 14, 2023 | Exams End | | None | 
-| 16 | Monday, August 21, 2023 | Grades Due | | None | 
-| 15 | TBD | Final Exam | All topics |  | 
+| Week | **Date** | **Title** | |
+| :---: | :---: | --- | ---------------- |
+| 13 | Wednesday, August 2, 2023 | Pre-exam Study Day | |
+| 14 | Monday, August 7, 2023 | Civic Holiday | |
+| 15 | Wednesday, August 9, 2023 at 7:30pm in MC4045 | Final Exam (see LEARN for info) |  |
 
