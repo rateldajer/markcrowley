@@ -17,3 +17,5 @@ img: /assets/img/causality/causalmodel.png
 ---
 
 The world we live in is causal, yet many Artificial Intellgience systems and most Machine Learning systems ignore this reality for the sake of convenience. There is a growing interest in making progress in this important concept, and this space will highlight our research in that area.
+
+<hr\>
