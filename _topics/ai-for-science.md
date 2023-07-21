@@ -38,7 +38,7 @@ In the [Combustion Modelling Project](/combustion-modelling/) we used Deep Learn
 
 ### Material Design using RL 
 
-The [Material Design Project](/chemgymrl/)  is ongoing work with the National Research Council, where we are investigating exciting ways to apply Reinforcement Learning to the problem of material design and digital chemistry with our new open simulation framework :[www.ChemGymRL.com](https://chemgymrl.readthedocs.io/en/latest/WhatIsChemGymRL.html). 
+The [Material Design Project](/chemgymrl/)  is ongoing work with the National Research Council, where we are investigating exciting ways to apply Reinforcement Learning to the problem of material design and digital chemistry with our new open simulation framework : [ChemGymRL.com](https://chemgymrl.com). 
 
 
 
