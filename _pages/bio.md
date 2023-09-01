@@ -33,10 +33,13 @@ I'm always [happy to talk to people about my research](/contact/), or the impact
 
 ### Third-Person, Short Bio
 
-Mark Crowley is an Associate Professor in the Department of Electrical and Computer Engineering at the University of Waterloo, is a member of the Waterloo Artificial Intelligence Institute, the [Waterloo Institute for Complexity and Innovatio](http://wici.ca/)n ([WICI](http://wici.ca/)) and is National Secretary of the **[Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca/)** which coordinates the yearly organization of the **Canadian Conference on AI**. 
+Mark Crowley is an Associate Professor in the Department of Electrical and Computer Engineering at the University of Waterloo, is a member of the [Waterloo Artificial Intelligence Institute](http://waterloo.ai),
+the [Waterloo Institute for Complexity and Innovation](http://wici.ca/) ([WICI](http://wici.ca/)) and is National Secretary of the **[Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca/)** which coordinates the yearly organization of the **Canadian Conference on AI**. 
 He and his students carry out research into
-single-agent and multi-agent Reinforcement Learning, large-scale 2D/3D image-like processing, 
-general advances in machine learning and anomaly detection, and fundamental research into methods for manifold learning/dimensionality reduction.
+Reinforcement Learning, 
+large-scale image-like processing, 
+fundamental research into methods for manifold learning/dimensionality reduction
+and use of AI for Scientific and Experimental Reasoning.
 Some of this research is motivated by theoretical opportunities, 
 particularly in manifold learning and multi-agent reinforcement learning.
 However, most of the work flows out of challenges raised by real-world domains including
