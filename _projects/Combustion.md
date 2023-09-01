@@ -17,6 +17,7 @@ showtitle: true
 showtags: false
 showmethods: false
 showwebpage: false
+showbib: true
 importance: 3
 img: /assets/img/ECML2019/combustion1.png
 ---

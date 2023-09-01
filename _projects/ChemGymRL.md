@@ -18,6 +18,7 @@ stage: project
 showtags: false
 showtitle: true
 showwebpage: true
+showbib: true
 webpage: http://chemgymrl.com
 importance: 1
 publish: true
