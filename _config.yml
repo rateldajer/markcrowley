@@ -77,6 +77,7 @@ defaults:
   values:
     layout: "page"
     showtitle: true #you should use enter the title in the text so the description comes after it
+    shownotes: false #show notse button or not, use note bibtex tag field for content
       #showpeople: false  #adding these to global defaults seems to cause problems
       #showfields: false
       #showtopics: false

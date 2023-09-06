@@ -144,7 +144,30 @@
     {% if entry.hypoth %}
       <a href="{{ entry.hypoth }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
     {% endif %}
+
+    {% if page.shownotes %}
+        {% if entry.note %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Notes</a>
+        {% endif %}
+        {% if entry.annote %}
+          <a class="abstract btn btn-sm z-depth-0" role="button">Annotes</a>
+        {% endif %}
+    {% endif %}
     </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    {% if page.shownotes %}
+        {% if entry.note %}
+        <div class="abstract hidden">
+            <p><b>Note:</b> {{ entry.note}} </p>
+        </div>
+        {% endif %}
+        {% if entry.annote %}
+        <div class="abstract hidden">
+            <p><b>Annote:</b> {{ entry.annote}} </p>
+          </div>
+        {% endif %}
+    {% endif %}
 
     <!-- Hidden abstract block -->
     {% if entry.abstract %}
