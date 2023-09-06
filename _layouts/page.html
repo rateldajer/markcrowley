@@ -11,7 +11,7 @@ layout: default
             <h1 class="post-title">{{ page.title }}</h1>
         {% endif %}
       {% endif %}
-    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;">{{ page.description }}</p>
+    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;font-style: italic;">{{ page.description }}</p>
 
       {% if page.showdomains == true %}
         {% assign domains = page.domains | split: ', ' %}
