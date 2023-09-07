@@ -16,7 +16,10 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="title">{{entry.title}}</div>
+      <div class="title">
+          {% if page.showbiborder %}{% if entry.order %} <b>[{{ entry.order }}]</b> {% endif %}{% endif %}
+          {{entry.title}}
+      </div>
       <div class="author">
         {% for author in entry.author_array %}
         {% assign authorkey = author.first | append: author.last | downcase | strip | remove: " " | remove: "." | remove: "-" %}
@@ -85,6 +88,11 @@
       {% else %}
         .
       {% endif %}
+      <div class="periodical">
+          {% if entry.date-discussed %}
+          <em>[discussed on {{ entry.date-discussed }}]</em>
+          {% endif %}
+      </div>
       </div>
     {% endif %}
 
