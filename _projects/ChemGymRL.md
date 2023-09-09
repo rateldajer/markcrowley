@@ -36,7 +36,7 @@ To find out more, take a look at the current framework to carry out your own exp
 
 ## Problem Description
 
-The main idea is described most recently in our preprint paper {%cite beeler2023arxiv %} with some great high-level summary and motivation. This paper {%cite Bellinger2022Balancing %} also outlines a modification to the standard single-action RL framework, to divide actions into two parts containing a costly observation choice in addition to the usual action which affects the world. 
+The main idea is described most recently in our ICML workshop paper {%cite beeler2023synsandml %} with some great high-level summary and motivation. These papers {%cite Bellinger2022Balancing %}, {%cite bellinger2023ecml %} also show results of modification to the standard single-action RL framework, to divide actions into two parts containing a costly observation choice in addition to the usual action which affects the world. 
 
 
 ## Motivation

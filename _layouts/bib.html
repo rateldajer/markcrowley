@@ -158,7 +158,7 @@
           <a class="abstract btn btn-sm z-depth-0" role="button">Notes</a>
         {% endif %}
         {% if entry.annote %}
-          <a class="abstract btn btn-sm z-depth-0" role="button">Annotes</a>
+          <a class="abstract btn btn-sm z-depth-0" role="button">Notes</a>
         {% endif %}
     {% endif %}
     </div>
@@ -172,7 +172,7 @@
         {% endif %}
         {% if entry.annote %}
         <div class="abstract hidden">
-            <p><b>Annote:</b> {{ entry.annote}} </p>
+            <p><b>Note:</b> {{ entry.annote}} </p>
           </div>
         {% endif %}
     {% endif %}
@@ -180,7 +180,8 @@
     <!-- Hidden abstract block -->
     {% if entry.abstract %}
     <div class="abstract hidden">
-      <p>{{ entry.abstract }}</p>
+        <p>{% if page.shownotes %}<b>Abstract:</b>{% endif %}
+         {{ entry.abstract }}</p>
     </div>
     {% endif %}
   </div>

@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /reading-groups/
-title: Reading Groups
-titleheader: Reading Groups
-description: List of reading group status
+title: Lab Reading Groups
+titleheader: Lab Reading Groups
+description: Ongoing and previous reading group lists
 order-start: 1
 order-end: 10
 nav: false
@@ -12,25 +12,16 @@ shownotes: true
 showbiborder: true
 ---
 
-{% assign stages = "next, done, upcoming, potential" | split: ", " %}
-<b>Jump to tag:</b> {% for t in page.topics %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
+A record of the recent reading group paper lists and notes for the lab. If you are a current or former member of the lab, or a student in one of my senior or graduate courses, then feel free to request to join into the regular reading group meetings by messaging me on Teams. You can also suggest future papers or links for individual papers. We try to collect comments into the [Hypothes.is](http://hypothes.is) links for each paper when possible.
 
 <hr/>
+In a **reading group** everyone takes turns *leading* discussion of a paper each week. Leading discussion can be as simple as having your own annotated notes on Hypothes.is to share and start discussion as we go through it together. Or it could be more involved, including *making slides* to present your overview of the paper's contributions, highlights and weak points.
+
+For each reading groups, you can loko up the links and notes on paper we have **done** in previous meetings, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order.
+
+## Previous Reading Groups
+- **Spring 2023** : [Transformers Reading Group](/rdgrp-s23/)
+- **Fall 2023** : [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
 
 
-<div class="publications by year">
-{% for t in stages %}
-  <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
-  {% for i in (page.order-start .. page.order-end) reversed %}
-      {% bibliography -f research-references -q @*[keywords~={{t}}, order~={{i}}]* %}
-  {% endfor %}
-{% endfor %}
-
-
-</div>
-
-<!-- TODO
-- fill in date-discussed in rest of bibtex, and order
-- add nots from overleaf to bibtex annote field
--->
 
