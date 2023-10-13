@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/readinggroup.md",
+                "file": "_news/2023-09-11-labnews.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -43,7 +43,7 @@
       {
         "id": "88d2f122d3cfd2d2",
         "type": "tabs",
-        "dimension": 49.16905444126075,
+        "dimension": 25.49800796812749,
         "children": [
           {
             "id": "52bd41c5d9606eed",
@@ -51,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/readinggroup.md"
+                "file": "_news/2023-09-11-labnews.md"
               }
             }
           },
@@ -83,7 +83,7 @@
       {
         "id": "3651048929fe8e8d",
         "type": "tabs",
-        "dimension": 50.83094555873926,
+        "dimension": 74.5019920318725,
         "children": [
           {
             "id": "e731dae5605b6755",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/readinggroup.md",
+                "file": "_news/2023-09-11-labnews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/readinggroup.md",
+                "file": "_news/2023-09-11-labnews.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,6 +166,13 @@
   },
   "active": "597e96f6ee84c791",
   "lastOpenFiles": [
+    "Screen Shot 2023-09-19 at 10.14.08 AM.png",
+    "_projects/ChemGymRL.md",
+    "TorontoVerseMeta.md",
+    "_pages/papers-to-read-see-research-references-bibfile.md",
+    "_pages/papers-to-read.md",
+    "_pages/readinggroups copy.md",
+    "_news/2023-09-11-labnews.md",
     "assets/pdf/2019-arxiv-lewis-bart.pdf",
     "assets/pdf/2022-arxiv-taylor-galactica.pdf",
     "assets/pdf/2018-openai-radford-improving.pdf",
@@ -177,7 +183,6 @@
     "assets/pdf/2020-osfpreprin-ghojogh-attention.pdf",
     "assets/pdf/2020-osfpreprin-ghojogh-attention.skim",
     "assets/pdf/2020-osfpreprin-ghojogh-attention",
-    "assets/pdf/2020-osfpreprin-ghojogh-attention mechanism, transformers,.skim",
     "vehicle-communication.md",
     "rlcourseS21.md",
     "rlcourse.md",
@@ -188,7 +193,6 @@
     "_pages/RLAlgorithmsNotes.md",
     "_pages/Lab Description.md",
     "_courses/ECE457C_S23_notes.md",
-    "Untitled.md",
     "Untitled 1.md",
     "ObsidianTricks.md",
     "tricks.md",
@@ -199,11 +203,6 @@
     "_topics/ai-for-science.md",
     "_topics/Reinforcement-Learning.md",
     "_topics/Manifold-Learning.md",
-    "_topics/MDP.md",
-    "_topics/MARL.md",
-    "_projects/vehicle-communication.md",
-    "_projects/compsust.md",
-    "_projects/SpaceWar.md",
     "_site/assets/pdf/2022-canai-bellinger-balancing.png",
     "_site/assets/pdf/2021-acml-godaz-vector.png",
     "_site/assets/img/vehicle-communication.png",

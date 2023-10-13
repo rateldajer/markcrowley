@@ -25,11 +25,12 @@ publish: true
 img: /assets/pdf/2022-canai-bellinger-balancing.png
 ---
 
-In early 2019 the lab began a new collaboration sponsored by the **National Research Council – UW Collaboration Centre (NUCC) on AI/Cybersecurity/IoT**. This is a new organization set-up to initial research collaboration between NRC staff researchers and UW PIs. I am one of the first faculty to be a part of this endeavour and to receive funding for my work. With Dr. Isaac Tamblyn (NRC) and Dr. Colin Bellinger (NRC), our project studies how to automate material synthesis and discovery by training a [Deep Reinforcement Learning](/reinforcement-learning/) system to plan and carry out chemical synthesis experiments to gather data and find efficient pathways to making new or known materials.”
+This project is the result of a collaboration sponsored by the **National Research Council – UW Collaboration Centre (NUCC) on AI/Cybersecurity/IoT**. This organization was set-up around 2019 to initiate research collaboration between NRC staff researchers and UWaterloo PIs. I was one of the first faculty members to be a part of this endeavour and to receive funding for my work. With Dr. Isaac Tamblyn (NRC) and Dr. Colin Bellinger (NRC), our project studies how to automate material synthesis and discovery by training a [Deep Reinforcement Learning](/reinforcement-learning/) system to plan and carry out chemical synthesis experiments to gather data and find efficient pathways to making new or known materials.”
 
 <img src="/assets/img/chemgymrl/chem-gym-design-v2.png" align='center' width='90%'> 
 
-To find out more, take a look at the current framework to carry out your own experiments or contribute to the framework: <a href="https://chemgymrl.com/">chemgymrl.com</a>
+To see the latest state of this project take a look at the papers below. If you are interested in using our framework you can check the detailed documentation site which includes tutorials, example code and explanations. 
+You can or even contributing to it, you can do that through the wefind out more, take a look at the current framework to carry out your own experiments or contribute to the framework: <a href="https://docs.chemgymrl.com/">chemgymrl.com</a>
 
 
 <hr>
