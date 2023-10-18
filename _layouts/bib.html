@@ -86,11 +86,11 @@
       {% if entry.year %}
         {{entry.year}}.
       {% else %}
-        .
+        
       {% endif %}
       <div class="periodical">
           {% if entry.date-discussed %}
-          <em>[discussed on {{ entry.date-discussed }}]</em>
+          <b>DISCUSSION DATE:</b> <b>{{ entry.date-discussed }}</b>
           {% endif %}
       </div>
       </div>

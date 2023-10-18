@@ -13,16 +13,17 @@ shownotes: true
 showbiborder: true
 ---
 
-<h2>Reading Groups Tips</h2>
-In a **[reading group](/reading-groups/)** everyone takes turns *leading* discussion of a paper each week. Leading discussion can be as simple as having your own annotated notes on Hypothes.is to share and start discussion as we go through it together. Or it could be more involved, including *making slides* to present your overview of the paper's contributions, highlights and weak points.
-
 
 <hr/>
 
-<h2>Fall 2023 - Causality, RL and Transformers Reading Group</h2>
+<h2>First meeting: Oct 23, 2023!</h2>
+**Location:** In person in EIT-3101 or you can join online via Teams. 
 
-<h3>Motivation</h3>
-So, over the summer we had a great discussion with the <a href="/rdgrp-s23/">Transformers Reading Group</a> going through some of the foundational papers on the popular new deep learning paradigm.
+All are welcome.
+
+
+<h2>Motivation</h2>
+Over the summer we had a great discussion with the <a href="/rdgrp-s23/">Transformers Reading Group</a> going through some of the foundational papers on the popular new deep learning paradigm.
 But we know we only scratched the surface! 
 
 This term, we'll dive into a few side topics related to this new area but focussing on topics people are working on in the lab such as 
@@ -35,9 +36,13 @@ This github page has a quite extensive list of papers and references on the topi
 <a href="https://github.com/Hannibal046/Awesome-LLM#milestone-papers">Awesome LLM Milestone Papers</a>
 </li></ul>
 
-<hr/>
+<h3>General Reading Groups Tips</h3>
+In a **[reading group](/reading-groups/)** everyone takes turns *leading* discussion of a paper each week. Leading discussion can be as simple as having your own annotated notes on Hypothes.is to share and start discussion as we go through it together. Or it could be more involved, including *making slides* to present your overview of the paper's contributions, highlights and weak points.
+
 
 See the links and notes on paper we have **done** in previous meetings, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order.
+
+<hr/>
 
 {% assign stages = "next, done, upcoming, potential" | split: ", " %}
 

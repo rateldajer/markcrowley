@@ -21,7 +21,7 @@ For each reading groups, you can loko up the links and notes on paper we have **
 
 ## Previous Reading Groups
 - **Spring 2023** : [Transformers Reading Group](/rdgrp-s23/)
-- **Fall 2023** : [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
+- **Fall 2023** (starting on Oct 23, 2023!): [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
 
 
 
