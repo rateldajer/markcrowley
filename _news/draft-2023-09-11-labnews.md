@@ -8,8 +8,8 @@ tags: multi-agent-systems, marl
 domains: ai-for-science, awards
 projects: marl, proj-chemgymrl
 people: markcrowley 
-output: true
-publish: true
+output: false
+publish: false
 showbib: true 
 showmeta: true
 
