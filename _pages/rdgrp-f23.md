@@ -52,6 +52,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
 <div class="publications by year">
 {% for t in stages %}
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
+    <br/><br/> 
   {% for i in (page.order-start .. page.order-end) %}
       {% bibliography -f rdgrp-f23 -q @*[keywords~={{t}}, order~={{i}}]* %}
   {% endfor %}

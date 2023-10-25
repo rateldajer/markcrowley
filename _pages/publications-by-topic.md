@@ -58,6 +58,7 @@ Also see:
 <div class="publications">
 {% for t in page.topics %}
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
+  <br/><br/>
   
   {% bibliography -f papers -q @*[status^=1, keywords~={{t}}]* %}
 {% endfor %}
