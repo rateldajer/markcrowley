@@ -21,13 +21,8 @@
             "id": "597e96f6ee84c791",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_news/2023-09-11-labnews.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -50,9 +45,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_news/2023-09-11-labnews.md"
-              }
+              "state": {}
             }
           },
           {
@@ -126,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_news/2023-09-11-labnews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_news/2023-09-11-labnews.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +157,7 @@
   },
   "active": "597e96f6ee84c791",
   "lastOpenFiles": [
+    "assets/pdf/2023-arxiv-wu-spring.pdf",
     "Screen Shot 2023-09-19 at 10.14.08 AM.png",
     "_projects/ChemGymRL.md",
     "TorontoVerseMeta.md",
@@ -210,7 +202,6 @@
     "_site/assets/img/teaching/ece493-logo.png",
     "_site/assets/img/publications-screenshot.png",
     "_site/assets/img/forest-fire/forest-fire.jpg",
-    "_site/assets/img/forest-fire/forest-fire-spread-lrcn.png",
-    "_site/assets/img/forest-fire/forest-fire-cellular-prediction1.png"
+    "_site/assets/img/forest-fire/forest-fire-spread-lrcn.png"
   ]
 }
