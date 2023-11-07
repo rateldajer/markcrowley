@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lab
+title: lab
 permalink: /lab/
 description: More about the UWECEML/CompThink lab
 nav: true
@@ -23,7 +23,8 @@ the [automotive domain](autonomous-driving),
 [digital chemistry/material design](ai-for-science)
 and even some video games such as MineCraft.
 
-**Lab website:** [https://markcrowley.ca](https://markcrowley.ca/lab)
+- **Lab website:** [https://markcrowley.ca](https://markcrowley.ca/lab)
+- **Reading Groups:** If you doing research in AI/ML/RL at Waterloo and want to join in to our weekly reading group you can find out more here: [https://markcrowley.ca/reading-groups/](https://markcrowley.ca/reading-groups/)
 
 
 ### ChemGymRL Project
