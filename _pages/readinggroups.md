@@ -17,11 +17,12 @@ A record of the recent reading group paper lists and notes for the lab. If you a
 <hr/>
 In a **reading group** everyone takes turns *leading* discussion of a paper each week. Leading discussion can be as simple as having your own annotated notes on Hypothes.is to share and start discussion as we go through it together. Or it could be more involved, including *making slides* to present your overview of the paper's contributions, highlights and weak points.
 
-For each reading groups, you can loko up the links and notes on paper we have **done** in previous meetings, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order.
+For each reading groups, you can look up the links and notes on paper we have **done** in previous meetings, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order.
 
 ## Previous Reading Groups
-- **Spring 2023** : [Transformers Reading Group](/rdgrp-s23/)
-- **Fall 2023** (starting on Oct 23, 2023!): [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
+- Spring 2023 : [Transformers Reading Group](/rdgrp-s23/)
+- Fall 2023: [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
+- **Winter 2024** (starting Feb 1?, 2024): [The Latest in AI](/rdgrp-w24/)
 
 
 
