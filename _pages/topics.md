@@ -7,7 +7,7 @@ nav: true
 description: Metapages collecting information on general research topics of interest in the lab. 
 showtitle: true
 ---
-
+	
 Also see [Publications Grouped by Research Topics](/pub-by-topic/)
 
 

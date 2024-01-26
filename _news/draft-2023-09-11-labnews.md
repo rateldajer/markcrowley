@@ -41,7 +41,7 @@ We had a lot of news here! Three lab members at Waterloo completed their graduat
 
 
 Other Team changes and achievements:
-- Vlad - completed his project on headed back to Lithuainia
+- Vlad - completed his project on headed back to Lithuania
 - Shayan - Successful PhD defence on DATE on topic, presentation of ICML paper was well received
 - Kyle Sprague - successfully completed his work on ChemGymRL and starts grad school at UAlberta
 - ChrisBeeler - still doing position at vector?

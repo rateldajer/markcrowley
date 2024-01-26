@@ -9,7 +9,7 @@
 
 ## Content
 - [ ] see the topics pages for TODO to merge the showing bib papers automatically froa  topic to the layout
-- [ ] Fill in project and topic descriptions. Each one can have a unique permalink, it doesn't need to be in a hierarchy, to [RL](reinforcement-learning.md) is just that, for anything related to it.
+- [ ] Fill in project and topic descriptions. Each one can have a unique permalink, it doesn't need to be in a hierarchy, to [RL](/reinforcement-learning/) is just that, for anything related to it.
 - [ ] Could there be a standard loop over keywords and organized by page type or collection? So on the RL page then you'd get a link of 
   - people
   - projects

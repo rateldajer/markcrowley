@@ -6,6 +6,8 @@
     "people": "multitext",
     "projects": "multitext",
     "domains": "multitext",
-    "topics": "multitext"
+    "topics": "multitext",
+    "date-updated": "date",
+    "date-created": "date"
   }
 }

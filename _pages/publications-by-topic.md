@@ -4,38 +4,32 @@ permalink: /pub-by-topic/
 title: Publication List by Topic
 titleheader: Publication List by Topic
 description: List of all Publications Grouped by Selected Reseach Topic
-topics: 
-- ai-for-chemistry
-- anomaly-detection
-- autonomous-driving
-- bayesian-networks
-- causality
-- computational-sustainability
-- data-reduction
-- deep-learning
-- digital-chemistry
-- digital-pathology
-- dimensionality-reduction
-- education-research
-- ensemble-methods
-- forest-management
-- fuzzy-logic
-- game-theory
-- human-robot-interaction
-- image-processing
-- invasive-species-management
-- search-and-rescue
-- manifold-learning
-- marl
-- mean-field-theory
-- medical-imaging
-- multi-agent-systems
-- nlp
-- optimization
-- pac-learning
-- probabilistic-inference
-- reinforcement-learning
-- vehicle-communication
+topics:
+  - ai-for-chemistry
+  - anomaly-detection
+  - autonomous-driving
+  - causality
+  - computational-sustainability
+  - digital-pathology
+  - dimensionality-reduction
+  - education-research
+  - forest-management
+  - game-theory
+  - human-robot-interaction
+  - image-processing
+  - search-and-rescue
+  - manifold-learning
+  - multi-agent-reinforcement-learning
+  - mean-field-theory
+  - medical-imaging
+  - multi-agent-systems
+  - natural-language-processing
+  - optimization
+  - pac-learning
+  - probabilistic-graphical-models
+  - reinforcement-learning
+  - vehicle-communication
+  - tree-based-ensembles
 nav: false
 showtitle: true
 ---
