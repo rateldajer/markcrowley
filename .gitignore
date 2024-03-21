@@ -1,6 +1,7 @@
 *alias*
 .DS_store
 .obsidian/
+.obsidian/*
 .jekyll-cache/
 .jekyll-metadata
 .ruby-version

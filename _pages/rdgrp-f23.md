@@ -25,8 +25,6 @@ All are welcome.
 <h2>Motivation</h2>
 Continuation of last year's <a href="/rdgrp-s23/">Transformers Reading Group</a> keeping the theme on Generative AI and RL to start, but who knows where it will go!
 
-
-
 <h3>General Reading Groups Tips</h3>
 In a **[reading group](/reading-groups/)** everyone takes turns *leading* discussion of a paper each week. Leading discussion can be as simple as having your own annotated notes on Hypothes.is to share and start discussion as we go through it together. Or it could be more involved, including *making slides* to present your overview of the paper's contributions, highlights and weak points.
 
@@ -45,7 +43,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) %}
-      {% bibliography -f rdgrp-w24 -q @*[keywords~={{t}}, order~={{i}}]* %}
+      {% bibliography -f rdgrp-w24 -q @*[keywords~="decision-transformer",  keywords~={{t}}, order~={{i}}]* %}
   {% endfor %}
 {% endfor %}
 

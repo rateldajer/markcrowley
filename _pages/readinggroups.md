@@ -11,7 +11,6 @@ showtitle: true
 shownotes: true
 showbiborder: true
 ---
-
 A record of the recent reading group paper lists and notes for the lab. If you are a current or former member of the lab, or a student in one of my senior or graduate courses, then feel free to request to join into the regular reading group meetings by messaging me on Teams. You can also suggest future papers or links for individual papers. We try to collect comments into the [Hypothes.is](http://hypothes.is) links for each paper when possible.
 
 <hr/>
@@ -22,7 +21,6 @@ For each reading groups, you can look up the links and notes on paper we have **
 ## Previous Reading Groups
 - Spring 2023 : [Transformers Reading Group](/rdgrp-s23/)
 - Fall 2023: [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
-- **Winter 2024** (starting Feb 1?, 2024): [The Latest in AI](/rdgrp-w24/)
 
 
 
