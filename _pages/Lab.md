@@ -24,6 +24,7 @@ the [automotive domain](autonomous-driving),
 and even some video games such as MineCraft.
 
 - **Lab website:** [https://markcrowley.ca](https://markcrowley.ca/lab)
+- **People:** Find information about current and former members of the lab here: [https://uwaterloo.ca/scholar/mcrowley/people](https://uwaterloo.ca/scholar/mcrowley/people)
 - **Reading Groups:** If you doing research in AI/ML/RL at Waterloo and want to join in to our weekly reading group you can find out more here: [https://markcrowley.ca/reading-groups/](https://markcrowley.ca/reading-groups/)
 
 
@@ -32,7 +33,7 @@ One exciting ongoing project in the [AI for Science](/ai-for-science) area is th
 
 
 
-### Driver Behaviour Learning Project
+## Driver Behaviour Learning Project
 An ongoing project in the lab collection and analysis of high resolution, multi-modal data of human driver behaviour in real world driving scenarios. 
 This [Driver Behaviour Learning](/driver-behaviour-learning) project was in collaboration with Magna International and data was collected by volunteer participants before, during and after the pandemic, driving around the Waterloo region in a specially modified vehicle with additional sensors.
 

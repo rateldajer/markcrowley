@@ -1,16 +1,18 @@
 ---
 layout: people
 collection: people
-givenname: Sushrut
-familyname: Bhalla
+givenname: Xiang
+familyname: Fang
 degree: MASc
 type: student
-status: current - working at Amazon
-graduated: 2019
-keywords: MARL, Reinforcement-Learning, Machine-Learning
+status: current 
+graduated: 
+keywords: Machine-Learning, forest-fire-management, spatial
 linkedin:
 twitter:
 ---
 
+
+Xiang joined the lab in 2022 to purse a MASc degree in the use of Deep Learning for understanding and predicting forest fire spread using raw data and comparing to existing hand tailored models.
 
 

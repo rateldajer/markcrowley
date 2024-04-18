@@ -9,6 +9,8 @@ type: student
 status: graduated
 started: 2017
 graduated: 2019
+bibauthor: true
+showbib: true
 keywords: snowcover, machinelearning, deeplearning
 linkedin: https://www.linkedin.com/in/jmcarrillog/
 twitter:

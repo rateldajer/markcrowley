@@ -65,6 +65,7 @@ The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability an
 # Course Learning Objectives and Topic Details
 
 ### Learning Objectives
+
 This course complements other AI courses in ECE by focussing on the
 methods for representation and reasoning about uncertain knowledge for
 the purposes of analysis and decision making. At each stage of the

@@ -1,15 +1,16 @@
 ---
 layout: people
-givenname: Xiang "Felix"
-familyname: Fang
-key: xiangfang
-bibauthor: 
-degree: MASc
-status: active
+givenname: Sriram 
+familyname: Ganapathi Subramanian
+key: sriramganapathisubramanian
+bibauthor: true
+degree: PhD
+status: graduated
 type: student
-keywords: Machine-Learning, forest-management, forest-wildfire, firesim, proj-forestfire, supervised-learning
+keywords: Reinforcement-Learning, MARL, MDP, Machine-Learning, Wildfire-Management, forest-management, firesim, proj-chemgymrl, MFRL, mean-field-theory
 linkedin:
-showbib: false
+showbib: true
 ---
 
-Xiang Fang is a Master's student looking into using supervised learning methods to improve upon hand-tuned, area wildfire burn prediction models in the topic of [Forest Wildfire Management](forest-wildfire). He is collecting together a dataset of national area burn, ignitions across Canada for his training and experimentation. 
+Sriram's page.
+
