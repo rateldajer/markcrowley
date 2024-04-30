@@ -12,11 +12,52 @@ social: true
 
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <h2>Data Analysis and Machine Learning (DKMA)</h2>
-        </div>
-    </div>
+
+<div class="row">
+	<div class="col">
+		<h2>Reinforcement Learning</h2>
+	</div>
+</div>
+	
+	<div class="row">
+		<div class="col">
+		One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called Reinforcement Learning, has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the algorithms they both use to learn to act in a complex, mysterious world.
+		</div>
+	</div>
+	
+	<div class="row mt-3">
+	    <div class="col">
+	        <ul class="list-group">
+				<li class="list-group-item"> <b>Spring 2024</b> : 
+	                <i><a  href="/rlcourse/">ECE 457C - Reinforcement Learning</a></i>
+	            </li>
+				<li class="list-group-item"> <b>Spring 2023</b> : 
+	                <i><a  href="/rlcourseS23/">ECE 457C - Reinforcement Learning</a></i>
+	            </li>
+	            <li class="list-group-item" disabled>Spring 2022 : 
+	                <i><a  href="/rlcourseS22/">ECE 457C - Reinforcement Learning</a></i>
+	            </li>
+	            <li class="list-group-item" disabled> Spring 2021 : 
+	                <a href="/rlcourseS21/">ECE 493 - Reinforcement Learning</a>
+	            </li>
+	            <li class="list-group-item" disabled> 
+	                Spring 2020 : ECE 493 - Probabilistic Reasoning and Reinforcement Learning
+	            </li>
+	            <li class="list-group-item" disabled> 
+	                Spring 2019: ECE 493 - Probabilistic Reasoning and Reinforcement Learning
+	            </li>
+	        </ul>
+	    </div>
+	    <div class="col-4">
+		    <img  class="img-fluid" src="../assets/img/teaching/ece493-logo.png">
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col">
+		<h2>Data Analysis and Machine Learning (DKMA)</h2>
+	</div>
+</div>
 
     <div class="row">
         <div class="col">
@@ -49,64 +90,28 @@ social: true
         </div>
     </div>
 
-   <div class="row">
-        <div class="col">
-            <h2>Algorithms</h2>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
-        Algorithms provide methods for solving problems, and are at the foundation of computing. It is important that practitioners in electrical and computer engineering understand how algorithms are designed, and how to analyze them for correctness and efficiency. It is important also to be able to distinguish intractable problems from ones that are tractable so one does not naively seek efficient solutions when none may exist. For cases that are intractable, it is important to know how to design approximate solutions that satisfy bounds on correctness and efficiency. Industry has long recognized the critical importance of algorithms that are correct and efficient. 
-        </div>
-    </div>
-    
-    <div class="row mt-3">
-        <div class="col">
-            <ul class="list-group">
-            <li class="list-group-item"> 
-                <b>Winter 2023:</b> <a href="/algorithmscourse/">
-                ECE 406 : Algorithm Design and Analysis</a>
-            </li>
-            </ul>
-        </div>
-    </div>
-
 <div class="row">
 	<div class="col">
-		<h2>Reinforcement Learning</h2>
+		<h2>Algorithms</h2>
 	</div>
 </div>
-
-<div class="row">
-<div class="col">
-One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called Reinforcement Learning, has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the algorithms they both use to learn to act in a complex, mysterious world.
-</div></div>
-
-<div class="row mt-3">
-    <div class="col">
-        <ul class="list-group">
-        		<li class="list-group-item"> <b>Spring 2023</b> : 
-                <i><a  href="/rlcourse/">ECE 457C - Reinforcement Learning</a></i>
-            </li>
-            <li class="list-group-item" disabled>Spring 2022 : 
-                <i><a  href="/rlcourseS22/">ECE 457C - Reinforcement Learning</a></i>
-            </li>
-            <li class="list-group-item" disabled> Spring 2021 : 
-                <a href="/rlcourseS21/">ECE 493 - Reinforcement Learning</a>
-            </li>
-            <li class="list-group-item" disabled> 
-                Spring 2020 : ECE 493 - Probabilistic Reasoning and Reinforcement Learning
-            </li>
-            <li class="list-group-item" disabled> 
-                Spring 2019: ECE 493 - Probabilistic Reasoning and Reinforcement Learning
-            </li>
-        </ul>
-    </div>
-    <div class="col-4">
-    <img  class="img-fluid" src="../assets/img/teaching/ece493-logo.png">
-    </div>
-</div>
+	
+	<div class="row">
+		<div class="col">
+		Algorithms provide methods for solving problems, and are at the foundation of computing. It is important that practitioners in electrical and computer engineering understand how algorithms are designed, and how to analyze them for correctness and efficiency. It is important also to be able to distinguish intractable problems from ones that are tractable so one does not naively seek efficient solutions when none may exist. For cases that are intractable, it is important to know how to design approximate solutions that satisfy bounds on correctness and efficiency. Industry has long recognized the critical importance of algorithms that are correct and efficient. 
+		</div>
+	</div>
+	
+	<div class="row mt-3">
+		<div class="col">
+			<ul class="list-group">
+			<li class="list-group-item"> 
+				<b>Winter 2023:</b> <a href="/algorithmscourse/">
+				ECE 406 : Algorithm Design and Analysis</a>
+			</li>
+			</ul>
+		</div>
+	</div>
 
 <div class="row"> 
 	<div class="col">
@@ -114,10 +119,12 @@ One of my core research areas is into understanding the computational mechanisms
 	</div>
 </div>
 
-<div class="row> <div class="col">
-<div class="col">
-See my <a href="https://uwaterloo.ca/scholar/mcrowley/classes">department website for an archival list</a> of courses I have taught.
-</div> </div>
+<div class="row"> 
+	<div class="col">
+		See my <a href="https://uwaterloo.ca/scholar/mcrowley/classes">department website for an archival list</a> of courses I have taught.
+	</div> 
+</div>
+
 </div>
 
 <hr>

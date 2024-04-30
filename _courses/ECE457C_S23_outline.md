@@ -1,16 +1,21 @@
 ---
 layout: page
 description: Spring 2023 - ECE 457C
-permalink: /rlcourse/
+permalink: /rlcourse23/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
 date: 2023-04-12
 meta: ECE 457C - Spring 2023
-tags: ece457c, reinforcement-learning, machine-learning , artificial-intelligence, teaching, teaching-ugrad
+tags:
+  - ece457c
+  - reinforcement-learning
+  - machine-learning
+  - artificial-intelligence
+  - teaching
+  - teaching-ugrad
 nav: false
 showtitle: true
 importance: 1
-
 ---
 
 # ECE 457C - Reinforcement Learning
