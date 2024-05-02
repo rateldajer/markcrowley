@@ -1,4 +1,4 @@
---{{ -
+---
 layout: people
 collection: people
 givenname: Nouha
