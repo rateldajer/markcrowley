@@ -6,9 +6,16 @@ title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
 date: 2022-02-26
 meta: ECE 457C - Spring 2022
+tags:
+  - ece457c
+  - reinforcement-learning
+  - machine-learning
+  - artificial-intelligence
+  - teaching
+  - teaching-ugrad
 nav: false
 showtitle: true
-importance: 1
+importance: 2
 
 ---
 
