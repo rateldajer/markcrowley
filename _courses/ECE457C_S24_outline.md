@@ -38,14 +38,17 @@ See the [**official course outline at**](https://outline.uwaterloo.ca/view/n9ffk
 This page will have additional resources linking to previous courses, topic notes etc, which may also be duplicated on LEARN.
 
 - Last year's **[Full Weekly Schedule and Deadlines (2023)](/ece457c-schedule/)**
-- **[Piazza Discussions] https://piazza.com/uwaterloo.ca/summer2024/ece457c)** 
+- **[Piazza Discussions](https://piazza.com/uwaterloo.ca/summer2024/ece457c)** 
 - **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** (online, free)
-- [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (lectures from previous years, not updated)
+- [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (lectures from previous years, not updated (yet...?))
 
+<hr/>
+<hr/>
 
 # Course News and Announcements
 These will generally be posted into LEARN so that everyone can get a notification of announcements and updates. Be sure to enable notifications for course announcements.
 
+<hr/>
 ## 2024-04-26
 The course will have a Midterm Exam and a Final Exam this year. The Midterm is already scheduled :
 - **Midterm Exam:** June 17,  11am to 12:15pm, in room E7 4043 
