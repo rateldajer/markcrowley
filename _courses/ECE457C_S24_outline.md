@@ -38,7 +38,7 @@ See the [**official course outline at**](https://outline.uwaterloo.ca/view/n9ffk
 This page will have additional resources linking to previous courses, topic notes etc, which may also be duplicated on LEARN.
 
 - Last year's **[Full Weekly Schedule and Deadlines (2023)](/ece457c-schedule/)**
-- **[Piazza Discussions] https://piazza.com/uwaterloo.ca/summer2024/ece457c)** (Not Yet Active)
+- **[Piazza Discussions] https://piazza.com/uwaterloo.ca/summer2024/ece457c)** 
 - **[Textbook](http://incompleteideas.net/book/the-book-2nd.html)** (online, free)
 - [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) (lectures from previous years, not updated)
 
@@ -94,6 +94,16 @@ If you have any concerns or inputs on the how I can best do all of this in a way
 | 13 | July 29, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
 
 
+### Course Communication
+Hi Everyone!
+Looking forward to another fun spring term talking about one of the most interesting areas of modern AI these days, Reinforcement Learning!
+We'll be using Piazza and Learn for discussion and content, you know the drill by now!
+News and announcements will be posted on Learn and piazza, as well as initially on my website for the course (https://markcrowley.ca/rlcourse/) for people who aren't registered yet.
 
+`Boilerplate:`
+We'll be conducting all class-related discussion here this term. The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. We encourage you to ask questions when you're struggling to understand a concept. For course communications, you can even do so anonymously to the course staff and only the TAs and Prof will know who it is. 
 
-#todo/YAH
+**Important:**
+For direct contact with the Prof or TAs on individual issues on anything personal or administrative, please use private piazza messages so that all three of us get a chance to respond. Prof. Crowley is "bad at email" *(...it's true)*, so it might get missed. If you really have a critical time issue, or you don't want the TA's to see the message (for any reason at all), then you should send Prof. Crowley a direct message on Teams chat. But please use this method only when critical.
+
+- Prof. Mark Crowley
