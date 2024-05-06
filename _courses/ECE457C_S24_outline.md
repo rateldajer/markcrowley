@@ -55,10 +55,34 @@ These will generally be posted into LEARN so that everyone can get a notificatio
 
 In this announcement:
 
-- An Erratic Planned Lecture Schedule
-  - First Lecture(s) : Monday May 6, 2024 - 3 hours on first day
 - Course Communication Information
 - Midterm Date
+- An Erratic Planned Lecture Schedule
+  - First Lecture(s) : Monday May 6, 2024 - 3 hours on first day
+
+## Course Communication Processes
+
+Hi Everyone!
+Looking forward to another fun spring term talking about one of the most interesting areas of modern AI these days, Reinforcement Learning!
+We'll be using Piazza and Learn for discussion and content, you know the drill by now!
+News and announcements will be posted on Learn and piazza, as well as initially on my website for the course (https://markcrowley.ca/rlcourse/) for people who aren't registered yet.
+
+`Boilerplate:`
+We'll be conducting all class-related discussion here this term. The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. We encourage you to ask questions when you're struggling to understand a concept. For course communications, you can even do so anonymously to the course staff and only the TAs and Prof will know who it is. 
+
+**Important:**
+For direct contact with the Prof or TAs on individual issues on anything personal or administrative, please use private piazza messages so that all three of us get a chance to respond. Prof. Crowley is "bad at email" *(...it's true)*, so it might get missed. If you really have a critical time issue, or you don't want the TA's to see the message (for any reason at all), then you should send Prof. Crowley a direct message on Teams chat. But please use this method only when critical.
+
+
+
+## Midterm
+
+The course will have a Midterm Exam and a Final Exam this year. The Midterm is already scheduled :
+
+- **Midterm Exam:** June 17,  11am to 12:15pm, in room E7 4043 
+- Full ECE Midterm Schedule : https://uwaterloo.ca/electrical-computer-engineering/midterm-schedule-0
+
+
 
 ## An Erratic Planned Lecture Schedule
 
@@ -104,24 +128,3 @@ If you have any concerns or inputs on the how I can best do all of this in a way
 | 12 | July 22, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
 | 13 | July 29, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
 
-## Course Communication Processes
-
-Hi Everyone!
-Looking forward to another fun spring term talking about one of the most interesting areas of modern AI these days, Reinforcement Learning!
-We'll be using Piazza and Learn for discussion and content, you know the drill by now!
-News and announcements will be posted on Learn and piazza, as well as initially on my website for the course (https://markcrowley.ca/rlcourse/) for people who aren't registered yet.
-
-`Boilerplate:`
-We'll be conducting all class-related discussion here this term. The quicker you begin asking questions on Piazza (rather than via emails), the quicker you'll benefit from the collective knowledge of your classmates and instructors. We encourage you to ask questions when you're struggling to understand a concept. For course communications, you can even do so anonymously to the course staff and only the TAs and Prof will know who it is. 
-
-**Important:**
-For direct contact with the Prof or TAs on individual issues on anything personal or administrative, please use private piazza messages so that all three of us get a chance to respond. Prof. Crowley is "bad at email" *(...it's true)*, so it might get missed. If you really have a critical time issue, or you don't want the TA's to see the message (for any reason at all), then you should send Prof. Crowley a direct message on Teams chat. But please use this method only when critical.
-
-
-
-## Midterm
-
-The course will have a Midterm Exam and a Final Exam this year. The Midterm is already scheduled :
-
-- **Midterm Exam:** June 17,  11am to 12:15pm, in room E7 4043 
-- Full ECE Midterm Schedule : https://uwaterloo.ca/electrical-computer-engineering/midterm-schedule-0
