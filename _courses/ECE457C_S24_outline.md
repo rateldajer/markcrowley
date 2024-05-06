@@ -1,5 +1,5 @@
 ---
-layout: page
+=layout: page
 description: Spring 2024 - ECE 457C
 permalink: /rlcourse/
 title: Reinforcement Learning
@@ -65,17 +65,20 @@ Due to having Monday lectures, and a large number of holidays, conferences, and 
 	- Monday (in person): 3 hours all at once on May 6 on the first day of class
 	- Tuesday (cancelled): 1.5 hours are lecture are scheduled for May 7 but I will need to cancel it, see note below.
 	- Wednesday (virtual): 1.5 hours 
-Since we'll be losing lecture in other weeks we will use the full hours in this first week to get off to a quick start! 
+	Since we'll be losing lecture in other weeks we will use the full hours in this first week to get off to a quick start! 
 
 This means we'll be jumping right in with full content that first day. We will certainly have a break and some ice breaker discussions to let people chat, and discuss group partners, and ask general course questions.
 
 So come to class Monday and be ready to talk about the big topics in Artificial Intelligence!
 
-
 ### Regular is as Regular Does...
-![[457C-S24-totalhours.png]]
-![[457C-S24-hoursbyday.png]]
+
+![](../assets/img/teaching/457C-S24-totalhours.png)
+
+![](../assets/img/teaching/457C-S24-hoursbyday.png)
+
 ### Additional Lecture Complications
+
 In addition to the planned schedule, from time to I will need to cancel a lecture, or provide it virtually with as a live online lecture on Teams. This is partly because of a family health situation that requires me to be in Toronto a fair bit this term. One or two weeks I'll have be attending a conference and will switch to some lecture being virtual-live or virtual-pre-recorded.
 
 If you have any concerns or inputs on the how I can best do all of this in a way that supports your learning, please do contact me.
