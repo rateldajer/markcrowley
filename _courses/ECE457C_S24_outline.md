@@ -1,5 +1,5 @@
 ---
-=layout: page
+layout: page
 description: Spring 2024 - ECE 457C
 permalink: /rlcourse/
 title: Reinforcement Learning
@@ -49,15 +49,19 @@ This page will have additional resources linking to previous courses, topic note
 These will generally be posted into LEARN so that everyone can get a notification of announcements and updates. Be sure to enable notifications for course announcements.
 
 <hr/>
-## 2024-04-26
-The course will have a Midterm Exam and a Final Exam this year. The Midterm is already scheduled :
-- **Midterm Exam:** June 17,  11am to 12:15pm, in room E7 4043 
-- Full ECE Midterm Schedule : https://uwaterloo.ca/electrical-computer-engineering/midterm-schedule-0
+# 2024-04-26
 
-### Welcome, Let's Talk AI!
-First Lecture : May 6, 
+## Welcome Everyone! Let's Talk AI!
 
-### An Erratic Planned Lecture Schedule
+In this announcement:
+
+- An Erratic Planned Lecture Schedule
+  - First Lecture(s) : Monday May 6, 2024 - 3 hours on first day
+- Course Communication Information
+- Midterm Date
+
+## An Erratic Planned Lecture Schedule
+
 Due to having Monday lectures, and a large number of holidays, conferences, and other events, our "regular weekly schedule" is *far from regular*. 
 - **"Regular" week:** Two 1.5 hour lectures a week on Mondays and Tuesdays.
 - ButSome weeks we have a total of 1.5 hours of lecture, some weeks we have 6 hours
@@ -82,7 +86,8 @@ So come to class Monday and be ready to talk about the big topics in Artificial 
 In addition to the planned schedule, from time to I will need to cancel a lecture, or provide it virtually with as a live online lecture on Teams. This is partly because of a family health situation that requires me to be in Toronto a fair bit this term. One or two weeks I'll have be attending a conference and will switch to some lecture being virtual-live or virtual-pre-recorded.
 
 If you have any concerns or inputs on the how I can best do all of this in a way that supports your learning, please do contact me.
-### Raw Data
+### Raw Data for Lecture Times (you can ignore if you want)
+
 | Week | Date | Normal Hours | Actual Hours | Monday Hours | Tuesday Hours | Wednesday Hours |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1 | May 6, 2024 | 3 | 6 | 3 | 1.5 | 1.5 |
@@ -99,8 +104,8 @@ If you have any concerns or inputs on the how I can best do all of this in a way
 | 12 | July 22, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
 | 13 | July 29, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
 
+## Course Communication Processes
 
-### Course Communication
 Hi Everyone!
 Looking forward to another fun spring term talking about one of the most interesting areas of modern AI these days, Reinforcement Learning!
 We'll be using Piazza and Learn for discussion and content, you know the drill by now!
@@ -112,4 +117,11 @@ We'll be conducting all class-related discussion here this term. The quicker you
 **Important:**
 For direct contact with the Prof or TAs on individual issues on anything personal or administrative, please use private piazza messages so that all three of us get a chance to respond. Prof. Crowley is "bad at email" *(...it's true)*, so it might get missed. If you really have a critical time issue, or you don't want the TA's to see the message (for any reason at all), then you should send Prof. Crowley a direct message on Teams chat. But please use this method only when critical.
 
-- Prof. Mark Crowley
+
+
+## Midterm
+
+The course will have a Midterm Exam and a Final Exam this year. The Midterm is already scheduled :
+
+- **Midterm Exam:** June 17,  11am to 12:15pm, in room E7 4043 
+- Full ECE Midterm Schedule : https://uwaterloo.ca/electrical-computer-engineering/midterm-schedule-0
