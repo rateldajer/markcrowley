@@ -49,6 +49,21 @@ This page will have additional resources linking to previous courses, topic note
 These will generally be posted into LEARN so that everyone can get a notification of announcements and updates. Be sure to enable notifications for course announcements.
 
 <hr/>
+## 2024-05-07
+
+**Lecture 2 on May 7, 2024 cancelled - Assigned Reading**
+
+Nice meeting everyone yesterday, I'm sure it's going to be a fun term. Some information for you all.
+
+- There is no lecture today Tuesday May 7, 2024 - instead you should look at the following materials and reading on LEARN
+  - [Multi-Armed Bandits (Slides)](https://learn.uwaterloo.ca/d2l/le/content/1034770/viewContent/5487117/View) - I started going through these slides, you can read through the rest. There are slides form last year with my annotations and additional resources on this topic to fill in the ideas.
+  - If your probability concepts are a bit rusty then look through the materials in the "Review of Probability Theory" section. We don't need anything too advanced, if everything in [ece457cprobreview](https://learn.uwaterloo.ca/d2l/le/content/1034770/viewContent/5487119/View) makes sens to you then you're fine. If not, then take a look and start a discussion on piazza as needed.
+- My original idea that we sometimes had Wednesday lectures was incorrect, so I'll see you all again Monday.
+- I'll create office hours for later this week.
+- The dates for Assignment 1 on the outline were incorrect, they are being  updated.
+
+
+
 # 2024-04-26
 
 ## Welcome Everyone! Let's Talk AI!
@@ -92,39 +107,17 @@ Due to having Monday lectures, and a large number of holidays, conferences, and 
 - Notably, the **very first week** we have
 	- Monday (in person): 3 hours all at once on May 6 on the first day of class
 	- Tuesday (cancelled): 1.5 hours are lecture are scheduled for May 7 but I will need to cancel it, see note below.
-	- Wednesday (virtual): 1.5 hours 
-	Since we'll be losing lecture in other weeks we will use the full hours in this first week to get off to a quick start! 
+	- ~~Wednesday (virtual): 1.5 hours~~ (I was looking at an old schedule, there are no wednesday lectures)
 
 This means we'll be jumping right in with full content that first day. We will certainly have a break and some ice breaker discussions to let people chat, and discuss group partners, and ask general course questions.
 
-So come to class Monday and be ready to talk about the big topics in Artificial Intelligence!
-
-### Regular is as Regular Does...
-
-![](../assets/img/teaching/457C-S24-totalhours.png)
-
-![](../assets/img/teaching/457C-S24-hoursbyday.png)
+So come to class Monday and be ready to talk about th
 
 ### Additional Lecture Complications
 
 In addition to the planned schedule, from time to I will need to cancel a lecture, or provide it virtually with as a live online lecture on Teams. This is partly because of a family health situation that requires me to be in Toronto a fair bit this term. One or two weeks I'll have be attending a conference and will switch to some lecture being virtual-live or virtual-pre-recorded.
 
 If you have any concerns or inputs on the how I can best do all of this in a way that supports your learning, please do contact me.
-### Raw Data for Lecture Times (you can ignore if you want)
 
-| Week | Date | Normal Hours | Actual Hours | Monday Hours | Tuesday Hours | Wednesday Hours |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 1 | May 6, 2024 | 3 | 6 | 3 | 1.5 | 1.5 |
-| 2 | May 13, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
-| 3 | May 20, 2024 | 3 | 1.5 | 0 | 1.5 | 0 |
-| 4 | May 27, 2024 | 3 | 6 | 3 | 1.5 | 1.5 |
-| 5 | June 3, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
-| 6 | June 10, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
-| 7 | June 17, 2024 | 3 | 0 | 0 | 0 | 0 |
-| 8 | June 24, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
-| 9 | July 1, 2024 | 3 | 1.5 | 0 | 1.5 | 0 |
-| 10 | July 8, 2024 | 3 | 4.5 | 1.5 | 1.5 | 1.5 |
-| 11 | July 15, 2024 | 3 | 4.5 | 3 | 1.5 | 0 |
-| 12 | July 22, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
-| 13 | July 29, 2024 | 3 | 3 | 1.5 | 1.5 | 0 |
+
 
