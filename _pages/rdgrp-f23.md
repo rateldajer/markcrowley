@@ -1,26 +1,21 @@
 ---
 layout: page
-permalink: /rdgrp-w24/
-title: Winter 2024 Reading Group
-titleheader: Winter 2024 Reading Group
+permalink: /rdgrp-f23/
+title: Fall 2023 Reading Group
+titleheader: Fall 2023 Reading Group
 description: Reading group on the latest topics in Artificial Intelligence
-rdgrp-bib-file: rdgrp-w24
+rdgrp-keyword: rdgrp-f23
 order-start: 1
 order-end: 10
 nav: false
 showtitle: true
 shownotes: true
 showbiborder: true
+showdiscusseddate: false
 ---
 
 
 <hr/>
-
-<h2>First meeting: ???, 2024!</h2>
-**Location:** TBD. 
-
-All are welcome.
-
 
 <h2>Motivation</h2>
 Continuation of last year's <a href="/rdgrp-s23/">Transformers Reading Group</a> keeping the theme on Generative AI and RL to start, but who knows where it will go!
@@ -42,12 +37,11 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
 {% for t in stages %}
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
     <br/><br/> 
-  {% for i in (page.order-start .. page.order-end) %}
-      {% bibliography -f rdgrp-w24 -q @*[keywords~="decision-transformer",  keywords~={{t}}, order~={{i}}]* %}
+  {% for i in (page.order-start .. page.order-end) reversed %}
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-f23, keywords~={{t}}, order~={{i}}]* %}
   {% endfor %}
 {% endfor %}
 
 
 </div>
-
 

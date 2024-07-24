@@ -5,7 +5,7 @@ permalink: /rlcourse/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
 date-updated: 2024-04-30
-meta: ECE 457C - Spring 2023
+meta: ECE 457C - Spring 2024
 tags:
   - ece457c
   - reinforcement-learning

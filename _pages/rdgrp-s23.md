@@ -5,12 +5,14 @@ title: Spring 2023 Reading Group
 titleheader: Spring 2023 Reading Group
 description: Reading group on Transformers in the lab in Spring 2023
 rdgrp-bib-file: rdgrp-s23
+rdgrp-keywords: rdgrp-s23
 order-start: 1
 order-end: 10
 nav: false
 showtitle: true
 shownotes: true
 showbiborder: true
+showdiscusseddate: true
 ---
 
 <h2>Reading Groups Tips</h2>
@@ -45,7 +47,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) reversed %}
-      {% bibliography -f  rdgrp-s23 -q @*[keywords~={{t}}, order~={{i}}]* %}
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-s23, keywords~={{t}}, order~={{i}}]* %}
   {% endfor %}
 {% endfor %}
 

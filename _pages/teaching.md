@@ -15,6 +15,31 @@ social: true
 
 <div class="row">
 	<div class="col">
+		<h2>Topics in Reinforcement Learning</h2>
+	</div>
+</div>
+	
+	<div class="row">
+		<div class="col">
+	This advanced topics graduate course will focus on the theories, methods and applications of Reinforcement Learning (RL). RL is an Artificial Intelligence/Machine Learning (AI/ML) approach for building systems that can  learn how to make decisions through their own experiences in an environment. The domain is more difficult than supervised ML since it involves uncertainty and limited information about how the world, and its dynamics, actually function. It can also be seen the AI analogy for the Optimal Control problem, where there are no dynamics models available and the objective is not globally known. 
+		</div>
+	</div>
+	
+	<div class="row mt-3">
+	    <div class="col">
+	        <ul class="list-group">
+				<li class="list-group-item"> <b>Fall 2024</b> : 
+	                <i><a  href="/rlgradcourse/">ECE 750 T4 - Reinforcement Learning</a></i>
+	            </li>
+	        </ul>
+	    </div>
+	    <div class="col-4">
+		    <img  class="img-fluid" src="../assets/img/teaching/ece493-logo.png">
+	    </div>
+	</div>
+
+<div class="row">
+	<div class="col">
 		<h2>Reinforcement Learning</h2>
 	</div>
 </div>

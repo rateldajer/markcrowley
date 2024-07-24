@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /rdgrp-f23/
+permalink: /rdgrp-w24/
 title: Fall 2023 Reading Group
 titleheader: Fall 2023 Reading Group
 description: Reading group on Causality, RL and Transformers in the lab in Fall 2023
@@ -54,7 +54,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) %}
-      {% bibliography -f rdgrp-f23 -q @*[keywords~={{t}}, order~={{i}}]* %}
+      {% bibliography -f rdgrp-w24 -q @*[keywords~={{t}}, order~={{i}}]* %}
   {% endfor %}
 {% endfor %}
 

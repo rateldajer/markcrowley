@@ -89,8 +89,10 @@
         
       {% endif %}
       <div class="periodical">
-          {% if entry.date-discussed %}
-          <b>DISCUSSION DATE:</b> <b>{{ entry.date-discussed }}</b>
+          {% if entry.showdiscussed %}
+              {% if entry.date-discussed %}
+              <b>DISCUSSED ON:</b> {{ entry.date-discussed }}
+              {% endif %}
           {% endif %}
       </div>
       </div>

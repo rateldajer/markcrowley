@@ -21,6 +21,7 @@ For each reading groups, you can look up the links and notes on paper we have **
 ## Previous Reading Groups
 - Spring 2023 : [Transformers Reading Group](/rdgrp-s23/)
 - Fall 2023: [Causality, Reinforcement Learning and Transformers](/rdgrp-f23/)
+- Fall 2024: [ECE750T4 : Graduate Topics Course on Reinforcement Learning](/rdgrp-ece750T4-f24)
 
 
 
