@@ -29,9 +29,9 @@ In a **[reading group](/reading-groups/)** everyone takes turns *leading* discus
 
 <hr/>
 
-<h2>The Reading List</h2>
+<h2>The Course Reading List</h2>
 
-Papers listed below are ones that we are planning to read throughout the term. The order is given but this shouldn't be considered too strict, some papers could be done in different orders. In general, we should read papers which are foundational for others first.
+Papers listed below are ones that we are planning to read throughout the term. An order **[n]** is sometime listed but this is just a rough guide. In general, if one paper is base don work in an older paper, the older paper should be discussed first, or the same week.
 
 ### What you need to do
 If you are a student in this course you need to do the following:
@@ -44,23 +44,47 @@ If you are a student in this course you need to do the following:
 - The class discussion of the paper should help everyone, including you and the prof come away with a better understanding and evaluation of this publication
 
 
----
 
-### Each Week
-See the links and notes on paper we have **done** in previous classes, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order. Note: `reference` indicates publications that no one needs to volunteer to present, they mostly books and other resources that may also prove useful in understanding the course topic. `optional` publications won't be discussed if no one volunteers to present them.
+### Papers We'll Be Reading
 
-{% assign stages = "next week, earlier, middle, later, optional, complete, reference" | split: ", " %}
+{% assign stages = "rd-current, rd-early, rd-middle, rd-later, rd-complete" | split: ", " %}
 
-<b>Jump to stage:</b> {% for t in stages %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
+See the links below for information about and notes on papers 
+planned readings for some time in the `early`, `middle`, or `later` part of the course,
+obtain the link for the `current` reading for this week, 
+or for those that are `complete` from previous weeks.
+
+<i>(Jump to a stage and sign up to lead a paper)</i> <br/>
+{% for rdt in stages %} {% assign t = rdt | split: "-" | slice: 1 %} <a href="#{{rdt}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %} {% endfor %}
+
 
 
 <div class="publications by year">
-{% for t in stages %}
-  <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
+{% for rdt in stages %}
+  {% assign t = rdt | split: "-" | slice: 1 %}
+  <h2 class="year"><a name="{{rdt}}">{{t}}</a></h2>
     <br/><br/> 
-  {% for i in (page.order-start .. page.order-end) %}
-      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-ece750T4-f24, keywords~={{t}}, order~={{i}}]* %}
-  {% endfor %}
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-ece750T4-f24, keywords~={{rdt}}]*  %}
+{% endfor %}
+
+
+</div>
+
+<hr/>
+## Other Reading
+The following sections list  publications that no one needs to volunteer to present, they mostly `reference` papers and books, simulation environment descriptions, or other resources that may also prove useful in understanding the course topic. 
+`potential` publications probably won't be discussed if no one volunteers to present them.
+
+{% assign otherpapers = "rd-reference, rd-foundational, rd-environment, rd-potential" | split: ", " %}
+<i>(Not to sign up for, just for reference and interest)</i><br/>
+{% for rdt in otherpapers %} {% assign t = rdt | split: "-" | slice: 1 %} <a href="#{{rdt}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %} {% endfor %}
+
+<div class="publications by year">
+{% for rdt in otherpapers %}
+  {% assign t = rdt | split: "-" | slice: 1 %}
+  <h2 class="year"><a name="{{rdt}}">{{t}}</a></h2>
+    <br/><br/> 
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-ece750T4-f24, keywords~={{rdt}}]* %}
 {% endfor %}
 
 

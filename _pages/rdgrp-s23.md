@@ -37,17 +37,18 @@ This github page has a quite extensive list of papers and references on the topi
 
 See the links and notes on paper we have **done** in previous meetings, obtain the link for the **next** paper or look at planned **upcoming** or **potential** future papers, feel free to suggest others or changes in the upcoming order.
 
-{% assign stages = "next, done, upcoming, potential" | split: ", " %}
+{% assign stages = "rd-next, rd-done, rd-upcoming, rd-potential" | split: ", " %}
 
-<b>Jump to stage:</b> {% for t in stages %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
+<b>Jump to stage:</b> {% for rdt in stages %} {% assign t = rdt | split: "-" | slice: 1 %} <a href="#{{rdt}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %} {% endfor %}
 
 
 <div class="publications by year">
-{% for t in stages %}
-  <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
+{% for rdt in stages %}
+  {% assign t = rdt | split: "-" | slice: 1 %}
+  <h2 class="year"><a name="{{rdt}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) reversed %}
-      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-s23, keywords~={{t}}, order~={{i}}]* %}
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-s23, keywords~={{rdt}}, order~={{i}}]* %}
   {% endfor %}
 {% endfor %}
 

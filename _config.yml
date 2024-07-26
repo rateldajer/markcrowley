@@ -191,6 +191,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year,order
+  order: ascending,ascending
 
 # -----------------------------------------------------------------------------
 # Optional Features
