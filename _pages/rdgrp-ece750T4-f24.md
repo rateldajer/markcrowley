@@ -3,15 +3,15 @@ layout: page
 permalink: /rdgrp-ece750T4-f24/
 title: ECE750T4 Reinforcement Learning - Reading List
 titleheader: ECE750T4 Reinforcement Learning - Reading List
-description: Reading list for the Grad Topics course on Reinforcement Learning (ECE 750 Topic 4) for Fall 2024
+description: Reading list for the Grad Topics on Reinforcement Learning (ECE 750 Topic 4) for Fall 2024
 rdgrp-keywords: rdgrp-ece750T4-f24
 order-start: 1
-order-end: 50
+order-end: 10
 nav: false
 showtitle: true
 shownotes: true
 showbiborder: true
-showdiscusseddate: true
+showdiscussed: true
 ---
 
 <h2>Introduction</h2>
@@ -35,8 +35,8 @@ Papers listed below are ones that we are planning to read throughout the term. A
 
 ### What you need to do
 If you are a student in this course you need to do the following:
-- Create a Hypothes.is account
-- Pick the papers you will be reading, presenting, and leading discussion of
+- Create a Hypothes.is account and sign up for the <a href="https://hypothes.is/groups/DM67BYBG/uwece-rl-course-reading">course group on Hypothes.is</a> so you and everyone in the class can see our shared annotations 
+- Pick the papers you will be reading, presenting, and leading discussion of and *sign up* **(sign-up process TBD)**
     - PhD Students: choose two papers, one of them near the start to set a good example!
     - Master's Students: choose at least one paper
 - Then read the paper in detail, use Hypothes.is to make annotations for yourself and to guide others. Use the Hypothes.is course group you were all invited to do to this.

@@ -29,7 +29,7 @@ social: true
 	    <div class="col">
 	        <ul class="list-group">
 				<li class="list-group-item"> <b>Fall 2024</b> : 
-	                <i><a  href="/rlgradcourse/">ECE 750 T4 - Reinforcement Learning</a></i>
+	                <i><a  href="/rlgradcourse/">ECE 750 T40 - Reinforcement Learning</a></i>
 	            </li>
 	        </ul>
 	    </div>
