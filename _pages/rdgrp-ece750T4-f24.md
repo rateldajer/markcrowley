@@ -47,12 +47,12 @@ If you are a student in this course you need to do the following:
 
 ### Papers We'll Be Reading
 
-{% assign stages = "rd-current, rd-early, rd-middle, rd-later, rd-complete" | split: ", " %}
+{% assign stages = "rd-current, rd-early, rd-middle, rd-later, rd-done" | split: ", " %}
 
 See the links below for information about and notes on papers 
 planned readings for some time in the `early`, `middle`, or `later` part of the course,
 obtain the link for the `current` reading for this week, 
-or for those that are `complete` from previous weeks.
+or for those that are `done` from previous weeks.
 
 <i>(Jump to a stage and sign up to lead a paper)</i> <br/>
 {% for rdt in stages %} {% assign t = rdt | split: "-" | slice: 1 %} <a href="#{{rdt}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %} {% endfor %}
