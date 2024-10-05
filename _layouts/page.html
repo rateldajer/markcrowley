@@ -93,7 +93,7 @@ layout: default
             {% bibliography -q @*[keywords~={{page.bibkeyword}},status^=1, self=1]* %}
             </div>
           {% endif %}
-          {% if page.showbib %}
+          {% if page.layout == "people" and page.showbib %}
             <div class="publications">
               <h2>Authored Papers</h2> 
             {% bibliography -q @*[author~={{page.familyname}},status^=1]* %}

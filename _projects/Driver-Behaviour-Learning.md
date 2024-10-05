@@ -21,7 +21,7 @@ webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy
 webpagename: DBL User Study Homepage
 img: /assets/img/dbl/avrildbl.jpg
 showbib: false
-importance: 1
+importance: 2
 ---
 
 
