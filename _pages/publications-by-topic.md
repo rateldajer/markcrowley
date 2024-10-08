@@ -54,7 +54,7 @@ Also see:
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
   <br/><br/>
   
-  {% bibliography -f papers -q @*[status^=1, keywords~={{t}}]* %}
+  {% bibliography -f papers -q @*[status^=1, self=1, keywords~={{t}}]* %}
 {% endfor %}
 
 

@@ -19,6 +19,6 @@ Also see:
 <div class="publications by year">
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers --max 10 -q @*[keywords~=showcase && year={{y}}]* %}
+  {% bibliography -f papers --max 10 -q @*[keywords~=showcase && year={{y}}, status^=1, self=1]* %}
 {% endfor %}
 </div> 
