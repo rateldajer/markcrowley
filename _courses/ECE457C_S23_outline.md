@@ -15,7 +15,7 @@ tags:
   - teaching-ugrad
 nav: false
 showtitle: true
-importance: 1
+importance: 2
 ---
 
 # ECE 457C - Reinforcement Learning

@@ -15,7 +15,7 @@ tags:
   - teaching-ugrad
 nav: false
 showtitle: true
-importance: 2
+importance: 3
 
 ---
 

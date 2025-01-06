@@ -15,6 +15,69 @@ social: true
 
 <div class="row">
 	<div class="col">
+		<h2>Computational Intelligence</h2>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col">
+    This course provides a rigorous examination of machine learning, structured to progress from fundamental principles to advanced methodologies. It encompasses a broad spectrum of supervised learning topics, including nonparametric and parametric models, linear and nonlinear approaches, deep learning paradigms, and probabilistic models. In the domain of unsupervised learning, students will delve into clustering, density estimation, and dimensionality reduction, while reinforcement learning will be introduced preliminarily. Assignments, an essential part of the curriculum, enable students to explore the intricate applications of machine learning. Theoretical knowledge is translated into practice through tutorials on industry-standard tools such as PyTorch and Keras. Interactive classroom discussions will pivot around both the practical trade- offs inherent in real-world applications and the theoretical underpinnings that provide an intuitive grasp of the field.
+    </div>
+</div>
+    
+<div class="row mt-3">
+    <div class="col">
+    <ul class="list-group">
+    <li class="list-group-item"> 
+        <b>Winter 2025:</b> 
+            <a href="/ece457b/"> ECE 457B - Computational Intelligence</a>
+    </li>
+    </ul>
+    </div>
+    
+</div>
+    
+<div class="row">
+	<div class="col">
+		<h2>Data Analysis and Machine Learning (DKMA)</h2>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col">
+    Engineers encounter data in many of their tasks, whether the sources of this data may be from experiments, databases, computer files or the Internet. There is a dire need for effective methods to model and analyze the data and extract useful knowledge from it and to know how to act on it. In this course you will learn the fundamental tools for assessing, preparing and analyzing data.
+    </div>
+</div>
+    
+<div class="row mt-3">
+    <div class="col">
+    <ul class="list-group">
+    <li class="list-group-item"> 
+        <b>Winter 2025:</b> <a href="/dkma/">
+        ECE 657A - Data and Knowledge Modeling and Analysis</a>
+    </li>
+    <li class="list-group-item" disabled>
+        <b>Winter 2023:</b> <a href="https://compthinking.github.io/DKMA">
+        ECE 657A - Data and Knowledge Modeling and Analysis</a>
+    </li>
+    <li class="list-group-item" disabled> 
+        Winter 2022: ECE 657A - Data and Knowledge Modeling and Analysis
+    </li>
+    <li class="list-group-item" disabled> 
+        Spring 2021: ECE 657A - Data and Knowledge Modeling and Analysis
+    </li>
+    <li class="list-group-item" disabled> 
+        Winter 2020: ECE 657A - Data and Knowledge Modeling and Analysis
+    </li>
+    </ul>
+    </div>
+    
+    <div class="col-4">
+    <img class="img-fluid" src="../assets/img/teaching/ece657logo.png"/>
+    </div>
+</div>
+<div class="row">
+	<div class="col">
 		<h2>Topics in Reinforcement Learning</h2>
 	</div>
 </div>
@@ -78,42 +141,6 @@ social: true
 	    </div>
 	</div>
 
-<div class="row">
-	<div class="col">
-		<h2>Data Analysis and Machine Learning (DKMA)</h2>
-	</div>
-</div>
-
-    <div class="row">
-        <div class="col">
-        Engineers encounter data in many of their tasks, whether the sources of this data may be from experiments, databases, computer files or the Internet. There is a dire need for effective methods to model and analyze the data and extract useful knowledge from it and to know how to act on it. In this course you will learn the fundamental tools for assessing, preparing and analyzing data.
-        </div>
-    </div>
-    
-    <div class="row mt-3">
-        <div class="col">
-        <ul class="list-group">
-        <li class="list-group-item"> 
-            <b>Winter 2023:</b> <a href="https://compthinking.github.io/DKMA/">
-            ECE 657A - Data and Knowledge Modeling and Analysis</a>
-        </li>
-        <li class="list-group-item" disabled> 
-            Winter 2022: <a href="https://compthinking.github.io/DKMA/">
-            ECE 657A - Data and Knowledge Modeling and Analysis</a>
-        </li>
-        <li class="list-group-item" disabled> 
-            Spring 2021: ECE 657A - Data and Knowledge Modeling and Analysis
-        </li>
-        <li class="list-group-item" disabled> 
-            Winter 2020: ECE 657A - Data and Knowledge Modeling and Analysis
-        </li>
-        </ul>
-        </div>
-        
-        <div class="col-4">
-        <img class="img-fluid" src="../assets/img/teaching/ece657logo.png"/>
-        </div>
-    </div>
 
 <div class="row">
 	<div class="col">
