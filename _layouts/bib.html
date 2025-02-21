@@ -86,8 +86,13 @@
       {% if entry.year %}
         {{entry.year}}.
       {% else %}
-        
       {% endif %}
+
+      {% assign c = entry.citations | plus:0 %} 
+      {% if page.showcitations and c >= 10 %}
+        <i>[{{entry.citations}} citations]</i>
+      {% endif %}
+        
       <div class="periodical">
           {% if page.showdiscussed %}
               {% if entry.date-discussed %}
