@@ -12,7 +12,7 @@ showtitle: true
 showwebpage: true
 publish: true
 showbib: true
-importance: 2
+importance: 3
 webpage: https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1
 webpagename: Elements of Dimensionality Reduction and Manifold Learning (Amazon)
 img: /assets/img/manifold-learning-book.jpg

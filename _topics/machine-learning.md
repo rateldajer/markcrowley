@@ -11,9 +11,9 @@ showbib: true
 showwebpage: true
 publish: true
 img: /assets/img/machine-learning.png
-importance: 1
+importance: 4
 ---
-In the broadest terms my research spans the areas of ***[Artificial Intelligence (AI)](/artificial-intelligence/)*** and ***[Machine Learning (ML)](/machine-learning/)*** which can be seen highly related, independent, or identical research fields depending on who you are.
+In the broadest terms my research spans the areas of ***[Artificial Intelligence (AI)](/artificial-intelligence)*** and ***Machine Learning (ML)*** which can be seen highly related, independent, or synonomous(?) research fields depending on who you are.
 
 My approach to understanding the relationship is summarized in this picture which I use in [my courses](/teaching/) on the subject.
 

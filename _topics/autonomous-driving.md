@@ -5,10 +5,18 @@ name: Autonomous Driving
 bibkeyword: autonomous-driving
 permalink: /autonomous-driving/
 status: active
-tags: driver-behaviour-learning, autonomous-driving, safety-critical-systems, vehicle-communication, deep-learning, lstm, machine-learning, time-series
+tags:
+  - driver-behaviour-learning
+  - autonomous-driving
+  - safety-critical-systems
+  - vehicle-communication
+  - deep-learning
+  - lstm
+  - machine-learning
+  - time-series
 domains: driver-behaviour-learning, autonomous-driving, safety-critical-systems, vehicle-communication, deep-learning, lstm, machine-learning
 description: Using computing to make driving safer.
-publish: false
+publish: true
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 webpage: /news/2021-10-14-AutolineInterview/
@@ -16,8 +24,8 @@ img: /assets/img/dbl/avrildbl.jpg
 showtags: false
 showwebpage: true
 showdomains: true
-publish: true
 showbib: true
+importance: 7
 ---
 
 

@@ -6,7 +6,17 @@ bibkeyword: ai-for-science
 permalink: /ai-for-science/
 status: active
 description: Using AI/ML to do moar Sciencing!
-tags: combustion-modelling, digital-chemistry, deep-learning, lstm, ai-for-physics, ai-for-science, digital-chemistry, machine-learning, ai-for-chemistry, proj-chemgymrl
+tags:
+  - combustion-modelling
+  - digital-chemistry
+  - deep-learning
+  - lstm
+  - ai-for-physics
+  - ai-for-science
+  - digital-chemistry
+  - machine-learning
+  - ai-for-chemistry
+  - proj-chemgymrl
 projects: chemgymrl, combustion-modelling
 showprojects: true
 publish: true
@@ -14,8 +24,8 @@ people: markcrowley, sushrutbhalla, nouhachatti, sriramganapathisubramanian
 showtitle: true
 showtags: false
 img: /assets/pdf/2022-canai-bellinger-balancing.png
-publish: true
 showbib: true
+importance: 5
 ---
 
 What could be more important that using AI to learn how to do science more effectively, to learn what doing science really means, to update good methods for modelling our universe and make great?
