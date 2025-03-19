@@ -6,6 +6,7 @@ permalink: /people/
 nav: false
 description: Information about current and former lab members. 
 showtitle: true
+showbib: true
 ---
 	
 {% for p in site.people %}
