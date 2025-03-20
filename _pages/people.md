@@ -8,15 +8,19 @@ description: Information about current and former lab members.
 showtitle: true
 showbib: true
 ---
-	
+
+  {% assign names = site.people | sort: "degree" %}
+  
+PEOPLE!: 
+
+{{ names }}
+
 {% for p in site.people %}
     {% for i in p %}
-    - {{i}} : {{ p[i] }} 
+       {{i}} : {{ p[i] }} 
     {% endfor %}
-- print: {{ i }}    
-- print: {{ p }}    
-        
-        
+print: {{ i }}
+print: {{ p }}
 {% endfor %}
 
 <div class="projects grid">

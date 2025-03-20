@@ -44,6 +44,7 @@ showtitle: true
 Also see:
 - [All Published Works](/publications)
 - **[Selected Showcase Publications](/showcase)**
+- [Defended Theses from the Lab](/theses)
 - [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 

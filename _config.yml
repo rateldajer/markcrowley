@@ -129,7 +129,7 @@ collections:
     layout: page
     output: true
     permalink: /people/:path/
-    publish: false
+    publish: true
     showbib: true
     social: false
 

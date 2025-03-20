@@ -1,13 +1,19 @@
 ---
-layout: people
+layout: page
 givenname: Xiang "Felix"
 familyname: Fang
 key: xiangfang
 bibauthor: false
 degree: MASc
-status: active
+status: graduated
 type: student
-keywords: Machine-Learning, forest-management, forest-wildfire, firesim, proj-forestfire, supervised-learning
+tags: 
+  - Machine-Learning
+  - forest-management
+  - forest-wildfire
+  - firesimproj-forestfire
+  - UNet
+  - computational-sustainability
 linkedin:
 showbib: false
 ---

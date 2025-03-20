@@ -13,9 +13,6 @@
   </div>
 
   <div id="{{entry.key}}" class="col-sm-8">
-    {% if entry.type == "thesis" %}
-      {{reference}}
-    {% else %}
       <div class="title">
           {% if page.showbiborder %}{% if entry.order %} <b>[{{ entry.order }}]</b> {% endif %}{% endif %}
           {{entry.title}}
@@ -26,9 +23,9 @@
         {% assign authorprint = author.first | append: " " | append: author.last %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
-            <em>{{ authorkey }}</em>.
+            <em>{{ authorprint }}</em>.
             {% else %}
-              {{ authorkey }}.
+              {{ authorprint }}.
             {% endif %}
           {% else %}
             {% unless forloop.last %}
@@ -66,8 +63,14 @@
           {% if entry.number %}
               ({{ entry.number }}).
           {% endif %}
+
+      {% elsif entry.type == "mastersthesis"  %}
+        <em>{{entry.booktitle}}</em>. 
+
+      {% elsif entry.type == "phdthesis"  %}
+        <em>{{entry.booktitle}}</em>. 
         
-      {% elsif entry.type == "inproceedings" %}
+      {% elsif entry.type == "inproceedings"  %}
         In <em>{{entry.booktitle}}</em>. 
 
       {% elsif entry.type == "techreport" %}
@@ -101,7 +104,6 @@
           {% endif %}
       </div>
       </div>
-    {% endif %}
 
     <div class="links">
     {% if entry.abstract %}
