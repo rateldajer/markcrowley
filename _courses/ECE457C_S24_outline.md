@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Spring 2024 - ECE 457C
-permalink: /rlcourse/
+permalink: /rlcourse24/
 title: Reinforcement Learning
 img: /assets/img/teaching/ece493-logo.png
 date-updated: 2024-04-30

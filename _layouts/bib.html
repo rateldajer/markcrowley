@@ -19,37 +19,39 @@
       </div>
       <div class="author">
         {% for author in entry.author_array %}
-        {% assign authorkey = author.first | append: author.last | downcase | strip | remove: " " | remove: "." | remove: "-" %}
-        {% assign authorprint = author.first | append: " " | append: author.last %}
-          {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-            <em>{{ authorprint }}</em>.
-            {% else %}
-              {{ authorprint }}.
-            {% endif %}
-          {% else %}
-            {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
-                <em>{{ authorprint }}</em>,
-              {% else %}
-                {% if site.data.coauthors[authorkey] %}
-                  <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>,
+            {% assign authorkey = author.first | append: author.last | downcase | strip | remove: " " | remove: "." | remove: "-" %}
+            {% assign authorprint = author.first | append: " " | append: author.last %}
+              {% if forloop.length == 1 %}
+                {% if author.last == site.scholar.last_name %}
+                   <em>{{ authorprint }}</em>.
+                {% elsif site.data.coauthors[authorkey] %}
+                   <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>.
                 {% else %}
-                  {{ authorprint }},
+                   {{ authorprint }}.
                 {% endif %}
-              {% endif %}
-            {% else %}
-              {% if author.last == site.scholar.last_name %}
-                and <em>{{ authorprint }}</em>
               {% else %}
-                {% if site.data.coauthors[authorkey] %}
-                  and <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>.
+                {% unless forloop.last %}
+                  {% if author.last == site.scholar.last_name %}
+                    <em>{{ authorprint }}</em>,
+                  {% else %}
+                    {% if site.data.coauthors[authorkey] %}
+                      <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>,
+                    {% else %}
+                      {{ authorprint }},
+                    {% endif %}
+                  {% endif %}
                 {% else %}
-                  and {{ authorprint }}.
-                {% endif %}
+                  {% if author.last == site.scholar.last_name %}
+                    and <em>{{ authorprint }}</em>
+                  {% else %}
+                    {% if site.data.coauthors[authorkey] %}
+                      and <a href="{{site.data.coauthors[authorkey].url}}" target="_blank">{{ authorprint }}</a>.
+                    {% else %}
+                      and {{ authorprint }}.
+                    {% endif %}
+                  {% endif %}
+                {% endunless %}
               {% endif %}
-            {% endunless %}
-          {% endif %}
         {% endfor %}
       </div>
 
@@ -64,14 +66,11 @@
               ({{ entry.number }}).
           {% endif %}
 
-      {% elsif entry.type == "mastersthesis"  %}
-        <em>{{entry.booktitle}}</em>. 
-
-      {% elsif entry.type == "phdthesis"  %}
-        <em>{{entry.booktitle}}</em>. 
+      {% elsif entry.type == "thesis"  %}
+          <em>{{entry.booktitle}}</em>, 
         
       {% elsif entry.type == "inproceedings"  %}
-        In <em>{{entry.booktitle}}</em>. 
+          In <em>{{entry.booktitle}}</em>. 
 
       {% elsif entry.type == "techreport" %}
       <em>{{entry.institution}}: #{{entry.number}}.</em> 

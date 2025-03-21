@@ -96,9 +96,6 @@ social: true
 	            </li>
 	        </ul>
 	    </div>
-	    <div class="col-4">
-		    <img  class="img-fluid" src="../assets/img/teaching/ece493-logo.png">
-	    </div>
 	</div>
 
 <div class="row">
@@ -116,8 +113,11 @@ social: true
 	<div class="row mt-3">
 	    <div class="col">
 	        <ul class="list-group">
-				<li class="list-group-item"> <b>Spring 2024</b> : 
+				<li class="list-group-item"> <b>Spring 2025</b> : 
 	                <i><a  href="/rlcourse/">ECE 457C - Reinforcement Learning</a></i>
+	            </li>
+				<li class="list-group-item"> <b>Spring 2024</b> : 
+	                <i><a  href="/rlcourseS24/">ECE 457C - Reinforcement Learning</a></i>
 	            </li>
 				<li class="list-group-item"> <b>Spring 2023</b> : 
 	                <i><a  href="/rlcourseS23/">ECE 457C - Reinforcement Learning</a></i>

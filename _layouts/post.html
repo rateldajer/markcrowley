@@ -90,7 +90,8 @@ layout: default
       {% if page.showbib == true %}
         <div class="publications">
           <h2>References:</h2> 
-        {% bibliography -cited %}
+        {% bibliography --cited --file theses %}
+        {% bibliography --cited %}
         </div>
       {% endif %}
 </div>
