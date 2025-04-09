@@ -1,0 +1,3108 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Mark  Crowley | Reinforcement Learning</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/reinforcement-learning/">
+
+<!-- Theming-->
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Mark</span>   Crowley
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/bio/">
+                bio
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/contact/">
+                contact
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/lab/">
+                lab
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/showcase/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/topics/">
+                topics
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+      
+          
+            <h1 class="post-title">Reinforcement Learning</h1>
+        
+      
+    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;font-style: italic;">RL is the study of learning decision making policies from experience with computers.</p>
+
+      
+      
+      
+      
+      
+      
+        <p></p>
+  </header>
+
+  <article>
+      
+      <img src="/assets/img/teaching/ece493-logo.png" style="width: 300px; padding: 10px; float: right;">
+      
+    <p>One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called <strong><em>Reinforcement Learning</em></strong>,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their “brain” and it “neural” structure by the <em>algorithms they both use to learn to act in a complex, mysterious world.</em></p>
+
+<h2 id="learning-resources-from-the-lab">Learning Resources from The Lab</h2>
+
+<ul>
+  <li>
+    <p>My Course: <a href="/rlcourse/">ECE 457C - Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Our <a href="/chemgymrl/">ChemGymRL Project</a> : <a href="http://chemgymrl.com">chemgymrl.com</a></p>
+  </li>
+</ul>
+
+<h2 id="external-resources">External Resources</h2>
+
+<ul>
+  <li>Revised Textbook by Sutton and Barto - http://incompleteideas.net/book/the-book-2nd.html</li>
+  <li>Martha White has a great <a href="https://www.coursera.org/specializations/reinforcement-learning?utm_source=gg&amp;utm_medium=sem&amp;utm_content=04-ReinforcementLearning-UA-CA&amp;campaignid=6770937312&amp;adgroupid=85996872692&amp;device=c&amp;keyword=reinforcement%20learning%20course&amp;matchtype=b&amp;network=g&amp;devicemodel=&amp;adpostion=&amp;creativeid=391979104237&amp;hide_mobile_promo&amp;gclid=Cj0KCQjwm9D0BRCMARIsAIfvfIYKjEq7S-DqrGVUNrH6GIcvwMRPX4tz_1LgKbgnt7nm2c-cvtAHy3YaAu9xEALw_wcB">RL Fundamentals Course</a></li>
+  <li>Sergey Levine has a very detailed <a href="http://rail.eecs.berkeley.edu/deeprlcourse/">Deep RL Course</a></li>
+</ul>
+
+
+  </article>
+
+
+      
+          
+            <div class="publications">
+              <h2>Our Papers on Reinforcement Learning</h2> 
+            <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ChemGymRL</abbr>
+    
+  
+  </div>
+
+  <div id="beeler2023digidiscjourn" class="col-sm-8">
+      <div class="title">
+          
+          ChemGymRL: An Interactive Framework for Reinforcement Learning for Digital Chemistry
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Chris Beeler,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Kyle Sprague,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Nouha Chatti,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Mitchell Shahen,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Nicholas Paquin,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Mark Baula,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Amanuel Dawit,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Zihan Yang,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Xinkai Li,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Digital Discovery</em>.
+
+          
+              3,
+          
+          
+
+      
+
+      
+      
+      
+          Feb,
+      
+      
+        2024.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2024-digidiscjourn-beeler-chemgymrl-an.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/chemgymrl/chemgymrl" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         This paper provides a simulated laboratory for making use of reinforcement learning (RL) for material design, synthesis, and discovery. Since RL is fairly data intensive, training agents ‘on-the-fly’ by taking actions in the real world is infeasible and possibly dangerous. Moreover, chemical processing and discovery involves challenges which are not commonly found in RL benchmarks and therefore offer a rich space to work in. We introduce a set of highly customizable and open-source RL environments, ChemGymRL, implementing the standard gymnasium API. ChemGymRL supports a series of interconnected virtual chemical benches where RL agents can operate and train. The paper introduces and details each of these benches using well-known chemical reactions as illustrative examples, and trains a set of standard RL algorithms in each of these benches. Finally, discussion and comparison of the performances of several standard RL methods are provided in addition to a list of directions for future work as a vision for the further development and usage of ChemGymRL.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Multi-Advisor-MARL</abbr>
+    
+  
+  </div>
+
+  <div id="ganapathi-subramanian2023aamas" class="col-sm-8">
+      <div class="title">
+          
+          Learning from Multiple Independent Advisors in Multi-agent Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://irll.ca" target="_blank">Matthew Taylor</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://cs.uwaterloo.ca/~klarson/" target="_blank">Kate Larson</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)</em>. 
+
+      
+
+      
+          International Foundation for Autonomous Agents and Multiagent Systems (IFAAMAS),
+      
+      
+          London, United Kingdom.
+      
+      
+          Sep,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2023-aamas-ganapathi%20subramanian-learning%20from%20multiple%20independent%20advisors%20in%20multi-agent%20reinforcement%20learning.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Multi-agent reinforcement learning typically suffers from the problem of sample inefficiency, where learning suitable policies involves the use of many data samples. Learning from external demonstrators is a possible solution that mitigates this problem. However, most prior approaches in this area assume the presence of a single demonstrator. Leveraging multiple knowledge sources (i.e., advisors) with expertise in distinct aspects of the environment could substantially speed up learning in complex environments. This paper considers the problem of simultaneously learning from multiple independent advisors in multi-agent reinforcement learning. The approach leverages a two-level Q-learning architecture, and extends this framework from single-agent to multi-agent settings. We provide principled algorithms that incorporate a set of advisors by both evaluating the advisors at each state and subsequently using the advisors to guide action selection. Also, we provide theoretical convergence and sample complexity guarantees. Experimentally, we validate our approach in three different test-beds and show that our algorithms give better performances than baselines, can effectively integrate the combined expertise of different advisors, and learn to ignore bad advice.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="beeler2023ai4science" class="col-sm-8">
+      <div class="title">
+          
+          ChemGymRL: An Interactive Framework for Reinforcement Learning for Digital Chemistry
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Chris Beeler,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>NeurIPS 2023 AI for Science Workshop</em>. 
+
+      
+
+      
+      
+          New Orleans, USA.
+      
+      
+          Dec,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2305.14177" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/2023-ai4science-ai-beeler-chemgymrl.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/chemgymrl/chemgymrl" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+      <a href="https://openreview.net/forum?id=ZUkrNwMz5J" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         This paper provides a simulated laboratory for making use of Reinforcement Learning (RL) for chemical discovery. Since RL is fairly data intensive, training agents ‘on-the-fly’ by taking actions in the real world is infeasible and possibly dangerous. Moreover, chemical processing and discovery involves challenges which are not commonly found in RL benchmarks and therefore offer a rich space to work in. We introduce a set of highly customizable and open-source RL environments, ChemGymRL, implementing the standard Gymnasium API. ChemGymRL supports a series of interconnected virtual chemical benches where RL agents can operate and train. The paper introduces and details each of these benches using well-known chemical reactions as illustrative examples, and trains a set of standard RL algorithms in each of these benches. Finally, discussion and comparison of the performances of several standard RL methods are provided in addition to a list of directions for future work as a vision for the further development and usage of ChemGymRL.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ChemGymRL</abbr>
+    
+  
+  </div>
+
+  <div id="beeler2023ai4mat" class="col-sm-8">
+      <div class="title">
+          
+          Demonstrating ChemGymRL: An Interactive Framework for Reinforcement Learning for Digital Chemistry
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Chris Beeler,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Kyle Sprague,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>NeurIPS 2023 AI for Accelerated Materials Discovery (AI4Mat) Workshop</em>. 
+
+      
+
+      
+      
+          New Orleans, USA.
+      
+      
+          Dec,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2023-ai4mat-beeler-demonstrating.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/chemgymrl/chemgymrl" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+      
+      <a href="https://www.dropbox.com/scl/fi/xhy18mx3035hjwuj97nny/2023-synsandml-beeler-chemgymrl1.pdf?rlkey=2klbfddsh8zrlpiuiwohz3glk&raw=1" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      
+    
+    
+    
+    
+      <a href="https://openreview.net/forum?id=cSz69rFRvS" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         This tutorial describes a simulated laboratory for making use of reinforcement learning (RL) for chemical discovery. A key advantage of the simulated environment is that it enables RL agents to be trained safely and efficiently. In addition, it offer an excellent test-bed for RL in general, with challenges which are uncommon in existing RL benchmarks. The simulated laboratory, denoted ChemGymRL, is open-source, implemented according to the standard Gymnasium API, and is highly customizable. It supports a series of interconnected virtual chemical <i>benches</i> where RL agents can operate and train. Within this tutorial introduce the environment, demonstrate how to train off-the-shelf RL algorithms on the benches, and how to modify the benches by adding additional reactions and other capabilities. In addition, we discuss future directions for ChemGymRL benches and RL for laboratory automation and the discovery of novel synthesis pathways. The software, documentation and tutorials are available here: https://www.chemgymrl.com</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ChemGymRL</abbr>
+    
+  
+  </div>
+
+  <div id="beeler2023synsandml" class="col-sm-8">
+      <div class="title">
+          
+          ChemGymRL: An Interactive Framework for Reinforcement Learning for Digital Chemistry
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Chris Beeler,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Kyle Sprague,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Nouha Chatti,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Mitchell Shahen,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Nicholas Paquin,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Mark Baula,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Amanuel Dawit,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Zihan Yang,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Xinkai Li,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>ICML 2023 Synergy of Scientific and Machine Learning Modeling (SynS&ML) Workshop</em>. 
+
+      
+
+      
+      
+      
+          Jul,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="https://www.dropbox.com/scl/fi/z6h8q6c9djyofufb7disv/2023-synsandml-beeler-chemgymrl2.pdf?rlkey=keq8t1k3i74da0j5cecudx651&raw=1" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/chemgymrl/chemgymrl" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+      
+      <a href="https://www.dropbox.com/scl/fi/xhy18mx3035hjwuj97nny/2023-synsandml-beeler-chemgymrl1.pdf?rlkey=2klbfddsh8zrlpiuiwohz3glk&raw=1" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      
+    
+    
+      
+      <a href="https://www.dropbox.com/scl/fi/9y723trgaf9yu9yvorz3s/2023-synsandml-beeler-chemgymrl.pdf?rlkey=25bx43xgqydsczhh5zzjxlkch&raw=1" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+    
+    
+      <a href="https://www.chemgymrl.com" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         This paper provides a simulated laboratory for making use of Reinforcement Learning (RL) for chemical discovery. Since RL is fairly data intensive, training agents ‘on-the-fly’ by taking actions in the real world is infeasible and possibly dangerous. Moreover, chemical processing and discovery involves challenges which are not commonly found in RL benchmarks and therefore offer a rich space to work in. We introduce a set of highly customizable and open-source RL environments, ChemGymRL, based on the standard Open AI Gym template. ChemGymRL supports a series of interconnected virtual chemical benches where RL agents can operate and train. The paper introduces and details each of these benches using well-known chemical reactions as illustrative examples, and trains a set of standard RL algorithms in each of these benches. Finally, discussion and comparison of the performances of several standard RL methods are provided in addition to a list of directions for future work as a vision for the further development and usage of ChemGymRL.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Multi-Advisor-QL</abbr>
+    
+  
+  </div>
+
+  <div id="ganapathisubramanian2023ijcai" class="col-sm-8">
+      <div class="title">
+          
+          Multi-Agent Advisor Q-Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://cs.uwaterloo.ca/~klarson/" target="_blank">Kate Larson</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://irll.ca" target="_blank">Matthew Taylor</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>International Joint Conference on Artificial Intelligence (IJCAI) : Journal Track</em>. 
+
+      
+
+      
+      
+          Macao, China.
+      
+      
+          Aug,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2022-jair-ganapathi%20subramanian-multi-agent.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/Sriram94/multiagentadvisorqlearning" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+      <a href="https://doi.org/10.1613/jair.1.13445" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+      <a href="https://recorder-v3.slideslive.com/?share=82208&s=5fe77823-b4c3-4f27-99ba-b59e71f4a7c4" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         In the last decade, there have been significant advances in multi-agent reinforcement learn- ing (MARL) but there are still numerous challenges, such as high sample complexity and slow convergence to stable policies, that need to be overcome before wide-spread deployment is possi- ble. However, many real-world environments already, in practice, deploy sub-optimal or heuristic approaches for generating policies. An interesting question that arises is how to best use such approaches as advisors to help improve reinforcement learning in multi-agent domains. In this paper, we provide a principled framework for incorporating action recommendations from online sub- optimal advisors in multi-agent settings. We describe the problem of ADvising Multiple Intelligent Reinforcement Agents (ADMIRAL) in nonrestrictive general-sum stochastic game environments and present two novel Q-learning based algorithms: ADMIRAL - Decision Making (ADMIRAL-DM) and ADMIRAL - Advisor Evaluation (ADMIRAL-AE), which allow us to improve learning by appropriately incorporating advice from an advisor (ADMIRAL-DM), and evaluate the effectiveness of an advisor (ADMIRAL-AE). We analyze the algorithms theoretically and provide fixed point guarantees regarding their learning in general-sum stochastic games. Furthermore, extensive experi- ments illustrate that these algorithms: can be used in a variety of environments, have performances that compare favourably to other related baselines, can scale to large state-action spaces, and are robust to poor advice from advisors.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="bellinger2023neuripswant" class="col-sm-8">
+      <div class="title">
+          
+          Dynamic Observation Policies in Observation Cost-Sensitive Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Workshop on Advancing Neural Network Training: Computational Efficiency, Scalability, and Resource Optimization (WANT@NeurIPS 2023)</em>. 
+
+      
+
+      
+      
+          New Orleans, USA.
+      
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2023-neuripswan-bellinger-dynamic.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://openreview.net/forum?id=3GL2GETaaL" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Reinforcement learning (RL) has been shown to learn sophisticated control policies for complex tasks including games, robotics, heating and cooling systems and text generation. The action-perception cycle in RL, however, generally assumes that a measurement of the state of the environment is available at each time step without a cost. In applications such as materials design, deep-sea and planetary robot exploration and medicine, however, there can be a high cost associated with measuring, or even approximating, the state of the environment. In this paper, we survey the recently growing literature that adopts the perspective that an RL agent might not need, or even want, a costly measurement at each time step. Within this context, we propose the Deep Dynamic Multi-Step Observationless Agent (DMSOA), contrast it with the literature and empirically evaluate it on OpenAI gym and Atari Pong environments. Our results, show that DMSOA learns a better policy with fewer decision steps and measurements than the considered alternative from the literature.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="Bellinger2022Balancing" class="col-sm-8">
+      <div class="title">
+          
+          Balancing Information with Observation Costs in Deep Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Andriy Drozdyuk,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Canadian Conference on Artificial Intelligence</em>. 
+
+      
+
+      
+          Canadian Artificial Intelligence Association (CAIAC),
+      
+      
+          Toronto, Ontario, Canada.
+      
+      
+          May,
+      
+      
+        2022.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2022-canai-bellinger-balancing.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+      
+      <a href="https://www.dropbox.com/scl/fi/wv9jflxnja6pkol5vvfis/2022-canai-bellinger-balancing1.pdf?rlkey=z9zvsutypvbglzpih6a9dgwt5&raw=1" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      
+    
+    
+    
+      <a href="https://caiac.pubpub.org/pub/0jmy7gpd" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+      <a href="https://hyp.is/go?url=https%3A%2F%2Fassets.pubpub.org%2F99r5anzw%2F01652987005906.pdf&group=__world__" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         
+The use of Reinforcement Learning (RL) in scientific applications, such
+as materials design and automated chemistry, is increasing. A major
+challenge, however, lies in fact that measuring the state of the system
+is often costly and time consuming in scientific applications, whereas
+policy learning with RL requires a measurement after each time step. In
+this work, we make the measurement costs explicit in the form of a
+costed reward and propose the active-measure with costs framework that
+enables off-the-shelf deep RL algorithms to learn a policy for both
+selecting actions and determining whether or not to measure the state of
+the system at each time step. In this way, the agents learn to balance
+the need for information with the cost of information. Our results show
+that when trained under this regime, the Dueling DQN and PPO agents can
+learn optimal action policies whilst making up to 50% fewer state
+measurements, and recurrent neural networks can produce a greater than
+50% reduction in measurements. We postulate the these reduction can
+help to lower the barrier to applying RL to real-world scientific
+applications.
+</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Multi-Advisor-QL</abbr>
+    
+  
+  </div>
+
+  <div id="ganapathisubramanian2022jair" class="col-sm-8">
+      <div class="title">
+          
+          Multi-Agent Advisor Q-Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://cs.uwaterloo.ca/~klarson/" target="_blank">Kate Larson</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://irll.ca" target="_blank">Matthew Taylor</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Journal of Artificial Intelligence Research (JAIR)</em>.
+
+          
+              74,
+          
+          
+
+      
+
+      
+      
+      
+          May,
+      
+      
+        2022.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2022-jair-ganapathi%20subramanian-multi-agent.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/Sriram94/multiagentadvisorqlearning" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+    
+    
+    
+      <a href="https://doi.org/10.1613/jair.1.13445" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         In the last decade, there have been significant advances in multi-agent reinforcement learning (MARL) but there are still numerous challenges, such as high sample complexity and slow convergence to stable policies, that need to be overcome before wide-spread deployment is possible. However, many real-world environments already, in practice, deploy sub-optimal or heuristic approaches for generating policies. An interesting question that arises is how to best use such approaches as advisors to help improve reinforcement learning in multi-agent domains. In this paper, we provide a principled framework for incorporating action recommendations from online sub-optimal advisors in multi-agent settings. We describe the problem of ADvising Multiple Intelligent Reinforcement Agents (ADMIRAL) in nonrestrictive general-sum stochastic game environments and present two novel Q-learning based algorithms: ADMIRAL - Decision Making (ADMIRAL-DM) and ADMIRAL - Advisor Evaluation (ADMIRAL-AE), which allow us to improve learning by appropriately incorporating advice from an advisor (ADMIRAL-DM), and evaluate the effectiveness of an advisor (ADMIRAL-AE). We analyze the algorithms theoretically and provide fixed point guarantees regarding their learning in general-sum stochastic games. Furthermore, extensive experi- ments illustrate that these algorithms: can be used in a variety of environments, have performances that compare favourably to other related baselines, can scale to large state-action spaces, and are robust to poor advice from advisors.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="bellinger2022ai2ase" class="col-sm-8">
+      <div class="title">
+          
+          Scientific Discovery and the Cost of Measurement – Balancing Information and Cost in Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Andriy Drozdyuk,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>1st Annual AAAI Workshop on AI to Accelerate Science and Engineering (AI2ASE)</em>. 
+
+      
+
+      
+      
+      
+          Feb,
+      
+      
+        2022.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2112.07535" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         The use of reinforcement learning (RL) in scientific applications, such as materials design and automated chemistry, is increasing. A major challenge, however, lies in fact that measuring the state of the system is often costly and time consuming in scientific applications, whereas policy learning with RL requires a measurement after each time step. In this work, we make the measurement costs explicit in the form of a costed reward and propose a framework that enables off-the-shelf deep RL algorithms to learn a policy for both selecting actions and determining whether or not to measure the current state of the system at each time step. In this way, the agents learn to balance the need for information with the cost of information. Our results show that when trained under this regime, the Dueling DQN and PPO agents can learn optimal action policies whilst making up to 50% fewer state measurements, and recurrent neural networks can produce a greater than 50% reduction in measurements. We postulate the these reduction can help to lower the barrier to applying RL to real-world scientific applications.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Mean Field MARL</abbr>
+    
+  
+  </div>
+
+  <div id="ganapathisubramanian2022aaai" class="col-sm-8">
+      <div class="title">
+          
+          Decentralized Mean Field Games
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://irll.ca" target="_blank">Matthew Taylor</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Pascal Poupart.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-2022)</em>. 
+
+      
+
+      
+      
+          Virtual.
+      
+      
+          Feb,
+      
+      
+        2022.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/https://arxiv.org/abs/2112.09099" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/2022-aaai-ganapathi%20subramanian-decentralized.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://doi.org/10.1609/aaai.v36i9.21176" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+      <a href="https://hyp.is/go?url=https%3A%2F%2Farxiv.org%2Fpdf%2F2112.09099.pdf&group=__world__" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Multiagent reinforcement learning algorithms have not been widely adopted in large scale environments with many agents as they often scale poorly with the number of agents. Using mean field theory to aggregate agents has been proposed as a solution to this problem. However, almost all previous methods in this area make a strong assumption of a centralized system where all the agents in the environment learn the same policy and are effectively indistinguishable from each other. In this paper, we relax this assumption about indistinguishable agents and propose a new mean field system known as Decentralized Mean Field Games, where each agent can be quite different from others. All agents learn independent policies in a decentralized fashion, based on their local observations. We define a theoretical solution concept for this system and provide a fixed point guarantee for a Q-learning based algorithm in this system. A practical consequence of our approach is that we can address a ‘chicken-and-egg’ problem in empirical mean field reinforcement learning algorithms. Further, we provide Q-learning and actor-critic algorithms that use the decentralized mean field learning approach and give stronger performances compared to common baselines in this area. In our setting, agents do not need to be clones of each other and learn in a fully decentralized fashion. Hence, for the first time, we show the application of mean field learning methods in fully competitive environments, large-scale continuous action space environments, and other environments with heterogeneous agents. Importantly, we also apply the mean field method in a ride-sharing problem using a real-world dataset. We propose a decentralized solution to this problem, which is more practical than existing centralized training methods.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">MARLEmpircal</abbr>
+    
+  
+  </div>
+
+  <div id="lee2021frontai" class="col-sm-8">
+      <div class="title">
+          
+          Investigation of Independent Reinforcement Learning Algorithms in Multi-Agent Environments
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://www.linkedin.com/in/km-lee/" target="_blank">Ken Ming Lee</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Frontiers in Artificial Intelligence</em>.
+
+          
+          
+
+      
+
+      
+      
+      
+          Sep,
+      
+      
+        2022.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2022-frontai-lee-investigation.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://www.frontiersin.org/articles/10.3389/frai.2022.805823" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Independent reinforcement learning algorithms have no theoretical guarantees for finding the best policy in multi-agent settings. However, in practice, prior works have reported good performance with independent algorithms in some domains and bad performance in others. Moreover, a comprehensive study of the strengths and weaknesses of independent algorithms is lacking in the literature. In this paper, we carry out an empirical comparison of the performance of independent algorithms on seven PettingZoo environments that span the three main categories of multi-agent environments, i.e., cooperative, competitive, and mixed. For the cooperative setting, we show that independent algorithms can perform on par with multi-agent algorithms in fully-observable environments, while adding recurrence improves the learning of independent algorithms in partially-observable environments. In the competitive setting, independent algorithms can perform on par or better than multi-agent algorithms, even in more challenging environments. We also show that agents trained via independent algorithms learn to perform well individually, but fail to learn to cooperate with allies and compete with enemies in mixed environments.
+
+</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">MARLEmpircal</abbr>
+    
+  
+  </div>
+
+  <div id="lee2021neuripsdeeprl" class="col-sm-8">
+      <div class="title">
+          
+          Investigation of Independent Reinforcement Learning Algorithms in Multi-Agent Environments
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://www.linkedin.com/in/km-lee/" target="_blank">Ken Ming Lee</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>NeurIPS 2021 Deep Reinforcement Learning Workshop</em>. 
+
+      
+
+      
+      
+      
+          Dec,
+      
+      
+        2021.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2111.01100" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Independent reinforcement learning algorithms have no theoretical guarantees for finding the best policy in multi-agent settings. However, in practice, prior works have reported good performance with independent algorithms in some domains and bad performance in others. Moreover, a comprehensive study of the strengths and weaknesses of independent algorithms is lacking in the literature. In this paper, we carry out an empirical comparison of the performance of independent algorithms on four PettingZoo environments that span the three main categories of multi-agent environments, i.e., cooperative, competitive, and mixed. We show that in fully-observable environments, independent algorithms can perform on par with multi-agent algorithms in cooperative and competitive settings. For the mixed environments, we show that agents trained via independent algorithms learn to perform well individually, but fail to learn to cooperate with allies and compete with enemies. We also show that adding recurrence improves the learning of independent algorithms in cooperative partially observable environments.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PO-MFRL</abbr>
+    
+  
+  </div>
+
+  <div id="ganapathisubramanian2021aamas" class="col-sm-8">
+      <div class="title">
+          
+          Partially Observable Mean Field Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://irll.ca" target="_blank">Matthew Taylor</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Pascal Poupart.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)</em>. 
+
+      
+
+      
+          International Foundation for Autonomous Agents and Multiagent Systems,
+      
+      
+          London, United Kingdom.
+      
+      
+          May,
+      
+      
+        2021.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2012.15791" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/2021-aamas-ganapathi%20subramanian-partially.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Traditional multi-agent reinforcement learning algorithms are not scalable to environments with more than a few agents, since these algorithms are exponential in the number of agents. Recent research has introduced successful methods to scale multi-agent reinforcement learning algorithms to many agent scenarios using mean field theory. Previous work in this field assumes that an agent has access to exact cumulative metrics regarding the mean field behaviour of the system, which it can then use to take its actions. In this paper, we relax this assumption and maintain a distribution to model the uncertainty regarding the mean field of the system. We consider two different settings for this problem. In the first setting, only agents in a fixed neighbourhood are visible, while in the second setting, the visibility of agents is determined at random based on distances. For each of these settings, we introduce a Q-learning based algorithm that can learn effectively. We prove that this Q-learning estimate stays very close to the Nash Q-value (under a common set of assumptions) for the first setting. We also empirically show our algorithms outperform multiple baselines in three different games in the MAgents framework, which supports large environments with many agents learning simultaneously to achieve possibly distinct goals.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Amrl</abbr>
+    
+  
+  </div>
+
+  <div id="bellinger2021canai" class="col-sm-8">
+      <div class="title">
+          
+          Active Measure Reinforcement Learning for Observation Cost Minimization: A framework for minimizing measurement costs in reinforcement learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://web.cs.dal.ca/~bellinger/" target="_blank">Colin Bellinger</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      Rory Coles,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and Isaac Tamblyn.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Canadian Conference on Artificial Intelligence</em>. 
+
+      
+
+      
+          Springer,
+      
+      
+      
+      
+        2021.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2005.12697" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+      
+      <a href="/assets/pdf/2021-canai-bellinger-active%20measure%20reinforcement.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Markov Decision Processes (MDP) with explicit measurement cost are a class of en- vironments in which the agent learns to maximize the costed return. Here, we define the costed return as the discounted sum of rewards minus the sum of the explicit cost of measuring the next state. The RL agent can freely explore the relationship between actions and rewards but is charged each time it measures the next state. Thus, an op- timal agent must learn a policy without making a large number of measurements. We propose the active measure RL framework (Amrl) as a solution to this novel class of problem, and contrast it with standard reinforcement learning under full observability and planning under partially observability. We demonstrate that Amrl-Q agents learn to shift from a reliance on costly measurements to exploiting a learned transition model in order to reduce the number of real-world measurements and achieve a higher costed return. Our results demonstrate the superiority of Amrl-Q over standard RL methods, Q-learning and Dyna-Q, and POMCP for planning under a POMDP in environments with explicit measurement costs.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="bhalla2020deep" class="col-sm-8">
+      <div class="title">
+          
+          Deep Multi Agent Reinforcement Learning for Autonomous Driving
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Sushrut Bhalla,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Canadian Conference on Artificial Intelligence</em>. 
+
+      
+
+      
+      
+      
+          May,
+      
+      
+        2020.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2020-canai-bhalla-deep.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_7" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="Bhalla2019rldm" class="col-sm-8">
+      <div class="title">
+          
+          Learning Multi-Agent Communication with Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Sushrut Bhalla,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Conference on Reinforcement Learning and Decision Making (RLDM-19)</em>. 
+
+      
+
+      
+      
+          Montreal, Canada.
+      
+      
+      
+        2019.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="Bhalla2019aamas" class="col-sm-8">
+      <div class="title">
+          
+          Training Cooperative Agents for Multi-Agent Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      Sushrut Bhalla,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Proc. of the 18th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019)</em>. 
+
+      
+
+      
+      
+          Montreal, Canada.
+      
+      
+      
+        2019.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="subramanian2018neurips-ai4sg" class="col-sm-8">
+      <div class="title">
+          
+          A Complementary Approach to Improve WildFire Prediction Systems.
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Neural Information Processing Systems (AI for social good workshop)</em>. 
+
+      
+
+      
+      
+          NeurIPS.
+      
+      
+      
+        2018.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2018-neurips-ai-subramanian-a%20complementary.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://aiforsocialgood.github.io/2018/acceptedpapers.htm" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="subramanian2017rldm" class="col-sm-8">
+      <div class="title">
+          
+          Learning Forest Wildfire Dynamics from Satellite Images Using Reinforcement Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://sriramsubramanian.com/" target="_blank">Sriram Ganapathi Subramanian</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Conference on Reinforcement Learning and Decision Making</em>. 
+
+      
+
+      
+      
+          Ann Arbor, MI, USA..
+      
+      
+      
+        2017.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="Crowley2013" class="col-sm-8">
+      <div class="title">
+          
+          Policy Gradient Optimization Using Equilibrium Policies for Spatial Planning Domains
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                   <em>Mark Crowley</em>.
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>13th INFORMS Computing Society Conference</em>. 
+
+      
+
+      
+      
+          Santa Fe, NM, United States.
+      
+      
+      
+        2013.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">phd-thesis</abbr>
+    
+  
+  </div>
+
+  <div id="Crowley2011thesis" class="col-sm-8">
+      <div class="title">
+          
+          Equilibrium Policy Gradients for Spatiotemporal Planning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                   <em>Mark Crowley</em>.
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+
+      
+          UBC Library,
+      
+      
+          Vancouver, BC, Canada..
+      
+      
+      
+        2011.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+      
+      <a href="/assets/pdf/2011-ubclibrary-crowley-equilibrium.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://open.library.ubc.ca/collections/ubctheses/24/items/1.0052093" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         In spatiotemporal planning, agents choose actions at multiple locations in space over some planning horizon to maximize their utility and satisfy various constraints. In forestry planning, for example, the problem is to choose actions for thousands of locations in the forest each year. The actions at each location could include harvesting trees, treating trees against disease and pests, or doing nothing. A utility model could place value on sale of forest products, ecosystem sustainability or employment levels, and could incorporate legal and logistical constraints such as avoiding large contiguous areas of clearcutting and managing road access. Planning requires a model of the dynamics. Existing simulators developed by forestry researchers can provide detailed models of the dynamics of a forest over time, but these simulators are often not designed for use in automated planning. This thesis presents spatiotemoral planning in terms of factored Markov decision processes. A policy gradient planning algorithm optimizes a stochastic spatial policy using existing simulators for dynamics. When a planning problem includes spatial interaction between locations, deciding on an action to carry out at one location requires considering the actions performed at other locations. This spatial interdependence is common in forestry and other environmental planning problems and makes policy representation and planning challenging. We define a spatial policy in terms of local policies defined as distributions over actions at one location conditioned upon actions at other locations. A policy gradient planning algorithm using this spatial policy is presented which uses Markov Chain Monte Carlo simulation to sample the landscape policy, estimate its gradient and use this gradient to guide policy improvement. Evaluation is carried out on a forestry planning problem with 1880 locations using a variety of value models and constraints. The distribution over joint actions at all locations can be seen as the equilibrium of a cyclic causal model. This equilibrium semantics is compared to Structural Equation Models. We also define an algorithm for approximating the equilibrium distribution for cyclic causal networks which exploits graphical structure and analyse when the algorithm is exact.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+            </div>
+          
+          
+      
+
+    
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 Mark  Crowley.
+    Based on [*folio](https://github.com/bogoli/-folio) design. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    Last updated: April 09, 2025.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>

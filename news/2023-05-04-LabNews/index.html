@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Mark  Crowley | Lab News April 2023 - ICML23, Textbook</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/news/2023-05-04-LabNews/">
+
+<!-- Theming-->
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Mark</span>   Crowley
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/bio/">
+                bio
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/contact/">
+                contact
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/lab/">
+                lab
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/showcase/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/topics/">
+                topics
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Lab News April 2023 - ICML23, Textbook</h1>
+    
+    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;">ICML 2023 paper! Manifold Learning Textbook Published!</p>
+    
+
+      
+      
+      
+      
+      
+        <p></p>
+        <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
+        May 4, 2023
+        </p>
+  </header>
+
+  <article class="post-content">
+    <h3 id="manifold-learning-book-finally-released">Manifold Learning Book finally released</h3>
+<p>Our long-awaited, much discussed (by us at least), textbook on <strong>Manifold Learning and Dimensionality Reduction</strong> <a class="citation" href="#ghojogh2022springerbook">(Ghojogh et al., 2023)</a> has now been published officially via Springer Nature and <a href="https://www.amazon.com/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/">the text is now available at Amazon</a> and other fine booksellers {;)}.</p>
+
+<p>The reference and teaching textbook is on the broad topic area of my former PhD student Benyamin Ghojogh’s thesis. Benyamin led the massive effort involved in the completion of this textbook. We’re confident it will be a fantastic resource for students and researchers wanting a wide view of this field but also one built from the ground up from the fundamentals at each step.</p>
+
+<p>These are fundamental tools and concepts for all data analysis and machine learning professionals. So if you’re interested in a deep dive into this important area, and take a look at our book.</p>
+
+<h3 id="icml-paper-accepted">ICML Paper Accepted</h3>
+<blockquote>
+  <p><span id="bagi2023icml">Bagi, S. S. G., Gharaee, Z., Schulte, O., &amp; Crowley, M. (2023). Generative Causal Representation Learning for Out-of-Distribution Motion Forecasting. <i>Proceedings of the 40th International Conference on Machine Learning (ICML)</i>, <i>202</i>, 31596–31612. https://doi.org/https://proceedings.mlr.press/v202/shirahmad-gale-bagi23a.html</span></p>
+</blockquote>
+
+<p>With all the excitement recently in advances in Artificial Intelligence and Machine Learning (AI/ML), especially <strong>Generative AI</strong> models such as OpenAI’s GPT, there is a huge need for addressing a broader notion of AI that will be needed for use in the real world. Most of these methods can interpolate, predict, generate new patterns from data but they do this by learning <em>correlations</em> between features in the data, and datapoints over time. But there is a huge literature with methods and theory that deal with other kinds of relationships we can use to describe data, such as <em>causality</em>, <em>uncertainty</em>, <em>confidence</em>, and <em>truth</em>.</p>
+
+<p>In this paper <a class="citation" href="#bagi2023icml">(Bagi et al., 2023)</a> we propose <strong>a new framework for leveraging causal information</strong> to improve robustness of learning in the presence of <strong>distribution shift</strong>. Empirical results on the pedestrian motion forecasting domain support our theoretical findings. Prof. Crowley will be presenting this world at <a href="https://icml.cc/Conferences/2023/Dates">ICML 2023</a> in Hawai’i in July 2023. You can read the whole paper on <a href="https://arxiv.org/abs/2302.08635">Arxiv</a> right now.</p>
+
+<hr />
+
+<p><img src="/assets/img/causality/Gen-causal-rep-learning-arch.png" align="center" width="80%" /></p>
+
+<hr />
+
+<p><img src="/assets/img/causality/Gen-causal-rep-learning-results-table.png" align="center" width="80%" /></p>
+
+
+  </article>
+
+  
+
+      
+        <div class="publications">
+          <h2>References:</h2> 
+        <ol class="bibliography"></ol>
+        <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">GCRL</abbr>
+    
+  
+  </div>
+
+  <div id="bagi2023icml" class="col-sm-8">
+      <div class="title">
+          
+          Generative Causal Representation Learning for Out-of-Distribution Motion Forecasting
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://uwaterloo.ca/scholar/sshirahm/home" target="_blank">Shayan Shirahmad Gale Bagi</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://scholar.google.se/citations?user=nWe8d1MAAAAJ&hl=sv" target="_blank">Zahra Gharaee</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://www.cs.sfu.ca/~oschulte/" target="_blank">Oliver Schulte</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    and <em>Mark Crowley</em>
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+          In <em>Proceedings of the 40th International Conference on Machine Learning (ICML)</em>. 
+
+      
+
+      
+          PMLR,
+      
+      
+          Honolulu, Hawaii, USA.
+      
+      
+          Jul,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+      <a href="http://arxiv.org/abs/2302.08635" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
+    
+    
+    
+      
+      <a href="https://proceedings.mlr.press/v202/shirahmad-gale-bagi23a/shirahmad-gale-bagi23a.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      
+    
+    
+    
+    
+      <a href="https://github.com/sshirahmad/GCRL" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    
+    
+      
+      <a href="/assets/pdf/2023-icml-bagi-generative-poster.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Poster</a>
+      
+    
+    
+    
+    
+      <a href="https://proceedings.mlr.press/v202/shirahmad-gale-bagi23a.html" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+      <a href="https://hyp.is/go?url=https%3A%2F%2Fopenreview.net%2Fpdf%3Fid%3DKw90j2pNSt&group=__world__" class="btn btn-sm z-depth-0" role="button" target="_blank">Hypoth</a>
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Conventional supervised learning methods typically assume i.i.d samples and are found to be sensitive to out-of-distribution (OOD) data. We propose Generative Causal Representation Learning (GCRL) which leverages causality to facilitate knowledge transfer under distribution shifts. While we evaluate the effectiveness of our proposed method in human trajectory prediction models, GCRL can be applied to other domains as well. First, we propose a novel causal model that explains the generative factors in motion forecasting datasets using features that are common across all environments and with features that are specific to each environment. Selection variables are used to determine which parts of the model can be directly transferred to a new environment without fine-tuning. Second, we propose an end-to-end variational learning paradigm to learn the causal mechanisms that generate observations from features. GCRL is supported by strong theoretical results that imply identifiability of the causal model under certain assumptions. Experimental results on synthetic and real-world motion forecasting datasets show the robustness and effectiveness of our proposed method for knowledge transfer under zero-shot and low-shot settings by substantially outperforming the prior motion forecasting models on out-of-distribution prediction.</p>
+    </div>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Textbook</abbr>
+    
+  
+  </div>
+
+  <div id="ghojogh2022springerbook" class="col-sm-8">
+      <div class="title">
+          
+          Elements of Dimensionality Reduction and Manifold Learning
+      </div>
+      <div class="author">
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://www.researchgate.net/profile/Benyamin-Ghojogh" target="_blank">Benyamin Ghojogh</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    <em>Mark Crowley</em>,
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      <a href="https://uwaterloo.ca/scholar/karray" target="_blank">Fakhri Karray</a>,
+                    
+                  
+                
+              
+        
+            
+            
+              
+                
+                  
+                    
+                      and <a href="https://uwaterloo.ca/data-analytics/" target="_blank">Ali Ghodsi</a>.
+                    
+                  
+                
+              
+        
+      </div>
+
+      <div class="periodical">
+      
+
+      
+          Springer Nature,
+      
+      
+      
+          Feb,
+      
+      
+        2023.
+      
+
+       
+      
+        
+      <div class="periodical">
+          
+      </div>
+      </div>
+
+    <div class="links">
+    
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://link.springer.com/book/10.1007/978-3-031-10602-6" class="btn btn-sm z-depth-0" role="button" target="_blank">URL</a>
+    
+    
+    
+
+    
+    </div>
+
+    <!-- Hidden notes block - pick note or annote and stick to it -->
+    
+
+    <!-- Hidden abstract block -->
+    
+    <div class="abstract hidden">
+        <p>
+         Dimensionality reduction, also known as manifold learning, is an area of machine learning used for extracting informative features from data, for better representation of data or separation between classes. This book presents a cohesive review of linear and nonlinear dimensionality reduction and manifold learning. Three main aspects of dimensionality reduction are covered – spectral dimensionality reduction, probabilistic dimensionality reduction, and neural network-based dimensionality reduction, which have geometric, probabilistic, and information-theoretic points of view to dimensionality reduction, respectively. This book delves into basic concepts and recent developments in the field of dimensionality reduction and manifold learning, providing the reader with a comprehensive understanding. The necessary background and preliminaries, on linear algebra, optimization, and kernels, are also explained in the book to ensure a comprehensive understanding of the algorithms.</p>
+    </div>
+    
+  </div>
+</div>
+</li></ol>
+        </div>
+      
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 Mark  Crowley.
+    Based on [*folio](https://github.com/bogoli/-folio) design. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    Last updated: April 09, 2025.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>

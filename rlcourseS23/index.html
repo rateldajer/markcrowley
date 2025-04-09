@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Mark  Crowley | Reinforcement Learning</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/rlcourseS23/">
+
+<!-- Theming-->
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Mark</span>   Crowley
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/bio/">
+                bio
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/contact/">
+                contact
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/lab/">
+                lab
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/news/">
+                news
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/showcase/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/topics/">
+                topics
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+      
+          
+            <h1 class="post-title">Reinforcement Learning</h1>
+        
+      
+    <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:10px;font-style: italic;">Spring 2023 - ECE 457C</p>
+
+      
+      
+      
+      
+      
+      
+        <p></p>
+  </header>
+
+  <article>
+      
+      <img src="/assets/img/teaching/ece493-logo.png" style="width: 300px; padding: 10px; float: right;">
+      
+    <h1 id="ece-457c---reinforcement-learning">ECE 457C - Reinforcement Learning</h1>
+
+<h3 id="course-description">Course Description</h3>
+
+<p>Introduction to Reinforcement Learning (RL) theory and algorithms for learning decision-making policies in situations with uncertainty and limited information. Topics include Markov decision processes, classic exact/approximate RL algorithms such as value/policy iteration, Q-learning, State-action-reward-state-action (SARSA), Temporal Difference (TD) methods, policy gradients, actor-critic, and Deep RL such as Deep Q-Learning (DQN), Asynchronous Advantage Actor Critic (A3C), and Deep Deterministic Policy Gradient (DDPG).</p>
+
+<p><strong>Note:</strong> This course was formerly known as <a href="/rlcourseS21/">ECE 493 Topic 42 - Reinforcement Learning</a></p>
+
+<h3 id="links-to-more-information-and-resources">Links to More Information and Resources</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><strong><a href="/ece457c-schedule/">Full Weekly Schedule and Deadlines (updated)</a></strong></td>
+      <td style="text-align: center"><strong><a href="https://piazza.com/uwaterloo.ca/summer2023/ece457c">Piazza Discussions</a></strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong><a href="http://incompleteideas.net/book/the-book-2nd.html">Textbook</a></strong></td>
+      <td style="text-align: center"><a href="https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA">Course YouTube Channel</a> (from previous terms)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="#topics">Course Topics</a></td>
+      <td style="text-align: center"><a href="#assessment">Assignments and Tests</a>  (weights and deadlines)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="https://gingkoapp.com/rlcourse">Gingko List of Resources and Links</a></td>
+      <td style="text-align: center"><a href="/rlcourseS22/">S22 Website (OLD)</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="#help">Getting Help</a></td>
+      <td style="text-align: center"><a href="#policies">Academic Policies</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><a href="#wellness">Health and Wellness</a></td>
+      <td style="text-align: center"><a href="#covid">COVID-19</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="required-background">Required Background</h3>
+
+<p>The course will use concepts from ECE 203 and ECE 307 on Bayesian Probability and Statistics, these will be reviewed but familiarity will help significantly. All other concepts needed for the course will be introduced directly. Examples, assignments and projects will depend on programming ability in Python.</p>
+
+<h1 id="spring-2023---course-staff">Spring 2023 - Course Staff</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Instructor:</strong> Prof. Mark Crowley</th>
+      <th>TA: Martin Ethier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Contact:</strong> mcrowley@uwaterloo.ca (but for better results, use piazza or come to office hours)</td>
+      <td><strong>Contact:</strong> methier@uwaterloo.ca</td>
+    </tr>
+    <tr>
+      <td><strong>Office Hour:</strong> One-on-one <a href="https://outlook.office.com/bookwithme/user/d067f9982ded48a383003c7a68a394f9@uwaterloo.ca?anonymous&amp;ep=plink">bookable on outlook</a> by  (E5 4114 (or online))</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="lecture-locations-and-times">Lecture Locations and Times</h3>
+
+<p><strong>Course Dates:</strong> May 8, 2023 to Aug 1, 2022</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Times</th>
+      <th>Room</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lecture</td>
+      <td>MF 1:00 pm - 1:00pm</td>
+      <td>E7 4043</td>
+    </tr>
+    <tr>
+      <td>Tutorial<br /> <em>(Mostly for review sessions, will determine based on need.)</em></td>
+      <td>M 7:00pm - 7:50pm</td>
+      <td>E7 4053</td>
+    </tr>
+    <tr>
+      <td>Office Hours</td>
+      <td>Mondays 3:30-4:30pm</td>
+      <td>E5 4114<br />or online via Teams (use <a href="https://outlook.office.com/bookwithme/user/d067f9982ded48a383003c7a68a394f9@uwaterloo.ca?anonymous&amp;ep=plink">bookable calendar here</a>)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="course-learning-objectives-and-topic-details">Course Learning Objectives and Topic Details</h1>
+
+<h3 id="learning-objectives">Learning Objectives</h3>
+
+<p>This course complements other AI courses in ECE by focussing on the
+methods for representation and reasoning about uncertain knowledge for
+the purposes of analysis and decision making. At each stage of the
+course we will look at relevant applications of the methods being
+discussed.</p>
+
+<p>For example, in 2016 the AI program “AlphaGO” defeated human world class
+players of the game Go for the first time. This system requires many
+different methods to enable reasoning, probabilistic inference, planning
+and decision optimization. In this course we will build up the
+fundamental knowledge about these components and how they combine
+together to make such systems possible.</p>
+
+<ol>
+  <li>Identify and Explain the component theoretical concepts of Reinforcement Learning systems.</li>
+  <li>Implement or instantiate using a library any of the core Reinforcement Learning algorithms on a variety of domains.</li>
+  <li>Evaluate the performance of a particular RL system on a given domain through proper experimental design, statistical analysis and visualization.</li>
+</ol>
+
+<h4 id="minor-objectives">Minor Objectives</h4>
+
+<ol>
+  <li>Learn to write mathematical notation electronically using <strong>LaTex</strong> (also useful for Word/Google Docs/Markdown).</li>
+  <li>Practice and feedback on reviewing, summarizing and utilizing theory and results from academic papers.</li>
+</ol>
+
+<h3 id="topics">Topics</h3>
+
+<ol>
+  <li>Motivation and Context
+    <ul>
+      <li>Importance of reasoning and decision making about uncertainty.</li>
+      <li>Connection to Artificial Intelligence and Machine Learning.</li>
+      <li>Probability review.</li>
+    </ul>
+  </li>
+  <li>Decision making under uncertainty:
+    <ul>
+      <li>Multi-Armed Bandit (MAB) problems, Thompson Sampling.</li>
+      <li>Markov Decision Processes (MDPs)</li>
+      <li>Influence Diagram representation</li>
+    </ul>
+  </li>
+  <li>Solving MDPs
+    <ul>
+      <li>Theory, Bellman equations</li>
+      <li>Relation to Control Theory</li>
+      <li>Value Iteration, Policy Iteration</li>
+    </ul>
+  </li>
+  <li>The Reinforcement Learning Problem
+    <ul>
+      <li>Approximately solving MDPs by interacting with the environment</li>
+      <li>SARSA algorithm</li>
+      <li>Q-learning algorithm</li>
+      <li>Other variants of these</li>
+    </ul>
+  </li>
+  <li>Temporal Difference Learning
+    <ul>
+      <li>Eligibility Traces</li>
+      <li>TD(𝜆)</li>
+    </ul>
+  </li>
+  <li>State Representation
+    <ul>
+      <li>Value Function Approximation</li>
+      <li>Stochastic Gradient Descent</li>
+    </ul>
+  </li>
+  <li>Basics of Neural Networks (review or refer to ECE657A content)
+    <ul>
+      <li>fully connected, multi-layer perceptrons</li>
+      <li>supervised training, back-propagation</li>
+      <li>CNNs, LSTMS</li>
+      <li>regularization methods</li>
+    </ul>
+  </li>
+  <li>Deep Reinforcement Learning
+    <ul>
+      <li>Deep Q- Networks (DQN)</li>
+      <li>Experience replay buffers, mini-batch training and other methods of training and architecture</li>
+    </ul>
+  </li>
+  <li>
+    <p>Direct Policy Search</p>
+
+    <ul>
+      <li>Policy Gradients methods</li>
+      <li>Actor-Critic methods</li>
+      <li>Discussion of New Algorithms:
+        <ul>
+          <li>A3C, A2C, DPG, DDPG, TRPO, PPO, SAC</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Other ways to solve (PO)MDPs</li>
+</ol>
+
+<ul>
+  <li>Monte-Carlo Tree Search, Explaining AlphaGo, and beyond</li>
+</ul>
+
+<ol>
+  <li>
+    <p>Other Challenges (brief)</p>
+
+    <ul>
+      <li>Hierarchical RL</li>
+      <li>Training Spectrum from Supervised to Curriculum to Self-supervised Learning</li>
+      <li>Partially Observable MDPs (POMDPs) (skipped in S22)</li>
+      <li>Multi-Agent RL (MARL)</li>
+      <li>
+        <p>Curiosity based learning</p>
+      </li>
+      <li>Soft-Actor Critic</li>
+    </ul>
+  </li>
+  <li>
+    <p>Wrap-up and Review</p>
+  </li>
+</ol>
+
+<h1 id="assessment">Assessment</h1>
+
+<p><a name="assessment"></a></p>
+
+<p><strong>Assignments can be done alone or in pairs.</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Weight Towards Final Grade</th>
+      <th>Released (12:00 am)</th>
+      <th>Due (11:59pm)</th>
+      <th>Days</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Assignment  1</td>
+      <td>10.0%</td>
+      <td>Monday, May 15, 2023</td>
+      <td>Friday, June 2, 2023</td>
+      <td>16</td>
+      <td><strong>Writing/LaTeX: Probability, MAB, MDPs</strong></td>
+    </tr>
+    <tr>
+      <td>Assignment  2</td>
+      <td>15.0%</td>
+      <td>Friday, June 2, 2023</td>
+      <td>Sunday, June 25, 2023</td>
+      <td>23</td>
+      <td><strong>Python: Tabular RL on Maze</strong></td>
+    </tr>
+    <tr>
+      <td>Midterm  Week (no midterm, regular classes)</td>
+      <td>0.0%</td>
+      <td>Monday, June 19, 2023</td>
+      <td>Friday, June 23, 2023</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Assignment  3 (no collaboration or groups!)</td>
+      <td>10.0%</td>
+      <td>Wednesday, June 28, 2023</td>
+      <td>Sunday, July 16, 2023</td>
+      <td>20</td>
+      <td><strong>OpenAI Gym: Summary of an RL Paper</strong></td>
+    </tr>
+    <tr>
+      <td>Assignment  4 (in Paris or alone)</td>
+      <td>25.0%</td>
+      <td>Wednesday, June 28, 2023</td>
+      <td>Monday, July 31, 2023</td>
+      <td>35</td>
+      <td><strong>Deep RL on Standard RL Problems,  comparison or implementation</strong></td>
+    </tr>
+    <tr>
+      <td><strong><em>Final  Exam</em></strong></td>
+      <td>40.0%</td>
+      <td><strong><em>Wednesday, August 9, 7:30pm-10PM</em></strong></td>
+      <td> </td>
+      <td> </td>
+      <td><strong><em>Location: MC 4045</em></strong></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Total</td>
+      <td>100%</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>1</p>
+
+<h2 id="course-tools">Course Tools</h2>
+
+<p><a name="tools"></a></p>
+
+<p>I know there has been app/feature/tool creep in courses as they the pandemic has worn on, we’re trying to minimize that while still not holding ourselves back when a new tool does something better than an old one.</p>
+
+<ul>
+  <li><strong>Course Website</strong> :https://markcrowley.ca/rlcourse/
+    <ul>
+      <li>Course News, Outline, Learning Goals</li>
+      <li>Schedule of lectures, assignments and tests</li>
+      <li>Links to all resources</li>
+    </ul>
+  </li>
+  <li><strong>Learn</strong> :  <em>Log in to <a href="https://learn.uwaterloo.ca">learn.uwaterloo.ca</a></em>
+    <ul>
+      <li>Online Course management system for UWaterloo.</li>
+      <li>Your grades will be managed here, up until the final grade submission phase of the course.</li>
+      <li>Links, announcements and course materials will all be made available here as well.</li>
+      <li>Only registered students can access learn.</li>
+    </ul>
+  </li>
+  <li><strong>Piazza</strong> : ECE457C Discussions - TBD
+    <ul>
+      <li>Online, threaded discussion forum with at the ability for students to construct an answer in addition to the answer provided by course staff.</li>
+    </ul>
+  </li>
+  <li><strong>Crowdmark</strong> : <em>(links will be made available as needed)</em>
+    <ul>
+      <li>A visual grading tool for pdfs submissions of tests and assignments, allows limited online test with mark-down text entry and multiple choice questions.</li>
+      <li>Used by the course staff for grading your tests.</li>
+      <li>Some assignments and tests might be made available online for submission using this tool as well.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="getting-help">Getting Help:</h1>
+
+<p><a name="help"></a></p>
+
+<ul>
+  <li><strong>Discussion board:</strong>
+    <ul>
+      <li><em>Piazza</em> will be the main place for detailed discussion and questions. Students can post anonymously (from students only), post a collaborative answer and course staff can confirm these, post their own or run Live Q&amp;A events.</li>
+      <li>Go there there and sign up with your UWaterloo email now!</li>
+    </ul>
+  </li>
+  <li><strong>Pre-recorded Video Lectures:</strong> These will be made available on the <a href="https://www.youtube.com/channel/UC7vU2kP8oNwvr0GuAqoxYGA">course youtube channel</a>, and links from within Learn</li>
+  <li><strong>LEARN Website:</strong> The main course content, announcements, grade tracking and materials will be made available on Learn. All registered students should see this in their LEARN courses.</li>
+  <li><strong>Email the Teaching Assistant and Instructor:</strong> Office Hours will be arranged once term starts as needed.</li>
+  <li><strong>AccessAbility Services :</strong> http://uwaterloo.ca/accessability-services
+    <ul>
+      <li>If you need any accommodation, assistance with exams, learning environment, assignments, then contact them for help setting you up as securely and anonymously as possible.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="discussion-group-protocols">Discussion Group Protocols</h3>
+
+<ul>
+  <li>Posts on Piazza can be public or anonymous to your classmates, but they will <em>never</em> be anonymous to the TAs and Instructor.</li>
+  <li>Be kind. Assume the best, not the worst. Think before you hit enter.</li>
+  <li>Posts which are considered offensive, abusive, bullying, discriminatory to any group or person, will be made private or deleted and followed up with private discussion.</li>
+  <li>If you feel there is inappropriate, hurtful behaviour occurring on the discussion forum, please notify the professor, TAs or department staff as you feel appropriate.</li>
+</ul>
+
+<h2 id="recipe-for-success">Recipe for success:</h2>
+
+<ul>
+  <li>Ask questions.</li>
+  <li>Connect with your classmates.</li>
+  <li>Do the assignments.</li>
+  <li><strong><em>Ask questions!</em></strong></li>
+  <li>Most of all, <em>have fun</em>! …yes really.</li>
+</ul>
+
+<h2 id="course-resources">Course Resources</h2>
+
+<h3 id="primary-reference-for-course">Primary Reference for Course</h3>
+
+<p><strong>[SuttonBarto2018]</strong> - Reinforcement Learning: An Introduction. Book, free pdf of draft available.
+http://incompleteideas.net/book/the-book-2nd.html</p>
+
+<h3 id="other-useful-texts">Other Useful Texts</h3>
+
+<p><strong>[Dimitrakakis2019]</strong> - Decision Making Under Uncertainty and Reinforcement Learning</p>
+
+<p>http://www.cse.chalmers.se/~chrdimi/downloads/book.pdf</p>
+
+<p><strong>[Ghavamzadeh2016]</strong> - Bayesian Reinforcement Learning: A Survey. Ghavamzadeh et al. 2016.
+https://arxiv.org/abs/1609.04436</p>
+
+<ul>
+  <li>More probability notes online: https://compthinking.github.io/RLCourseNotes/</li>
+</ul>
+
+<h3 id="open-ai-reference-website">Open AI Reference Website</h3>
+
+<p>This website is a great resource. It lays out concepts from start to finish. Once you get through the first half of our course, many of the concepts on this site will be familiar to you.</p>
+
+<ul>
+  <li>
+    <p>Key Papers in Deep RL List - https://spinningup.openai.com/en/latest/spinningup/keypapers.html</p>
+  </li>
+  <li>
+    <p>Fundamental RL Concepts Overview - The fundamentals of RL are briefly covered here. We will go into all this and more in detail in our course.
+https://spinningup.openai.com/en/latest/spinningup/rl_intro.html</p>
+  </li>
+  <li>
+    <p>Family Tree of Algorithms - Here, a list of algorithms at the cutting edge of RL as of 1 year ago to so, so it’s a good place to find out more. But in a fast growing field, it may be a bit out of date about the latest now.
+https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html</p>
+  </li>
+</ul>
+
+<h1 id="covid-19-policies">COVID-19 Policies</h1>
+
+<p><a name="covid"></a></p>
+
+<h3 id="health-and-safety">Health and Safety</h3>
+
+<ul>
+  <li>see <a href="/DKMA/assets/pdf/winter_2022_safety_slides_for_instructors.pptx">these slides on university policy for COVID-19 safety</a> once in-person classes begin again.</li>
+  <li><strong>Attendance: Students are to be instructed to attend only the section for which they are registered.</strong> If you wish to attend a different section (less people are registered for section 2) you should transfer to that section using official means.</li>
+  <li><strong>Absence:</strong> Students <strong><em>shall not attend class if they are experiencing influenza-like illness</em></strong>, have been in close contact with someone who is ill, or have travelled outside of Canada within the past 14 days. You will be able to engage with the course content online while reducing the risk of others becoming ill.</li>
+  <li><strong>Face coverings:</strong> Wearing of face-covering/mask is a <strong>requirement</strong> in all common areas on campus, including all indoor instructional spaces.
+    <ul>
+      <li>Students who will not wear masks will be asked to leave the classroom. If the student has a medical reason why they cannot wear a mask they should contact the professor electronically and provide proof of this.</li>
+      <li>As such, no food is allowed to be consumed in instructional space. Beverages are allowed if a straw is used or if the mask is lowered only for a brief period.</li>
+      <li>When a student asks or answers a question it may be difficult for them to be heard while wearing a mask. A student may briefly lower their mask to ask/answer the question and then the mask must be replaced.</li>
+    </ul>
+  </li>
+  <li><strong>Hand hygiene:</strong> Students are expected to practice frequent hand hygiene (handwashing with soap and water or use of hand sanitizer), including immediately before coming into an instructional space</li>
+  <li><strong>Seating:</strong> Students are permitted to sit where they wish. Students are encouraged to sit with one seat left empty between them and other students when possible.</li>
+  <li><strong>Student illness:</strong> In the event of absence due to influenza-like illness or required self-isolation, students shall submit an Illness Self-declaration. Students can find the <a href="https://uwaterloo.ca/quest/help/students/how-do-i/self-declare-my-illness">Illness Self-declaration form in the Personal Information section of Quest</a>. A doctor’s note for accommodation is not required.</li>
+</ul>
+
+<h3 id="fair-contingencies-for-emergency-remote-teaching">Fair Contingencies for Emergency Remote Teaching</h3>
+
+<p>We are facing unusual and challenging times. The course outline presents the instructor’s intentions for course assessments, their weights, and due dates in Winter 2022. <strong>As best as possible, we will keep to the specified assessments, weights, and dates</strong>. To provide contingency for unforeseen circumstances, the instructor reserves the right to modify course topics and/or assessments and/or weight and/or deadlines with <strong>due and fair notice to students</strong>. In the event of such challenges, <strong>the instructor will work with the Department/Faculty to find reasonable and fair solutions that respect rights and workloads of students, staff, and faculty</strong>.</p>
+
+<h2 id="wellness-support-and-contact-information">Wellness Support and Contact Information.</h2>
+
+<p><a name="wellness"></a></p>
+
+<p>University can be a challenging environment and it is normal to need support from time-to-time. Campus Wellness services are available to students through counselling and health services. If you are struggling or need someone to talk to you, please reach out.</p>
+
+<p>To book an appointment or learn more about the services, call 519-888-4567 x 32655 or explore <a href="http://www.uwaterloo.ca/campus-wellness">www.uwaterloo.ca/campus-wellness</a>.</p>
+
+<p>If you’re experiencing a crisis and feel unable to cope and Campus Wellness is closed, contact any of these after-hours supports: EmpowerMe (1-833-628-5589), Good2Talk (1-866-925-5454) or Here 24/7 (1-844-437-3247). They are available at any time of the day or night to help.</p>
+
+<h1 id="general-university-of-waterloo-guidelines">General University of Waterloo Guidelines:</h1>
+
+<p><a name="policies"></a></p>
+
+<p><strong>Academic Integrity:</strong> In order to maintain a culture of academic
+integrity, members of the University of Waterloo community are expected
+to promote honesty, trust, fairness, respect and responsibility. Check
+http://www.uwaterloo.ca/academicintegrity/ for more information.</p>
+
+<p><strong>Grievance:</strong> A student who believes that a decision affecting some
+aspect of his/her university life has been unfair or unreasonable may
+have grounds for initiating a grievance. Read Policy 70, Student
+Petitions and Grievances, Section 4,
+http://www.adm.uwaterloo.ca/infosec/ Policies/policy70.htm. When in
+doubt please be certain to contact the departments administrative
+assistant who will provide further assistance.</p>
+
+<p><strong>Discipline:</strong> A student is expected to know what constitutes academic
+integrity—check http: //www.uwaterloo.ca/academicintegrity/ to avoid
+committing an academic offence, and to take responsibility for his/her
+actions. A student who is unsure whether an action constitutes an
+offence, or who needs help in learning how to avoid offences (e.g.,
+plagiarism, cheating) or about rules for group work/collaboration should
+seek guidance from the course instructor, academic advisor, or the
+undergraduate Associate Dean. For information on categories of offences
+and types of penalties, students should refer to Policy 71, Student
+Discipline, http://www.adm.uwaterloo.ca/infosec/Policies/policy71.htm.
+For typical penalties check Guidelines for the Assessment of Penalties,
+http://www.adm.uwaterloo.ca/infosec/guidelines/penaltyguidelines.htm.</p>
+
+<p><strong>Appeals:</strong> A decision made or penalty imposed under Policy 70 (Student
+Petitions and Grievances) (other than a petition) or Policy 71 (Student
+Discipline) may be appealed if there is a ground. A student who believes
+he/she has a ground for an appeal should refer to Policy 72 (Student
+Appeals) http://www.adm.uwaterloo.ca/infosec/Policies/policy72.htm.</p>
+
+<p><strong>Note for Students with Disabilities:</strong> The Office for Persons with
+Disabilities (OPD), located in Needles Hall, Room 1132, collaborates
+with all academic departments to arrange appropriate accommodations for
+students with disabilities without compromising the academic integrity
+of the curriculum. If you require academic accommodations to lessen the
+impact of your disability, please register with the OPD at the beginning
+of each academic term.</p>
+
+  </article>
+
+
+      
+
+    
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 Mark  Crowley.
+    Based on [*folio](https://github.com/bogoli/-folio) design. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    Last updated: April 09, 2025.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
