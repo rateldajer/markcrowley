@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /publications/
-title: all publications
+title:  publications
 titleheader: all publications
 description: All published papers from the lab.
-years: [2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2007, 2005]
-nav: false
+years: [2026, 2025, 2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2007, 2005]
+nav: true
 showtitle: true
 shownotes: true
 ---

@@ -13,7 +13,7 @@ profile:
         <li><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3921-4762" href="https://orcid.org/0000-0003-3921-4762" target="orcid.widget"  style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORC-ID</a></div></li>
         <li><a href="https://scholar.google.ca/citations?user=eL_y80EAAAAJ">Google Scholar</a></li>
         <li><a href="https://uwaterloo.ca/scholar/mcrowley/contact">Contact</a></li>
-        <li><a href="https://twitter.com/compthink">Twitter<a> / <a  rel="me" href="https://sigmoid.social/@compthink">Mastodon</a></li>
+        <li><a href="https://bsky.app/profile/compthink.bsky.social"rel ="me">BlueSky<a> / <a  rel="me" href="https://sigmoid.social/@compthink">Mastodon</a></li>
         <li><b>BOOK!</b> : <a href="https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1">"Elem. of Dim. Reduction and Manifold Learning"</a> </li>  
     </ul>
     </p>

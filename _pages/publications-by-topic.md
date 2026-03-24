@@ -19,6 +19,7 @@ topics:
   - image-processing
   - search-and-rescue
   - manifold-learning
+  - machine-ethics
   - multi-agent-reinforcement-learning
   - mean-field-theory
   - medical-imaging

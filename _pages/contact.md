@@ -27,7 +27,7 @@ social: false
     <li><a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i>ResearchGate</a></li>
     <li><a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i>GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-  <li><a href="{{ site.bluesky_url }}" rel="me" target="_blank" title="Bluesky"><i class="fab fa-bluesky"></i></a>
+  <li><a href="{{ site.bluesky_url }}" rel="me" target="_blank" title="Bluesky"><i class="fab fa-bluesky"></i>Bluesky</a></li>
   <li><a href="{{ site.mastodon_url }}" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i>@compthink@sigmoid.social</a></li>
   <li><a href="{{ site.blog_url }}" target="_blank" title="Computationally Thinking Blog"><i class="fas fa-pen-nib"></i>Computationally Thinking Blog</a></li>
 </ul>
@@ -36,5 +36,5 @@ social: false
 
 
 <h3> Joining My Lab</h3>
-I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future, but <b>I <i>do not</i> take on many incoming students</b>, so potential students should <a href="/joining-my-lab/">read this note about joining my lab</a>.
+I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future, but <b>I do not take on very many incoming students</b>, so potential students should <a href="/joining-my-lab/">read this note about joining my lab</a>.
 

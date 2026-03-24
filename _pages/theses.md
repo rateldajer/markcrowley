@@ -4,7 +4,7 @@ permalink: /theses/
 title: student theses
 titleheader: student theses
 description: A selection of completed graduate theses from the lab by year
-years: [2024, 2023, 2022, 2021, 2020, 2019, 2018]
+years: [2025,2024, 2023, 2022, 2021, 2020, 2019, 2018]
 nav: false
 showtitle: true
 shownotes: true
@@ -23,6 +23,6 @@ Also see:
 <div class="publications by year">
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f theses --max 10 -q @*[type~=thesis && year={{y}}, status^=1]* %}
+  {% bibliography -f theses -q @*[type~=thesis && year={{y}}, status^=1]* %}
 {% endfor %}
 </div> 
