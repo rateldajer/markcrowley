@@ -27,11 +27,9 @@ social: false
     <li><a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" target="_blank" title="ResearchGate"><i class="ai ai-researchgate"></i>ResearchGate</a></li>
     <li><a href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub"><i class="fab fa-github"></i>GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
-    <li><a href="{{ site.mastodon_url }}" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i>@compthink@sigmoid.social</a></li>
-    <ul>
-    <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i>Twitter</a> (inactive)</li>
-    </ul>
-    <li><a href="{{ site.blog_url }}" target="_blank" title="Computationally Thinking Blog"><i class="fas fa-pen-nib"></i>Computationally Thinking Blog</a></li>
+  <li><a href="{{ site.bluesky_url }}" rel="me" target="_blank" title="Bluesky"><i class="fab fa-bluesky"></i></a>
+  <li><a href="{{ site.mastodon_url }}" target="_blank" title="Mastodon"><i class="fab fa-mastodon"></i>@compthink@sigmoid.social</a></li>
+  <li><a href="{{ site.blog_url }}" target="_blank" title="Computationally Thinking Blog"><i class="fas fa-pen-nib"></i>Computationally Thinking Blog</a></li>
 </ul>
 
 
