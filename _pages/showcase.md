@@ -13,10 +13,12 @@ showcitations: true
 
 Also see:
 - **[All Published Works](/publications)**
+- Selected Showcase Publications
 - [Publications Grouped by Research Topics](/pub-by-topic/)
 - [Defended Theses from the Lab](/theses)
-- [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
+- **[recent preprints](/preprints)**
+    - [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 
 
 <!-- <h2>selected publications</h2> -->

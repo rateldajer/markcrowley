@@ -11,12 +11,13 @@ shownotes: true
 ---
 
 Also see:
+- All Published Works
 - **[Selected Showcase Publications](/showcase)**
 - [Publications Grouped by Research Topics](/pub-by-topic/)
 - [Defended Theses from the Lab](/theses)
+- [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 - **[recent preprints](/preprints)**
     - [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
-- [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
 
 
 <div class="publications by year">
