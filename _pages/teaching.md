@@ -22,7 +22,7 @@ social: true
     <div class="col">
         The ECE 499 Project is an elective course that can be taken once by a student in their 4A or 4B term. Note that this is a single-term course.   Once a project topic of interest is determined, then a supervisor should be found (typically a faculty member of ECE). The departmental web pages for faculty should be consulted to learn more about the research interests, recent publications and supervised graduate student thesis titles of the individual faculty members.
 
-        You can find more information on the <a href="https://uwaterloo.ca/scholar/mcrowley/classes/project-course">https://uwaterloo.ca/scholar/mcrowley/classes/project-course</a>
+        You can find more information on outline.uwaterloo.ca for the current term: here is the link for Spring 2026 <a href="https://outline.uwaterloo.ca/viewer/view/nm8avg">https://outline.uwaterloo.ca/viewer/view/nm8avg</a>
     </div>
 </div>
 
