@@ -13,7 +13,7 @@ showtitle: true
 bibkeyword: forest-management
 showdomains: true 
 showbib: true
-publish: true
+published: true
 output: true
 importance: 2
 ---

@@ -21,7 +21,7 @@ showwebpage: true
 showbib: true
 webpage: http://chemgymrl.com
 importance: 1
-publish: true
+published: true
 img: /assets/pdf/2022-canai-bellinger-balancing.png
 ---
 

@@ -14,7 +14,7 @@ Also see [Publications Grouped by Research Topics](/pub-by-topic/)
 <div class="projects grid">
   {% assign sorted_topics = site.topics | sort: "importance" %}
   {% for topic in sorted_topics %}
-      {% if topic.publish %}
+      {% if topic.published %}
           <div class="grid-item">
               {% if topic.redirect %}
                   <a href="{{ topic.redirect }}" target="_blank">

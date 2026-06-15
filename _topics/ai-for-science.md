@@ -19,7 +19,7 @@ tags:
   - proj-chemgymrl
 projects: chemgymrl, combustion-modelling
 showprojects: true
-publish: true
+published: true
 people: markcrowley, sushrutbhalla, nouhachatti, sriramganapathisubramanian
 showtitle: true
 showtags: false

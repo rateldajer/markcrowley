@@ -16,7 +16,7 @@ projects:
 people:
   - markcrowley
 output: false
-publish: false
+published: false
 showbib: true
 showmeta: true
 showpeople:

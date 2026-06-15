@@ -9,7 +9,7 @@ stage: topic
 showtitle: true
 showbib: true
 showwebpage: true
-publish: true
+published: true
 img: /assets/img/machine-learning.png
 importance: 4
 ---

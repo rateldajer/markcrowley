@@ -11,7 +11,7 @@ methods: reinforcement-learning, PPO
 description: MARL is the problem of learning how to make decisions from experience in the presence of multiple other decision making agents.
 people: sriramganapathisubramanian, sushrutbhalla, markcrowley
 showtitle: true
-publish: true
+published: true
 showbib: true
 importance: 7
 aliases:

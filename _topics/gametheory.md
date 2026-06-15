@@ -6,7 +6,7 @@ bibkeyword: game-theory
 permaklink: /game-theory/
 description: Game theory is the mathematical study of competitive, or co-operative optimal decision making by multiple agents.
 stage: topic
-publish: true
+published: true
 aside:
   toc: true
 showtitle: true

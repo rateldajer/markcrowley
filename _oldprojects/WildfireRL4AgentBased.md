@@ -14,7 +14,7 @@ keywords:  MLForScience
 status: complete
 domains: Forest-Wildfire-Management
 methods: Deep Learning,Reinforcement-Learning
-publish: true
+published: true
 people: SriramSubramanian, MarkCrowley
 bibkeyword: proj-forestfire
 ---

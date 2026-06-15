@@ -10,7 +10,7 @@ domains: medical-imaging, ai-for-games
 people: sriramganpathisubramanian, aishwaryaallada, kenminglee, markcrowley 
 showdomains: true
 showbib: true
-publish: true
+published: true
 ---
 
 Members of the UWECEML lab have had a good couple months, with a few notable papers accepted to great venues. 

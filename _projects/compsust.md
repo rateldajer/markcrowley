@@ -7,7 +7,7 @@ bibkeyword: computational-sustainability
 description: Connecting Machine Learning with Global Sustainability challenges.
 nav: false
 showtitle: true
-publish: true
+published: true
 showbib: true
 importance: 3
 img: /assets/img/compsust.png

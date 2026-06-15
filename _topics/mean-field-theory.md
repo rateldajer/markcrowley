@@ -11,7 +11,7 @@ domains: games, forest-management, autonomous-driving
 methods: reinforcement-learning, PPO
 people: sriramganapathisubramanian, sushrutbhalla, markcrowley
 showtitle: true
-publish: true
+published: true
 showbib: true
 importance: 8
 ---

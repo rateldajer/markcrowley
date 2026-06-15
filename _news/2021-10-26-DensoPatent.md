@@ -14,7 +14,7 @@ showtags: false
 showmethods: false
 showbib: false
 img: /assets/img/patent-design.png
-publish: true
+published: true
 ---
 
 We recently had a patent fully approved and published on a method for multi-level collaborative control of vehicles using control and reinforcement learning working in tandem. The work resulted from a demonstration we created with Denso International for the 2018 CES technology show. 

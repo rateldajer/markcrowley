@@ -9,7 +9,7 @@ domains: machine-ethics, ai-morality
 projects: causality
 people: shayanshiramadgalebagi
 output: true
-publish: false
+published: false
 showbib: true 
 showmeta: true
 ---

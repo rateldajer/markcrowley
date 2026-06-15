@@ -10,7 +10,7 @@ methods: SSIM, PCA, LDA, RDA, QQE, GLLE
 stage: field
 showtitle: true
 showwebpage: true
-publish: true
+published: true
 showbib: true
 importance: 3
 webpage: https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016/ref=sr_1_1?keywords=9783031106019&linkCode=qs&qid=1659572815&returnFromLogin=1&s=books&sr=1-1

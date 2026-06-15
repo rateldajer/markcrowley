@@ -9,7 +9,7 @@ domains: ai-for-science, awards
 projects: marl, proj-chemgymrl
 people: markcrowley 
 output: false
-publish: false
+published: false
 showbib: true 
 showmeta: true
 

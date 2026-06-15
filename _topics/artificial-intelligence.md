@@ -9,7 +9,7 @@ stage: topic
 showtitle: true
 showbib: false
 showwebpage: false
-publish: true
+published: true
 img: /assets/img/Marks-Unnessecarily-Big-Picture-of-AI-landscape.png
 importance: 1
 showsidbar: "true"

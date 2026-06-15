@@ -2,7 +2,7 @@
 layout: page
 title: Understanding COVID-19 Through Policy Interventions
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
-publish: false
+published: false
 img: /assets/img/covid19/coronavirus.jpg
 output: false
 name: COVID19

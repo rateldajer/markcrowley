@@ -14,7 +14,7 @@ img: /assets/img/forest-fire/forest-fire.jpg
 bibkeyword: forest-wildfire
 showdomains: true 
 showbib: true
-publish: true
+published: true
 output: true
 importance: 2
 ---

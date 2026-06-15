@@ -4,10 +4,13 @@ title: AI/ML Graduate Courses at the University of Waterloo
 permalink: /aimlcourses-uwaterloo/
 description: Courses and programs available at the University of Waterloo for students interested in Artificial Intelligence and Machine Learning. (Always under revision)
 nav: false
+description: DRAFT page
 showtitle: true
+published: false
 ---
 
 # AIML Courses at UWaterloo
+**NOTE:** this page is very out of date, see course list elsehwere
 
 ## ECE Courses (let's start here)
 
@@ -95,9 +98,6 @@ One of my core research areas is into understanding the computational mechanisms
 
 
 
-## Other Courses
-
-See my [department website for an archival list](https://uwaterloo.ca/scholar/mcrowley/classes) of courses I have taught.
 
 
 

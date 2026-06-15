@@ -9,7 +9,7 @@ domains: autonomous-driving
 methods: deep-neural-networks, lstm
 topics: machine-learning, time-series
 description: Learning to communicate between vehicles efficiently and robustly.
-publish: true
+published: true
 people: markcrowley, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 showbib: true

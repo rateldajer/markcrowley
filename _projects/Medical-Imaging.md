@@ -12,7 +12,7 @@ description: Use of Machine Learning for challenges in medical imaging.
 people: aishwarya, lauramccrackin, benyaminghojgh, markcrowley
 showtitle: true
 showbib: true
-publish: true
+published: true
 img: /assets/img/medical-imaging.jpg
 importance: 1
 ---

@@ -18,7 +18,7 @@ tags:
   - zahragharaee
   - oliverschulte
 description: Using AI/ML to do moar Sciencing!
-publish: true
+published: true
 people: markcrowley, sushrutbhalla, shayan shirahmadgalebagi, zahragharaee, oliverschulte
 showtitle: true
 showtags: false

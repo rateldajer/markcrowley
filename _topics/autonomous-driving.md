@@ -16,7 +16,7 @@ tags:
   - time-series
 domains: driver-behaviour-learning, autonomous-driving, safety-critical-systems, vehicle-communication, deep-learning, lstm, machine-learning
 description: Using computing to make driving safer.
-publish: true
+published: true
 people: markcrowley, lauramccrackin, takintadayon, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 webpage: /news/2021-10-14-AutolineInterview/
