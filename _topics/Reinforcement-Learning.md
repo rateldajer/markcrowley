@@ -4,6 +4,7 @@ title: Reinforcement Learning
 name: Reinforcement Learning
 permalink: /reinforcement-learning/
 bibkeyword: reinforcement-learning
+status: active
 aliases:
   - reinforcement-learning
 description: RL is the study of learning decision making policies from experience with computers.
