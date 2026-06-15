@@ -16,7 +16,7 @@ importance: 3
 
 | Spring 2021                                                                                            | **Instructor:** Prof. Mark Crowley                                                               |
 | :---:                                                                                                  | :---:                                                                                            |
-| [Department Course Page]( https://uwaterloo.ca/scholar/mcrowley/classes/reinforcement-learning) | [Updated List of Resources and Links](https://gingkoapp.com/course-457c-links-for-students)  |
+| Department Course Page |   |
 | Piazza Discussions (TBD)                                                                               | [Course YouTube Channel](https://www.youtube.com/channel/UC6p1AJ7jKNFp6OB2MmAoWvA) |
 
 
