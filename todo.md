@@ -1,12 +1,29 @@
 # TODO List
 
 
+
+## uwaterloo/scholar Sunset Tasks
+Pages and things to fix now that scholar was nuked
+- [ ] magna study page gone! **Get Involved:** See the [project webpage](https://markcrowley.ca/driver-behaviour-learning) to find out more or to sign up to be a driving participant in our study.
+  - [x] simple links added to my existing dbl page
+  - [ ] do I have a backup anywhere of the DBL project page I had on scholar?
+- [x] add page <a href="https://uwaterloo.ca/project-course/">ECE 499 Engineering Project</a>
+  - see [[ece499 md]] file already copied from outline, pare it down to make basic page
+- pages to create
+  - markcrowley.ca/driver-behaviour-learning
+  - /project-course : for 499 (why isn't this working?)
+  - /people
+
+- People pages
+  - almost got it working
+  - stashed it in a branch, finish up
+  - use the coauthors data file for various facts about students to update more easily
+
 ## Layouts
 - 2021-05-29 : various ideas on remarkable about this, but I relaly should use whatever was working in compthink first. 
     - **New idea:** keyword=permalink of page, all pages have same format in that way.
     - also all pages can have people, publications, related projects and related grants, it's ust a matter of going through all the keywords, figuring out which collection they are ni, if any, then lop through those to show tem
     - eventually each type fo item can have custom per item diplay layouts too.
-
 ## Content
 - [ ] see the topics pages for TODO to merge the showing bib papers automatically froa  topic to the layout
 - [ ] Fill in project and topic descriptions. Each one can have a unique permalink, it doesn't need to be in a hierarchy, to [RL](/reinforcement-learning/) is just that, for anything related to it.
@@ -29,7 +46,6 @@
 	- [ ] Or should the page layout itself be changed for each type? (Keep it simple for now!)
 
 # TODO
-
 - [x] add a bib wrapper from about to each page
 - [x] fix bib file to have common keywords
 - [x] use same keywords on pages, have a list somewhere with descriptions? keywords pages?
