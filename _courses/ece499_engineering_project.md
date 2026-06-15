@@ -20,7 +20,7 @@ importance: 1
 - **Office:** E5 4114
 - **Forms:** [Shared directory with forms for registration and submission of final grade](https://uofwaterloo-my.sharepoint.com/:f:/g/personal/mcrowley_uwaterloo_ca/IgCD6-eX5DhKSpMc3dWN_P3FASxrPrB0sYtjMTHRsYkWbzM?e=Nh92up) *(should be accessible by anyone with a UWaterloo login)*
   - [ECE 499 Grade Report](/assets/pdf/ECE 499 Grade Report Template-new.docx)
-  - [ECE 499 Project Approval](/assets/pdf/ECE499ProjectApprovalForm.pdf)
+  - [ECE 499 Project Approval Form](/assets/pdf/ECE499ProjectApprovalForm.pdf)
 
 ## Course Description
 ECE 499 is an engineering project requiring the student to demonstrate initiative and assume responsibility. The student will arrange for a faculty supervisor prior to registration. Students can propose their own topic. A project report is required at the end of the term.
@@ -36,8 +36,7 @@ A Project is also well suited to the student pursuing a combined Bachelors/Maste
 Once the student has found a faculty supervisor for the project, they can fill out the **registration form**. The faculty supervisor must also sign the registration form. When completed, then return the form to the course coordinator ([mcrowley@uwaterloo.ca](mailto:mcrowley@uwaterloo.ca)) and ECE Advising (ECE Advising [eceadvis@uwaterloo.ca](mailto:eceadvis@uwaterloo.ca)). Students typically have until the term's regular course drop and add time to finalize an ECE 499 Project. It is generally expected that the Project Supervisor is a faculty member of the Department of Electrical and Computer Engineering, but elsewhere in Engineering is possible under exceptional circumstances.
 
 **Registration Form:** 
-- [ECE 499 Project Approval Form](ece499projectapprovalform.pdf)
-- can be downloaded here by any member of the unviersity https://uofwaterloo-my.sharepoint.com/:f:/g/personal/mcrowley_uwaterloo_ca/IgCD6-eX5DhKSpMc3dWN_P3FASxrPrB0sYtjMTHRsYkWbzM?e=EAoT0F
+- [ECE 499 Project Approval Form](/assets/pdf/ECE499ProjectApprovalForm.pdf)
 
 Once the form is submitted to the Course Co-ordinator, they will inform the departmental staff to allow registration in ECE 499 for the student. 
 
@@ -51,7 +50,8 @@ The evaluation should be completed by the project supervisor using the **evaluat
 
 Ideally, the report should be submitted at/before the end of lectures in the academic term prior to the start of exams. It certainly should be completed within a week after the end of classes. This allows sufficient time for the readers to evaluate the report and provide a grade to the course co-ordinator to be submitted.
 
-**Evaluation Form:** https://uofwaterloo-my.sharepoint.com/:f:/g/personal/mcrowley_uwaterloo_ca/IgCD6-eX5DhKSpMc3dWN_P3FASxrPrB0sYtjMTHRsYkWbzM?e=EAoT0F
+**Evaluation Form:** 
+- [ECE 499 Grade Report](/assets/pdf/ECE 499 Grade Report Template-new.docx)
 
 
 ## Learning Outcomes
