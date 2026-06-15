@@ -24,5 +24,5 @@ You can watch the [interview here on youtube here](https://youtu.be/W4JqIzdR0Cg)
 We're using Machine Learning to build predictive models of human driving in order to make future adaptive cruise control and autonomous cars more natural, responsive and safe.
 
 More information about the project can be found here:
-- [Driver Behaviour Learning Project](https://uwaterloo.ca/scholar/mcrowley/dblstudy)
+- [Driver Behaviour Learning Project](/driver-behaviour-learning/)
 

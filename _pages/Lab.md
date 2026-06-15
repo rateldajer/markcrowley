@@ -23,9 +23,9 @@ the [automotive domain](autonomous-driving),
 [digital chemistry/material design](ai-for-science)
 and even some video games such as MineCraft.
 
-- **Lab website:** [https://markcrowley.ca](https://markcrowley.ca/lab)
-- **People:** Find information about current and former members of the lab here: [https://uwaterloo.ca/scholar/mcrowley/people](https://uwaterloo.ca/scholar/mcrowley/people)
-- **Reading Groups:** If you doing research in AI/ML/RL at Waterloo and want to join in to our weekly reading group you can find out more here: [https://markcrowley.ca/reading-groups/](https://markcrowley.ca/reading-groups/)
+- **Lab website:** [https://markcrowley.ca](/lab/)
+- **People:** Find information about current and former members of the lab here: [https://markcrowley.ca/people](/people/)
+- **Reading Groups:** If you doing research in AI/ML/RL at Waterloo and want to join in to our weekly reading group you can find out more here: [https://markcrowley.ca/reading-groups/](/reading-groups/)
 
 
 ### ChemGymRL Project
@@ -41,5 +41,5 @@ The resulting data is being used to learn predictive models of driver behaviour 
 
 ### Highlighted Projects
 
-The lab has worked with industrial partners on topics in [Medical Imaging](/medical-imaging) including classification and labelling of medical images from **Digital Pathology** and brain scans of **Alzheimer's** patients. 
+The lab has worked with industrial partners on topics in [Medical Imaging](/medical-imaging/) including classification and labelling of medical images from **Digital Pathology** and brain scans of **Alzheimer's** patients. 
 

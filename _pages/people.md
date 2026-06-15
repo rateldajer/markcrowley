@@ -8,13 +8,14 @@ description: Information about current and former lab members.
 showtitle: true
 showbib: true
 ---
+This page doesn't load properly, why?
 
   {% assign names = site.people | sort: "degree" %}
   
 PEOPLE!: 
 
 {{ names }}
-
+<!-- 
 {% for p in site.people %}
     {% for i in p %}
        {{i}} : {{ p[i] }} 
@@ -46,4 +47,4 @@ print: {{ p }}
           </div>
       {% endif %}
 {% endfor %}
-</div>
+</div> -->

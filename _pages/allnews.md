@@ -13,8 +13,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-## News Items from before 2021
-These can be found on my older research website: https://uwaterloo.ca/scholar/mcrowley/news/
 
 
 

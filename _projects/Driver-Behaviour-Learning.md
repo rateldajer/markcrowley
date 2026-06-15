@@ -17,18 +17,18 @@ people: markcrowley, lauramccrackin, takintadayon
 showtitle: true
 showdomains: true
 showwebpage: true
-webpage: https://uwaterloo.ca/scholar/mcrowley/dblstudy
 webpagename: DBL User Study Homepage
 img: /assets/img/dbl/avrildbl.jpg
 showbib: false
 importance: 2
 ---
 
+<!-- TODO: add meta webpage: https://uwaterloo.ca/dblstudy -->
 
 
-The [Real-Time Embedded Software Group](https://uwaterloo.ca/embedded-software-group/) and [UWECEML](https://uwaterloo.ca/scholar/mcrowley/lab) labs at the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/) at the University of Waterloo are working to conduct a study on **driving behaviour**. This project is part of a research collaboration between the University of Waterloo and [Magna International Inc.](https://www.magna.com/) to develop a driving model for self-driving vehicles based on learning from human driver behaviour on roads using a variety of automotive sensors, data fusion and artificial intelligence algorithms. The goal is to create a comfortable in-vehicle experience when a self-driving mode is engaged. The project requires monitoring and recording the driving behaviour of 100 drivers using a specially equipped SUV (LiDAR, Radar, Cameras and more) in order to have sufficient data to create a self-learning model using machine learning algorithms.
+The [Real-Time Embedded Software Group](https://uwaterloo.ca/embedded-software-group/) and [UWECEML](https://markcrowley.ca/lab) labs at the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/) at the University of Waterloo are working to conduct a study on **driving behaviour**. This project is part of a research collaboration between the University of Waterloo and [Magna International Inc.](https://www.magna.com/) to develop a driving model for self-driving vehicles based on learning from human driver behaviour on roads using a variety of automotive sensors, data fusion and artificial intelligence algorithms. The goal is to create a comfortable in-vehicle experience when a self-driving mode is engaged. The project requires monitoring and recording the driving behaviour of 100 drivers using a specially equipped SUV (LiDAR, Radar, Cameras and more) in order to have sufficient data to create a self-learning model using machine learning algorithms.
 
-**Get Involved:** See the [project webpage](https://uwaterloo.ca/scholar/mcrowley/dblstudy) to find out more or to sign up to be a driving participant in our study.
+<!-- **Get Involved:** See the [project webpage](https://uwaterloo.ca/scholar/mcrowley/dblstudy) to find out more or to sign up to be a driving participant in our study. -->
 
 ## Learning Problems
 
