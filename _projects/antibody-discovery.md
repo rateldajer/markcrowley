@@ -15,11 +15,9 @@ showtitle: true
 showbib: true
 published: true
 img: /assets/img/fig-sun2026icml-fig2.png
-importance: 1
+importance: 2
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.
 
-
-**Digital Pathology** - In this dataset we have looked at NLP methods for analyzing medical reports, Deep Learning methods for classifying images, and Manifold Learning methods to extract compact embeddings for using in classifiers and search engines.
 

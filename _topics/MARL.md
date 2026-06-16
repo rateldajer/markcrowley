@@ -15,6 +15,7 @@ aliases:
   - "#MARL"
 showbib: true
 published: true
+img: /assets/img/fig-ganapathisubramanian2022jair-fig7.png
 ---
 Standard [Reinforcement Learning](/reinforcement-learning/) studies how to build computational agents that can learn how to make decisions from interaction from their environment alone, even without a prior understanding of how that that environment works. This field is closely connected with human and animal learning and uses the idea of *rewards* obtained implicitely from the environment or explicitely from a trainer.
 

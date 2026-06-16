@@ -18,7 +18,7 @@ showtags: false
 showmethods: false
 showwebpage: false
 showbib: true
-importance: 3
+importance: 8
 img: /assets/img/ECML2019/combustion1.png
 ---
 Inspired by a challenge raised by [Prof. Jean-Pierre Hickey](/people/jeanpierrehickey/) in Mechanical Engineering I have worked to investigate novel ways to use Deep Neural Network to revolutionize the way combustion simulation calculations are computed and stored. 

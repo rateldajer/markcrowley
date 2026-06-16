@@ -14,7 +14,7 @@ people: markcrowley, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapa
 showtitle: true
 showbib: true
 img: /assets/img/vehicle-communication.png
-importance: 3
+importance: 6
 ---
 
 

@@ -4,7 +4,6 @@ title: Understanding COVID-19 Through Policy Interventions
 description: Supervised learning of fast, compact models for calculations needed to simulate combustion. 
 published: false
 img: /assets/img/covid19/coronavirus.jpg
-output: false
 name: COVID19
 keywords: Health, Bayesian-Network, MLForScience, covid-19, Infectious-Disease-Spread
 

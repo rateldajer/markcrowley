@@ -14,7 +14,7 @@ showtitle: true
 showbib: true
 published: true
 img: /assets/img/medical-imaging.jpg
-importance: 1
+importance: 5
 ---
 
 This project spans multiple modalities of medical imaging and multiple types of modelling to empower medical experts.

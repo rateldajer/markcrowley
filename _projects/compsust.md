@@ -9,7 +9,7 @@ nav: false
 showtitle: true
 published: true
 showbib: true
-importance: 3
+importance: 5
 img: /assets/img/compsust.png
 ---
 

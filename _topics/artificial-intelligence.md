@@ -11,7 +11,7 @@ showbib: false
 showwebpage: false
 published: true
 img: /assets/img/Marks-Unnessecarily-Big-Picture-of-AI-landscape.png
-importance: 1
+importance: 3
 showsidbar: "true"
 ---
 In the broadest terms my research spans the areas of ***Artificial Intelligence (AI)*** and ***[Machine Learning (ML)](/machine-learning/)*** which can be seen highly related, independent, or synonymous(?) research fields depending on who you are.

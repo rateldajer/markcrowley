@@ -9,7 +9,7 @@ aside:
     toc: true
 showbib: true
 showtitle: true
-importance: 4
+importance: 9
 ---
 
 Relates to the [COVID-19](/projects/COVID19) project.

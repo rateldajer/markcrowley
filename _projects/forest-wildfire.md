@@ -10,16 +10,17 @@ status: active
 people: sriramganapathisuburamanian, pardiszohouri, xiangfang, katelarson, markcrowley
 toc: false
 showtitle: true
-img: /assets/img/forest-fire/forest-fire.jpg
 bibkeyword: forest-wildfire
 showdomains: true 
 showbib: true
 published: true
 output: true
 importance: 2
+img: /assets/img/forest-fire/forest-fire.jpg
 ---
 
 As part of the more general domain of [Sustainable Forest Management](/forest-management/), we focus on the task of **Forest Fire Management** which presents a number of unique challenges which push the boundaries of what is possible with existing AI/ML algorithms. These include the importance of considering:
+- Using multi-modal remote sensing data (LiDAR, drones, satellite, etc.) to build generative models of forests to improve modelling of fire spread, carbon sequestration, forest management
 - predicting daily fire spread from historical data automatically by combining information from weather, satellite hotspot detection and other available GIS information
 - multiple spatial-temporal scales at all times
 - tradeoffs between individual and social good
@@ -32,15 +33,10 @@ This research explores the intersection of theory in the field of **Game Theory*
 
 One of the applied domains we work on frequently is Sustainable Forest Management including prediction and control of Forest Wildfires. The lab is part of an NSERC WILDFIRE STRATEGIC NETWORK ([https://www.canadawildfire.org/](https://www.canadawildfire.org/)).
 
-**Current Research in this topic:**
-- Improved models of forest fire spread prediction from raw data using Machine Learning
-- Uses of Lidar in Forest Modelling
-
-
 
 ### News
 
-- CSA Lidar Project approved (more information to come)
+- CSA Lidar Project approved : see [CSA Lidar Project](/_projects/csa-lidar.md) for more information
 - [Lab News Dec 12, 2022](/news/2022-12-20-LabNews]) : Attended Forest Wildfire Conference on this topic.
 - [Lab News March, 2022](/news/2022-03-07-LabNews/) : Two papers related to this topic discussed.
 - [Lab News Dec 1, 2022](/news/2022-12-20-LabNews/) : In Fall 2022, members of the lab went to a Canadian Wildfire conference. Mark also gave a talk on research related to this topic.

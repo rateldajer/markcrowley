@@ -1,14 +1,17 @@
 ---
 layout: page
 title: topics
-titleheader: Research Topics
+titleheader: Research Topics and Domains
 permalink: /topics/
 nav: true
 description: Metapages collecting information on general research topics of interest in the lab. 
 showtitle: true
 ---
-	
-Also see [Publications Grouped by Research Topics](/pub-by-topic/)
+
+Our research can be grouped by intersections of pure research directions, that lead to application ideas, as well as applied domains which lead to new fundamental directions for research. 
+Dive into any of the topics below to find out more.
+
+Another way to explore this is to look at all the lab's [Publications Grouped by Research Topics](/pub-by-topic/) or at individual [Research Projects](/projects/).
 
 
 <div class="projects grid">

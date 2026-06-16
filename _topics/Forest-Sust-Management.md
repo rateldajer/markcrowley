@@ -16,6 +16,7 @@ showbib: true
 published: true
 output: true
 importance: 2
+img: /assets/img/forest-fire/forest-fire.jpg
 ---
 
 The broad domain of **Sustainable Forest Management**, includes a wide variety of tasks and challenges. Prof. Crowley's PhD research focussed on this domain from a harvesting pointing of view utilizing probabilistic modelling, simulation, and reinforcement learning. More recently, the lab carries out some research on the task of [Forest Wildfire Management](/forest-wildfire) which presents a number of unique challenges which push the boundaries of what is possible with existing AI/ML algorithms. 

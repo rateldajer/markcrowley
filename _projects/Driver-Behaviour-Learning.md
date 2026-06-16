@@ -20,7 +20,7 @@ showwebpage: true
 webpagename: DBL User Study Homepage
 img: /assets/img/dbl/avrildbl.jpg
 showbib: false
-importance: 2
+importance: 7
 ---
 
 <!-- TODO: add meta webpage: https://uwaterloo.ca/dblstudy -->

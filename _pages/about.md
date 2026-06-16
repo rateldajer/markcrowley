@@ -25,7 +25,8 @@ social: true  # includes social icons at the bottom of the page
 
 My research seeks dependable and transparent ways to augment human decision making in complex domains in the presence of many agents, spatial structure, or uncertainty.  My focus is on developing new algorithms within the fields of **[Reinforcement Learning](/reinforcement-learning)**, **[Deep Learning](/deep-learning)** and **[Ensemble Methods](/ensemble-methods)**, and **[Manifold Learning (Dimensionality Reduction)](/manifold-learning)** as well as other [Research Topics](/topics).  I often work in collaboration with researchers in applied fields such as  **[Computational Sustainability](/computational-sustainability)** (including [Sustainable Forest Management](/forest-management), **[Autonomous Driving](/autonomous-driving)**, **[AI for Science](/ai-for-science)** and **[Medical Imaging](/medical-imaging)**. [Read more about me in my bio](/bio).
 
-Mark Crowley is an Associate Professor in the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/profile/mcrowley) at the University of Waterloo (also cross-appointed in the [Cheriton School of Computer Science](https://cs.uwaterloo.ca/about/people/mcrowley)). He is a  member of the [Waterloo Artificial Intelligence Institute (WAII)](https://waterloo.ai), the [Waterloo Institute for Complexity and Innovatio](http://wici.ca/)n ([WICI](http://wici.ca/)) and is National Secretary of the **[Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca/)** which coordinates the yearly organization of the **Canadian Conference on AI**. 
+Mark Crowley is an Associate Professor in the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/profile/mcrowley) at the University of Waterloo (also cross-appointed in the [Cheriton School of Computer Science](https://cs.uwaterloo.ca/about/people/mcrowley)). He is a  member of the [Waterloo Artificial Intelligence Institute (WAII)](https://waterloo.ai), the [Waterloo Institute for Complexity and Innovatio](http://wici.ca/)n ([WICI](http://wici.ca/)) and is the **President of the [Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca/)** which has co-ordinated **Canadian Conference on AI** since 1976. 
+
 He and his students carry out research into
 single-agent and multi-agent Reinforcement Learning
 large-scale 2D/3D image-like processing, 
@@ -33,10 +34,13 @@ and manifold learning/dimensionality reduction.
 Some of this research is motivated by theoretical opportunities, 
 particularly in manifold learning and multi-agent reinforcement learning.
 But most of the work flows out of challenges raised by real-world domains including
-forest fire management,
+remote sensing data for sustainable forest management,
+anti-body molecular data,
 the automotive domain,
 medical imaging,
-and digital chemistry/material design.
+digital chemistry/material design,
+and even some video games such as MineCraft.
+
 
 I'm always [happy to talk to people about my research](/contact), or the impact of AI/ML/RL on our world and its role in our society in the future, but *I do not take on **many** incoming students*, so potential students should *[read this note about joining my lab](/joining-my-lab)*.
 
