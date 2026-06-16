@@ -17,14 +17,14 @@ large-scale 2D/3D image-like processing,
 causal inference/learning from data,
 and manifold learning/dimensionality reduction.
 Some of this research is motivated by theoretical opportunities but most of the work flows out of challenges raised by real-world domains including:
-[forest fire management](forest-fire),
-the [automotive domain](autonomous-driving),
-[medical imaging](medical-imaging),
-[digital chemistry/material design](ai-for-science)
+[forest fire management](/forest-fire),
+the [automotive domain](/autonomous-driving),
+[medical imaging](/medical-imaging),
+[digital chemistry/material design](/ai-for-science)
 and even some video games such as MineCraft.
 
 - **Lab website:** [https://markcrowley.ca](/lab/)
-- **People:** Find information about current and former members of the lab here: [https://markcrowley.ca/people](/people/)
+- **People:** Find information about current and former members of the lab here: ==being updated==
 - **Reading Groups:** If you doing research in AI/ML/RL at Waterloo and want to join in to our weekly reading group you can find out more here: [https://markcrowley.ca/reading-groups/](/reading-groups/)
 
 
