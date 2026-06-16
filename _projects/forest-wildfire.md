@@ -40,7 +40,7 @@ One of the applied domains we work on frequently is Sustainable Forest Managemen
 
 ### News
 
-- (unofficial) CSA Lidar Project approved (more information to come)
+- CSA Lidar Project approved (more information to come)
 - [Lab News Dec 12, 2022](/news/2022-12-20-LabNews]) : Attended Forest Wildfire Conference on this topic.
 - [Lab News March, 2022](/news/2022-03-07-LabNews/) : Two papers related to this topic discussed.
 - [Lab News Dec 1, 2022](/news/2022-12-20-LabNews/) : In Fall 2022, members of the lab went to a Canadian Wildfire conference. Mark also gave a talk on research related to this topic.

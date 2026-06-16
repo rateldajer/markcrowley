@@ -1,3 +1,21 @@
+---
+layout: page
+title: AI Foundations
+name: AI Foundations
+bibkeyword: ai-foundations
+permalink: /ai-foundations
+status: active
+tags:
+  - markcrowley
+description: What is AI really?
+published: false
+people: markcrowley
+showtitle: true
+showtags: false
+showbib: false
+importance: 9
+---
+
 ## Going Back to the Beginning
 Alan M. Turing (1912-1954) was a British mathematician who founded computer science.
 
@@ -17,9 +35,9 @@ We encounter examples of the Turing Test Today all the time. CAPTCHA Images - ma
 
 The problem is, computers get better every day at completing complex tasks, so the captchas need to also become more complex. It's a kind of arms race of hiding, and verifying, if the user is an automated bot attempting to log in illegitimately, a legitimate, human user.
 
-Example CAPTCHAS:
-- blurred text 
-- Those tricky login images with Street signs, motorcycles, stairs...
-- a new one I saw that asked me to select nodes in a graph based on some abstract concept (*i was worried there for a minute*)
-- [ ] "I am human checkbox" - Sometimes we just see this checkbox, is that a Turing Test? *Kind of, clicking doesn't do any test, but in the background Google (INSERT  ALT GLOBAL CONGLOMERATE HERE) will examine your use profile, browser cookies etc., to determine is you likely human.*
+> **Example CAPTCHAS:**
+> - blurred text 
+> - Those tricky login images with Street signs, motorcycles, stairs...
+> - a new one I saw that asked me to select nodes in a graph based on some abstract concept (*i was worried there for a minute*)
+> - [ ] "I am human checkbox" - Sometimes we just see this checkbox, is that a Turing Test? *Kind of, clicking doesn't do any test, but in the background Google (INSERT  ALT GLOBAL CONGLOMERATE HERE) will examine your use profile, browser cookies etc., to determine is you likely human.*
 
