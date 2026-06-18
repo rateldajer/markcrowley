@@ -38,7 +38,7 @@ all the things that happened, can't I write them down somewhere and have them be
 - papers that were published over the year
     - [ ] copy all ids for 2026
 - josh got journal paper on soil thing in
-    - [ ] cite paper
+    - [x] cite paper
 - majid got abstract into buffalo conference
     - [ ] link to workshop
     - submission on arxiv?

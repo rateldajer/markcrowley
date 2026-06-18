@@ -1,7 +1,6 @@
 # TODO List
 
 
-
 ## uwaterloo/scholar Sunset Tasks
 Pages and things to fix now that scholar was nuked
 - [ ] magna study page gone! **Get Involved:** See the [project webpage](https://markcrowley.ca/driver-behaviour-learning) to find out more or to sign up to be a driving participant in our study.
