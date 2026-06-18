@@ -64,6 +64,7 @@ layout: default
         {% endif %}
         <p></p>
         <p class="post-description" style="border-bottom-style:dashed; border-bottom-color:lightgrey; border-bottom-width:1px; margin:1px; margin-bottom:3px;">
+          {%if page.collection == "news" %} NEWS: {% endif %}
         {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
         </p>
   </header>
