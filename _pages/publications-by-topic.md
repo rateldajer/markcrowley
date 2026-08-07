@@ -10,18 +10,14 @@ topics:
   - autonomous-driving
   - causality
   - computational-sustainability
-  - digital-pathology
   - dimensionality-reduction
   - education-research
   - forest-management
   - game-theory
   - human-robot-interaction
   - image-processing
-  - search-and-rescue
-  - manifold-learning
   - machine-ethics
   - multi-agent-reinforcement-learning
-  - mean-field-theory
   - medical-imaging
   - multi-agent-systems
   - natural-language-processing
@@ -29,26 +25,36 @@ topics:
   - pac-learning
   - probabilistic-graphical-models
   - reinforcement-learning
+  - remote-sensing
   - vehicle-communication
+  - vision-language-navigation
   - tree-based-ensembles
+hightopics:
+  - forest-management
+  - machine-ethics
+  - human-robot-interaction
+  - remote-sensing
+  - reinforcement-learning
+  - vision-language-navigation
 nav: false
 showtitle: true
 ---
 
 
-<b>Jump to Topic:</b> {% for t in page.topics %}<a href="#{{t}}">{{t}}</a> {% if forloop.last==false %} ~ {% endif %}{% endfor %}
+<b>Jump to Topic:</b> 
+{% for t in page.topics %} <a href="#{{t}}">{% if page.hightopics contains t %} <b>{{t}}</b> {% else %} {{t}} {% endif %}</a> {% if forloop.last==false %} ~ {% endif %} {% endfor %}
 
 *Note that papers will show up in multiple topics.*
 
 <hr/>
 
 Also see:
-- **[All Published Works](/publications)**
+- [All Published Works](/publications)
 - **[Selected Showcase Publications](/showcase)**
 - Publications Grouped by Research Topics
 - [Defended Theses from the Lab](/theses)
 - [Google Scholar](https://scholar.google.ca/citations?user=eL_y80EAAAAJ)
-- **[recent preprints](/preprints)**
+- [recent preprints](/preprints)
     - [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 
 <hr/>
