@@ -31,6 +31,8 @@ and even some video games such as MineCraft.
 I'm always [happy to talk to people about my research](/contact/), or the impact of AI/ML/RL on our world and its role in our society in the future, but *I do not take on **many** incoming students*, so potential students should *[read this note about joining my lab](/joining-my-lab/)*.
 
 
+### My Research (A Recent Summary as of August 2026)
+I carry out research on fundamental questions for Artificial Intelligence on representation of knowledge and information, including comparison between complex data objects such as antibody proteins, MRI image scans, or LIDAR pointclouds. I also look at decision making for single and multiple agents in complex domains such as digital chemistry, autonomous driving, and robotics. Most recently I have begun looking at how the unique structure and challenges of ethical or moral requirements impact how we define learning and decision making.
 
 ### Third-Person, Short Bio
 
