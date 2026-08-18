@@ -43,3 +43,5 @@ The resulting data is being used to learn predictive models of driver behaviour 
 
 The lab has worked with industrial partners on topics in [Medical Imaging](/medical-imaging/) including classification and labelling of medical images from **Digital Pathology** and brain scans of **Alzheimer's** patients. 
 
+## Lab Achievements News
+{% include news-by-tag.html %}

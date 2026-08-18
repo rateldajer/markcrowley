@@ -8,7 +8,7 @@ profile:
   image: prof_pic.png
   address: > 
     <p><ul>
-        <li><a href="/lab/">Research Lab (UWECEML)</a></li>
+        <li><a href="https://uwaterloo.ca/electrical-computer-engineering/profile/mcrowley">UWaterloo ProfileResearch</a></li>
         <li><a href="http://www.computationallythinking.com/"> Blog: Computationally Thinking</a></li>
         <li><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3921-4762" href="https://orcid.org/0000-0003-3921-4762" target="orcid.widget"  style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">ORC-ID</a></div></li>
         <li><a href="https://scholar.google.ca/citations?user=eL_y80EAAAAJ">Google Scholar</a></li>

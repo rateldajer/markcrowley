@@ -1,0 +1,8 @@
+{% if page.showtheses == true %}
+    {% if page.bibkeyword %}
+      <div class="publications">
+        <h2>Completed Theses Related to {{ page.name }}</h2> 
+      {% bibliography -f theses -q @*[keywords~={{page.bibkeyword}},status^=1]* %}
+      </div>
+    {% endif %}
+{% endif %}

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: CSA - Multi-modal Sensor Processing for Forest Modelling
-name: CSA - Multi-modal Sensor Processing for Forest Modelling
-bibkeyword: bib-keyword-from-bibtex
-permalink: /csalidar
+title: Lidar Pointcloud Processing for Forest Modelling
+name: Lidar Pointcloud Processing for Forest Modelling
+bibkeyword: proj-csalidar
+permalink: /csalidar/
 status: active
 projects: proj-csalidar
 domains: forest-management, forest-wildfire, remote-sensing
