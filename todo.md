@@ -1,5 +1,10 @@
 # TODO List
 
+# Home Links
+- [[Files Recently]]
+- 2026-09-03 - update some news and papers
+  - [ ] shayan journal paper https://link.springer.com/article/10.1007/s10994-026-07144-5
+  - [ ] 
 
 ## uwaterloo/scholar Sunset Tasks
 Pages and things to fix now that scholar was nuked
@@ -10,7 +15,7 @@ Pages and things to fix now that scholar was nuked
   - see [[ece499 md]] file already copied from outline, pare it down to make basic page
 - pages to create
   - markcrowley.ca/driver-behaviour-learning
-  - /project-course : for 499 (why isn't this working?)
+  - /project-course : for 499 (why isn't this working?) *is it working now?*
   - /people
 
 - People pages
