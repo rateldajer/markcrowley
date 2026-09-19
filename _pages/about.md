@@ -22,9 +22,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-I carry out research into fundamental questions for Artificial Intelligence on *representation of knowledge and information*, including comparison between complex data objects such as antibody proteins, MRI image scans, or LIDAR pointclouds. I also look at decision making for single and multiple agents in complex domains such as digital chemistry, autonomous driving, and robotics. Most recently I have begun looking at how the unique structure and challenges of ethical or moral requirements impact how we define learning and decision making.
-seeks dependable and transparent ways to augment human decision making in complex domains in the presence of many agents, spatial structure, or uncertainty.  
+I carry out research into fundamental questions for Artificial Intelligence on representation of knowledge and information, including comparison between complex data objects such as antibody proteins, MRI image scans, or LIDAR pointclouds. I also look at decision making for single and multiple agents in complex domains such as digital chemistry, autonomous driving, and robotics. Recently, I have begun looking at how the unique structure and challenges of ethical or moral requirements could impact how we define learning and decision making. 
 
 Topics: 
 [Reinforcement Learning](/reinforcement-learning), [Deep Learning](/deep-learning), [Machine Ethics](/machine-ethics/), [Manifold Learning (Dimensionality Reduction)](/manifold-learning), and more [Research Topics](/topics).
