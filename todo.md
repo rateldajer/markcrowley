@@ -3,8 +3,6 @@
 # Home Links
 - [[Files Recently]]
 - 2026-09-03 - update some news and papers
-  - [ ] shayan journal paper https://link.springer.com/article/10.1007/s10994-026-07144-5
-  - [ ] 
 
 ## uwaterloo/scholar Sunset Tasks
 Pages and things to fix now that scholar was nuked
@@ -28,7 +26,20 @@ Pages and things to fix now that scholar was nuked
     - **New idea:** keyword=permalink of page, all pages have same format in that way.
     - also all pages can have people, publications, related projects and related grants, it's ust a matter of going through all the keywords, figuring out which collection they are ni, if any, then lop through those to show tem
     - eventually each type fo item can have custom per item diplay layouts too.
+## New Publication Type Page Ideas
+- submitted papers, a set bibtex file for lab students to keep updated, could jsut be on teams
+- benchmarks and simulators and datasets page
+	- set up the page, just like a topics and projects pages
+	- create bib file with chemgymrl on it to start
+	- get josh to update the bib file
+	- content
+		- chemgymrl
+		- josh tree dataset
+		- josh robot cleaning sdata
+		- erfan tree dataset
+		- others?
 ## Content
+
 - [ ] see the topics pages for TODO to merge the showing bib papers automatically froa  topic to the layout
 - [ ] Fill in project and topic descriptions. Each one can have a unique permalink, it doesn't need to be in a hierarchy, to [RL](/reinforcement-learning/) is just that, for anything related to it.
 - [ ] Could there be a standard loop over keywords and organized by page type or collection? So on the RL page then you'd get a link of 
