@@ -18,9 +18,8 @@ importance: 1
 - **Course Co-ordinator:** Mark Crowley 
 - **Email:** [mcrowley@uwaterloo.ca](mailto:mcrowley@uwaterloo.ca)
 - **Office:** E5 4114
+- **New Course Official Webpage:** https://uwaterloo.ca/electrical-computer-engineering/ece-499-engineering-project
 - **Forms:** [Shared directory with forms for registration and submission of final grade](https://uofwaterloo-my.sharepoint.com/:f:/g/personal/mcrowley_uwaterloo_ca/IgCD6-eX5DhKSpMc3dWN_P3FASxrPrB0sYtjMTHRsYkWbzM?e=Nh92up) *(should be accessible by anyone with a UWaterloo login)*
-  - [ECE 499 Grade Report](/assets/pdf/ECE 499 Grade Report Template-new.docx)
-  - [ECE 499 Project Approval Form](/assets/pdf/ECE499ProjectApprovalForm.pdf)
 
 ## Course Description
 ECE 499 is an engineering project requiring the student to demonstrate initiative and assume responsibility. The student will arrange for a faculty supervisor prior to registration. Students can propose their own topic. A project report is required at the end of the term.
