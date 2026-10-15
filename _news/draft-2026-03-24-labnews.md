@@ -18,11 +18,18 @@ TODO: lots of news from the past year!
 
 all the things that happened, can't I write them down somewhere and have them be generated as lab news items for the appropriate dates?
 
+- [ ] *question:* which of these did I do already?
+  - [ ] can I get claude to help with that?
 
 # early 2025 
 - [x] shayan graduated
 - sriram got his faculty position
     - link to his website
+    - July 2025: I am excited to announce that I am starting at the School of Computer Science in Carleton University as an Assistant Professor and Canada Research Chair. I will continue at the Vector Institute as a Faculty Affiliate.
+    - https://sriramsubramanian.com/
+    - October 2025: I have been recognized as one of Carleton’s newest Canada Research Chairs.
+
+
     
 - papers that were published over the year
     - {% cite bellinger2025ecml %}
@@ -48,3 +55,10 @@ all the things that happened, can't I write them down somewhere and have them be
     - [ ] cite paper
 - majid got into Canadian AI
     - [ ] link to conference
+
+## Summer 2026 (maybe even August or Sep?)
+- Sriram's paper which got published
+  - (from his website) July 2026: One paper accepted to TMLR. This work provides a new perspective on Mean Field Reinforcement Learning and includes a broad experimental study on various types of existing and new algorithms. More details about the paper is captured on this video.
+    - https://rlj.cs.umass.edu/2026/papers/Paper36.pdf
+    - https://www.youtube.com/watch?v=Du6LYQ5KOjk
+
