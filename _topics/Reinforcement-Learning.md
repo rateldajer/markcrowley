@@ -21,6 +21,7 @@ importance: 2
 ---
 
 One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called ***Reinforcement Learning (RL)***,  has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. See my [RL Reading List](/rl-reading-list/) for the papers and texts I used to teach the field.  I approach RL it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the *algorithms they both use to learn to act in a complex, mysterious world.*
+We have also carried out extensive research into the even harder problem of [multi-agent reinforcement learning](/MARL) when there is more than one agent actively learning to make decisions.
 
 ## Learning Resources from The Lab
 
