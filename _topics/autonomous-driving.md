@@ -24,6 +24,7 @@ img: /assets/img/dbl/avrildbl.jpg
 showtags: false
 showwebpage: true
 showdomains: true
+showtheses: true
 showbib: true
 importance: 7
 ---

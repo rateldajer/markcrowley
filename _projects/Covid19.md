@@ -16,6 +16,7 @@ status: active
 domains: Infectious-Disease-Spread
 methods: Deep Learning, MARL, MDP
 people: nataliahoyos, houmankhosravani, markcrowley, lauramccrackin
+showtheses: false
 
 aside: 
     toc: true

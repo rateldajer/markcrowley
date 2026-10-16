@@ -11,6 +11,7 @@ methods: SSIM, PCA, LDA, RDA, QQE, GLLE
 description: Use of Machine Learning for challenges in medical imaging.
 people: joshqixuansun, aishwarya, lauramccrackin, benyaminghojgh, markcrowley, majidghasemi
 showtitle: true
+showtheses: true
 showbib: true
 published: true
 importance: 4

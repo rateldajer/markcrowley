@@ -17,6 +17,7 @@ people: markcrowley, lauramccrackin, takintadayon
 showtitle: true
 showdomains: true
 showwebpage: true
+showtheses: true
 webpagename: DBL User Study Homepage
 img: /assets/img/dbl/avrildbl.jpg
 showbib: false

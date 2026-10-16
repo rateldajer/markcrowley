@@ -3,6 +3,7 @@ layout: people
 givenname: Sriram 
 familyname: Ganapathi Subramanian
 key: sriramganapathisubramanian
+thesiskey: subramanian2022uwspace 
 bibauthor: true
 degree: PhD
 status: graduated

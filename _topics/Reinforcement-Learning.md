@@ -15,6 +15,7 @@ tags:
 people: sriramganapathisubramanian, nouhachatti, markcrowley, isaactamblyn
 showtitle: true
 img: /assets/img/teaching/ece493-logo.png
+showtheses: true
 showbib: true
 published: true
 importance: 2

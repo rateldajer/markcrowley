@@ -3,7 +3,12 @@
 # Home Links
 - [[Files Recently]]
 - 2026-09-03 - update some news and papers
+- 20261015 - ongoing
+    - make project and topic layout pages that inherit from page
+    - add the theses and publications code to those
+    - so then the page only needs to include all the right keys
 
+    
 ## uwaterloo/scholar Sunset Tasks
 Pages and things to fix now that scholar was nuked
 - [ ] magna study page gone! **Get Involved:** See the [project webpage](https://markcrowley.ca/driver-behaviour-learning) to find out more or to sign up to be a driving participant in our study.

@@ -13,6 +13,7 @@ published: true
 people: markcrowley, sahilpereirra, sushrutbhalla, benyaminghojogh, sriramganapathisubramanian
 showtitle: true
 showbib: true
+showtheses: true
 img: /assets/img/vehicle-communication.png
 importance: 6
 ---

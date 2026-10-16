@@ -23,6 +23,7 @@ people: markcrowley, sushrutbhalla, shayan shirahmadgalebagi, zahragharaee, oliv
 showtitle: true
 showtags: false
 showbib: true
+showtheses: true
 img: /assets/img/causality/causalmodel.png
 importance: 4
 ---

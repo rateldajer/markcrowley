@@ -9,6 +9,7 @@ aside:
     toc: true
 showbib: true
 showtitle: true
+showtheses: false
 importance: 9
 ---
 

@@ -14,6 +14,7 @@ importance: 7
 aliases:
   - "#MARL"
 showbib: true
+showtheses: true
 published: true
 img: /assets/img/fig-ganapathisubramanian2022jair-fig7.png
 ---
