@@ -74,71 +74,64 @@ pagination:
 # Collections
 # -----------------------------------------------------------------------------
 defaults:
-  scope:
-    type: "pages"
-  values:
-    layout: "page"
-    showtitle: true #you should use enter the title in the text so the description comes after it
-    shownotes: false #show notes button or not, use note bibtex tag field for content
-    showbiborder: false
-    showdiscussed: false
-      #showpeople: false  #adding these to global defaults seems to cause problems
-      #showfields: false
-      #showtopics: false
-      #showmethods: false
-      #showdomains: false
-      #showwebpage: false
+  - 
+    scope:
+      path: ""
+    values:
+      layout: "page"
+      showtitle: true #you should use enter the title in the text so the description comes after it
+      shownotes: false #show notes button or not, use note bibtex tag field for content
+      showbiborder: false
+      showdiscussed: false
+      showtheses: false
+      # showpeople: false  #adding these to global defaults seems to cause problems
+      # showfields: false
+      # showtopics: false
+      # showmethods: false
+      # showdomains: false
+      # showwebpage: false
 
 collections:
   news:
-    defaults:
-      layout: post
-      permalink: /news/:path/
-      output: true
-      inline: true
-      showbib: true
-  pages:
+    layout: "post"
+    permalink: /news/:path/
     output: true
+    showbib: true
+    inline: true
+  pages:
     permalink: /:path/
-    showtitle: true
+    output: true
     showbib: true
     social: true
+    showtitle: true
   projects:
-    defaults:
-      output: true
-      permalink: /projects/:path/
-      showbib: true
-      social: false
-      showtheses: true
-  courses:
+    permalink: /projects/:path/
     output: true
+    showbib: true
+    social: false
+    showtheses: true
+  courses:
     permalink: /courses/:path/
+    output: true
     social: false
   oldprojects:
-    output: true
     permalink: /oldprojects/:path/
+    output: true
     showbib: true
     social: false
   topics:
-    output: true
     #permalink: /topics/:path/
-    defaults:
-      scope:
-        path: "topics"
-        type: "pages"
-      values:
-        showbib: true
-      social: true
-      showtheses: true
-  people:
-    layout: page
     output: true
-    permalink: /people/:path/
-    publish: true
     showbib: true
-    social: false
+    social: true
+    showtheses: true
+  people:
+    permalink: /people/:path/
+    output: true
+    showbib: true
+    social: true
 
-news_limit: 3
+news_limit: 4
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
