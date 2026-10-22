@@ -17,7 +17,7 @@ large-scale 2D/3D image-like processing,
 causal inference/learning from data,
 and manifold learning/dimensionality reduction.
 Some of this research is motivated by theoretical opportunities but most of the work flows out of challenges raised by real-world domains including:
-[forest fire management](/forest-fire),
+[forest fire management](/forest-wildfire),
 the [automotive domain](/autonomous-driving),
 [medical imaging](/medical-imaging),
 [digital chemistry/material design](/ai-for-science)
