@@ -25,13 +25,13 @@ social: true  # includes social icons at the bottom of the page
 I carry out research into fundamental questions for Artificial Intelligence on representation of knowledge and information, including comparison between complex data objects such as antibody proteins, MRI image scans, or LIDAR pointclouds. I also look at decision making for single and multiple agents in complex domains such as digital chemistry, autonomous driving, and robotics. Recently, I have begun looking at how the unique structure and challenges of ethical or moral requirements could impact how we define learning and decision making. 
 
 Topics: 
-[Reinforcement Learning](/reinforcement-learning), [Deep Learning](/deep-learning), [Machine Ethics](/machine-ethics/), [Manifold Learning (Dimensionality Reduction)](/manifold-learning), and more [Research Topics](/topics).
+[Reinforcement Learning](/reinforcement-learning), [Deep Learning](/deep-learning), [Machine Ethics](/machine-ethics), [Manifold Learning (Dimensionality Reduction)](/manifold-learning), and more [Research Topics](/topics).
 
-Domains: [Computational Sustainability](/computational-sustainability), [Sustainable Forest Management](/forest-management), [Autonomous Driving](/autonomous-driving), [AI for Science](/ai-for-science), [AI for Medical Various Domains](/medical-ai), [Vision Language Navigation](/vision-language-navigation/). 
+Domains: [Computational Sustainability](/computational-sustainability), [Sustainable Forest Management](/forest-management), [Autonomous Driving](/autonomous-driving), [AI for Science](/ai-for-science), [AI for Medical Various Domains](/medical-ai), [Vision Language Navigation](/vision-language-navigation). 
 
 [Read more about me in my bio](/bio).
 
-Mark Crowley is an Associate Professor in the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/profile/mcrowley) at the University of Waterloo (also cross-appointed in the [Cheriton School of Computer Science](https://cs.uwaterloo.ca/about/people/mcrowley)). He is a  member of the [Waterloo Artificial Intelligence Institute (WAII)](https://waterloo.ai), the [Waterloo Institute for Complexity and Innovatio](http://wici.ca/)n ([WICI](http://wici.ca/)) and is the **President of the [Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca/)** which has co-ordinated **Canadian Conference on AI** since 1976. 
+Mark Crowley is an Associate Professor in the [Department of Electrical and Computer Engineering](https://uwaterloo.ca/electrical-computer-engineering/profile/mcrowley) at the University of Waterloo (also cross-appointed in the [Cheriton School of Computer Science](https://cs.uwaterloo.ca/about/people/mcrowley)). He is a  member of the [Waterloo Artificial Intelligence Institute (WAII)](https://waterloo.ai), the [Waterloo Institute for Complexity and Innovatio](http://wici.ca)n ([WICI](http://wici.ca)) and is the **President of the [Canadian Artificial Intelligence Association (CAIAC)](https://www.caiac.ca)** which has co-ordinated **Canadian Conference on AI** since 1976. 
 
 He and his students carry out research into
 single-agent and multi-agent Reinforcement Learning
@@ -50,5 +50,5 @@ and even some video games such as MineCraft.
 
 I'm always [happy to talk to people about my research](/contact), or the impact of AI/ML/RL on our world and its role in our society in the future, but *I do not take on **many** incoming students*, so potential students should *[read this note about joining my lab](/joining-my-lab)*.
 
-Besides my [publications](/publications) and [grants](grants), you can find my thoughts on Artificial Intelligence, Machine Learning and how technology and science are advancing on my blog [Computationally Thinking](http://computationallythinking.com/) (updated intermittently) or through social media as **@compthink** on BlueSky. I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future. 
+Besides my [publications](/publications) and [grants](grants), you can find my thoughts on Artificial Intelligence, Machine Learning and how technology and science are advancing on my blog [Computationally Thinking](http://computationallythinking.com) (updated intermittently) or through social media as **@compthink** on BlueSky. I'm always happy to talk to people about my research, or the impact of AI/ML/RL on our world and its role in our society in the future. 
 
