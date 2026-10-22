@@ -3,7 +3,7 @@ layout: page
 title: title 
 name: title
 bibkeyword: bib-keyword-from-bibtex
-permalink: /bibkeyword
+permalink: /bibkeyword/
 status: template (active)
 projects: proj-name
 domains: keywords

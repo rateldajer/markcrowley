@@ -3,7 +3,7 @@ layout: page
 title: AI Foundations
 name: AI Foundations
 bibkeyword: ai-foundations
-permalink: /ai-foundations
+permalink: /ai-foundations/
 status: active
 tags:
   - markcrowley

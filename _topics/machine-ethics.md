@@ -3,7 +3,7 @@ layout: page
 title: Machine Ethics (or Ethical AI)
 name: Machine Ethics
 bibkeyword: machine-ethics
-permalink: /machine-ethics
+permalink: /machine-ethics/
 keywords: machine-ethics, ai-ethics, ethical-ai, ai-alignment
 status: active
 description: Can machines perform ethical reasoning?

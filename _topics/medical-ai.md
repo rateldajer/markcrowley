@@ -3,8 +3,8 @@ layout: page
 title: Medical AI
 name: Medical AI
 bibkeyword: medical
-permalink: /medical-ai
-status: active
+permalink: /medical-ai/
+[status](status): active
 projects: proj-digipath, proj-alzheimers, proj-antibody
 domains: digital-pathology, proj-alzheimers, antibody-discovery
 methods: SSIM, PCA, LDA, RDA, QQE, GLLE

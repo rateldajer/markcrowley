@@ -3,7 +3,7 @@ layout: page
 title: Antibody Discovery 
 name: Antibody Discovery
 bibkeyword: proj-antibody
-permalink: /antibody-discovery
+permalink: /antibody-discovery/
 status: active
 projects: proj-antibody, proj-kisogi
 domains: antibody-discovery, medical-ai

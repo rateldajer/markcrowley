@@ -3,7 +3,7 @@ layout: page
 title: Lidar Pointcloud Processing for Forest Modelling
 name: Lidar Pointcloud Processing for Forest Modelling
 bibkeyword: proj-csalidar
-permalink: /csalidar/
+permalink: /lidar/
 status: active
 projects: proj-csalidar
 domains: forest-management, forest-wildfire, remote-sensing
