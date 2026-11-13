@@ -2,6 +2,7 @@
 
 # Home Links
 - [[Files Recently]]
+- 20261112 - are papers sorting properly by month?
 - 2026-09-03 - update some news and papers
 - 20261015 - ongoing
     - make project and topic layout pages that inherit from page

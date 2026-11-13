@@ -48,7 +48,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
   <h2 class="year"><a name="{{rdt}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) reversed %}
-      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-s23, keywords~={{rdt}}, order~={{i}}]* %}
+      {% bibliography -f research-references-copy -q @*[keywords~=rdgrp-s23, keywords~={{rdt}}, order~={{i}}]*  --sort_by order --order ascending %}
   {% endfor %}
 {% endfor %}
 

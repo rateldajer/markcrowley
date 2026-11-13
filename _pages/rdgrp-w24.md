@@ -54,7 +54,7 @@ See the links and notes on paper we have **done** in previous meetings, obtain t
   <h2 class="year"><a name="{{t}}">{{t}}</a></h2>
     <br/><br/> 
   {% for i in (page.order-start .. page.order-end) %}
-      {% bibliography -f rdgrp-w24 -q @*[keywords~={{t}}, order~={{i}}]* %}
+      {% bibliography -f rdgrp-w24 -q @*[keywords~={{t}}, order~={{i}}]* --sort_by order --order ascending %}
   {% endfor %}
 {% endfor %}
 

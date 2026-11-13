@@ -188,8 +188,10 @@ scholar:
   details_link: Details
 
   query: "@*"
-  sort_by: order,year
-  order: ascending,descending
+#  sort_by: order,year
+#  order: ascending,descending
+  sort_by: year, month
+  order: descending,descending
 
 # -----------------------------------------------------------------------------
 # Optional Features
