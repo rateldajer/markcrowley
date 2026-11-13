@@ -3,7 +3,7 @@ layout: page
 permalink: /preprints/
 title: recent preprints
 description: Preprints and Working Papers
-years: [2027, 2026, 2025, 2024]
+years: [2027, 2026, 2024]
 nav: false
 showtitle: true
 ---
