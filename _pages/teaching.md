@@ -43,34 +43,6 @@ social: true
 		</div>
 		
 	</div>
-<!-- Add description and links for ECE 650 for W26 and F26 -->
-<div class="row">
-	<div class="col">
-		<h3>ECE 650 Methods and Tools for Software Engineering</h3>
-	</div>
-</div>
-
-<div class="row">
-    <div class="col">
-		This is an introductory graduate course. Its intent is to provide all students that are interested in software systems with a basic background that will help them succeed in subsequent endeavours (courses, research, and work in industry) related to software. The course is intended to be “hands-on” – there is a large project component that involves building a software system.
-    </div>
-</div>
-
-
-<div class="row mt-3">
-    <div class="col">
-    <ul class="list-group">
-    <li class="list-group-item"> 
-        <b>Winter 2026:</b> 
-	 		<a href="https://outline.uwaterloo.ca/viewer/view/n95qvp">ECE 650 - Methods and Tools for Software Engineering</a>
-		<b>Fall 2026:</b>		
-            <a href="https://outline.uwaterloo.ca/author/edit/15233">ECE 650 - Methods and Tools for Software Engineering</a>
-    </li>
-    </ul>
-    </div>
-    
-</div>
-
 
 
 <div class="row">
@@ -89,6 +61,10 @@ social: true
 		<div class="col">
 		<ul class="list-group">
 		<li class="list-group-item"> 
+			<b>Winter 2027:</b> 
+				<a href="https://outline.uwaterloo.ca/viewer/view/nb9k38">ECE 657A - Introduction to Artificial Intelligence</a>
+		</li>
+		<li class="list-group-item"> 
 			<b>Winter 2026:</b> 
 				<a href="https://outline.uwaterloo.ca/viewer/view/nn4m5v">ECE 657A - Introduction to Artificial Intelligence</a>
 		</li>
@@ -105,14 +81,19 @@ social: true
 	<div class="row">
 		<div class="col">
 		One of my core research areas is into understanding the computational mechanisms that can enable learning to perform complex tasks primarily from experience and feedback. This topic, called Reinforcement Learning, has a complex history tying fields as diverse as neuroscience, behavioural and development psychology, economics and computer science. I approach it as a computational researcher aiming to build Artificial Intelligence agents that learn to way Humans do, not by any correspondence of their "brain" and it "neural" structure by the algorithms they both use to learn to act in a complex, mysterious world.
+        More information in the <a href="/rlcourse/">ECE 457C General Course Description</a>, for the details of a particular term, active UWaterloo students can consult the 
+        official <a href="https://outline.uwaterloo.ca">Course Outline</a> site.
 		</div>
 	</div>
 	
 	<div class="row mt-3">
 	    <div class="col">
 	        <ul class="list-group">
+				<li class="list-group-item"> <b>Winter 2027</b> : 
+	                <i><a  href="https://outline.uwaterloo.ca/viewer/view/n4f4m4">ECE 457C - Reinforcement Learning</a></i>
+	            </li>
 				<li class="list-group-item"> <b>Spring 2025</b> : 
-	                <i><a  href="/rlcourse/">ECE 457C - Reinforcement Learning</a></i>
+	                <i><a  href="/rlcourseS25/">ECE 457C - Reinforcement Learning</a></i>
 	            </li>
 				<li class="list-group-item"> <b>Spring 2024</b> : 
 	                <i><a  href="/rlcourseS24/">ECE 457C - Reinforcement Learning</a></i>
@@ -138,6 +119,34 @@ social: true
 		    <img  class="img-fluid" src="../assets/img/teaching/ece493-logo.png">
 	    </div>
 	</div>
+
+<!-- Add description and links for ECE 650 for W26 and F26 -->
+<div class="row">
+	<div class="col">
+		<h3>ECE 650 Methods and Tools for Software Engineering</h3>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col">
+		This is an introductory graduate course. Its intent is to provide all students that are interested in software systems with a basic background that will help them succeed in subsequent endeavours (courses, research, and work in industry) related to software. The course is intended to be “hands-on” – there is a large project component that involves building a software system.
+    </div>
+</div>
+
+
+<div class="row mt-3">
+    <div class="col">
+    <ul class="list-group">
+    <li class="list-group-item"> 
+        <b>Winter 2026:</b> 
+	 		<a href="https://outline.uwaterloo.ca/viewer/view/npvdu4">ECE 650 - Methods and Tools for Software Engineering</a> </li>
+    <li class="list-group-item"> 
+		<b>Fall 2026:</b>		
+            <a href="https://outline.uwaterloo.ca/viewer/view/n95qvp">ECE 650 - Methods and Tools for Software Engineering</a> </li>
+    </ul>
+    </div>
+    
+</div>
 
 <hr />
 
