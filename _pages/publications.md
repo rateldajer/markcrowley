@@ -4,7 +4,8 @@ permalink: /publications/
 title:  publications
 titleheader: all publications
 description: All published papers from the lab.
-years: [2027, 2026, 2025, 2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2007, 2005]
+nextyear: 2027
+years: [2026, 2025, 2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2007, 2005]
 nav: true
 showtitle: true
 shownotes: true
@@ -19,8 +20,11 @@ Also see:
 - [recent preprints](/preprints)
     - [My Arxiv Preprint Page](https://arxiv.org/search/cs?searchtype=author&query=Crowley%2C+M)
 
-
 <div class="publications by year">
+  <h2 class="year">{{page.nextyear}}</h2>
+  <h5>(to appear)</h5>
+  {% bibliography -f papers  -q @*[year={{page.nextyear}},status^=1,self=1]* %}
+
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers  -q @*[year={{y}},status^=1,self=1]* %}
